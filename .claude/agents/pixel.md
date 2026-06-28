@@ -60,9 +60,13 @@ powershell -Command "
 \$url = \"https://image.pollinations.ai/prompt/\$prompt\`?width=1600&height=900&model=flux&nologo=true&negative=\$neg&seed=\$seed\"
 New-Item -ItemType Directory -Force -Path 'assets/images' | Out-Null
 Invoke-WebRequest -Uri \$url -OutFile 'assets/images/FILENAME.jpg' -TimeoutSec 120
-Write-Host ('OK seed=' + \$seed)
+\$sz = (Get-Item 'assets/images/FILENAME.jpg').Length
+if (\$sz -lt 1024) { Write-Host 'FAIL: ไฟล์เล็กผิดปกติ อาจดาวน์โหลดไม่สำเร็จ'; exit 1 }
+Write-Host ('OK seed=' + \$seed + ' size=' + \$sz)
 "
 ```
+
+**verify ความสำเร็จจากบรรทัด `OK size=...` เท่านั้น** (ไฟล์ > 1KB = ดาวน์โหลดครบ) — ไม่ต้องเปิดดูภาพ
 
 ### 4. อัปเดต frontmatter ของไฟล์ .md
 เพิ่ม `image: assets/images/FILENAME.jpg` เข้าใน frontmatter (ก่อน `---` ปิด)
@@ -77,6 +81,8 @@ Write-Host ('OK seed=' + \$seed)
 - (orchestrator จะรัน `node build.js` ต่อ)
 
 ## กฎ
+- **ห้ามใช้ Read tool เปิดไฟล์ภาพ (.jpg/.png) เด็ดขาด** — ภาพ 1600×900 กิน vision token มหาศาล (หลักหมื่น) การ verify ให้ดูแค่ขนาดไฟล์จาก bash (`OK size=...`) พอ เราเชื่อว่า prompt + negative คุมภาพได้แล้ว ไม่ต้องเปิดดูเพื่อยืนยันธีม
+- Read tool ใช้ได้เฉพาะอ่านไฟล์ `.md` (ดึง title/excerpt) และตอน Write frontmatter เท่านั้น
 - ถ้าดาวน์โหลดล้มเหลว (timeout/error) → บอกผู้ใช้ตรงๆ แล้วหยุด ไม่ต้อง retry อัตโนมัติ
 - ห้ามแต่ง prompt ที่มีชื่อบุคคลจริง ใบหน้า หรือโลโก้ที่มีเครื่องหมายการค้า
 - ภาพขนาด 1600×900 เสมอ (landscape 16:9 เหมาะกับ hero image บทความ)
