@@ -5,6 +5,8 @@
    - ถ้า `$ARGUMENTS` = `Joy` → เขียนข่าวสรุปผลประกอบการ (ต้องบอก TICKER ให้ agent ด้วย)
    - ถ้า `$ARGUMENTS` = `Max` → เขียนบทวิเคราะห์พื้นฐาน (ต้องบอก TICKER ให้ agent ด้วย)
 
-2. หลัง agent เขียนไฟล์ `articles/` เสร็จ → รัน `node build.js` เพื่ออัปเดต `js/articles.js`
+2. หลัง agent เขียนไฟล์ `articles/` เสร็จ → spawn agent `pixel` กับไฟล์นั้น เพื่อสร้างภาพประกอบและอัปเดต `image:` ใน frontmatter
 
-3. ยืนยันผ่าน preview ว่าเนื้อหาขึ้นหน้าเว็บถูกต้อง แล้วรายงานผู้ใช้
+3. รัน `node build.js` เพื่ออัปเดต `js/articles.js`
+
+4. ยืนยันผ่าน preview ว่าเนื้อหาและภาพขึ้นหน้าเว็บถูกต้อง แล้วรายงานผู้ใช้

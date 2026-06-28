@@ -131,6 +131,7 @@ function parseArticle(raw, id) {
   if (type === 'analysis') art.analysis = true;
   if (tags) art.tags = tags;
   if (fm.agent) art.agent = String(fm.agent).toLowerCase();
+  if (fm.image) art.image = String(fm.image);
   return art;
 }
 
