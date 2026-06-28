@@ -155,7 +155,7 @@ GET https://image.pollinations.ai/prompt/{prompt_ภาษาอังกฤษ}
 
 มีการ build graph ไว้แล้วที่ `graphify-out/` (103 nodes, 149 edges, 18 communities)
 
-**วิธีใช้ประหยัด token:** แทนที่จะให้ Claude อ่านหลายไฟล์ ให้ query จาก graph แทน
+**กฎ: ใช้ graphify ก่อนเสมอ** — แทนที่จะ Read ไฟล์ตรงๆ ให้ query จาก graph ก่อนทุกครั้ง
 
 ```
 /graphify query "render() ทำงานยังไง"
