@@ -1,0 +1,584 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>PixelVest · ข่าวหุ้น</title>
+<meta name="description" content="PixelVest — ข่าวหุ้น บทวิเคราะห์ และข้อมูลราคา สำหรับนักลงทุนไทย">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans+Thai:wght@400;500;600;700&family=Noto+Serif+Thai:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  *{box-sizing:border-box}
+  html,body{margin:0;padding:0;background:#ece6db}
+  @keyframes tickerflow{from{transform:translateX(0)}to{transform:translateX(-50%)}}
+  ::selection{background:rgba(176,134,58,.22)}
+  [data-card]{transition:transform .18s ease, box-shadow .18s ease}
+  [data-card]:hover{transform:translateY(-3px)}
+  [data-link]{transition:color .15s ease}
+  #app{
+    min-height:100vh;
+    --paper:#f2efe9; --surface:#faf8f3; --surface-2:#eae5db; --ink:#1c1a16;
+    --ink-2:#5c554b; --ink-3:#9a9286; --line:#d8d0c2; --up:#1d7a50; --down:#b23722;
+    --gold:#8a6a2c; --radius:4px; --shadow:none; --head:'Noto Serif Thai',serif; --fs:1;
+    background:var(--paper); color:var(--ink);
+    font-family:'IBM Plex Sans Thai',system-ui,sans-serif; font-size:calc(16px * var(--fs)); line-height:1.6;
+  }
+  @media(max-width:880px){
+   [data-main]{flex-direction:column !important}
+   [data-side]{width:100% !important;flex:none !important;position:static !important}
+   [data-hidesm]{display:none !important}
+   [data-herogrid]{grid-template-columns:1fr !important}
+   [data-statgrid]{grid-template-columns:repeat(2,1fr) !important}
+   [data-stockhead]{flex-direction:column !important;align-items:flex-start !important}
+   [data-pad]{padding-left:18px !important;padding-right:18px !important}
+  }
+  /* settings widget */
+  #pv-settings{position:fixed;right:18px;bottom:18px;z-index:80;font-family:'IBM Plex Sans Thai',sans-serif}
+  #pv-gear{width:46px;height:46px;border-radius:50%;border:none;cursor:pointer;background:#1c1a16;color:#f2efe9;
+    box-shadow:0 8px 22px -8px rgba(0,0,0,.5);display:grid;place-items:center;font-size:20px}
+  #pv-panel{position:absolute;right:0;bottom:58px;width:236px;background:#faf8f3;border:1px solid #d8d0c2;
+    border-radius:14px;box-shadow:0 18px 44px -18px rgba(0,0,0,.4);padding:16px;display:none}
+  #pv-panel.open{display:block}
+  #pv-panel h4{margin:0 0 10px;font-size:12px;letter-spacing:.05em;color:#5c554b;text-transform:uppercase}
+  #pv-panel .row+.row{margin-top:16px}
+  .pv-swatches{display:flex;gap:8px}
+  .pv-swatch{flex:1;border:2px solid transparent;border-radius:9px;padding:8px 0;cursor:pointer;font-size:12px;
+    font-weight:600;color:#1c1a16;background:#eae5db;text-align:center}
+  .pv-swatch.active{border-color:#8a6a2c}
+  #pv-panel input[type=range]{width:100%}
+  .pv-toggle{display:flex;align-items:center;justify-content:space-between;font-size:13px;font-weight:600;color:#1c1a16}
+</style>
+</head>
+<body>
+<div id="app"></div>
+
+<div id="pv-settings">
+  <div id="pv-panel">
+    <div class="row">
+      <h4>ธีม</h4>
+      <div class="pv-swatches">
+        <div class="pv-swatch" data-theme="warm">Warm</div>
+        <div class="pv-swatch" data-theme="modern">Modern</div>
+        <div class="pv-swatch" data-theme="mono">Mono</div>
+      </div>
+    </div>
+    <div class="row">
+      <h4>ขนาดตัวอักษร</h4>
+      <input id="pv-fs" type="range" min="0.9" max="1.15" step="0.05" value="1">
+    </div>
+    <div class="row">
+      <label class="pv-toggle">แถบราคาตลาด<input id="pv-ticker" type="checkbox" checked></label>
+    </div>
+  </div>
+  <button id="pv-gear" title="ตั้งค่าธีม">&#9881;</button>
+</div>
+
+<script>
+"use strict";
+
+/* ============================ DATA ============================ */
+const STOCKS = [
+  { sym:'NVDA',  name:'NVIDIA Corp.',           sector:'เซมิคอนดักเตอร์', exchange:'NASDAQ', price:131.50, pct:2.94, sd:71 },
+  { sym:'AAPL',  name:'Apple Inc.',             sector:'เทคโนโลยี',       exchange:'NASDAQ', price:214.30, pct:0.62, sd:12 },
+  { sym:'MSFT',  name:'Microsoft Corp.',        sector:'ซอฟต์แวร์',       exchange:'NASDAQ', price:449.80, pct:1.21, sd:23 },
+  { sym:'AMZN',  name:'Amazon.com Inc.',        sector:'อีคอมเมิร์ซ',     exchange:'NASDAQ', price:193.60, pct:-0.84, sd:34 },
+  { sym:'GOOGL', name:'Alphabet Inc.',          sector:'เทคโนโลยี',       exchange:'NASDAQ', price:178.40, pct:1.52, sd:45 },
+  { sym:'META',  name:'Meta Platforms',         sector:'โซเชียลมีเดีย',   exchange:'NASDAQ', price:504.20, pct:2.08, sd:56 },
+  { sym:'TSLA',  name:'Tesla Inc.',             sector:'ยานยนต์ไฟฟ้า',    exchange:'NASDAQ', price:251.00, pct:-1.93, sd:67 },
+  { sym:'AMD',   name:'Advanced Micro Devices', sector:'เซมิคอนดักเตอร์', exchange:'NASDAQ', price:162.30, pct:3.41, sd:78 },
+  { sym:'JPM',   name:'JPMorgan Chase',         sector:'ธนาคาร',          exchange:'NYSE',   price:205.10, pct:-0.39, sd:89 },
+  { sym:'NFLX',  name:'Netflix Inc.',           sector:'สตรีมมิ่ง',       exchange:'NASDAQ', price:685.00, pct:0.94, sd:90 },
+];
+
+const INDICES = [
+  { name:'S&P 500',     value:5468.55,  chg:24.32 },
+  { name:'NASDAQ 100',  value:19812.40, chg:118.65 },
+  { name:'DOW JONES',   value:39150.33, chg:-45.20 },
+];
+
+const ARTS = [
+  { id:1, cat:'ข่าวเด่นวันนี้', featured:true, title:'Wall Street ปิดบวก S&P 500 ทำนิวไฮ แรงซื้อหุ้นเทคหนุนตลาด รับความหวังเฟดลดดอกเบี้ย', excerpt:'ดัชนี S&P 500 ปิดบวก 24 จุด ทำสถิติสูงสุดใหม่ หลังตัวเลขเงินเฟ้อ PCE ชะลอลงตามคาด หนุนโอกาสที่เฟดจะเริ่มลดดอกเบี้ย กลุ่มชิปและเทคโนโลยีนำตลาด', author:'ทีมข่าว PixelVest', date:'27 มิ.ย. 2026', read:4, syms:['NVDA','MSFT','AAPL'], rank:1,
+    body:{ intro:'ตลาดหุ้นสหรัฐฯ ปิดในแดนบวกทั้งสามดัชนีหลัก โดย S&P 500 ปิดที่ 5,468.55 จุด เพิ่มขึ้น 24.32 จุด หรือ 0.45% ทำสถิติปิดสูงสุดเป็นประวัติการณ์ ขณะที่ Nasdaq 100 บวกแรงกว่าตลาดจากแรงซื้อหุ้นเทคโนโลยีขนาดใหญ่',
+      sections:[ {h:'เงินเฟ้อชะลอหนุนความหวังเฟด', p:'ตัวเลขดัชนีราคา PCE ซึ่งเป็นมาตรวัดเงินเฟ้อที่เฟดให้ความสำคัญ ออกมาชะลอตัวลงตามที่ตลาดคาด ทำให้นักลงทุนเพิ่มน้ำหนักโอกาสที่ธนาคารกลางสหรัฐฯ จะเริ่มลดดอกเบี้ยภายในไตรมาสนี้'},
+                 {h:'หุ้นชิปนำตลาด', p:'หุ้น NVIDIA ปรับขึ้นเกือบ 3% รับกระแสการลงทุน AI ที่ยังร้อนแรง ขณะที่ AMD บวกกว่า 3% ตามไปด้วย ดึงให้กลุ่มเซมิคอนดักเตอร์เป็นผู้นำตลาดในวันนี้'} ],
+      quote:'ตราบใดที่เงินเฟ้อยังลงและกำไรกลุ่มเทคยังโต ตลาดกระทิงรอบนี้ก็ยังมีเชื้อไฟต่อ', quoteBy:'— ฝ่ายกลยุทธ์การลงทุน',
+      takeaway:'ภาพรวมระยะสั้นยังเป็นบวก แต่ควรจับตาถ้อยแถลงของเฟดและฤดูประกาศงบไตรมาสที่กำลังจะมาถึง' } },
+  { id:2, cat:'เซมิคอนดักเตอร์', title:'NVDA ทำนิวไฮต่อเนื่อง ดีมานด์ชิป AI ทะลัก โบรกแห่ปรับเป้าราคาขึ้น', excerpt:'ราคาหุ้น NVIDIA พุ่งทำสถิติสูงสุดใหม่ หลังคำสั่งซื้อชิป AI สำหรับดาต้าเซ็นเตอร์ยังล้นมือ นักวิเคราะห์ทยอยปรับเป้าราคา', author:'James Carter', date:'27 มิ.ย. 2026', read:5, syms:['NVDA','AMD'], rank:2,
+    body:{ intro:'หุ้น NVIDIA ยังคงเป็นดาวเด่นของตลาดสหรัฐฯ หลังราคาทำจุดสูงสุดใหม่ ท่ามกลางกระแสการลงทุนโครงสร้างพื้นฐาน AI ของบริษัทเทคยักษ์ใหญ่ทั่วโลกที่ยังเร่งตัว',
+      sections:[ {h:'ดีมานด์ดาต้าเซ็นเตอร์ล้นมือ', p:'บริษัทระบุว่ายอดสั่งซื้อชิปตระกูลล่าสุดยังเกินกำลังการผลิต โดยลูกค้ากลุ่มคลาวด์รายใหญ่ยังคงเพิ่มงบลงทุนด้าน AI อย่างต่อเนื่อง'},
+                 {h:'นักวิเคราะห์มองบวก', p:'หลายสำนักปรับประมาณการกำไรขึ้น โดยให้น้ำหนักกับอัตรากำไรที่สูงจากสินค้ามูลค่าสูง แม้ราคาหุ้นจะซื้อขายบน valuation ที่ตึงตัว'} ],
+      quote:'NVIDIA คือหุ้นที่เล่นธีม AI ได้ตรงตัวที่สุดในตลาด แต่ความคาดหวังก็สูงตามไปด้วย', quoteBy:'— นักวิเคราะห์ปัจจัยพื้นฐาน',
+      takeaway:'นักลงทุนควรประเมินความเสี่ยงเรื่อง valuation และทยอยสะสมมากกว่าไล่ราคา' } },
+  { id:3, cat:'ธนาคาร', title:'หุ้นแบงก์สหรัฐฯ ฟื้น JPM นำกลุ่ม รับผลทดสอบภาวะวิกฤตผ่านฉลุย', excerpt:'หุ้นกลุ่มธนาคารปรับตัวขึ้น หลังผ่านการทดสอบ stress test ของเฟด เปิดทางให้เพิ่มเงินปันผลและซื้อหุ้นคืน', author:'ทีมข่าว PixelVest', date:'26 มิ.ย. 2026', read:3, syms:['JPM'], rank:3,
+    body:{ intro:'หุ้นกลุ่มธนาคารสหรัฐฯ กลับมาได้รับความสนใจ หลังธนาคารใหญ่ผ่านการทดสอบภาวะวิกฤต (stress test) ประจำปีของเฟด ซึ่งเปิดทางให้คืนทุนแก่ผู้ถือหุ้นมากขึ้น',
+      sections:[ {h:'งบดุลแข็งแกร่ง', p:'ผลทดสอบสะท้อนว่าธนาคารใหญ่มีเงินกองทุนเพียงพอรองรับสถานการณ์เลวร้าย เปิดทางให้เพิ่มเงินปันผลและโครงการซื้อหุ้นคืน'},
+                 {h:'จับตาคุณภาพสินเชื่อ', p:'ประเด็นที่ต้องติดตามคือคุณภาพสินเชื่ออสังหาฯ เชิงพาณิชย์และบัตรเครดิต ซึ่งอาจกดดันการตั้งสำรองในช่วงข้างหน้า'} ],
+      quote:'เลือกแบงก์ที่งบดุลแข็งและคืนทุนผู้ถือหุ้นสม่ำเสมอ จะปลอดภัยกว่าในภาวะแบบนี้', quoteBy:'— ฝ่ายวิเคราะห์',
+      takeaway:'กลุ่มธนาคารเหมาะกับนักลงทุนสายปันผลที่รับความผันผวนได้ปานกลาง' } },
+  { id:4, cat:'ยานยนต์ไฟฟ้า', title:'TSLA ย่อตัว ยอดส่งมอบต่ำกว่าคาด แต่นักลงทุนยังลุ้นธุรกิจหุ่นยนต์–FSD', excerpt:'ราคาหุ้น Tesla ปรับลงหลังตัวเลขส่งมอบรถต่ำกว่าที่ตลาดคาด อย่างไรก็ตามความหวังด้าน AI และหุ่นยนต์ยังหนุนมุมมองระยะยาว', author:'James Carter', date:'26 มิ.ย. 2026', read:4, syms:['TSLA'], rank:4,
+    body:{ intro:'หุ้น Tesla เคลื่อนไหวในแดนลบ หลังยอดส่งมอบรถในไตรมาสล่าสุดออกมาต่ำกว่าที่ตลาดประเมิน แต่สำหรับนักลงทุนระยะยาว เรื่องราวด้านเทคโนโลยียังเป็นปัจจัยสนับสนุน',
+      sections:[ {h:'ยอดส่งมอบกดดันระยะสั้น', p:'การแข่งขันที่รุนแรงในตลาด EV และอุปสงค์ที่ชะลอตัวในบางภูมิภาค เป็นปัจจัยกดดันยอดขายและอัตรากำไรในระยะสั้น'},
+                 {h:'เรื่องราว AI คือจุดเปลี่ยน', p:'นักลงทุนจำนวนมากให้น้ำหนักกับธุรกิจซอฟต์แวร์ขับขี่อัตโนมัติและหุ่นยนต์ ซึ่งอาจเป็นตัวขับเคลื่อนมูลค่าในระยะยาวมากกว่ายอดขายรถ'} ],
+      quote:'มูลค่าของ Tesla วันนี้ ขึ้นกับความเชื่อเรื่อง AI มากกว่าจำนวนรถที่ขายได้', quoteBy:'— ทีมกลยุทธ์',
+      takeaway:'เป็นหุ้นความผันผวนสูง เหมาะกับผู้ที่รับความเสี่ยงได้และเชื่อในวิสัยทัศน์ระยะยาว' } },
+  { id:5, cat:'บทวิเคราะห์', analysis:true, title:'ครึ่งปีหลัง 2026 จับตา 3 ธีมลงทุนหุ้นสหรัฐฯ: AI, ดอกเบี้ยขาลง และ Mag 7', excerpt:'มองไปข้างหน้าตลาดหุ้นอเมริกาครึ่งปีหลัง อะไรคือธีมที่จะขับเคลื่อนผลตอบแทน และหุ้นกลุ่มไหนน่าจับตา', author:'ทีมกลยุทธ์ PixelVest', date:'25 มิ.ย. 2026', read:8, syms:['NVDA','MSFT','GOOGL'], rank:5, tags:['กลยุทธ์','ครึ่งปีหลัง'],
+    body:{ intro:'เมื่อก้าวเข้าสู่ครึ่งปีหลังของปี 2026 เราประเมินว่ามี 3 ธีมหลักที่นักลงทุนในตลาดหุ้นสหรัฐฯ ควรให้น้ำหนัก ซึ่งจะเป็นตัวกำหนดทิศทางผลตอบแทนของพอร์ต',
+      sections:[ {h:'1. คลื่น AI ยังไม่จบ', p:'งบลงทุนด้าน AI ของบริษัทเทคยักษ์ใหญ่ยังเร่งตัว ส่งผลบวกโดยตรงต่อกลุ่มเซมิคอนดักเตอร์ คลาวด์ และซอฟต์แวร์ที่อยู่ในห่วงโซ่'},
+                 {h:'2. วัฏจักรดอกเบี้ยขาลง', p:'หากเฟดเริ่มลดดอกเบี้ยตามคาด จะเป็นบวกต่อหุ้นเติบโตและกลุ่มที่อ่อนไหวต่อต้นทุนการเงิน เช่น เทคโนโลยีขนาดกลางและอสังหาฯ'},
+                 {h:'3. การกระจุกตัวของ Mag 7', p:'ผลตอบแทนตลาดยังพึ่งพาหุ้นเทคขนาดใหญ่ไม่กี่ตัว นักลงทุนควรระวังความเสี่ยงจากการกระจุกตัว และมองหาโอกาสกระจายสู่กลุ่มอื่น'} ],
+      quote:'อย่าพยายามจับจังหวะตลาดทั้งหมด แต่จงเลือกธีมที่เข้าใจและถือให้นานพอ', quoteBy:'— หัวหน้าทีมกลยุทธ์',
+      takeaway:'การกระจายการลงทุนข้ามทั้ง 3 ธีมจะช่วยลดความเสี่ยงเฉพาะตัวได้ดี' } },
+  { id:6, cat:'บทวิเคราะห์', analysis:true, title:'อ่านงบ Q2: 5 ตัวเลขที่นักลงทุนมือใหม่ต้องดูก่อนซื้อหุ้นอเมริกา', excerpt:'ฤดูประกาศงบ (Earnings Season) ใกล้เข้ามา มาทำความเข้าใจ 5 ตัวเลขสำคัญในงบการเงินที่บอกสุขภาพบริษัทได้ในไม่กี่นาที', author:'ครูหุ้น PixelVest', date:'24 มิ.ย. 2026', read:7, syms:['AAPL','AMZN'], rank:6, tags:['มือใหม่','พื้นฐาน'],
+    body:{ intro:'การอ่านงบการเงินบริษัทสหรัฐฯ ไม่ได้ยากอย่างที่คิด หากรู้ว่าต้องโฟกัสที่ตัวเลขไหน บทความนี้สรุป 5 ตัวเลขที่ใช้ได้จริง',
+      sections:[ {h:'รายได้และ EPS', p:'ดูว่ารายได้และกำไรต่อหุ้น (EPS) เทียบกับที่นักวิเคราะห์คาด (consensus) อย่างไร การทำได้ดีหรือพลาดเป้ามักขับเคลื่อนราคาหุ้นทันที'},
+                 {h:'อัตรากำไรขั้นต้น', p:'Gross margin บอกความสามารถในการตั้งราคาและควบคุมต้นทุน ยิ่งสม่ำเสมอหรือขยายตัวยิ่งดี'},
+                 {h:'Guidance และกระแสเงินสด', p:'คาดการณ์ของผู้บริหารสำหรับไตรมาสหน้า (guidance) มักสำคัญกว่าตัวเลขในอดีต และกำไรที่ดีต้องมาพร้อม free cash flow ที่เป็นบวก'} ],
+      quote:'ตัวเลขที่ขับเคลื่อนราคาหุ้นมากที่สุด มักไม่ใช่ผลประกอบการอดีต แต่คือ guidance ของอนาคต', quoteBy:'— ครูหุ้น PixelVest',
+      takeaway:'ฝึกอ่าน 5 ตัวเลขนี้ทุกครั้งก่อนตัดสินใจ จะช่วยลดความผิดพลาดได้มาก' } },
+  { id:7, cat:'เทคโนโลยี', analysis:true, title:'MSFT vs GOOGL: เทียบสองยักษ์คลาวด์–AI ตัวไหนคุ้มกว่าในเกมระยะยาว', excerpt:'ในศึกชิงความเป็นผู้นำด้าน AI และคลาวด์ เราเปรียบเทียบ Microsoft กับ Alphabet ในมิติการเติบโต กำไร และ valuation', author:'James Carter', date:'23 มิ.ย. 2026', read:6, syms:['MSFT','GOOGL'], rank:7, tags:['เปรียบเทียบ','คลาวด์'],
+    body:{ intro:'ในศึกชิงความเป็นผู้นำด้าน AI และคลาวด์ คำถามที่นักลงทุนสนใจคือ ระหว่าง Microsoft กับ Alphabet ตัวไหนน่าลงทุนกว่าในระยะยาว',
+      sections:[ {h:'การเติบโตของคลาวด์', p:'Microsoft Azure และ Google Cloud ต่างเติบโตแข็งแกร่งจากดีมานด์ AI โดย Microsoft มีความได้เปรียบจากการผนวก AI เข้ากับผลิตภัณฑ์องค์กร'},
+                 {h:'Valuation และกระแสเงินสด', p:'Alphabet ซื้อขายบน valuation ที่ถูกกว่าเมื่อเทียบการเติบโต ขณะที่ Microsoft มีรายได้ที่สม่ำเสมอและคาดการณ์ได้ง่ายกว่า'} ],
+      quote:'ในเกม AI ผู้ที่เปลี่ยนเทคโนโลยีเป็นรายได้จริงได้เร็วที่สุด มักเป็นผู้ชนะ', quoteBy:'— ฝ่ายวิเคราะห์',
+      takeaway:'นักลงทุนสายมั่นคงอาจชอบ MSFT ส่วนสายเน้นมูลค่าอาจมอง GOOGL' } },
+  { id:8, cat:'สตรีมมิ่ง', title:'NFLX รับสมาชิกโตเกินคาด รายได้โฆษณาหนุนกำไรครึ่งปีหลัง', excerpt:'จำนวนสมาชิกใหม่ของ Netflix เพิ่มขึ้นต่อเนื่อง ขณะที่แพ็กเกจมีโฆษณาและการปราบบัญชีใช้ร่วมหนุนแนวโน้มรายได้', author:'ทีมข่าว PixelVest', date:'23 มิ.ย. 2026', read:3, syms:['NFLX'], rank:8,
+    body:{ intro:'Netflix ยังเดินหน้าได้แข็งแกร่ง หลังจำนวนสมาชิกเติบโตเกินคาด พร้อมแรงหนุนใหม่จากธุรกิจโฆษณาที่กำลังขยายตัว',
+      sections:[ {h:'สมาชิกโตเกินคาด', p:'มาตรการจัดการบัญชีที่ใช้ร่วมกันและคอนเทนต์ใหม่ที่ได้รับความนิยม ช่วยดึงสมาชิกจ่ายเงินเพิ่มขึ้นต่อเนื่อง'},
+                 {h:'โฆษณาคือเครื่องยนต์ใหม่', p:'แพ็กเกจราคาประหยัดที่มีโฆษณากำลังกลายเป็นแหล่งรายได้ใหม่ที่เติบโตเร็ว และช่วยยกระดับรายได้เฉลี่ยต่อผู้ใช้'} ],
+      quote:'Netflix กำลังเปลี่ยนจากบริษัทสตรีมมิ่งล้วน ๆ ไปสู่แพลตฟอร์มโฆษณาที่มีศักยภาพสูง', quoteBy:'— ทีมกลยุทธ์',
+      takeaway:'แนวโน้มครึ่งปีหลังสดใส แต่ราคาหุ้นได้สะท้อนความคาดหวังไปบางส่วนแล้ว' } },
+];
+
+const themes = {
+  warm:   { '--paper':'#f6f1e8','--surface':'#fffdf8','--surface-2':'#f0e9dc','--ink':'#2a2520','--ink-2':'#6f655a','--ink-3':'#a89c8d','--line':'#e7dccb','--up':'#1f9d6b','--down':'#d2452f','--gold':'#b0863a','--radius':'14px','--head':"'Noto Serif Thai',serif",'--shadow':'0 1px 2px rgba(45,35,22,.05), 0 14px 34px -20px rgba(45,35,22,.22)' },
+  modern: { '--paper':'#eef1f0','--surface':'#ffffff','--surface-2':'#e9eeec','--ink':'#13201b','--ink-2':'#566863','--ink-3':'#93a39d','--line':'#dde6e2','--up':'#07a86f','--down':'#e0483a','--gold':'#0d8f63','--radius':'20px','--head':"'IBM Plex Sans Thai',sans-serif",'--shadow':'0 2px 4px rgba(20,40,32,.04), 0 20px 44px -22px rgba(20,40,32,.28)' },
+  mono:   { '--paper':'#f2efe9','--surface':'#faf8f3','--surface-2':'#eae5db','--ink':'#1c1a16','--ink-2':'#5c554b','--ink-3':'#9a9286','--line':'#d8d0c2','--up':'#1d7a50','--down':'#b23722','--gold':'#8a6a2c','--radius':'4px','--head':"'Noto Serif Thai',serif",'--shadow':'none' },
+};
+
+/* ============================ STATE ============================ */
+let state = { route:{ page:'home' }, range:'3M', history:[] };
+const settings = { theme:'mono', fontScale:1, showTicker:true };
+const rangeLens = { '1D':22, '1W':30, '1M':40, '3M':60, '1Y':90 };
+const upHex = '#1f9d6b', downHex = '#d2452f';
+
+/* ============================ HELPERS ============================ */
+function walk(seed, n, drift){
+  let s = seed * 9301 + 49297, v = 50, out = [];
+  for (let i = 0; i < n; i++){
+    s = (s * 1103515245 + 12345) & 0x7fffffff;
+    const r = (s / 0x7fffffff) - 0.5;
+    v = Math.max(8, v + r * 9 + drift);
+    out.push(v);
+  }
+  return out;
+}
+function chart(data, o){
+  o = o || {};
+  const w = o.w || 600, h = o.h || 160, color = o.color || '#1f9d6b', sw = o.sw || 2.4, pad = o.pad != null ? o.pad : 5;
+  const min = Math.min(...data), max = Math.max(...data), rng = (max - min) || 1;
+  const X = i => (i / (data.length - 1)) * w;
+  const Y = v => pad + (1 - (v - min) / rng) * (h - pad * 2);
+  let line = '';
+  data.forEach((v, i) => { line += (i ? 'L' : 'M') + X(i).toFixed(1) + ' ' + Y(v).toFixed(1) + ' '; });
+  const area = 'M0 ' + h + ' ' + line.replace('M', 'L') + 'L' + w + ' ' + h + ' Z';
+  const areaPath = o.fill !== false ? '<path d="' + area + '" fill="' + color + '" opacity="0.1"/>' : '';
+  return '<svg viewBox="0 0 ' + w + ' ' + h + '" preserveAspectRatio="none" style="width:100%;height:100%;display:block;overflow:visible">'
+    + areaPath
+    + '<path d="' + line.trim() + '" fill="none" stroke="' + color + '" stroke-width="' + sw + '" stroke-linejoin="round" stroke-linecap="round" vector-effect="non-scaling-stroke"/></svg>';
+}
+function bars(data, color){
+  const w = 600, h = 60, max = Math.max(...data), bw = w / data.length;
+  const rects = data.map((v, i) =>
+    '<rect x="' + (i * bw + bw * 0.18) + '" y="' + (h - (v / max) * h) + '" width="' + (bw * 0.64) + '" height="' + ((v / max) * h) + '" fill="' + color + '" opacity="0.5"/>'
+  ).join('');
+  return '<svg viewBox="0 0 ' + w + ' ' + h + '" preserveAspectRatio="none" style="width:100%;height:100%;display:block">' + rects + '</svg>';
+}
+const col = p => p >= 0 ? 'var(--up)' : 'var(--down)';
+const arr = p => p >= 0 ? '▲' : '▼';
+const pctStr = p => (p >= 0 ? '+' : '') + p.toFixed(2) + '%';
+const money = (n, d = 2) => n.toLocaleString('en-US', { minimumFractionDigits: d, maximumFractionDigits: d });
+const esc = s => String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+
+const stockOf = sym => STOCKS.find(s => s.sym === sym) || STOCKS[0];
+const artOf = id => ARTS.find(a => a.id === id) || ARTS[0];
+
+function decStock(s, big){
+  const len = big ? rangeLens[state.range] : 60;
+  const color = s.pct >= 0 ? upHex : downHex;
+  return {
+    sym: s.sym, name: s.name, sector: s.sector,
+    price: money(s.price), pct: pctStr(s.pct), arrow: arr(s.pct), color: col(s.pct),
+    chgAbs: money(Math.abs(s.price * s.pct / 100)),
+    spark: chart(walk(s.sd, 22, s.pct >= 0 ? 0.4 : -0.4), { w:120, h:36, color, sw:1.7 }),
+    chart: chart(walk(s.sd, 30, s.pct >= 0 ? 0.4 : -0.4), { w:200, h:44, color, sw:2 }),
+    bigChart: chart(walk(s.sd, len, s.pct >= 0 ? 0.35 : -0.35), { w:600, h:280, color, sw:2.6 }),
+    volChart: bars(walk(s.sd + 3, len, 0), color),
+  };
+}
+function decArt(a){
+  return { id:a.id, cat:a.cat, title:a.title, excerpt:a.excerpt, author:a.author, date:a.date, read:a.read,
+    initial:(a.author || 'P')[0], rank:a.rank, tags:a.tags || [a.cat] };
+}
+
+/* ============================ NAV ============================ */
+function go(page, id){
+  state.history = [...state.history, state.route];
+  state.route = { page, id };
+  window.scrollTo({ top:0 });
+  render();
+}
+function back(){
+  if (!state.history.length){ state.route = { page:'home' }; }
+  else { const h = [...state.history]; state.route = h.pop(); state.history = h; }
+  window.scrollTo({ top:0 });
+  render();
+}
+
+/* ============================ VIEW PARTIALS ============================ */
+function logoSvg(size){
+  const rad = size >= 40 ? 10 : 8;
+  return '<svg width="' + size + '" height="' + size + '" viewBox="0 0 48 48" aria-label="PixelVest" '
+    + 'style="display:block;flex:none;width:' + size + 'px;height:' + size + 'px;border-radius:' + rad + 'px;box-shadow:0 2px 8px -2px rgba(0,0,0,.4)">'
+    + '<rect width="48" height="48" rx="12" fill="#1f8a5b"/>'
+    + '<circle cx="14.5" cy="32" r="4.4" fill="#fff"/>'
+    + '<polyline points="11,33 21,21 28,27 37,14" fill="none" stroke="#fff" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>'
+    + '<polyline points="30,14 37,14 37,21" fill="none" stroke="#fff" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/></svg>';
+}
+
+function headerView(){
+  const navDef = [ { label:'หน้าแรก', page:'home' }, { label:'ข่าวหุ้น', page:'news' } ];
+  const nav = navDef.map((n, i) => {
+    const active = n.page === state.route.page && (n.page !== 'home' || i === 0);
+    return '<a data-link data-go="' + n.page + '" style="cursor:pointer;padding:8px 14px;border-radius:9px;font-size:14.5px;font-weight:600;'
+      + 'color:' + (active ? 'var(--ink)' : 'var(--ink-2)') + ';background:' + (active ? 'var(--surface-2)' : 'transparent') + ';text-decoration:none;">'
+      + n.label + '</a>';
+  }).join('');
+  return '<header style="position:sticky;top:0;z-index:40;background:color-mix(in srgb, var(--paper) 86%, transparent);backdrop-filter:blur(10px);border-bottom:1px solid var(--line);">'
+    + '<div data-pad style="max-width:1200px;margin:0 auto;padding:13px 28px;display:flex;align-items:center;gap:24px;">'
+    +   '<div data-go="home" style="display:flex;align-items:center;gap:11px;cursor:pointer;flex:none;">'
+    +     logoSvg(40)
+    +     '<div style="line-height:1;">'
+    +       '<div style="font-weight:700;font-size:20px;letter-spacing:-.01em;">Pixel<span style="color:var(--gold);">Vest</span></div>'
+    +       '<div style="font-size:10px;letter-spacing:.18em;color:var(--ink-3);margin-top:3px;font-weight:600;">STOCK NEWS · ข่าวหุ้น</div>'
+    +     '</div>'
+    +   '</div>'
+    +   '<nav data-hidesm style="display:flex;gap:4px;margin-left:8px;">' + nav + '</nav>'
+    +   '<div style="flex:1;"></div>'
+    +   '<div data-hidesm style="display:flex;align-items:center;gap:8px;background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:8px 13px;min-width:190px;">'
+    +     '<svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="var(--ink-3)" stroke-width="2"><circle cx="11" cy="11" r="7"></circle><path d="m21 21-4-4"></path></svg>'
+    +     '<input placeholder="ค้นหาหุ้น / ข่าว" style="border:none;outline:none;background:none;font-family:inherit;font-size:13.5px;color:var(--ink);width:100%;">'
+    +   '</div>'
+    + '</div></header>';
+}
+
+function tickerView(){
+  if (!settings.showTicker) return '';
+  const indices = INDICES.map(ix =>
+    '<div style="display:flex;flex-direction:column;gap:2px;">'
+    + '<div style="font-size:11px;font-weight:700;letter-spacing:.04em;color:var(--ink-2);">' + ix.name + '</div>'
+    + '<div style="display:flex;align-items:baseline;gap:7px;">'
+    +   '<span style="font-size:15px;font-weight:700;font-variant-numeric:tabular-nums;">' + money(ix.value) + '</span>'
+    +   '<span style="font-size:12px;font-weight:600;color:' + col(ix.chg) + ';font-variant-numeric:tabular-nums;">' + (ix.chg >= 0 ? '+' : '') + ix.chg.toFixed(2) + '</span>'
+    + '</div></div>'
+  ).join('');
+  const tickRaw = STOCKS.map(s =>
+    '<div style="display:flex;align-items:center;gap:8px;font-size:13px;white-space:nowrap;">'
+    + '<span style="font-weight:700;">' + s.sym + '</span>'
+    + '<span style="color:var(--ink-2);font-variant-numeric:tabular-nums;">' + money(s.price) + '</span>'
+    + '<span style="font-weight:600;color:' + col(s.pct) + ';font-variant-numeric:tabular-nums;">' + arr(s.pct) + pctStr(s.pct) + '</span>'
+    + '</div>'
+  );
+  const tickerItems = tickRaw.concat(tickRaw).join('');
+  return '<div style="background:var(--surface);border-bottom:1px solid var(--line);">'
+    + '<div data-pad style="max-width:1200px;margin:0 auto;padding:12px 28px;display:flex;align-items:center;gap:22px;">'
+    +   '<div data-hidesm style="display:flex;gap:18px;flex:none;">' + indices + '</div>'
+    +   '<div style="flex:1;min-width:0;border-left:1px solid var(--line);padding-left:20px;overflow:hidden;mask-image:linear-gradient(90deg,transparent,#000 4%,#000 92%,transparent);-webkit-mask-image:linear-gradient(90deg,transparent,#000 4%,#000 92%,transparent);">'
+    +     '<div style="display:flex;gap:30px;width:max-content;animation:tickerflow 46s linear infinite;">' + tickerItems + '</div>'
+    +   '</div>'
+    + '</div></div>';
+}
+
+function homeView(){
+  const f = decArt(ARTS[0]);
+  const watchlist = STOCKS.slice(0, 6).map(s => decStock(s));
+  const feed = ARTS.filter(a => !a.analysis).map(a => decArt(a));
+  const popular = [...ARTS].sort((a, b) => a.rank - b.rank).slice(0, 5).map(a => decArt(a));
+
+  const watchHtml = watchlist.map(w =>
+    '<div style="display:flex;align-items:center;gap:12px;padding:11px 4px;border-bottom:1px solid var(--line);">'
+    + '<div style="min-width:62px;">'
+    +   '<div style="font-weight:700;font-size:14px;">' + w.sym + '</div>'
+    +   '<div style="font-size:11px;color:var(--ink-3);white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:62px;">' + esc(w.name) + '</div>'
+    + '</div>'
+    + '<div style="width:74px;height:30px;flex:none;">' + w.spark + '</div>'
+    + '<div style="flex:1;text-align:right;">'
+    +   '<div style="font-weight:700;font-size:14px;font-variant-numeric:tabular-nums;">' + w.price + '</div>'
+    +   '<div style="font-size:11.5px;font-weight:600;color:' + w.color + ';font-variant-numeric:tabular-nums;">' + w.arrow + w.pct + '</div>'
+    + '</div></div>'
+  ).join('');
+
+  const feedHtml = feed.map(a =>
+    '<article data-card data-link data-article="' + a.id + '" style="cursor:pointer;background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);overflow:hidden;box-shadow:var(--shadow);display:flex;flex-direction:column;">'
+    + '<div style="height:148px;background:repeating-linear-gradient(135deg,var(--surface-2),var(--surface-2) 10px,transparent 10px,transparent 20px),var(--surface);position:relative;">'
+    +   '<span style="position:absolute;top:11px;left:11px;background:color-mix(in srgb,var(--ink) 88%,transparent);color:var(--paper);font-size:10.5px;font-weight:700;letter-spacing:.04em;padding:4px 9px;border-radius:6px;">' + a.cat + '</span>'
+    + '</div>'
+    + '<div style="padding:15px 16px 16px;display:flex;flex-direction:column;flex:1;">'
+    +   '<h3 style="font-family:var(--head);font-size:17.5px;font-weight:600;line-height:1.38;margin:0 0 9px;">' + esc(a.title) + '</h3>'
+    +   '<p style="margin:0 0 14px;font-size:13.5px;color:var(--ink-2);line-height:1.6;">' + esc(a.excerpt) + '</p>'
+    +   '<div style="margin-top:auto;display:flex;align-items:center;gap:8px;font-size:12px;color:var(--ink-3);">'
+    +     '<span style="font-weight:600;color:var(--ink-2);">' + a.author + '</span><span>·</span><span>' + a.date + '</span>'
+    +   '</div>'
+    + '</div></article>'
+  ).join('');
+
+  const popularHtml = popular.map(p =>
+    '<div data-link data-article="' + p.id + '" style="cursor:pointer;display:flex;gap:13px;padding:11px 0;border-top:1px solid var(--line);">'
+    + '<span style="font-family:var(--head);font-size:22px;font-weight:700;color:var(--gold);line-height:1;min-width:24px;">' + p.rank + '</span>'
+    + '<div style="font-size:13.5px;font-weight:600;line-height:1.42;">' + esc(p.title) + '</div>'
+    + '</div>'
+  ).join('');
+
+  return '<main data-pad style="max-width:1200px;margin:0 auto;padding:34px 28px 10px;">'
+    + '<div data-herogrid style="display:grid;grid-template-columns:1.55fr 1fr;gap:26px;margin-bottom:46px;">'
+    +   '<article data-card data-link data-article="' + f.id + '" style="cursor:pointer;background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);overflow:hidden;box-shadow:var(--shadow);">'
+    +     '<div style="position:relative;height:300px;background:repeating-linear-gradient(135deg,var(--surface-2),var(--surface-2) 11px,transparent 11px,transparent 22px),var(--surface);display:flex;align-items:flex-end;padding:18px;">'
+    +       '<div style="position:absolute;top:16px;left:16px;background:var(--gold);color:#fff;font-size:11px;font-weight:700;letter-spacing:.05em;padding:5px 11px;border-radius:7px;">' + f.cat + '</div>'
+    +       '<span style="font-family:\'IBM Plex Mono\',monospace;font-size:11px;color:var(--ink-3);background:color-mix(in srgb,var(--surface) 80%,transparent);padding:3px 8px;border-radius:5px;">ภาพประกอบข่าวเด่น</span>'
+    +     '</div>'
+    +     '<div style="padding:24px 26px 26px;">'
+    +       '<h1 style="font-family:var(--head);font-weight:700;font-size:30px;line-height:1.28;margin:0 0 12px;letter-spacing:-.01em;">' + esc(f.title) + '</h1>'
+    +       '<p style="margin:0 0 18px;color:var(--ink-2);font-size:15.5px;line-height:1.65;">' + esc(f.excerpt) + '</p>'
+    +       '<div style="display:flex;align-items:center;gap:11px;font-size:13px;color:var(--ink-3);">'
+    +         '<span style="width:30px;height:30px;border-radius:50%;background:var(--ink);color:var(--paper);display:grid;place-items:center;font-weight:700;font-size:13px;">' + f.initial + '</span>'
+    +         '<span style="font-weight:600;color:var(--ink-2);">' + f.author + '</span>'
+    +         '<span>·</span><span>' + f.date + '</span><span>·</span><span>อ่าน ' + f.read + ' นาที</span>'
+    +       '</div>'
+    +     '</div>'
+    +   '</article>'
+    +   '<aside style="background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow);padding:18px 18px 8px;align-self:start;">'
+    +     '<div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:6px;">'
+    +       '<h2 style="font-size:15px;font-weight:700;margin:0;">หุ้นที่ติดตาม</h2>'
+    +       '<span style="font-size:11px;color:var(--ink-3);font-weight:600;">อัปเดตล่าสุด 16:30</span>'
+    +     '</div>' + watchHtml + '<div style="height:8px;"></div>'
+    +   '</aside>'
+    + '</div>'
+    + '<div data-main style="display:flex;gap:34px;align-items:flex-start;">'
+    +   '<div style="flex:1;min-width:0;">'
+    +     '<div style="display:flex;align-items:center;gap:12px;margin-bottom:18px;">'
+    +       '<h2 style="font-family:var(--head);font-size:23px;font-weight:700;margin:0;">ข่าวล่าสุด</h2>'
+    +       '<div style="flex:1;height:1px;background:var(--line);"></div>'
+    +     '</div>'
+    +     '<div data-herogrid style="display:grid;grid-template-columns:1fr 1fr;gap:22px;">' + feedHtml + '</div>'
+    +   '</div>'
+    +   '<aside data-side style="width:300px;flex:none;position:sticky;top:96px;display:flex;flex-direction:column;gap:22px;">'
+    +     '<div style="background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow);padding:18px;">'
+    +       '<h3 style="font-size:14px;font-weight:700;margin:0 0 14px;display:flex;align-items:center;gap:8px;"><span style="width:7px;height:7px;border-radius:2px;background:var(--gold);"></span>เรื่องยอดนิยม</h3>'
+    +       popularHtml
+    +     '</div>'
+    +     '<div style="background:var(--ink);color:var(--paper);border-radius:var(--radius);padding:22px;">'
+    +       '<div style="font-family:var(--head);font-size:18px;font-weight:600;line-height:1.4;margin-bottom:8px;">รับสรุปข่าวหุ้น<br>ทุกเช้า 7 โมง</div>'
+    +       '<p style="margin:0 0 14px;font-size:13px;opacity:.75;line-height:1.6;">อัปเดตโดยทีมงาน คัดเฉพาะข่าวที่กระทบพอร์ตคุณ</p>'
+    +       '<div style="display:flex;gap:8px;">'
+    +         '<input placeholder="อีเมลของคุณ" style="flex:1;min-width:0;border:none;border-radius:9px;padding:10px 12px;font-family:inherit;font-size:13px;outline:none;">'
+    +         '<button style="border:none;background:var(--gold);color:#fff;font-family:inherit;font-weight:700;font-size:13px;padding:0 15px;border-radius:9px;cursor:pointer;">สมัคร</button>'
+    +       '</div>'
+    +     '</div>'
+    +   '</aside>'
+    + '</div></main>';
+}
+
+function newsView(){
+  const isoMap = { 1:'2026-06-27', 2:'2026-06-27', 3:'2026-06-26', 4:'2026-06-26', 5:'2026-06-25', 6:'2026-06-24', 7:'2026-06-23', 8:'2026-06-23' };
+  const thMonth = 'มิถุนายน 2026';
+  const arts = [...ARTS].sort((a, b) => isoMap[b.id].localeCompare(isoMap[a.id]) || b.id - a.id);
+  const groups = [];
+  arts.forEach(a => {
+    const iso = isoMap[a.id];
+    let g = groups.find(x => x.iso === iso);
+    if (!g){ g = { iso, thaiDate: parseInt(iso.split('-')[2], 10) + ' ' + thMonth, count:0, items:[] }; groups.push(g); }
+    g.count++;
+    g.items.push({ id:a.id, title:a.title, excerpt:a.excerpt, cat:a.cat, badges:a.syms.slice(0, 3).map(s => '$' + s), dateLabel:a.date, read:a.read });
+  });
+
+  const groupsHtml = groups.map(g => {
+    const items = g.items.map(n => {
+      const badges = n.badges.map(b =>
+        '<span style="display:inline-flex;align-items:center;font-family:\'IBM Plex Mono\',monospace;font-size:11px;font-weight:600;letter-spacing:.02em;color:var(--paper);background:var(--ink);padding:4px 9px;border-radius:7px;">' + b + '</span>'
+      ).join('');
+      return '<div data-card data-article="' + n.id + '" style="cursor:pointer;display:flex;gap:18px;align-items:flex-start;background:var(--surface);border:1px solid var(--line);border-radius:18px;padding:18px 22px;box-shadow:var(--shadow);">'
+        + '<div style="display:flex;flex-direction:column;gap:6px;flex:none;width:86px;align-items:flex-start;padding-top:2px;">' + badges + '</div>'
+        + '<div style="flex:1;min-width:0;">'
+        +   '<div style="font-family:\'IBM Plex Mono\',monospace;font-size:11px;color:var(--ink-3);margin-bottom:7px;">' + n.dateLabel + ' · ' + n.cat + ' · อ่าน ' + n.read + ' นาที</div>'
+        +   '<div style="font-size:16.5px;line-height:1.6;"><strong style="font-weight:700;color:var(--ink);">' + esc(n.title) + '</strong> <span style="color:var(--ink-2);">— ' + esc(n.excerpt) + '</span></div>'
+        + '</div></div>';
+    }).join('');
+    return '<div style="position:relative;padding-left:38px;margin-bottom:34px;">'
+      + '<span style="position:absolute;left:0;top:7px;width:14px;height:14px;border-radius:50%;background:var(--gold);border:3px solid var(--paper);box-sizing:border-box;"></span>'
+      + '<h2 style="font-family:var(--head);font-size:27px;font-weight:700;margin:0;letter-spacing:-.01em;">' + g.thaiDate + '</h2>'
+      + '<div style="font-family:\'IBM Plex Mono\',monospace;font-size:12px;color:var(--ink-3);margin:5px 0 18px;">' + g.iso + ' · ' + g.count + ' ข่าว</div>'
+      + '<div style="display:flex;flex-direction:column;gap:16px;">' + items + '</div>'
+      + '</div>';
+  }).join('');
+
+  const backLink = state.history.length > 0
+    ? '<div data-link data-back style="cursor:pointer;display:inline-flex;align-items:center;gap:7px;font-size:13.5px;font-weight:600;color:var(--ink-2);margin-bottom:18px;">← ย้อนกลับ</div>'
+    : '';
+
+  return '<main data-pad style="max-width:880px;margin:0 auto;padding:46px 28px 10px;">'
+    + backLink
+    + '<h1 style="font-family:var(--head);font-size:46px;font-weight:700;margin:0;letter-spacing:-.02em;">ข่าวหุ้นล่าสุด</h1>'
+    + '<div style="font-family:\'IBM Plex Mono\',monospace;font-size:13px;color:var(--ink-3);margin-top:12px;">อัปเดตล่าสุด: 27 มิถุนายน 2026, 16:30 · ทั้งหมด ' + arts.length + ' ข่าว</div>'
+    + '<div style="position:relative;margin-top:38px;">'
+    +   '<div style="position:absolute;left:6px;top:12px;bottom:24px;width:2px;background:var(--line);"></div>'
+    +   groupsHtml
+    + '</div></main>';
+}
+
+function articleView(id){
+  const a = artOf(id);
+  const blocks = [];
+  blocks.push({ isP:true, text:a.body.intro });
+  const midStock = stockOf(a.syms[0]);
+  a.body.sections.forEach((sec, i) => {
+    blocks.push({ isH:true, text:sec.h });
+    blocks.push({ isP:true, text:sec.p });
+    if (i === 0){
+      const d = decStock(midStock);
+      blocks.push({ isStock:true, sym:d.sym, name:d.name, price:d.price, pct:d.pct, arrow:d.arrow, color:d.color, chart:d.chart });
+    }
+  });
+  blocks.push({ isQuote:true, text:a.body.quote, by:a.body.quoteBy });
+  blocks.push({ isP:true, text:a.body.takeaway });
+
+  const blocksHtml = blocks.map(b => {
+    let inner = '';
+    if (b.isH) inner = '<h2 style="font-family:var(--head);font-size:24px;font-weight:600;line-height:1.35;margin:34px 0 4px;color:var(--ink);">' + esc(b.text) + '</h2>';
+    else if (b.isP) inner = '<p style="margin:0;">' + esc(b.text) + '</p>';
+    else if (b.isQuote) inner = '<blockquote style="margin:6px 0;padding:6px 0 6px 22px;border-left:4px solid var(--gold);font-family:var(--head);font-size:22px;font-weight:500;line-height:1.5;color:var(--ink);">' + esc(b.text) + '<div style="font-family:\'IBM Plex Sans Thai\';font-size:13px;font-weight:600;color:var(--ink-3);margin-top:10px;">' + b.by + '</div></blockquote>';
+    else if (b.isStock) inner = '<div style="display:flex;align-items:center;gap:16px;background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);padding:16px 18px;box-shadow:var(--shadow);">'
+      + '<div><div style="font-weight:700;font-size:18px;">' + b.sym + '</div><div style="font-size:12.5px;color:var(--ink-3);">' + esc(b.name) + '</div></div>'
+      + '<div style="flex:1;height:44px;">' + b.chart + '</div>'
+      + '<div style="text-align:right;"><div style="font-weight:700;font-size:17px;font-variant-numeric:tabular-nums;">' + b.price + '</div><div style="font-size:13px;font-weight:600;color:' + b.color + ';">' + b.arrow + b.pct + '</div></div>'
+      + '</div>';
+    return '<div style="margin:0 0 22px;">' + inner + '</div>';
+  }).join('');
+
+  const relStocks = a.syms.map(sym => {
+    const s = stockOf(sym);
+    return '<span style="display:inline-flex;align-items:center;gap:9px;background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:9px 14px;font-size:13.5px;font-weight:600;">' + sym
+      + '<span style="color:' + col(s.pct) + ';font-weight:600;font-variant-numeric:tabular-nums;">' + arr(s.pct) + pctStr(s.pct) + '</span></span>';
+  }).join('');
+
+  const related = ARTS.filter(x => x.id !== a.id).slice(0, 3).map(x => {
+    const d = decArt(x);
+    return '<article data-card data-link data-article="' + d.id + '" style="cursor:pointer;background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow);overflow:hidden;">'
+      + '<div style="height:120px;background:repeating-linear-gradient(135deg,var(--surface-2),var(--surface-2) 10px,transparent 10px,transparent 20px),var(--surface);"></div>'
+      + '<div style="padding:15px 16px 18px;"><div style="font-size:11px;font-weight:700;color:var(--gold);margin-bottom:8px;">' + d.cat + '</div><h3 style="font-family:var(--head);font-size:16px;font-weight:600;line-height:1.4;margin:0;">' + esc(d.title) + '</h3></div>'
+      + '</article>';
+  }).join('');
+
+  return '<main data-pad style="max-width:760px;margin:0 auto;padding:30px 28px 10px;">'
+    + '<div data-link data-back style="cursor:pointer;display:inline-flex;align-items:center;gap:7px;font-size:13.5px;font-weight:600;color:var(--ink-2);margin-bottom:22px;">← ย้อนกลับ</div>'
+    + '<div style="font-size:12px;font-weight:700;letter-spacing:.05em;color:var(--gold);margin-bottom:12px;">' + a.cat + '</div>'
+    + '<h1 style="font-family:var(--head);font-weight:700;font-size:35px;line-height:1.26;margin:0 0 16px;letter-spacing:-.01em;">' + esc(a.title) + '</h1>'
+    + '<p style="font-size:18px;color:var(--ink-2);line-height:1.6;margin:0 0 22px;">' + esc(a.excerpt) + '</p>'
+    + '<div style="display:flex;align-items:center;gap:11px;padding:16px 0;border-top:1px solid var(--line);border-bottom:1px solid var(--line);font-size:13.5px;color:var(--ink-3);">'
+    +   '<span style="width:38px;height:38px;border-radius:50%;background:var(--ink);color:var(--paper);display:grid;place-items:center;font-weight:700;font-size:15px;">' + (a.author || 'P')[0] + '</span>'
+    +   '<div style="flex:1;"><div style="font-weight:700;color:var(--ink);font-size:14px;">' + a.author + '</div><div>' + a.date + ' · อ่าน ' + a.read + ' นาที</div></div>'
+    +   '<span style="font-size:12px;font-weight:600;color:var(--ink-2);border:1px solid var(--line);padding:7px 13px;border-radius:9px;cursor:pointer;">↗ แชร์</span>'
+    + '</div>'
+    + '<div style="height:330px;margin:26px 0;border-radius:var(--radius);background:repeating-linear-gradient(135deg,var(--surface-2),var(--surface-2) 12px,transparent 12px,transparent 24px),var(--surface);border:1px solid var(--line);display:grid;place-items:center;">'
+    +   '<span style="font-family:\'IBM Plex Mono\',monospace;font-size:12px;color:var(--ink-3);">ภาพประกอบบทความ · 1600×900</span>'
+    + '</div>'
+    + '<div style="font-size:17.5px;line-height:1.85;color:#3a342d;">' + blocksHtml + '</div>'
+    + '<div style="margin:30px 0;padding-top:22px;border-top:1px solid var(--line);">'
+    +   '<div style="font-size:13px;font-weight:700;color:var(--ink-2);margin-bottom:12px;">หุ้นที่เกี่ยวข้อง</div>'
+    +   '<div style="display:flex;gap:10px;flex-wrap:wrap;">' + relStocks + '</div>'
+    + '</div></main>'
+    + '<div data-pad style="max-width:1200px;margin:18px auto 0;padding:30px 28px 0;border-top:1px solid var(--line);">'
+    +   '<h2 style="font-family:var(--head);font-size:21px;font-weight:700;margin:0 0 18px;">อ่านต่อ</h2>'
+    +   '<div data-herogrid style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:22px;">' + related + '</div>'
+    + '</div>';
+}
+
+function footerView(){
+  return '<footer style="margin-top:56px;background:var(--ink);color:var(--paper);">'
+    + '<div data-pad style="max-width:1200px;margin:0 auto;padding:42px 28px 30px;">'
+    +   '<div data-herogrid style="display:grid;grid-template-columns:1.6fr 1fr 1fr;gap:30px;">'
+    +     '<div>'
+    +       '<div style="display:flex;align-items:center;gap:10px;margin-bottom:14px;">' + logoSvg(32)
+    +         '<span style="font-weight:700;font-size:19px;">Pixel<span style="color:var(--gold);">Vest</span></span></div>'
+    +       '<p style="margin:0;font-size:13px;opacity:.65;line-height:1.7;max-width:360px;">ข่าวหุ้น บทวิเคราะห์ และข้อมูลราคา อัปเดตด้วยมือโดยทีมงาน เพื่อนักลงทุนไทยทุกคน</p>'
+    +     '</div>'
+    +     '<div>'
+    +       '<div style="font-size:12px;font-weight:700;letter-spacing:.06em;opacity:.5;margin-bottom:12px;">เมนู</div>'
+    +       '<div style="display:flex;flex-direction:column;gap:9px;font-size:13.5px;opacity:.8;"><span>ข่าวหุ้นรายวัน</span><span>บทวิเคราะห์</span><span>หุ้นรายตัว</span><span>ปฏิทินหุ้น</span></div>'
+    +     '</div>'
+    +     '<div>'
+    +       '<div style="font-size:12px;font-weight:700;letter-spacing:.06em;opacity:.5;margin-bottom:12px;">ติดตาม</div>'
+    +       '<div style="display:flex;flex-direction:column;gap:9px;font-size:13.5px;opacity:.8;"><span>Line Official</span><span>Facebook</span><span>YouTube</span><span>อีเมลข่าวสาร</span></div>'
+    +     '</div>'
+    +   '</div>'
+    +   '<div style="margin-top:30px;padding-top:20px;border-top:1px solid rgba(255,255,255,.12);font-size:11.5px;opacity:.5;line-height:1.7;">© 2026 PixelVest · ข้อมูลบนเว็บไซต์จัดทำเพื่อการศึกษา อัปเดตด้วยมือโดยผู้ดูแล มิใช่คำแนะนำการลงทุน ราคาหุ้นอาจล่าช้าจากตลาดจริง โปรดตรวจสอบก่อนตัดสินใจลงทุน</div>'
+    + '</div></footer>';
+}
+
+/* ============================ RENDER ============================ */
+const app = document.getElementById('app');
+
+function applyTheme(){
+  const t = themes[settings.theme] || themes.warm;
+  for (const k in t) app.style.setProperty(k, t[k]);
+  app.style.setProperty('--fs', String(settings.fontScale));
+}
+
+function render(){
+  let main = '';
+  if (state.route.page === 'home') main = homeView();
+  else if (state.route.page === 'news') main = newsView();
+  else if (state.route.page === 'article') main = articleView(state.route.id);
+  app.innerHTML = headerView() + tickerView() + main + footerView();
+  applyTheme();
+}
+
+/* delegated navigation */
+app.addEventListener('click', e => {
+  const a = e.target.closest('[data-article]');
+  if (a){ go('article', parseInt(a.getAttribute('data-article'), 10)); return; }
+  const b = e.target.closest('[data-back]');
+  if (b){ back(); return; }
+  const g = e.target.closest('[data-go]');
+  if (g){ go(g.getAttribute('data-go')); return; }
+});
+/* keep clicks inside form fields from bubbling to nav cards */
+app.addEventListener('click', e => { if (e.target.closest('input,button')) e.stopPropagation(); }, true);
+
+/* ============================ SETTINGS WIDGET ============================ */
+const gear = document.getElementById('pv-gear');
+const panel = document.getElementById('pv-panel');
+gear.addEventListener('click', () => panel.classList.toggle('open'));
+document.addEventListener('click', e => {
+  if (!e.target.closest('#pv-settings')) panel.classList.remove('open');
+});
+function syncSwatches(){
+  document.querySelectorAll('.pv-swatch').forEach(el =>
+    el.classList.toggle('active', el.getAttribute('data-theme') === settings.theme));
+}
+document.querySelectorAll('.pv-swatch').forEach(el => el.addEventListener('click', () => {
+  settings.theme = el.getAttribute('data-theme');
+  syncSwatches(); applyTheme();
+}));
+document.getElementById('pv-fs').addEventListener('input', e => {
+  settings.fontScale = parseFloat(e.target.value); applyTheme();
+});
+document.getElementById('pv-ticker').addEventListener('change', e => {
+  settings.showTicker = e.target.checked; render();
+});
+
+/* ============================ BOOT ============================ */
+syncSwatches();
+render();
+</script>
+</body>
+</html>
