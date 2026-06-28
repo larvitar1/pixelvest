@@ -27,6 +27,7 @@ tools: Read, Glob, Grep, WebSearch, Write
 title: <เจาะพื้นฐาน TICKER ... พาดหัวกระชับ>
 cat: บทวิเคราะห์
 type: analysis
+agent: max
 author: ทีมกลยุทธ์ PixelVest
 date: <YYYY-MM-DD วันที่ปัจจุบัน>
 syms: [<TICKER>]

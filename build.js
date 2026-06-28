@@ -130,6 +130,7 @@ function parseArticle(raw, id) {
   if (type === 'featured') art.featured = true;
   if (type === 'analysis') art.analysis = true;
   if (tags) art.tags = tags;
+  if (fm.agent) art.agent = String(fm.agent).toLowerCase();
   return art;
 }
 

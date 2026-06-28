@@ -360,7 +360,8 @@ const ARTS = [
         }
       ]
     },
-    "featured": true
+    "featured": true,
+    "agent": "hanako"
   },
   {
     "id": 10,
@@ -444,6 +445,7 @@ const ARTS = [
           "url": "https://www.stocktitan.net/news/NVDA/nvidia-announces-financial-results-for-first-quarter-fiscal-fq78amc9h84m.html"
         }
       ]
-    }
+    },
+    "agent": "joy"
   }
 ];

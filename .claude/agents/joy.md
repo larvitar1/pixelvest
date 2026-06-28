@@ -27,6 +27,7 @@ tools: Read, Glob, Grep, WebSearch, Write
 title: <TICKER รายงานงบไตรมาส ... พาดหัวกระชับ>
 cat: ผลประกอบการ
 type: news
+agent: joy
 author: ทีมข่าว PixelVest
 date: <YYYY-MM-DD วันที่ปัจจุบัน>
 syms: [<TICKER>]

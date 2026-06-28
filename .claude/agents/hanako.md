@@ -25,6 +25,7 @@ tools: WebSearch, Read, Glob, Write
 title: <พาดหัวภาพรวมตลาด สั้น กระชับ>
 cat: ภาพรวมตลาด
 type: featured
+agent: hanako
 author: ทีมข่าว PixelVest
 date: <YYYY-MM-DD วันที่ปัจจุบัน>
 syms: [<3-5 ticker จากรายชื่อที่รองรับ>]

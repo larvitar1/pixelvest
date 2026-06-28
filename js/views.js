@@ -209,6 +209,7 @@ function newsView() {
 /* ── Single article page ── */
 function articleView(id) {
   const a = artOf(id);
+  const ag = agentInfo(a);
   const blocks = [];
   blocks.push({ isP: true, text: a.body.intro });
   const midStock = stockOf(a.syms[0]);
@@ -272,7 +273,12 @@ function articleView(id) {
 
   return '<main data-pad style="max-width:760px;margin:0 auto;padding:30px 28px 10px;">'
     + '<div data-link data-back style="cursor:pointer;display:inline-flex;align-items:center;gap:7px;font-size:13.5px;font-weight:600;color:var(--ink-2);margin-bottom:22px;">← ย้อนกลับ</div>'
-    + '<div style="font-size:12px;font-weight:700;letter-spacing:.05em;color:var(--gold);margin-bottom:12px;">' + a.cat + '</div>'
+    + '<div style="display:flex;align-items:center;gap:12px;flex-wrap:wrap;margin-bottom:12px;">'
+    +   '<span style="font-size:12px;font-weight:700;letter-spacing:.05em;color:var(--gold);">' + a.cat + '</span>'
+    +   (ag ? '<span style="display:inline-flex;align-items:center;gap:7px;font-size:12px;font-weight:600;color:var(--ink-2);background:var(--surface-2);padding:5px 12px;border-radius:8px;">'
+    +     '<span style="width:8px;height:8px;border-radius:50%;background:' + ag.accent + ';"></span>'
+    +     'เรียบเรียงโดย ' + ag.name + ' · ' + ag.role + '</span>' : '')
+    + '</div>'
     + '<h1 style="font-family:var(--head);font-weight:700;font-size:35px;line-height:1.26;margin:0 0 16px;letter-spacing:-.01em;">' + esc(a.title) + '</h1>'
     + '<p style="font-size:18px;color:var(--ink-2);line-height:1.6;margin:0 0 22px;">' + esc(a.excerpt) + '</p>'
     + '<div style="display:flex;align-items:center;gap:11px;padding:16px 0;border-top:1px solid var(--line);border-bottom:1px solid var(--line);font-size:13.5px;color:var(--ink-3);">'
@@ -280,6 +286,14 @@ function articleView(id) {
     +   '<div style="flex:1;"><div style="font-weight:700;color:var(--ink);font-size:14px;">' + a.author + '</div><div>' + a.date + ' · อ่าน ' + a.read + ' นาที</div></div>'
     +   '<span style="font-size:12px;font-weight:600;color:var(--ink-2);border:1px solid var(--line);padding:7px 13px;border-radius:9px;cursor:pointer;">↗ แชร์</span>'
     + '</div>'
+    + ((a.body.stats && a.body.stats.length)
+        ? '<div style="margin:26px 0;">'
+          + '<div style="display:flex;align-items:center;gap:8px;font-size:12px;font-weight:700;letter-spacing:.05em;color:var(--ink-3);margin-bottom:10px;">'
+          +   'ตัวเลขสำคัญ' + (ag ? '<span style="display:inline-flex;align-items:center;gap:6px;font-weight:600;letter-spacing:normal;"><span style="width:7px;height:7px;border-radius:50%;background:' + ag.accent + ';"></span>ข้อมูลโดย ' + ag.name + '</span>' : '')
+          + '</div>'
+          + statGrid(a.body.stats)
+          + '</div>'
+        : '')
     + '<div style="height:330px;margin:26px 0;border-radius:var(--radius);background:repeating-linear-gradient(135deg,var(--surface-2),var(--surface-2) 12px,transparent 12px,transparent 24px),var(--surface);border:1px solid var(--line);display:grid;place-items:center;">'
     +   '<span style="font-family:\'IBM Plex Mono\',monospace;font-size:12px;color:var(--ink-3);">ภาพประกอบบทความ · 1600×900</span>'
     + '</div>'

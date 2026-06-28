@@ -2,6 +2,7 @@
 title: NVDA รายงานงบ Q1 ปีงบ 2027 รายได้ทุบสถิติ 8.16 หมื่นล้าน ดันกาย Q2 แตะ 9.1 หมื่นล้าน
 cat: ผลประกอบการ
 type: news
+agent: joy
 author: ทีมข่าว PixelVest
 date: 2026-06-28
 syms: [NVDA]
