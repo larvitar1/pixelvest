@@ -1,0 +1,54 @@
+/* ============================================================
+   base.css — reset, layout, animations, design tokens (#app)
+   ============================================================ */
+
+*, *::before, *::after { box-sizing: border-box; }
+html, body { margin: 0; padding: 0; background: #ece6db; }
+
+@keyframes tickerflow {
+  from { transform: translateX(0); }
+  to   { transform: translateX(-50%); }
+}
+
+::selection { background: rgba(176, 134, 58, .22); }
+
+[data-card] { transition: transform .18s ease, box-shadow .18s ease; }
+[data-card]:hover { transform: translateY(-3px); }
+[data-link] { transition: color .15s ease; }
+
+/* ── Design tokens (mono theme defaults — JS will override per theme) ── */
+#app {
+  min-height: 100vh;
+
+  --paper:     #f2efe9;
+  --surface:   #faf8f3;
+  --surface-2: #eae5db;
+  --ink:       #1c1a16;
+  --ink-2:     #5c554b;
+  --ink-3:     #9a9286;
+  --line:      #d8d0c2;
+  --up:        #1d7a50;
+  --down:      #b23722;
+  --gold:      #8a6a2c;
+  --radius:    4px;
+  --shadow:    none;
+  --head:      'Noto Serif Thai', serif;
+  --fs:        1;
+
+  background:  var(--paper);
+  color:       var(--ink);
+  font-family: 'IBM Plex Sans Thai', system-ui, sans-serif;
+  font-size:   calc(16px * var(--fs));
+  line-height: 1.6;
+}
+
+/* ── Responsive breakpoints ── */
+@media (max-width: 880px) {
+  [data-main]      { flex-direction: column !important; }
+  [data-side]      { width: 100% !important; flex: none !important; position: static !important; }
+  [data-hidesm]    { display: none !important; }
+  [data-herogrid]  { grid-template-columns: 1fr !important; }
+  [data-statgrid]  { grid-template-columns: repeat(2, 1fr) !important; }
+  [data-stockhead] { flex-direction: column !important; align-items: flex-start !important; }
+  [data-pad]       { padding-left: 18px !important; padding-right: 18px !important; }
+}

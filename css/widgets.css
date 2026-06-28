@@ -1,0 +1,78 @@
+/* ============================================================
+   widgets.css — settings panel widget (gear button + panel)
+   ============================================================ */
+
+#pv-settings {
+  position:   fixed;
+  right:      18px;
+  bottom:     18px;
+  z-index:    80;
+  font-family: 'IBM Plex Sans Thai', sans-serif;
+}
+
+#pv-gear {
+  width:        46px;
+  height:       46px;
+  border-radius: 50%;
+  border:       none;
+  cursor:       pointer;
+  background:   #1c1a16;
+  color:        #f2efe9;
+  box-shadow:   0 8px 22px -8px rgba(0, 0, 0, .5);
+  display:      grid;
+  place-items:  center;
+  font-size:    20px;
+}
+
+#pv-panel {
+  position:     absolute;
+  right:        0;
+  bottom:       58px;
+  width:        236px;
+  background:   #faf8f3;
+  border:       1px solid #d8d0c2;
+  border-radius: 14px;
+  box-shadow:   0 18px 44px -18px rgba(0, 0, 0, .4);
+  padding:      16px;
+  display:      none;
+}
+
+#pv-panel.open { display: block; }
+
+#pv-panel h4 {
+  margin:         0 0 10px;
+  font-size:      12px;
+  letter-spacing: .05em;
+  color:          #5c554b;
+  text-transform: uppercase;
+}
+
+#pv-panel .row + .row { margin-top: 16px; }
+
+.pv-swatches { display: flex; gap: 8px; }
+
+.pv-swatch {
+  flex:          1;
+  border:        2px solid transparent;
+  border-radius: 9px;
+  padding:       8px 0;
+  cursor:        pointer;
+  font-size:     12px;
+  font-weight:   600;
+  color:         #1c1a16;
+  background:    #eae5db;
+  text-align:    center;
+}
+
+.pv-swatch.active { border-color: #8a6a2c; }
+
+#pv-panel input[type=range] { width: 100%; }
+
+.pv-toggle {
+  display:         flex;
+  align-items:     center;
+  justify-content: space-between;
+  font-size:       13px;
+  font-weight:     600;
+  color:           #1c1a16;
+}
