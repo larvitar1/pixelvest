@@ -151,6 +151,22 @@ GET https://image.pollinations.ai/prompt/{prompt_ภาษาอังกฤษ}
 
 ---
 
+## 11. Graphify Knowledge Graph (ประหยัด token)
+
+มีการ build graph ไว้แล้วที่ `graphify-out/` (103 nodes, 149 edges, 18 communities)
+
+**วิธีใช้ประหยัด token:** แทนที่จะให้ Claude อ่านหลายไฟล์ ให้ query จาก graph แทน
+
+```
+/graphify query "render() ทำงานยังไง"
+/graphify query "flow ของการเขียนข่าวตั้งแต่ต้นจนลงเว็บ"
+/graphify explain "build.js"
+```
+
+**ถ้า graph หาย:** รัน `/graphify .` ใหม่ (ใช้เวลา ~1 นาที, ฟรี — code ใช้ AST ไม่ใช้ token)
+
+---
+
 ## 9. วิธีกลับมาทำต่อ (quick start)
 
 1. เปิด Claude ใหม่ในโฟลเดอร์ `Web` → บอก "อ่าน HANDOFF_Leave.md"
