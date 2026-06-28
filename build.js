@@ -134,25 +134,36 @@ function parseArticle(raw, id) {
   return art;
 }
 
+/* ── หาไฟล์ .md ทุกชั้น (articles/ ราก + โฟลเดอร์ย่อยรายหุ้น เช่น articles/NVDA/) ── */
+function walkMd(dir) {
+  let out = [];
+  for (const entry of fs.readdirSync(dir, { withFileTypes: true })) {
+    const full = path.join(dir, entry.name);
+    if (entry.isDirectory()) out = out.concat(walkMd(full));
+    else if (entry.name.endsWith('.md') && entry.name.toUpperCase() !== 'TEMPLATE.MD') out.push(full);
+  }
+  return out;
+}
+
 /* ── main ── */
 function main() {
   if (!fs.existsSync(ARTICLES_DIR)) {
     console.error('ไม่พบโฟลเดอร์ articles/ — สร้างก่อนแล้วใส่ไฟล์ .md');
     process.exit(1);
   }
-  const files = fs.readdirSync(ARTICLES_DIR)
-    .filter(f => f.endsWith('.md') && f.toUpperCase() !== 'TEMPLATE.MD')
-    .sort();
+  // id มาจากเลขนำหน้าชื่อไฟล์ (basename) จึงต้องไม่ซ้ำกันข้ามทุกโฟลเดอร์
+  const files = walkMd(ARTICLES_DIR).sort((a, b) => path.basename(a).localeCompare(path.basename(b)));
 
   const arts = [];
-  files.forEach((f, idx) => {
-    const prefix = /^(\d+)/.exec(f);
+  files.forEach((full, idx) => {
+    const base = path.basename(full);
+    const prefix = /^(\d+)/.exec(base);
     const id = prefix ? parseInt(prefix[1], 10) : idx + 1;
-    const raw = fs.readFileSync(path.join(ARTICLES_DIR, f), 'utf8');
+    const raw = fs.readFileSync(full, 'utf8');
     try {
       arts.push(parseArticle(raw, id));
     } catch (e) {
-      console.error('ข้ามไฟล์ ' + f + ': ' + e.message);
+      console.error('ข้ามไฟล์ ' + base + ': ' + e.message);
     }
   });
 

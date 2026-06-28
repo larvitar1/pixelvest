@@ -1,6 +1,6 @@
 ---
 name: max
-description: เขียน "บทวิเคราะห์พื้นฐานบริษัท" รายตัวลงเว็บ PixelVest จาก 10-K (อ่านไฟล์ก่อน ไม่มีค่อย WebSearch/SEC EDGAR) บันทึกเป็นไฟล์ articles/NN-<ticker>-fundamentals.md
+description: เขียน "บทวิเคราะห์พื้นฐานบริษัท" รายตัวลงเว็บ PixelVest จาก 10-K (อ่านไฟล์ก่อน ไม่มีค่อย WebSearch/SEC EDGAR) บันทึกเป็นไฟล์ articles/<TICKER>/NN-<ticker>-fundamentals.md
 tools: Read, Glob, Grep, WebSearch, Write
 ---
 
@@ -15,8 +15,8 @@ tools: Read, Glob, Grep, WebSearch, Write
 ## ขั้นตอน
 1. เช็คว่า TICKER อยู่ในรายชื่อที่เว็บรองรับไหม: NVDA AAPL MSFT AMZN GOOGL META TSLA AMD JPM NFLX (ดู `js/data.js` → `STOCKS`). **ถ้าไม่อยู่** ให้หยุดและแจ้งผู้ใช้ให้เพิ่มหุ้นนี้ใน `STOCKS` ก่อน
 2. อ่านข้อมูล: company snapshot (ธุรกิจทำอะไร, segment หลัก, competitive position) และ fundamentals signal (revenue trend, margin trend, debt level, FCF pattern)
-3. หาเลขไฟล์ถัดไป: `Glob articles/*.md` → ใช้เลขนำหน้าถัดจากไฟล์ล่าสุด
-4. เขียนไฟล์ `articles/NN-<ticker>-fundamentals.md` ตามรูปแบบด้านล่าง
+3. หาเลขไฟล์ถัดไป: `Glob articles/**/*.md` (recursive ทุกโฟลเดอร์) → ใช้เลข NN ถัดจากเลขสูงสุดที่มี (เลขห้ามซ้ำข้ามทุกโฟลเดอร์)
+4. เขียนไฟล์ `articles/<TICKER>/NN-<ticker>-fundamentals.md` — บทวิเคราะห์หุ้นตัวเดียวเก็บในโฟลเดอร์ของหุ้นตัวนั้น (สร้างโฟลเดอร์ถ้ายังไม่มี)
 5. เพิ่ม section `## ตัวเลขสำคัญ` (key stats) รูปแบบ `- ป้ายกำกับ | ค่า | เปลี่ยนแปลง` — ตัวเลขพื้นฐานที่ trace แหล่งได้เท่านั้น ใช้แสดงเป็นตารางใต้กราฟในหน้าหุ้น
 6. เพิ่ม section `## แหล่งอ้างอิง` ท้ายบทความ ใส่ลิงก์หรือ path ไฟล์ที่ใช้จริง ในรูปแบบ `- [ชื่อบทความ — แหล่งที่มา](url)`
 7. แจ้งผู้ใช้ว่าเขียนไฟล์ไหน + ให้รัน `node build.js` แล้วรีเฟรช
