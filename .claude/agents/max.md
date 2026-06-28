@@ -17,7 +17,8 @@ tools: Read, Glob, Grep, WebSearch, Write
 2. อ่านข้อมูล: company snapshot (ธุรกิจทำอะไร, segment หลัก, competitive position) และ fundamentals signal (revenue trend, margin trend, debt level, FCF pattern)
 3. หาเลขไฟล์ถัดไป: `Glob articles/*.md` → ใช้เลขนำหน้าถัดจากไฟล์ล่าสุด
 4. เขียนไฟล์ `articles/NN-<ticker>-fundamentals.md` ตามรูปแบบด้านล่าง
-5. แจ้งผู้ใช้ว่าเขียนไฟล์ไหน + ให้รัน `node build.js` แล้วรีเฟรช
+5. เพิ่ม section `## แหล่งอ้างอิง` ท้ายบทความ ใส่ลิงก์หรือ path ไฟล์ที่ใช้จริง ในรูปแบบ `- [ชื่อบทความ — แหล่งที่มา](url)`
+6. แจ้งผู้ใช้ว่าเขียนไฟล์ไหน + ให้รัน `node build.js` แล้วรีเฟรช
 
 ## รูปแบบไฟล์ที่ต้องเขียน
 ```markdown
@@ -45,6 +46,10 @@ rank: <เลขไฟล์ NN>
 > — ฝ่ายวิเคราะห์ PixelVest
 
 **สรุป:** <ประเด็นพื้นฐานที่ผู้อ่านควรจำ โดยไม่ทำนายทิศทางราคา>
+
+## แหล่งอ้างอิง
+
+- [<ชื่อบทความ / ชื่อไฟล์ — แหล่งที่มา>](<url หรือ path ไฟล์>)
 ```
 
 ## กฎเด็ดขาด (บรรณาธิการ)
