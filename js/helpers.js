@@ -126,5 +126,6 @@ function decArt(a) {
     initial: (a.author || 'P')[0],
     rank: a.rank,
     tags: a.tags || [a.cat],
+    image: a.image,
   };
 }

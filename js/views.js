@@ -92,7 +92,7 @@ function homeView() {
 
   const feedHtml = feed.map(a =>
     '<article data-card data-link data-article="' + a.id + '" style="cursor:pointer;background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);overflow:hidden;box-shadow:var(--shadow);display:flex;flex-direction:column;">'
-    + '<div style="height:148px;background:repeating-linear-gradient(135deg,var(--surface-2),var(--surface-2) 10px,transparent 10px,transparent 20px),var(--surface);position:relative;">'
+    + '<div style="height:148px;' + (a.image ? 'background:url(\'' + esc(a.image) + '\') center/cover no-repeat;' : 'background:repeating-linear-gradient(135deg,var(--surface-2),var(--surface-2) 10px,transparent 10px,transparent 20px),var(--surface);') + 'position:relative;">'
     +   '<span style="position:absolute;top:11px;left:11px;background:color-mix(in srgb,var(--ink) 88%,transparent);color:var(--paper);font-size:10.5px;font-weight:700;letter-spacing:.04em;padding:4px 9px;border-radius:6px;">' + a.cat + '</span>'
     + '</div>'
     + '<div style="padding:15px 16px 16px;display:flex;flex-direction:column;flex:1;">'
@@ -114,9 +114,9 @@ function homeView() {
   return '<main data-pad style="max-width:1200px;margin:0 auto;padding:34px 28px 10px;">'
     + '<div data-herogrid style="display:grid;grid-template-columns:1.55fr 1fr;gap:26px;margin-bottom:46px;">'
     +   '<article data-card data-link data-article="' + f.id + '" style="cursor:pointer;background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);overflow:hidden;box-shadow:var(--shadow);">'
-    +     '<div style="position:relative;height:300px;background:repeating-linear-gradient(135deg,var(--surface-2),var(--surface-2) 11px,transparent 11px,transparent 22px),var(--surface);display:flex;align-items:flex-end;padding:18px;">'
+    +     '<div style="position:relative;height:300px;' + (f.image ? 'background:url(\'' + esc(f.image) + '\') center/cover no-repeat;' : 'background:repeating-linear-gradient(135deg,var(--surface-2),var(--surface-2) 11px,transparent 11px,transparent 22px),var(--surface);') + 'display:flex;align-items:flex-end;padding:18px;">'
     +       '<div style="position:absolute;top:16px;left:16px;background:var(--gold);color:#fff;font-size:11px;font-weight:700;letter-spacing:.05em;padding:5px 11px;border-radius:7px;">' + f.cat + '</div>'
-    +       '<span style="font-family:\'IBM Plex Mono\',monospace;font-size:11px;color:var(--ink-3);background:color-mix(in srgb,var(--surface) 80%,transparent);padding:3px 8px;border-radius:5px;">ภาพประกอบข่าวเด่น</span>'
+    +       (f.image ? '' : '<span style="font-family:\'IBM Plex Mono\',monospace;font-size:11px;color:var(--ink-3);background:color-mix(in srgb,var(--surface) 80%,transparent);padding:3px 8px;border-radius:5px;">ภาพประกอบข่าวเด่น</span>')
     +     '</div>'
     +     '<div style="padding:24px 26px 26px;">'
     +       '<h1 style="font-family:var(--head);font-weight:700;font-size:30px;line-height:1.28;margin:0 0 12px;letter-spacing:-.01em;">' + esc(f.title) + '</h1>'
@@ -266,7 +266,7 @@ function articleView(id) {
   const related = ARTS.filter(x => x.id !== a.id).slice(0, 3).map(x => {
     const d = decArt(x);
     return '<article data-card data-link data-article="' + d.id + '" style="cursor:pointer;background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow);overflow:hidden;">'
-      + '<div style="height:120px;background:repeating-linear-gradient(135deg,var(--surface-2),var(--surface-2) 10px,transparent 10px,transparent 20px),var(--surface);"></div>'
+      + '<div style="height:120px;' + (d.image ? 'background:url(\'' + esc(d.image) + '\') center/cover no-repeat;' : 'background:repeating-linear-gradient(135deg,var(--surface-2),var(--surface-2) 10px,transparent 10px,transparent 20px),var(--surface);') + '"></div>'
       + '<div style="padding:15px 16px 18px;"><div style="font-size:11px;font-weight:700;color:var(--gold);margin-bottom:8px;">' + d.cat + '</div><h3 style="font-family:var(--head);font-size:16px;font-weight:600;line-height:1.4;margin:0;">' + esc(d.title) + '</h3></div>'
       + '</article>';
   }).join('');
