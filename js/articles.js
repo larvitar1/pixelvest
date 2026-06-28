@@ -316,7 +316,49 @@ const ARTS = [
       ],
       "quote": "ตลาดสัปดาห์นี้สะท้อนให้เห็นว่าปัจจัยมหภาค เช่น ทิศทางดอกเบี้ยและ sentiment เกี่ยวกับตลาด IPO สามารถกดดันหุ้นกลุ่มเทคได้แม้ปัจจัยพื้นฐานของบริษัทจะยังแข็งแกร่ง",
       "quoteBy": "— ทีมข่าว PixelVest",
-      "takeaway": "สัปดาห์ที่ผ่านมาตลาดสหรัฐฯ ถูกกดดันจาก 3 ปัจจัยพร้อมกัน ได้แก่ BofA ส่งสัญญาณขึ้นดอกเบี้ย 3 ครั้งปลายปี, KOSPI เกาหลีร่วงหนักฉุดชิปทั่วโลก และรายงานการเลื่อน IPO ของ OpenAI ที่กระทบ sentiment ของกลุ่ม AI โดยรวม ขณะที่เงินหมุนเข้าสู่หุ้นเชิงรับเช่น consumer staples และ utilities เด่นชัดขึ้นเรื่อย ๆ"
+      "takeaway": "สัปดาห์ที่ผ่านมาตลาดสหรัฐฯ ถูกกดดันจาก 3 ปัจจัยพร้อมกัน ได้แก่ BofA ส่งสัญญาณขึ้นดอกเบี้ย 3 ครั้งปลายปี, KOSPI เกาหลีร่วงหนักฉุดชิปทั่วโลก และรายงานการเลื่อน IPO ของ OpenAI ที่กระทบ sentiment ของกลุ่ม AI โดยรวม ขณะที่เงินหมุนเข้าสู่หุ้นเชิงรับเช่น consumer staples และ utilities เด่นชัดขึ้นเรื่อย ๆ",
+      "sources": [
+        {
+          "text": "Stock Market Today (June 23, 2026) — TheStreet",
+          "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-june-23-2026"
+        },
+        {
+          "text": "Nasdaq posts fifth losing session Friday — CNBC",
+          "url": "https://www.cnbc.com/2026/06/25/stock-market-today-live-updates.html"
+        },
+        {
+          "text": "AI Stock Selloff Hits Nasdaq 2.2%: KOSPI Circuit Breaker — TechTimes",
+          "url": "https://www.techtimes.com/articles/319013/20260624/ai-stock-selloff-hits-nasdaq-22-kospi-circuit-breaker-signals-divided-market.htm"
+        },
+        {
+          "text": "ARM Holdings and chip-equipment stocks lead semiconductor rout — StartupHub.ai",
+          "url": "https://www.startuphub.ai/ai-news/ai-stocks-daily/2026/ai-stocks-2026-06-23"
+        },
+        {
+          "text": "OpenAI to delay IPO after Sam Altman spooked by SpaceX tumble — Yahoo Finance",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/openai-delay-ipo-sam-altman-103507298.html"
+        },
+        {
+          "text": "Tech sells off as OpenAI weighs delaying IPO until 2027 — Yahoo Finance",
+          "url": "https://finance.yahoo.com/technology/live/tech-stocks-live-tech-sells-off-as-openai-weighs-delaying-ipo-until-2027-143422690.html"
+        },
+        {
+          "text": "Bank of America revamps interest-rate forecast for rest of 2026 — TheStreet",
+          "url": "https://www.thestreet.com/fed/bank-of-america-revamps-interest-rate-forecast-for-rest-of-2026"
+        },
+        {
+          "text": "Kospi Index Slides 4.6% With Samsung, SK Hynix Falling — Bloomberg",
+          "url": "https://www.bloomberg.com/news/articles/2026-06-23/korean-stocks-fall-more-than-4-from-record-high-on-tech-selloff"
+        },
+        {
+          "text": "Top 7 Stocks Wall Street Analysts Are Upgrading in June 2026 — HeyGoTrade",
+          "url": "https://www.heygotrade.com/en/blog/wall-street-analyst-upgrades-june-2026/"
+        },
+        {
+          "text": "The Rotation into Consumer Staples: Defensive Strength in 2026 — Yahoo Finance",
+          "url": "https://finance.yahoo.com/news/rotation-consumer-staples-defensive-strength-165200489.html"
+        }
+      ]
     },
     "featured": true
   }

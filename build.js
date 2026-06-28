@@ -57,7 +57,10 @@ function parseArticle(raw, id) {
   let intro = '';
   const sections = [];
   let quote = '', quoteBy = '', takeaway = '';
+  const sources = [];
   let pendingHeading = null;
+
+  const SOURCE_HEADINGS = ['แหล่งอ้างอิง', 'แหล่งที่มา', 'อ้างอิง'];
 
   blocks.forEach(block => {
     if (block.startsWith('## ')) {
@@ -72,6 +75,14 @@ function parseArticle(raw, id) {
       });
     } else if (/^\*\*สรุป[:：]\*\*/.test(block)) {
       takeaway = block.replace(/^\*\*สรุป[:：]\*\*\s*/, '').replace(/\n+/g, ' ').trim();
+    } else if (pendingHeading !== null && SOURCE_HEADINGS.includes(pendingHeading)) {
+      block.split('\n').filter(l => l.trim().startsWith('- ')).forEach(l => {
+        const item = l.replace(/^-\s+/, '').trim();
+        const linkMatch = /^\[([^\]]+)\]\(([^)]+)\)/.exec(item);
+        if (linkMatch) sources.push({ text: linkMatch[1], url: linkMatch[2] });
+        else if (item) sources.push({ text: item, url: '' });
+      });
+      pendingHeading = null;
     } else {
       const text = block.replace(/\n+/g, ' ').trim();
       if (pendingHeading !== null) {
@@ -105,7 +116,7 @@ function parseArticle(raw, id) {
     read,
     syms,
     rank: fm.rank ? parseInt(fm.rank, 10) : id,
-    body: { intro, sections, quote, quoteBy, takeaway },
+    body: { intro, sections, quote, quoteBy, takeaway, ...(sources.length ? { sources } : {}) },
   };
   if (type === 'featured') art.featured = true;
   if (type === 'analysis') art.analysis = true;

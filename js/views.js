@@ -222,6 +222,8 @@ function articleView(id) {
   });
   blocks.push({ isQuote: true, text: a.body.quote, by: a.body.quoteBy });
   blocks.push({ isP: true, text: a.body.takeaway });
+  if (a.body.sources && a.body.sources.length)
+    blocks.push({ isSources: true, items: a.body.sources });
 
   const blocksHtml = blocks.map(b => {
     let inner = '';
@@ -233,6 +235,18 @@ function articleView(id) {
       inner = '<blockquote style="margin:6px 0;padding:6px 0 6px 22px;border-left:4px solid var(--gold);font-family:var(--head);font-size:22px;font-weight:500;line-height:1.5;color:var(--ink);">'
         + esc(b.text)
         + '<div style="font-family:\'IBM Plex Sans Thai\';font-size:13px;font-weight:600;color:var(--ink-3);margin-top:10px;">' + b.by + '</div></blockquote>';
+    else if (b.isSources) {
+      const list = b.items.map(s => {
+        const label = esc(s.text);
+        return '<li style="margin:4px 0;">'
+          + (s.url ? '<a href="' + esc(s.url) + '" target="_blank" rel="noopener" style="color:var(--ink-2);text-decoration:underline;text-underline-offset:3px;">' + label + '</a>' : label)
+          + '</li>';
+      }).join('');
+      inner = '<div style="margin-top:32px;padding-top:18px;border-top:1px solid var(--line);">'
+        + '<div style="font-size:12px;font-weight:700;letter-spacing:.06em;color:var(--ink-3);margin-bottom:10px;">แหล่งอ้างอิง</div>'
+        + '<ul style="margin:0;padding:0 0 0 18px;font-size:13px;line-height:1.7;color:var(--ink-2);">' + list + '</ul>'
+        + '</div>';
+    }
     else if (b.isStock)
       inner = '<div style="display:flex;align-items:center;gap:16px;background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);padding:16px 18px;box-shadow:var(--shadow);">'
         + '<div><div style="font-weight:700;font-size:18px;">' + b.sym + '</div><div style="font-size:12.5px;color:var(--ink-3);">' + esc(b.name) + '</div></div>'
