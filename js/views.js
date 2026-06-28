@@ -72,7 +72,7 @@ function tickerView() {
 
 /* ── Home page: hero article + watchlist + news feed + sidebar ── */
 function homeView() {
-  const f        = decArt(ARTS.find(a => a.featured) || ARTS[0]);
+  const f        = decArt([...ARTS].filter(a => a.featured).sort((a, b) => (b.iso || '').localeCompare(a.iso || '') || b.id - a.id)[0] || ARTS[0]);
   const watchlist = STOCKS.slice(0, 6).map(s => decStock(s));
   const feed     = ARTS.filter(a => !a.analysis).map(a => decArt(a));
   const popular  = [...ARTS].sort((a, b) => a.rank - b.rank).slice(0, 5).map(a => decArt(a));
