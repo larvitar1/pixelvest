@@ -19,6 +19,7 @@ function render() {
   if      (state.route.page === 'home')    main = homeView();
   else if (state.route.page === 'news')    main = newsView();
   else if (state.route.page === 'article') main = articleView(state.route.id);
+  else if (state.route.page === 'stock')   main = stockView(state.route.id);
   app.innerHTML = headerView() + tickerView() + main + footerView();
   applyTheme();
 }
@@ -41,6 +42,11 @@ function back() {
 
 /* ── Delegated click handler for in-app navigation ── */
 app.addEventListener('click', e => {
+  // เปลี่ยนช่วงเวลากราฟ — render ใหม่โดยไม่เปลี่ยนหน้า/ไม่เพิ่ม history
+  const r = e.target.closest('[data-range]');
+  if (r) { state.range = r.getAttribute('data-range'); render(); return; }
+  const st = e.target.closest('[data-stock]');
+  if (st) { go('stock', st.getAttribute('data-stock')); return; }
   const a = e.target.closest('[data-article]');
   if (a) { go('article', parseInt(a.getAttribute('data-article'), 10)); return; }
   const b = e.target.closest('[data-back]');

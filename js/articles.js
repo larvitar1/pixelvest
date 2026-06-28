@@ -361,5 +361,89 @@ const ARTS = [
       ]
     },
     "featured": true
+  },
+  {
+    "id": 10,
+    "cat": "ผลประกอบการ",
+    "title": "NVDA รายงานงบ Q1 ปีงบ 2027 รายได้ทุบสถิติ 8.16 หมื่นล้าน ดันกาย Q2 แตะ 9.1 หมื่นล้าน",
+    "excerpt": "NVIDIA รายงานรายได้ไตรมาส 1 ปีงบ 2027 ทำสถิติสูงสุด 8.16 หมื่นล้านดอลลาร์ โต 85% YoY หนุนจาก Data Center ที่โตเกือบเท่าตัว พร้อมให้ guidance ไตรมาสถัดไปราว 9.1 หมื่นล้าน",
+    "author": "ทีมข่าว PixelVest",
+    "date": "28 มิ.ย. 2026",
+    "iso": "2026-06-28",
+    "read": 5,
+    "syms": [
+      "NVDA"
+    ],
+    "rank": 10,
+    "body": {
+      "intro": "NVIDIA (NVDA) รายงานผลประกอบการไตรมาส 1 ของปีงบประมาณ 2027 (สิ้นสุด 26 เม.ย. 2026) ด้วยรายได้ทำสถิติสูงสุดที่ 81.6 พันล้านดอลลาร์ เพิ่มขึ้น 85% เมื่อเทียบกับช่วงเดียวกันปีก่อน และเพิ่มขึ้น 20% จากไตรมาสก่อนหน้า โดยแรงขับเคลื่อนหลักยังคงมาจากธุรกิจ Data Center ที่เติบโตเกือบเท่าตัว ท่ามกลางความต้องการโครงสร้างพื้นฐาน AI ที่ยังแข็งแกร่ง ด้านกำไรต่อหุ้นปรับลด (diluted EPS) ตามมาตรฐาน GAAP อยู่ที่ 2.39 ดอลลาร์ และแบบ non-GAAP อยู่ที่ 1.87 ดอลลาร์ โดยตัวเลข non-GAAP สูงกว่าที่นักวิเคราะห์คาดการณ์ไว้ที่ราว 1.76 ดอลลาร์ ขณะที่อัตรากำไรขั้นต้นแบบ GAAP และ non-GAAP อยู่ที่ 74.9% และ 75.0% ตามลำดับ ทั้งนี้กำไรสุทธิตาม GAAP ที่ 42.96 พันล้านดอลลาร์ (+94% YoY) สูงกว่าแบบ non-GAAP ที่ 39.55 พันล้านดอลลาร์ สะท้อนผลของรายการพิเศษที่หนุนตัวเลข GAAP ในไตรมาสนี้ โดยภาพรวมฝ่ายบริหารสื่อสารในทิศทางที่มองว่าการลงทุนสร้าง \"AI factory\" และโครงสร้างพื้นฐานด้าน AI ทั่วโลกยังขยายตัวต่อเนื่อง พร้อมเน้นการไต่ระดับการผลิตของแพลตฟอร์ม Blackwell ในกลุ่มผู้ให้บริการคลาวด์และองค์กร รวมถึงชูแพลตฟอร์มรุ่นถัดไปอย่าง Vera Rubin เป็นจุดสนใจของกลุ่มธุรกิจ Data Center",
+      "sections": [
+        {
+          "h": "ตัวเลขไตรมาสล่าสุด",
+          "p": "รายได้รวมอยู่ที่ 81.6 พันล้านดอลลาร์ (+85% YoY, +20% QoQ) โดยธุรกิจ Data Center ทำสถิติที่ 75.2 พันล้านดอลลาร์ เพิ่มขึ้น 92% จากปีก่อน แบ่งเป็นส่วน computing ราว 60 พันล้านดอลลาร์ (+77% YoY) และส่วน networking ราว 15 พันล้านดอลลาร์ที่เพิ่มขึ้นเกือบสามเท่าจากปีก่อน"
+        },
+        {
+          "h": "Guidance และมุมมองผู้บริหาร",
+          "p": "สำหรับไตรมาส 2 ปีงบ 2027 บริษัทให้ guidance รายได้ราว 91 พันล้านดอลลาร์ (อยู่ในช่วงประมาณ 89.1–92.8 พันล้านดอลลาร์) ซึ่งสูงกว่าที่ตลาดคาดการณ์ พร้อมกันนี้คณะกรรมการได้อนุมัติวงเงินซื้อหุ้นคืนเพิ่มเติม 80 พันล้านดอลลาร์ และปรับเพิ่มเงินปันผลรายไตรมาสจาก 0.01 ดอลลาร์ต่อหุ้น เป็น 0.25 ดอลลาร์ต่อหุ้น"
+        }
+      ],
+      "quote": "ภาพรวมไตรมาสนี้สะท้อนว่ารายได้และอัตรากำไรของ NVIDIA ยังถูกหนุนจากดีมานด์โครงสร้างพื้นฐาน AI เป็นหลัก โดยฝ่ายบริหารสื่อถึงการขยายตัวต่อเนื่องของการลงทุนด้าน AI ทั่วโลก",
+      "quoteBy": "— ฝ่ายผลประกอบการ PixelVest",
+      "takeaway": "NVIDIA ทำรายได้และกำไรขั้นต้นทำสถิติใหม่ในไตรมาส 1 ปีงบ 2027 โดยมี Data Center เป็นเครื่องยนต์หลัก พร้อม guidance ไตรมาสถัดไปที่สูงขึ้น และการเพิ่มเงินปันผลกับวงเงินซื้อหุ้นคืน ทั้งนี้ผู้อ่านควรพิจารณาว่ากำไร GAAP ไตรมาสนี้ได้รับผลจากรายการพิเศษด้วย",
+      "stats": [
+        {
+          "label": "รายได้",
+          "value": "81.6B",
+          "change": "+85% YoY"
+        },
+        {
+          "label": "รายได้ Data Center",
+          "value": "75.2B",
+          "change": "+92% YoY"
+        },
+        {
+          "label": "EPS (GAAP)",
+          "value": "2.39",
+          "change": "+94% (กำไรสุทธิ)"
+        },
+        {
+          "label": "EPS (non-GAAP)",
+          "value": "1.87",
+          "change": "สูงกว่าคาด 1.76"
+        },
+        {
+          "label": "อัตรากำไรขั้นต้น (non-GAAP)",
+          "value": "75.0%",
+          "change": ""
+        },
+        {
+          "label": "Guidance รายได้ Q2",
+          "value": "~91B",
+          "change": ""
+        }
+      ],
+      "sources": [
+        {
+          "text": "NVIDIA Announces Financial Results for First Quarter Fiscal 2027 — NVIDIA Newsroom",
+          "url": "https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-first-quarter-fiscal-2027"
+        },
+        {
+          "text": "NVIDIA CORP Form 8-K Q1 FY27 Press Release — SEC EDGAR",
+          "url": "https://www.sec.gov/Archives/edgar/data/0001045810/000104581026000051/q1fy27pr.htm"
+        },
+        {
+          "text": "Nvidia earnings takeaways: Data center revenue nearly doubles — CNBC",
+          "url": "https://www.cnbc.com/2026/05/20/nvidia-nvda-earnings-report-q1-2027.html"
+        },
+        {
+          "text": "Nvidia Stock After Earnings: $81.6B Revenue, Raises Dividend 25x — INDmoney",
+          "url": "https://www.indmoney.com/blog/us-stocks/nvidia-stock-q1-fy27-earnings-81b-revenue-25x-dividend"
+        },
+        {
+          "text": "NVIDIA Q1 revenue hits $81.6B, ups dividend, buyback — StockTitan",
+          "url": "https://www.stocktitan.net/news/NVDA/nvidia-announces-financial-results-for-first-quarter-fiscal-fq78amc9h84m.html"
+        }
+      ]
+    }
   }
 ];

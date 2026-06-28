@@ -66,6 +66,15 @@ function thaiFullDate(iso) {
 const stockOf = sym => STOCKS.find(s => s.sym === sym) || STOCKS[0];
 const artOf   = id  => ARTS.find(a => a.id === id) || ARTS[0];
 
+/* บทความทั้งหมดที่อ้างถึงหุ้นตัวนี้ ใหม่สุดก่อน */
+const artsForStock = sym =>
+  ARTS.filter(a => (a.syms || []).includes(sym))
+      .sort((a, b) => (b.iso || '').localeCompare(a.iso || '') || b.id - a.id);
+/* ข่าวผลประกอบการล่าสุดของหุ้น (เขียนโดย Joy — cat: ผลประกอบการ) */
+const earningsArt     = sym => artsForStock(sym).find(a => a.cat === 'ผลประกอบการ');
+/* บทวิเคราะห์พื้นฐานล่าสุดของหุ้น (เขียนโดย Max — type: analysis) */
+const fundamentalsArt = sym => artsForStock(sym).find(a => a.analysis || a.cat === 'บทวิเคราะห์');
+
 /* ── Decorate a stock object with display-ready fields ── */
 function decStock(s, big) {
   const len   = big ? rangeLens[state.range] : 60;

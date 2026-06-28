@@ -78,7 +78,7 @@ function homeView() {
   const popular  = [...ARTS].sort((a, b) => a.rank - b.rank).slice(0, 5).map(a => decArt(a));
 
   const watchHtml = watchlist.map(w =>
-    '<div style="display:flex;align-items:center;gap:12px;padding:11px 4px;border-bottom:1px solid var(--line);">'
+    '<div data-link data-stock="' + w.sym + '" style="cursor:pointer;display:flex;align-items:center;gap:12px;padding:11px 4px;border-bottom:1px solid var(--line);">'
     + '<div style="min-width:62px;">'
     +   '<div style="font-weight:700;font-size:14px;">' + w.sym + '</div>'
     +   '<div style="font-size:11px;color:var(--ink-3);white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:62px;">' + esc(w.name) + '</div>'
@@ -258,7 +258,7 @@ function articleView(id) {
 
   const relStocks = a.syms.map(sym => {
     const s = stockOf(sym);
-    return '<span style="display:inline-flex;align-items:center;gap:9px;background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:9px 14px;font-size:13.5px;font-weight:600;">' + sym
+    return '<span data-link data-stock="' + sym + '" style="cursor:pointer;display:inline-flex;align-items:center;gap:9px;background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:9px 14px;font-size:13.5px;font-weight:600;">' + sym
       + '<span style="color:' + col(s.pct) + ';font-weight:600;font-variant-numeric:tabular-nums;">' + arr(s.pct) + pctStr(s.pct) + '</span></span>';
   }).join('');
 
@@ -292,6 +292,105 @@ function articleView(id) {
     +   '<h2 style="font-family:var(--head);font-size:21px;font-weight:700;margin:0 0 18px;">อ่านต่อ</h2>'
     +   '<div data-herogrid style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:22px;">' + related + '</div>'
     + '</div>';
+}
+
+/* ── Reusable stat grid (key numbers below the chart) ── */
+function statGrid(stats) {
+  const cells = stats.map(st => {
+    const chg = (st.change || '').trim();
+    const chgColor = chg.startsWith('-') || chg.startsWith('▼') ? 'var(--down)' : 'var(--up)';
+    return '<div style="background:var(--surface);padding:13px 15px;">'
+      + '<div style="font-size:11.5px;color:var(--ink-3);margin-bottom:5px;">' + esc(st.label) + '</div>'
+      + '<div style="font-weight:700;font-size:16px;font-variant-numeric:tabular-nums;line-height:1.2;">' + esc(st.value)
+      + (chg ? ' <span style="font-size:12px;font-weight:600;color:' + chgColor + ';">' + esc(chg) + '</span>' : '')
+      + '</div></div>';
+  }).join('');
+  return '<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(130px,1fr));gap:1px;background:var(--line);border:1px solid var(--line);border-radius:12px;overflow:hidden;">' + cells + '</div>';
+}
+
+/* ── Single stock page: price chart + range selector + Joy/Max data ── */
+function stockView(sym) {
+  const s = stockOf(sym);
+  const d = decStock(s, true);
+  const ranges = ['1D', '1W', '1M', '3M', '1Y'];
+
+  const rangeBtns = ranges.map(r => {
+    const on = r === state.range;
+    return '<div data-range="' + r + '" style="cursor:pointer;user-select:none;padding:7px 15px;border-radius:9px;font-size:13px;font-weight:600;'
+      + 'color:' + (on ? 'var(--paper)' : 'var(--ink-2)') + ';background:' + (on ? 'var(--ink)' : 'var(--surface-2)') + ';">' + r + '</div>';
+  }).join('');
+
+  // ข้อมูลหุ้นพื้นฐาน (มีเสมอจาก STOCKS)
+  const baseStats = statGrid([
+    { label: 'ราคาล่าสุด', value: d.price },
+    { label: 'เปลี่ยนแปลงวันนี้', value: d.arrow + ' ' + d.chgAbs, change: d.arrow + d.pct },
+    { label: 'ตลาด', value: s.exchange },
+    { label: 'กลุ่มอุตสาหกรรม', value: s.sector },
+  ]);
+
+  // panel สรุปบทความจาก agent (Joy / Max) — พร้อม key stats ถ้ามี
+  const agentPanel = (heading, agentName, accent, art, cmd) => {
+    if (!art) {
+      return '<div style="background:var(--surface);border:1px dashed var(--line);border-radius:var(--radius);padding:22px 22px;color:var(--ink-3);">'
+        + '<div style="font-size:14px;font-weight:700;color:var(--ink-2);margin-bottom:6px;">' + heading + ' · ' + agentName + '</div>'
+        + '<div style="font-size:13.5px;line-height:1.6;">ยังไม่มีข้อมูลสำหรับ ' + esc(sym) + ' — สั่ง <code style="font-family:\'IBM Plex Mono\',monospace;background:var(--surface-2);padding:2px 7px;border-radius:6px;color:var(--ink-2);">' + cmd + '</code> ให้ทีมงานเขียน</div>'
+        + '</div>';
+    }
+    const statsHtml = (art.body.stats && art.body.stats.length) ? '<div style="margin-bottom:16px;">' + statGrid(art.body.stats) + '</div>' : '';
+    return '<div style="background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow);padding:22px 24px;">'
+      + '<div style="display:flex;align-items:center;gap:9px;margin-bottom:14px;">'
+      +   '<span style="width:8px;height:8px;border-radius:50%;background:' + accent + ';"></span>'
+      +   '<span style="font-size:13px;font-weight:700;letter-spacing:.03em;color:var(--ink-2);">' + heading + '</span>'
+      +   '<span style="font-size:12px;color:var(--ink-3);">· โดย ' + esc(art.author) + ' · ' + art.date + '</span>'
+      + '</div>'
+      + statsHtml
+      + '<h3 data-link data-article="' + art.id + '" style="cursor:pointer;font-family:var(--head);font-size:19px;font-weight:600;line-height:1.4;margin:0 0 9px;">' + esc(art.title) + '</h3>'
+      + '<p style="margin:0 0 16px;font-size:14.5px;color:var(--ink-2);line-height:1.7;">' + esc(art.excerpt) + '</p>'
+      + '<div data-link data-article="' + art.id + '" style="cursor:pointer;display:inline-flex;align-items:center;gap:6px;font-size:13.5px;font-weight:700;color:' + accent + ';">อ่านเต็ม →</div>'
+      + '</div>';
+  };
+
+  const earnPanel = agentPanel('ผลประกอบการล่าสุด', 'Joy', 'var(--gold)', earningsArt(sym), '/Brief Joy ' + sym);
+  const fundPanel = agentPanel('บทวิเคราะห์พื้นฐาน', 'Max', 'var(--up)', fundamentalsArt(sym), '/Brief Max ' + sym);
+
+  // ข่าวอื่น ๆ ที่เกี่ยวกับหุ้นตัวนี้
+  const usedIds = [earningsArt(sym), fundamentalsArt(sym)].filter(Boolean).map(a => a.id);
+  const otherNews = artsForStock(sym).filter(a => !usedIds.includes(a.id));
+  const newsHtml = otherNews.length
+    ? otherNews.map(a => '<div data-link data-article="' + a.id + '" style="cursor:pointer;display:flex;gap:14px;padding:14px 0;border-top:1px solid var(--line);">'
+        + '<div style="flex:1;min-width:0;"><div style="font-size:11px;font-weight:700;color:var(--gold);margin-bottom:5px;">' + a.cat + '</div>'
+        + '<div style="font-size:15px;font-weight:600;line-height:1.45;">' + esc(a.title) + '</div></div>'
+        + '<div style="font-size:12px;color:var(--ink-3);white-space:nowrap;flex:none;">' + a.date + '</div></div>').join('')
+    : '<div style="padding:16px 0;color:var(--ink-3);font-size:13.5px;">ยังไม่มีข่าวอื่นเกี่ยวกับ ' + esc(sym) + '</div>';
+
+  return '<main data-pad style="max-width:900px;margin:0 auto;padding:30px 28px 10px;">'
+    + '<div data-link data-back style="cursor:pointer;display:inline-flex;align-items:center;gap:7px;font-size:13.5px;font-weight:600;color:var(--ink-2);margin-bottom:22px;">← ย้อนกลับ</div>'
+    + '<div style="display:flex;align-items:flex-end;justify-content:space-between;gap:16px;flex-wrap:wrap;margin-bottom:20px;">'
+    +   '<div>'
+    +     '<div style="display:flex;align-items:center;gap:12px;">'
+    +       '<h1 style="font-family:var(--head);font-size:38px;font-weight:700;margin:0;letter-spacing:-.01em;">' + esc(s.sym) + '</h1>'
+    +       '<span style="font-size:12px;font-weight:600;color:var(--ink-2);border:1px solid var(--line);padding:5px 11px;border-radius:8px;">' + s.exchange + '</span>'
+    +     '</div>'
+    +     '<div style="font-size:15px;color:var(--ink-2);margin-top:7px;">' + esc(s.name) + ' · ' + esc(s.sector) + '</div>'
+    +   '</div>'
+    +   '<div style="text-align:right;">'
+    +     '<div style="font-size:34px;font-weight:700;font-variant-numeric:tabular-nums;line-height:1;">' + d.price + '</div>'
+    +     '<div style="font-size:15px;font-weight:600;color:' + d.color + ';margin-top:6px;font-variant-numeric:tabular-nums;">' + d.arrow + ' ' + d.chgAbs + ' (' + d.pct + ')</div>'
+    +   '</div>'
+    + '</div>'
+    + '<div style="display:flex;gap:8px;margin-bottom:14px;flex-wrap:wrap;">' + rangeBtns + '</div>'
+    + '<div style="background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow);padding:20px 20px 14px;">'
+    +   '<div style="height:280px;">' + d.bigChart + '</div>'
+    +   '<div style="font-size:11px;font-weight:700;letter-spacing:.05em;color:var(--ink-3);margin:14px 2px 6px;">ปริมาณซื้อขาย (Volume)</div>'
+    +   '<div style="height:60px;">' + d.volChart + '</div>'
+    + '</div>'
+    + '<div style="margin:26px 0;">' + baseStats + '</div>'
+    + '<div style="display:flex;flex-direction:column;gap:20px;">' + earnPanel + fundPanel + '</div>'
+    + '<div style="margin-top:34px;">'
+    +   '<h2 style="font-family:var(--head);font-size:20px;font-weight:700;margin:0 0 4px;">ข่าวที่เกี่ยวข้องกับ ' + esc(sym) + '</h2>'
+    +   newsHtml
+    + '</div>'
+    + '</main>';
 }
 
 /* ── Site footer ── */
