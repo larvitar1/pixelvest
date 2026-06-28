@@ -1,7 +1,7 @@
 # HANDOFF — PixelVest เว็บข่าวหุ้น
 
 > เปิด session ใหม่ → อ่านไฟล์นี้ก่อน จะรู้ว่าคุยกันถึงไหน ทำอะไรไปแล้ว และทำต่อยังไง
-> อัปเดตล่าสุด: 2026-06-28
+> อัปเดตล่าสุด: 2026-06-28 (เพิ่มแผน agent pixel)
 
 ---
 
@@ -90,8 +90,9 @@ Web/
 1. **รัน hanako จริง** (งานที่ค้าง) — เรียก agent hanako เขียนข่าวภาพรวมตลาด 1 ชิ้น
    → ตอนนี้ agent type `hanako`/`joy`/`max` พร้อมใช้ใน Agent tool แล้ว
    → หลัง agent เขียนไฟล์เสร็จ: รัน `node build.js` แล้วเปิด preview ตรวจว่าข่าวขึ้นถูกต้อง
-2. (ตัวเลือก) ทำ slash command เช่น `/news <TICKER>` สั่งทีเดียวให้ agent ทำงาน + build อัตโนมัติ
-3. (ตัวเลือก) เพิ่มหุ้นใหม่เข้า STOCKS เพื่อให้เขียนข่าวหุ้นอื่นได้
+2. **สร้าง agent `pixel`** — สร้างภาพประกอบอัตโนมัติสำหรับบทความ (ดูหัวข้อ 10)
+3. (ตัวเลือก) ทำ slash command เช่น `/news <TICKER>` สั่งทีเดียวให้ agent ทำงาน + build อัตโนมัติ
+4. (ตัวเลือก) เพิ่มหุ้นใหม่เข้า STOCKS เพื่อให้เขียนข่าวหุ้นอื่นได้
 
 ---
 
@@ -113,6 +114,39 @@ fe802e6  เพิ่มระบบเขียนข่าวด้วย Mark
 9cfd171  เพิ่มคู่มือการใช้งาน GUIDE.md
 968cab0  จัดโครงสร้างไฟล์ใหม่เรียบร้อย
 ```
+
+---
+
+## 10. แผน agent pixel (ยังไม่ได้สร้าง)
+
+**เป้าหมาย:** agent ที่สร้างภาพประกอบอัตโนมัติให้บทความ ทำงานคู่กับ hanako/joy/max
+
+### Image API ที่เลือก: Pollinations.ai (ฟรี 100% ไม่ต้อง key)
+
+```
+GET https://image.pollinations.ai/prompt/{prompt_ภาษาอังกฤษ}
+→ ได้ไฟล์ภาพกลับมาทันที (FLUX model)
+```
+
+**เหตุที่ไม่ใช้ Gemini Imagen 3:** ผู้ใช้มี Gemini API key (free tier) แต่ Imagen 3 ต้องการ billing enabled ซึ่งยังไม่ได้ตั้ง
+
+### Pipeline ของ pixel
+
+```
+1. อ่าน articles/NN-*.md → ดึง title + excerpt
+2. สร้าง prompt ภาษาอังกฤษ เช่น "financial news illustration, stock market..."
+3. GET https://image.pollinations.ai/prompt/{prompt} → บันทึกเป็น .jpg
+4. แก้ frontmatter ของ .md ให้มี image: path
+5. รัน node build.js
+```
+
+### สิ่งที่ยังไม่ตัดสินใจ (ถามก่อนสร้าง)
+
+1. โฟลเดอร์เก็บภาพ — `images/` หรือ `assets/images/`?
+2. เรียก pixel ยังไง — `/pixel` แยก หรือ hanako/joy/max เรียกอัตโนมัติ?
+3. ต้องแก้ `build.js` และ `views.js` ให้รองรับ field `image:` ใน frontmatter ด้วย
+
+---
 
 ## 9. วิธีกลับมาทำต่อ (quick start)
 
