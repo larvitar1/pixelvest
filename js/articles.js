@@ -447,5 +447,110 @@ const ARTS = [
       ]
     },
     "agent": "joy"
+  },
+  {
+    "id": 11,
+    "cat": "ภาพรวมตลาด",
+    "title": "ตลาดหุ้นสหรัฐฯ 28 มิ.ย. 2569: S&P 500 ทรงตัว Nasdaq ฟื้นเล็กน้อย หลังแรงขาย Micron คลี่คลาย",
+    "excerpt": "S&P 500 ปิดสัปดาห์แดงใกล้ 7,354 จุด ขณะ Nasdaq ดิ่งรวม 2.85% ตลอดเดือนมิถุนายน แรงกดดันมาจาก Micron หลังงบดี-ราคาร่วง, OpenAI เลื่อน IPO และ Fed ส่งสัญญาณขึ้นดอกเบี้ยปลายปี",
+    "author": "hanako",
+    "date": "28 มิ.ย. 2026",
+    "iso": "2026-06-28",
+    "read": 10,
+    "syms": [
+      "SPX",
+      "NVDA",
+      "MU",
+      "SPCX",
+      "MSFT",
+      "META",
+      "INTC"
+    ],
+    "rank": 11,
+    "body": {
+      "intro": "ตลาดหุ้นสหรัฐฯ ปิดช่วงปลายเดือนมิถุนายน 2569 ท่ามกลางแรงขายในกลุ่มชิปและเทคโนโลยีที่ยังไม่คลี่คลายทั้งหมด S&P 500 ยืนแถว 7,354.02 จุด ขณะ Nasdaq 100 อยู่ที่ 29,118.24 จุด และ Dow Jones Industrial Average ปิดที่ 51,876.11 จุด สะท้อนภาพตลาดที่กลุ่มเทคถูกกดดัน ขณะหุ้นอุตสาหกรรมและวัฏจักรยังพยุงดัชนีกว้างไว้ได้ วัดในมิติรายเดือน S&P 500 ลดลง 2.21% ในเดือนมิถุนายน แต่ยังสูงกว่าช่วงเดียวกันปีก่อน 19.13% ส่วน Nasdaq ลดลง 2.85% รายเดือน แม้ยังเป็นบวก 29.22% เมื่อเทียบรายปี แต่ในวันศุกร์ที่ 27 มิถุนายน Micron ร่วงกลับ 6.7% เนื่องจากนักลงทุนบางส่วนขายทำกำไรหลังจากหุ้นวิ่งขึ้นแรง และเพราะปัจจัยอื่นในภาพรวมยังกดดัน Nvidia ลดลง 1.6% และ Broadcom ลง 3.7% ตามมา ขณะที่ VanEck Semiconductor ETF (SMH) ลดลงราว 6.5% ในรอบสัปดาห์ เหตุการณ์นี้เกิดขึ้นหลัง SpaceX (SPCX) ซึ่ง IPO เมื่อวันที่ 11 มิถุนายน 2569 ในราคา 135 ดอลลาร์ต่อหุ้น เปิดเทรดที่ 150 ดอลลาร์ แตะสูงสุดเกิน 225 ดอลลาร์ในสัปดาห์แรก แต่ ณ สิ้นสัปดาห์ที่ 27 มิถุนายน ราคาย้อนกลับมาอยู่แถว 152.86 ดอลลาร์ ใกล้ราคา IPO เดิม ความผันผวนของ SpaceX ทำให้ผู้บริหาร OpenAI ประเมินความเสี่ยงมากขึ้น ข่าวดังกล่าวส่งผลให้ SoftBank ซึ่งเป็นผู้ถือหุ้นรายใหญ่ ราคาร่วง 13% ในช่วงเวลาใกล้เคียงกัน Fed ยังปรับประมาณการเงินเฟ้อปี 2569 ขึ้น โดยคาด headline inflation ที่ 3.6% และ core inflation ที่ 3.3% ซึ่งสูงกว่าการประมาณการก่อนหน้า สาเหตุหลักมาจากราคาพลังงานที่เกี่ยวเนื่องกับสถานการณ์ในตะวันออกกลาง",
+      "sections": [
+        {
+          "h": "ภาพรวมสัปดาห์ 22–27 มิถุนายน 2569",
+          "p": "สัปดาห์ดังกล่าวเป็นหนึ่งในสัปดาห์ที่ยากที่สุดของกลุ่มเทคในครึ่งปีแรก S&P 500 ลดลงราว 2% ในรอบสัปดาห์ ขณะ Nasdaq ดิ่งหนักกว่าเนื่องจากน้ำหนักหุ้นชิปและ AI สูง อย่างไรก็ตาม S&P 500 Equal-Weight Index กลับปรับขึ้น 1.5% ในช่วงเวลาเดียวกัน และ S&P 600 Small-Cap เพิ่มขึ้นกว่า 3% สะท้อนการหมุนเวียนเงินลงทุนจากเมกะแคปเทคไปสู่หุ้นขนาดกลาง-เล็กและกลุ่มเชิงรับ"
+        },
+        {
+          "h": "Micron รายงานงบดี แต่ราคาหุ้นย้อนทิศ",
+          "p": "Micron Technology (MU) รายงานผลประกอบการไตรมาส 3 ปีงบประมาณ 2569 เมื่อวันที่ 24 มิถุนายน โดยมีรายได้อยู่ที่ 41.46 พันล้านดอลลาร์ เพิ่มขึ้น 346% จากปีก่อน gross margin อยู่ที่ 84.6% และ guidance ไตรมาส 4 ที่ระดับ 50 พันล้านดอลลาร์ ผลออกมาดีกว่าที่ตลาดคาด และทำให้ราคาหุ้นพุ่งขึ้น 15% ในวันถัดมา"
+        },
+        {
+          "h": "OpenAI เลื่อน IPO กระทบ sentiment กลุ่ม AI",
+          "p": "รายงานที่ออกมาในช่วงกลางสัปดาห์ระบุว่า OpenAI กำลังพิจารณาเลื่อน IPO จากปลายปี 2569 ออกไปเป็นปี 2570 ซีอีโอ Sam Altman มุ่งหมาย valuation ระดับ 1 ล้านล้านดอลลาร์ ซึ่งสูงกว่า valuation เอกชนล่าสุดที่ 730–850 พันล้านดอลลาร์ ปัจจัยที่ถูกอ้างถึงคือการเผาเงินสดจำนวนมากและภาระการรายงานข้อมูลของบริษัทมหาชน"
+        },
+        {
+          "h": "Fed ของ Warsh: ดอกเบี้ยคงที่ แต่ส่งสัญญาณขึ้นปลายปี",
+          "p": "การประชุม FOMC รอบเดือนมิถุนายน 2569 เมื่อวันที่ 17 มิถุนายน ซึ่งเป็นการประชุมครั้งแรกของ Kevin Warsh ในฐานะประธาน Fed มีมติเป็นเอกฉันท์คงดอกเบี้ยที่ระดับ 3.50–3.75% อย่างไรก็ตาม dot plot ล่าสุดแสดงค่ามัธยฐาน fed funds rate สิ้นปีที่ 3.8% สูงขึ้นจาก 3.4% ในการประมาณการรอบมีนาคม ชี้ว่ากรรมการส่วนหนึ่งมองว่าจำเป็นต้องขึ้นดอกเบี้ยอย่างน้อยหนึ่งครั้งในปีนี้"
+        },
+        {
+          "h": "Analyst Moves ประจำสัปดาห์",
+          "p": "- **NVDA**: นักวิเคราะห์หลายสำนัก lift price target หลังบริษัทรายงานรายได้ปีงบประมาณ 2569 ที่ 215.94 พันล้านดอลลาร์ เพิ่มขึ้น 65% ต่อปี แม้ตลาดจะตอบสนองเชิงลบในระยะสั้น - **INTC**: นักวิเคราะห์ที่เคยมีมุมมองเชิงลบหลายรายปรับสถานะเป็น Hold หรือ Buy ในช่วงต้นเดือนมิถุนายน หลังราคาหุ้นปรับขึ้น 250% นับต้นปี - **META**: ถูก upgrade จากนักวิเคราะห์ที่อ้างว่าการลงทุน capex หนักในปีนี้ไม่ได้ทำลาย margin อย่างที่เคยกังวล และ Reels monetization ยังให้ผลลัพธ์เชิงบวก - **AFRM**: Morgan Stanley ปรับลดจาก Overweight เป็น Equal-Weight - **PVH**: Bank of America ปรับลดจาก Neutral เป็น Underperform"
+        },
+        {
+          "h": "ตัวเลขเศรษฐกิจที่ต้องติดตาม",
+          "p": "ผู้เข้าร่วมตลาดยังคงติดตาม University of Michigan Consumer Sentiment ซึ่งล่าสุดอยู่ระดับ 44.8 ใกล้จุดต่ำสุดในประวัติศาสตร์ อัตราเงินเฟ้อ CPI เดือนเมษายนอยู่ที่ 3.8% สูงสุดนับตั้งแต่พฤษภาคม 2566 ขณะที่ Personal Savings Rate ลดลงสู่ 2.6% และค่าจ้างจริงหดตัวเป็นครั้งแรกในรอบ 3 ปีเพราะเงินเฟ้อแซงการขึ้นค่าจ้าง ตัวเลขการจ้างงาน (Non-farm Payrolls) จะประกาศในช่วงสัปดาห์ถัดไป ซึ่งเป็น catalyst ที่ตลาดรอดูอย่างใกล้ชิด"
+        },
+        {
+          "h": "แนวโน้มหุ้นที่โดดเด่น",
+          "p": "หุ้นที่ทำผลงานได้ดีในช่วงสัปดาห์นี้ ได้แก่ Microsoft (+5.71%), Salesforce (+5.45%) และ IBM (+5.08%) สวนทางกับ Caterpillar ที่ร่วง 5.67%, Cisco Systems ลง 4.56% และ Goldman Sachs ลง 4.07% การกระจายผลตอบแทนดังกล่าวชี้ว่าตลาดยังมีโอกาสในหุ้นรายตัวแม้ภาพรวมดัชนีจะเป็นลบ"
+        }
+      ],
+      "quote": "",
+      "quoteBy": "",
+      "takeaway": "",
+      "sources": [
+        {
+          "text": "Stock Market Today (June 26, 2026) — TheStreet",
+          "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-june-26-2026"
+        },
+        {
+          "text": "S&P 500 (^GSPC) Historical Data — Yahoo Finance",
+          "url": "https://finance.yahoo.com/quote/%5EGSPC/history/"
+        },
+        {
+          "text": "Micron soars 15% after blockbuster earnings — CNBC",
+          "url": "https://www.cnbc.com/2026/06/25/micron-stock-3q-earnings-memory.html"
+        },
+        {
+          "text": "OpenAI to delay IPO after Sam Altman spooked by SpaceX tumble — Yahoo Finance",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/openai-delay-ipo-sam-altman-103507298.html"
+        },
+        {
+          "text": "AI trade hits a wall amid report that OpenAI will delay IPO until 2027 — Yahoo Finance",
+          "url": "https://finance.yahoo.com/technology/article/ai-trade-hits-a-wall-amid-report-that-openai-will-delay-ipo-until-2027-150642366.html"
+        },
+        {
+          "text": "OpenAI IPO Delay Risk Exposes Fragility in the AI Trade — Investing.com",
+          "url": "https://www.investing.com/analysis/openai-ipo-delay-risk-exposes-fragility-in-the-ai-trade-200682865"
+        },
+        {
+          "text": "Fed interest rate decision June 2026: Fed holds rates steady — CNBC",
+          "url": "https://www.cnbc.com/2026/06/17/fed-interest-rate-decision-june-2026.html"
+        },
+        {
+          "text": "June FOMC: Fed holds interest rates steady as Warsh era begins — Fox Business",
+          "url": "https://www.foxbusiness.com/economy/federal-reserve-interest-rate-decision-june-17-2026"
+        },
+        {
+          "text": "Monthly Market Insights June 2026 — RS Will",
+          "url": "https://www.rswill.com/campaigns/monthly-market-insights"
+        },
+        {
+          "text": "Market Update June 2026 — Argent Financial Group",
+          "url": "https://argentfinancial.com/argent-insights/market-update-june-2026/"
+        },
+        {
+          "text": "Top 7 Stocks Wall Street Analysts Are Upgrading in June 2026 — HeyGoTrade",
+          "url": "https://www.heygotrade.com/en/blog/wall-street-analyst-upgrades-june-2026/"
+        }
+      ]
+    },
+    "featured": true,
+    "agent": "hanako",
+    "image": "assets/images/11-market-2026-06-28.jpg"
   }
 ];
