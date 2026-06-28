@@ -131,7 +131,7 @@ function homeView() {
     +   '<aside style="background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow);padding:18px 18px 8px;align-self:start;">'
     +     '<div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:6px;">'
     +       '<h2 style="font-size:15px;font-weight:700;margin:0;">หุ้นที่ติดตาม</h2>'
-    +       '<span style="font-size:11px;color:var(--ink-3);font-weight:600;">อัปเดตล่าสุด 16:30</span>'
+    +       '<span style="font-size:11px;color:var(--ink-3);font-weight:600;">' + (quoteTime() ? 'อัปเดต ' + quoteTime() + ' น.' : 'ข้อมูลตัวอย่าง') + '</span>'
     +     '</div>' + watchHtml + '<div style="height:8px;"></div>'
     +   '</aside>'
     + '</div>'

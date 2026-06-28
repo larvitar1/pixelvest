@@ -6,6 +6,19 @@
 
 const app = document.getElementById('app');
 
+/* ── นำราคาจริงจาก js/quotes.js (ถ้ามี) มาทับค่า mock ใน STOCKS/INDICES ── */
+function applyQuotes() {
+  if (typeof QUOTES === 'undefined') return;
+  STOCKS.forEach(s => {
+    const q = QUOTES.stocks && QUOTES.stocks[s.sym];
+    if (q) { if (q.price != null) s.price = q.price; if (q.pct != null) s.pct = q.pct; }
+  });
+  INDICES.forEach(ix => {
+    const q = QUOTES.indices && QUOTES.indices[ix.name];
+    if (q) { if (q.value != null) ix.value = q.value; if (q.chg != null) ix.chg = q.chg; }
+  });
+}
+
 /* ── Apply the active theme's CSS variables to #app ── */
 function applyTheme() {
   const t = themes[settings.theme] || themes.warm;
@@ -89,5 +102,6 @@ document.getElementById('pv-ticker').addEventListener('change', e => {
 });
 
 /* ── Boot ── */
+applyQuotes();
 syncSwatches();
 render();

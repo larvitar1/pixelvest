@@ -62,6 +62,12 @@ function thaiFullDate(iso) {
   return parseInt(m[3], 10) + ' ' + TH_MONTH_FULL[parseInt(m[2], 10) - 1] + ' ' + m[1];
 }
 
+/* ── เวลาอัปเดตราคาล่าสุด (จาก js/quotes.js) เป็น HH:MM — ว่างถ้าใช้ข้อมูล mock ── */
+function quoteTime() {
+  if (typeof QUOTES === 'undefined' || !QUOTES.updated) return '';
+  return new Date(QUOTES.updated).toLocaleTimeString('th-TH', { hour: '2-digit', minute: '2-digit' });
+}
+
 /* ── Data lookups ── */
 const stockOf = sym => STOCKS.find(s => s.sym === sym) || STOCKS[0];
 const artOf   = id  => ARTS.find(a => a.id === id) || ARTS[0];
