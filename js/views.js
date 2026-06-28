@@ -73,7 +73,8 @@ function tickerView() {
 /* ── Home page: hero article + watchlist + news feed + sidebar ── */
 function homeView() {
   const f        = decArt([...ARTS].filter(a => a.featured).sort((a, b) => (b.iso || '').localeCompare(a.iso || '') || b.id - a.id)[0] || ARTS[0]);
-  const watchlist = STOCKS.slice(0, 6).map(s => decStock(s));
+  const HIDE_WATCH = ['AAPL', 'MSFT'];  // หุ้นที่ไม่ต้องการในวิดเจ็ต "หุ้นที่ติดตาม"
+  const watchlist = STOCKS.filter(s => !HIDE_WATCH.includes(s.sym)).slice(0, 6).map(s => decStock(s));
   const feed     = ARTS.filter(a => !a.analysis).map(a => decArt(a));
   const popular  = [...ARTS].sort((a, b) => a.rank - b.rank).slice(0, 5).map(a => decArt(a));
 
