@@ -72,7 +72,7 @@ function tickerView() {
 
 /* ── Home page: hero article + watchlist + news feed + sidebar ── */
 function homeView() {
-  const f        = decArt(ARTS[0]);
+  const f        = decArt(ARTS.find(a => a.featured) || ARTS[0]);
   const watchlist = STOCKS.slice(0, 6).map(s => decStock(s));
   const feed     = ARTS.filter(a => !a.analysis).map(a => decArt(a));
   const popular  = [...ARTS].sort((a, b) => a.rank - b.rank).slice(0, 5).map(a => decArt(a));
@@ -162,14 +162,12 @@ function homeView() {
 
 /* ── News list page: chronological timeline of all articles ── */
 function newsView() {
-  const isoMap = { 1:'2026-06-27', 2:'2026-06-27', 3:'2026-06-26', 4:'2026-06-26', 5:'2026-06-25', 6:'2026-06-24', 7:'2026-06-23', 8:'2026-06-23' };
-  const thMonth = 'มิถุนายน 2026';
-  const arts = [...ARTS].sort((a, b) => isoMap[b.id].localeCompare(isoMap[a.id]) || b.id - a.id);
+  const arts = [...ARTS].sort((a, b) => (b.iso || '').localeCompare(a.iso || '') || b.id - a.id);
   const groups = [];
   arts.forEach(a => {
-    const iso = isoMap[a.id];
+    const iso = a.iso;
     let g = groups.find(x => x.iso === iso);
-    if (!g) { g = { iso, thaiDate: parseInt(iso.split('-')[2], 10) + ' ' + thMonth, count: 0, items: [] }; groups.push(g); }
+    if (!g) { g = { iso, thaiDate: thaiFullDate(iso), count: 0, items: [] }; groups.push(g); }
     g.count++;
     g.items.push({ id: a.id, title: a.title, excerpt: a.excerpt, cat: a.cat, badges: a.syms.slice(0, 3).map(s => '$' + s), dateLabel: a.date, read: a.read });
   });
@@ -201,7 +199,7 @@ function newsView() {
   return '<main data-pad style="max-width:880px;margin:0 auto;padding:46px 28px 10px;">'
     + backLink
     + '<h1 style="font-family:var(--head);font-size:46px;font-weight:700;margin:0;letter-spacing:-.02em;">ข่าวหุ้นล่าสุด</h1>'
-    + '<div style="font-family:\'IBM Plex Mono\',monospace;font-size:13px;color:var(--ink-3);margin-top:12px;">อัปเดตล่าสุด: 27 มิถุนายน 2026, 16:30 · ทั้งหมด ' + arts.length + ' ข่าว</div>'
+    + '<div style="font-family:\'IBM Plex Mono\',monospace;font-size:13px;color:var(--ink-3);margin-top:12px;">อัปเดตล่าสุด: ' + (arts.length ? thaiFullDate(arts[0].iso) + ', 16:30' : '-') + ' · ทั้งหมด ' + arts.length + ' ข่าว</div>'
     + '<div style="position:relative;margin-top:38px;">'
     +   '<div style="position:absolute;left:6px;top:12px;bottom:24px;width:2px;background:var(--line);"></div>'
     +   groupsHtml

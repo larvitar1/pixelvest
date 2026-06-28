@@ -54,6 +54,14 @@ const pctStr = p => (p >= 0 ? '+' : '') + p.toFixed(2) + '%';
 const money  = (n, d = 2) => n.toLocaleString('en-US', { minimumFractionDigits: d, maximumFractionDigits: d });
 const esc    = s => String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
 
+/* ── Thai full date from ISO (e.g. "2026-06-27" → "27 มิถุนายน 2026") ── */
+const TH_MONTH_FULL = ['มกราคม','กุมภาพันธ์','มีนาคม','เมษายน','พฤษภาคม','มิถุนายน','กรกฎาคม','สิงหาคม','กันยายน','ตุลาคม','พฤศจิกายน','ธันวาคม'];
+function thaiFullDate(iso) {
+  const m = /^(\d{4})-(\d{2})-(\d{2})$/.exec(iso || '');
+  if (!m) return iso || '';
+  return parseInt(m[3], 10) + ' ' + TH_MONTH_FULL[parseInt(m[2], 10) - 1] + ' ' + m[1];
+}
+
 /* ── Data lookups ── */
 const stockOf = sym => STOCKS.find(s => s.sym === sym) || STOCKS[0];
 const artOf   = id  => ARTS.find(a => a.id === id) || ARTS[0];
