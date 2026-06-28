@@ -1,7 +1,7 @@
 # HANDOFF — PixelVest เว็บข่าวหุ้น
 
 > เปิด session ใหม่ → อ่านไฟล์นี้ก่อน จะรู้ว่าคุยกันถึงไหน ทำอะไรไปแล้ว และทำต่อยังไง
-> อัปเดตล่าสุด: 2026-06-28 (เพิ่มแผน agent pixel)
+> อัปเดตล่าสุด: 2026-06-28 (build graphify knowledge graph)
 
 ---
 
@@ -80,8 +80,9 @@ Web/
 - ✅ ผู้ใช้ refactor แยก css/js + เพิ่ม git (commit เอง)
 - ✅ ทำระบบเขียนข่าว markdown (articles → build.js → web) — แปลงข่าวเดิม 8 ชิ้นเป็น .md
 - ✅ สร้าง agent 3 ตัวใน `.claude/agents/` (ผ่านการถาม-ตอบทีละตัว ทีละจุด)
-- ⏳ **กำลังจะลองรัน hanako จริง แต่ยังไม่สำเร็จ** — subagent โดน session limit ตัดก่อนเขียนไฟล์
-  → articles/ ยังมีแค่ 8 ไฟล์ (+ TEMPLATE) ยังไม่มี `09-market-*.md`
+- ✅ รัน hanako สำเร็จ — เขียน `articles/09-market-2026-06-28.md` (ข่าวภาพรวมตลาด featured)
+- ✅ รัน joy สำเร็จ — เขียน `articles/NVDA/10-nvda-earnings.md` (NVDA Q1 FY2027 earnings)
+- ✅ build graphify knowledge graph (`graphify-out/`) — 103 nodes, 149 edges, 18 communities
 
 ---
 
@@ -108,12 +109,14 @@ Web/
 ## 8. Git — เซฟพอยต์ล่าสุด
 
 ```
-34d2771  เพิ่ม agents max/joy/hanako ที่เขียนข่าวลงเว็บโดยตรง   ← ล่าสุด (working tree clean)
-fe802e6  เพิ่มระบบเขียนข่าวด้วย Markdown (articles → build.js → เว็บ)
-18db3e7  เพิ่ม config preview server และ .gitignore
-9cfd171  เพิ่มคู่มือการใช้งาน GUIDE.md
-968cab0  จัดโครงสร้างไฟล์ใหม่เรียบร้อย
+9a7bbd4  บันทึกแผน agent pixel (สร้างภาพประกอบบทความด้วย Pollinations.ai)   ← ล่าสุด
+5f9dddc  จัดเก็บข่าวหุ้นตัวเดียวแยกตามโฟลเดอร์หุ้น (articles/<TICKER>/)
+b088f30  ปรับ GUIDE ให้ตรงระบบปัจจุบัน: /Update, /Brief, หน้าหุ้น, ราคาจริง, บทความ Markdown
+06b6972  เพิ่ม slash command /Update สำหรับดึงราคาล่าสุดจาก Yahoo
+430c4b8  ดึงราคาหุ้น/ดัชนีจริงจาก Yahoo Finance (สคริปต์ node ไม่ใช้ key)
 ```
+
+> หมายเหตุ: `graphify-out/` อยู่ใน `.gitignore` — ไม่ถูก commit (rebuild ได้เองด้วย `/graphify .`)
 
 ---
 
