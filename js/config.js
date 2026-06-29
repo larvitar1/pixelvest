@@ -7,12 +7,12 @@
 /* ── Theme colour/shape palettes ── */
 const themes = {
   warm: {
-    '--paper':    '#f3eadc', '--surface':   '#fffcf4', '--surface-2': '#ece1ce',
+    '--paper':    'rgba(243,234,220,0.72)', '--surface':   'rgba(255,252,244,0.68)', '--surface-2': 'rgba(236,225,206,0.72)',
     '--ink':      '#1c1608', '--ink-2':     '#6b5c48', '--ink-3':     '#a8927a',
-    '--line':     '#dfd0b8', '--up':        '#1a9060', '--down':      '#cf3d26',
+    '--line':     'rgba(223,208,184,0.70)', '--up':        '#1a9060', '--down':      '#cf3d26',
     '--gold':     '#c07820', '--radius':    '14px',
     '--head':     "'Noto Serif Thai',serif",
-    '--shadow':   '0 1px 3px rgba(38,24,6,.08), 0 8px 28px -10px rgba(38,24,6,.18), 0 32px 64px -32px rgba(38,24,6,.10)',
+    '--shadow':   '0 2px 8px rgba(38,24,6,.10), 0 12px 32px -8px rgba(38,24,6,.16)',
   },
   modern: {
     '--paper':    '#eef1f0', '--surface':   '#ffffff', '--surface-2': '#e9eeec',

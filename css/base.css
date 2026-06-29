@@ -3,7 +3,8 @@
    ============================================================ */
 
 *, *::before, *::after { box-sizing: border-box; }
-html, body { margin: 0; padding: 0; background: #e6d9c8; }
+html { margin: 0; padding: 0; background: #2a2018 url('../assets/images/bg-office.jpg') center/cover fixed no-repeat; }
+body { margin: 0; padding: 0; }
 
 @keyframes tickerflow {
   from { transform: translateX(0); }
@@ -24,15 +25,15 @@ main { animation: fadein .28s cubic-bezier(.2,0,0,1); }
 #app {
   min-height: 100vh;
 
-  --paper:     #f2efe9;
-  --surface:   #faf8f3;
-  --surface-2: #eae5db;
-  --ink:       #1c1a16;
-  --ink-2:     #5c554b;
-  --ink-3:     #9a9286;
-  --line:      #d8d0c2;
-  --up:        #1d7a50;
-  --down:      #b23722;
+  --paper:     rgba(243,234,220,0.72);
+  --surface:   rgba(255,252,244,0.68);
+  --surface-2: rgba(236,225,206,0.72);
+  --ink:       #1c1608;
+  --ink-2:     #6b5c48;
+  --ink-3:     #a8927a;
+  --line:      rgba(223,208,184,0.70);
+  --up:        #1a9060;
+  --down:      #cf3d26;
   --gold:      #8a6a2c;
   --radius:    4px;
   --shadow:    none;
@@ -40,11 +41,15 @@ main { animation: fadein .28s cubic-bezier(.2,0,0,1); }
   --fs:        1;
 
   background:  var(--paper);
+  backdrop-filter: blur(18px);
+  -webkit-backdrop-filter: blur(18px);
   color:       var(--ink);
   font-family: 'IBM Plex Sans Thai', system-ui, sans-serif;
   font-size:   calc(16px * var(--fs));
   line-height: 1.6;
 }
+
+[data-card] { backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(10px); }
 
 /* ── Responsive breakpoints ── */
 @media (max-width: 880px) {
