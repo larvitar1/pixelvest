@@ -33,6 +33,7 @@ function render() {
   else if (state.route.page === 'news')    main = newsView();
   else if (state.route.page === 'article') main = articleView(state.route.id);
   else if (state.route.page === 'stock')   main = stockView(state.route.id);
+  else if (state.route.page === 'team')    main = teamView();
   app.innerHTML = headerView() + tickerView() + main + footerView();
   applyTheme();
 }

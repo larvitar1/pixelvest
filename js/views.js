@@ -17,7 +17,7 @@ function logoSvg(size) {
 
 /* ── Sticky top navigation bar ── */
 function headerView() {
-  const navDef = [{ label: 'หน้าแรก', page: 'home' }, { label: 'ข่าวหุ้น', page: 'news' }];
+  const navDef = [{ label: 'หน้าแรก', page: 'home' }, { label: 'ข่าวหุ้น', page: 'news' }, { label: 'ทีมงาน', page: 'team' }];
   const nav = navDef.map((n, i) => {
     const active = n.page === state.route.page && (n.page !== 'home' || i === 0);
     return '<a data-link data-go="' + n.page + '" style="cursor:pointer;padding:8px 14px;border-radius:9px;font-size:14.5px;font-weight:600;'
@@ -409,6 +409,79 @@ function stockView(sym) {
     +   '<h2 style="font-family:var(--head);font-size:20px;font-weight:700;margin:0 0 4px;">ข่าวที่เกี่ยวข้องกับ ' + esc(sym) + '</h2>'
     +   newsHtml
     + '</div>'
+    + '</main>';
+}
+
+/* ── Team page — flip cards ── */
+function teamView() {
+  const agents = [
+    {
+      id: 'hanako', name: 'Hanako', badge: 'MARKET',
+      accent: '#c8956c', bg: 'linear-gradient(150deg,#f5e6d3 0%,#ddb88a 100%)',
+      image: 'assets/images/agents/hanako.png',
+      role: 'นักข่าวภาพรวมตลาด',
+      desc: 'ติดตามตลาดหุ้นสหรัฐฯ ทุกวัน สรุปดัชนีสำคัญ catalyst ประจำสัปดาห์ และ analyst moves ให้นักลงทุนเข้าใจภาพรวมในเวลาไม่กี่นาที',
+    },
+    {
+      id: 'joy', name: 'Joy', badge: 'EARNINGS',
+      accent: '#5b9bd5', bg: 'linear-gradient(150deg,#d8eaf7 0%,#8dbfe0 100%)',
+      image: 'assets/images/agents/joy.png',
+      role: 'นักข่าวผลประกอบการ',
+      desc: 'วิเคราะห์ earnings ทุกไตรมาส เจาะตัวเลขรายได้ กำไร EPS และ guidance เปรียบกับ consensus พร้อมไฮไลต์ประเด็นที่นักลงทุนต้องรู้',
+    },
+    {
+      id: 'max', name: 'Max', badge: 'ANALYST',
+      accent: '#4a9e6b', bg: 'linear-gradient(150deg,#d3eed9 0%,#85c99e 100%)',
+      image: 'assets/images/agents/max.png',
+      role: 'นักวิเคราะห์พื้นฐาน',
+      desc: 'เจาะลึก 10-K และงบการเงิน ประเมินรายได้ margin หนี้สิน FCF และโครงสร้างธุรกิจ เพื่อบอกว่าตัวเลขดีจริงหรือแค่ดูดี',
+    },
+    {
+      id: 'pixel', name: 'Pixel', badge: 'CREATIVE',
+      accent: '#b565a7', bg: 'linear-gradient(150deg,#f0d8ec 0%,#cc8fc0 100%)',
+      image: 'assets/images/agents/pixel.png',
+      role: 'นักออกแบบภาพประกอบ',
+      desc: 'สร้างภาพประกอบบทความด้วย AI ให้สอดคล้องกับเนื้อหาและธีมของข่าว เติมสีสันให้ทุกบทความมีชีวิต',
+    },
+  ];
+
+  const style = '<style>'
+    + '.pv-flip{perspective:900px;cursor:pointer}'
+    + '.pv-flip-inner{position:relative;width:100%;height:100%;transition:transform .65s cubic-bezier(.4,0,.2,1);transform-style:preserve-3d}'
+    + '.pv-flip.flipped .pv-flip-inner{transform:rotateY(180deg)}'
+    + '.pv-face{position:absolute;inset:0;backface-visibility:hidden;-webkit-backface-visibility:hidden;border-radius:18px;overflow:hidden;border:1px solid var(--line)}'
+    + '.pv-face-back{transform:rotateY(180deg)}'
+    + '</style>';
+
+  const cards = agents.map(a => {
+    const imgStyle = a.image
+      ? 'background:url(' + esc(a.image) + ') center/cover no-repeat'
+      : 'background:' + a.bg;
+    return '<div class="pv-flip" style="width:240px;height:320px;" onclick="this.classList.toggle(\'flipped\')">'
+      + '<div class="pv-flip-inner">'
+      + '<div class="pv-face" style="' + imgStyle + ';">'
+      +   '<div style="position:absolute;top:14px;left:14px;font-family:\'IBM Plex Mono\',monospace;font-size:10px;font-weight:700;letter-spacing:.12em;background:' + a.accent + ';color:#fff;padding:3px 10px;border-radius:6px;">' + a.badge + '</div>'
+      +   '<div style="position:absolute;bottom:0;left:0;right:0;background:linear-gradient(transparent,rgba(0,0,0,.58));padding:24px 18px 18px;">'
+      +     '<div style="font-family:Georgia,\'Times New Roman\',serif;font-size:28px;color:#fff;font-style:italic;text-shadow:0 1px 4px rgba(0,0,0,.3);">' + a.name + '</div>'
+      +     '<div style="font-family:\'IBM Plex Mono\',monospace;font-size:10px;letter-spacing:.1em;color:rgba(255,255,255,.75);margin-top:4px;">' + a.role + '</div>'
+      +   '</div>'
+      + '</div>'
+      + '<div class="pv-face pv-face-back" style="background:var(--paper);display:flex;flex-direction:column;justify-content:center;padding:28px 22px;">'
+      +   '<div style="width:32px;height:4px;background:' + a.accent + ';border-radius:2px;margin-bottom:18px;"></div>'
+      +   '<div style="font-family:Georgia,\'Times New Roman\',serif;font-size:24px;font-style:italic;color:var(--ink);margin-bottom:4px;">' + a.name + '</div>'
+      +   '<div style="font-family:\'IBM Plex Mono\',monospace;font-size:10px;letter-spacing:.12em;color:' + a.accent + ';margin-bottom:16px;">' + a.badge + '</div>'
+      +   '<div style="font-size:13.5px;line-height:1.75;color:var(--ink-2);">' + a.desc + '</div>'
+      +   '<div style="margin-top:22px;font-size:11px;color:var(--ink-3);font-family:\'IBM Plex Mono\',monospace;">↩ คลิกเพื่อกลับ</div>'
+      + '</div>'
+      + '</div>'
+      + '</div>';
+  }).join('');
+
+  return style
+    + '<main style="max-width:1200px;margin:0 auto;padding:52px 28px 80px;">'
+    +   '<h1 style="font-family:var(--head);font-size:38px;font-weight:700;margin:0 0 8px;letter-spacing:-.02em;">ทีมงาน</h1>'
+    +   '<p style="color:var(--ink-2);font-size:16px;margin:0 0 48px;line-height:1.6;">AI agents เบื้องหลัง PixelVest — แต่ละคนมีหน้าที่เฉพาะ คลิกที่การ์ดเพื่อดูรายละเอียด</p>'
+    +   '<div style="display:flex;flex-wrap:wrap;gap:24px;">' + cards + '</div>'
     + '</main>';
 }
 
