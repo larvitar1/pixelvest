@@ -66,6 +66,7 @@ function render() {
   else if (state.route.page === 'article') main = articleView(state.route.id);
   else if (state.route.page === 'stock')   main = stockView(state.route.id);
   else if (state.route.page === 'team')    main = teamView();
+  else if (state.route.page === 'monitor') main = monitorView();
   app.innerHTML = '<div class="pv-layout">'
     + sidebarView()
     + '<div class="pv-main-area">'
@@ -78,6 +79,13 @@ function render() {
     + '</div>';
   applyTheme();
   restoreSidebarState();
+  /* Re-execute <script> tags injected via innerHTML (browsers skip them) */
+  app.querySelectorAll('script').forEach(function(s) {
+    var ns = document.createElement('script');
+    ns.textContent = s.textContent;
+    document.head.appendChild(ns);
+    document.head.removeChild(ns);
+  });
 }
 
 /* ── Navigate to a new page ── */
