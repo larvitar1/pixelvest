@@ -7,12 +7,12 @@
 /* ── Theme colour/shape palettes ── */
 const themes = {
   warm: {
-    '--paper':    '#f6f1e8', '--surface':   '#fffdf8', '--surface-2': '#f0e9dc',
-    '--ink':      '#2a2520', '--ink-2':     '#6f655a', '--ink-3':     '#a89c8d',
-    '--line':     '#e7dccb', '--up':        '#1f9d6b', '--down':      '#d2452f',
-    '--gold':     '#b0863a', '--radius':    '14px',
+    '--paper':    '#f3eadc', '--surface':   '#fffcf4', '--surface-2': '#ece1ce',
+    '--ink':      '#1c1608', '--ink-2':     '#6b5c48', '--ink-3':     '#a8927a',
+    '--line':     '#dfd0b8', '--up':        '#1a9060', '--down':      '#cf3d26',
+    '--gold':     '#c07820', '--radius':    '14px',
     '--head':     "'Noto Serif Thai',serif",
-    '--shadow':   '0 1px 2px rgba(45,35,22,.05), 0 14px 34px -20px rgba(45,35,22,.22)',
+    '--shadow':   '0 1px 3px rgba(38,24,6,.08), 0 8px 28px -10px rgba(38,24,6,.18), 0 32px 64px -32px rgba(38,24,6,.10)',
   },
   modern: {
     '--paper':    '#eef1f0', '--surface':   '#ffffff', '--surface-2': '#e9eeec',
@@ -36,7 +36,7 @@ const themes = {
 let state = { route: { page: 'home' }, range: '3M', history: [] };
 
 /* ── User preferences (theme, font size, ticker visibility) ── */
-const settings = { theme: 'mono', fontScale: 1, showTicker: true };
+const settings = { theme: 'warm', fontScale: 1, showTicker: true };
 
 /* ── Chart data-point count per time range ── */
 const rangeLens = { '1D': 22, '1W': 30, '1M': 40, '3M': 60, '1Y': 90 };

@@ -3,7 +3,7 @@
    ============================================================ */
 
 *, *::before, *::after { box-sizing: border-box; }
-html, body { margin: 0; padding: 0; background: #ece6db; }
+html, body { margin: 0; padding: 0; background: #e6d9c8; }
 
 @keyframes tickerflow {
   from { transform: translateX(0); }
@@ -12,9 +12,13 @@ html, body { margin: 0; padding: 0; background: #ece6db; }
 
 ::selection { background: rgba(176, 134, 58, .22); }
 
-[data-card] { transition: transform .18s ease, box-shadow .18s ease; }
-[data-card]:hover { transform: translateY(-3px); }
-[data-link] { transition: color .15s ease; }
+@keyframes fadein { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: none; } }
+main { animation: fadein .28s cubic-bezier(.2,0,0,1); }
+
+[data-card] { transition: transform .22s cubic-bezier(.2,0,0,1), box-shadow .22s cubic-bezier(.2,0,0,1); }
+[data-card]:hover { transform: translateY(-5px); box-shadow: 0 16px 48px -12px rgba(38,24,6,.26), 0 2px 8px rgba(38,24,6,.07) !important; }
+[data-link] { transition: opacity .15s ease; }
+[data-link]:hover { opacity: .82; }
 
 /* ── Design tokens (mono theme defaults — JS will override per theme) ── */
 #app {

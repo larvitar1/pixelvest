@@ -24,7 +24,7 @@ function headerView() {
       + 'color:' + (active ? 'var(--ink)' : 'var(--ink-2)') + ';background:' + (active ? 'var(--surface-2)' : 'transparent') + ';text-decoration:none;">'
       + n.label + '</a>';
   }).join('');
-  return '<header style="position:sticky;top:0;z-index:40;background:color-mix(in srgb, var(--paper) 86%, transparent);backdrop-filter:blur(10px);border-bottom:1px solid var(--line);">'
+  return '<header style="position:sticky;top:0;z-index:40;background:color-mix(in srgb, var(--paper) 90%, transparent);backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);border-bottom:1px solid var(--line);box-shadow:0 1px 0 var(--line),0 6px 24px -8px rgba(38,24,6,.10);">'
     + '<div data-pad style="max-width:1200px;margin:0 auto;padding:13px 28px;display:flex;align-items:center;gap:24px;">'
     +   '<div data-go="home" style="display:flex;align-items:center;gap:11px;cursor:pointer;flex:none;">'
     +     logoSvg(40)
@@ -93,11 +93,11 @@ function homeView() {
 
   const feedHtml = feed.map(a =>
     '<article data-card data-link data-article="' + a.id + '" style="cursor:pointer;background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);overflow:hidden;box-shadow:var(--shadow);display:flex;flex-direction:column;">'
-    + '<div style="height:148px;' + (a.image ? 'background:url(\'' + esc(a.image) + '\') center/cover no-repeat;' : 'background:repeating-linear-gradient(135deg,var(--surface-2),var(--surface-2) 10px,transparent 10px,transparent 20px),var(--surface);') + 'position:relative;">'
-    +   '<span style="position:absolute;top:11px;left:11px;background:color-mix(in srgb,var(--ink) 88%,transparent);color:var(--paper);font-size:10.5px;font-weight:700;letter-spacing:.04em;padding:4px 9px;border-radius:6px;">' + a.cat + '</span>'
+    + '<div style="height:164px;' + (a.image ? 'background:url(\'' + esc(a.image) + '\') center/cover no-repeat;' : 'background:repeating-linear-gradient(135deg,var(--surface-2),var(--surface-2) 10px,transparent 10px,transparent 20px),var(--surface);') + 'position:relative;">'
+    +   '<span style="position:absolute;top:11px;left:11px;background:var(--gold);color:#fff;font-size:10px;font-weight:700;letter-spacing:.07em;padding:4px 10px;border-radius:20px;">' + a.cat + '</span>'
     + '</div>'
     + '<div style="padding:15px 16px 16px;display:flex;flex-direction:column;flex:1;">'
-    +   '<h3 style="font-family:var(--head);font-size:17.5px;font-weight:600;line-height:1.38;margin:0 0 9px;">' + esc(a.title) + '</h3>'
+    +   '<h3 style="font-family:var(--head);font-size:18px;font-weight:700;line-height:1.36;margin:0 0 9px;letter-spacing:-.01em;">' + esc(a.title) + '</h3>'
     +   '<p style="margin:0 0 14px;font-size:13.5px;color:var(--ink-2);line-height:1.6;">' + esc(a.excerpt) + '</p>'
     +   '<div style="margin-top:auto;display:flex;align-items:center;gap:8px;font-size:12px;color:var(--ink-3);">'
     +     '<span style="font-weight:600;color:var(--ink-2);">' + a.author + '</span><span>·</span><span>' + a.date + '</span>'
@@ -115,12 +115,13 @@ function homeView() {
   return '<main data-pad style="max-width:1200px;margin:0 auto;padding:34px 28px 10px;">'
     + '<div data-herogrid style="display:grid;grid-template-columns:1.55fr 1fr;gap:26px;margin-bottom:46px;">'
     +   '<article data-card data-link data-article="' + f.id + '" style="cursor:pointer;background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);overflow:hidden;box-shadow:var(--shadow);">'
-    +     '<div style="position:relative;height:300px;' + (f.image ? 'background:url(\'' + esc(f.image) + '\') center/cover no-repeat;' : 'background:repeating-linear-gradient(135deg,var(--surface-2),var(--surface-2) 11px,transparent 11px,transparent 22px),var(--surface);') + 'display:flex;align-items:flex-end;padding:18px;">'
-    +       '<div style="position:absolute;top:16px;left:16px;background:var(--gold);color:#fff;font-size:11px;font-weight:700;letter-spacing:.05em;padding:5px 11px;border-radius:7px;">' + f.cat + '</div>'
-    +       (f.image ? '' : '<span style="font-family:\'IBM Plex Mono\',monospace;font-size:11px;color:var(--ink-3);background:color-mix(in srgb,var(--surface) 80%,transparent);padding:3px 8px;border-radius:5px;">ภาพประกอบข่าวเด่น</span>')
+    +     '<div style="position:relative;height:340px;' + (f.image ? 'background:url(\'' + esc(f.image) + '\') center/cover no-repeat;' : 'background:repeating-linear-gradient(135deg,var(--surface-2),var(--surface-2) 11px,transparent 11px,transparent 22px),var(--surface);') + '">'
+    +       '<div style="position:absolute;inset:0;background:linear-gradient(to bottom,transparent 40%,rgba(20,12,2,.55) 100%);pointer-events:none;"></div>'
+    +       '<div style="position:absolute;top:16px;left:16px;background:var(--gold);color:#fff;font-size:10.5px;font-weight:700;letter-spacing:.08em;padding:5px 13px;border-radius:20px;">' + f.cat + '</div>'
+    +       (f.image ? '' : '<span style="position:absolute;bottom:16px;left:16px;font-family:\'IBM Plex Mono\',monospace;font-size:11px;color:var(--ink-3);background:color-mix(in srgb,var(--surface) 80%,transparent);padding:3px 8px;border-radius:5px;">ภาพประกอบข่าวเด่น</span>')
     +     '</div>'
-    +     '<div style="padding:24px 26px 26px;">'
-    +       '<h1 style="font-family:var(--head);font-weight:700;font-size:30px;line-height:1.28;margin:0 0 12px;letter-spacing:-.01em;">' + esc(f.title) + '</h1>'
+    +     '<div style="padding:26px 28px 28px;">'
+    +       '<h1 style="font-family:var(--head);font-weight:800;font-size:34px;line-height:1.24;margin:0 0 13px;letter-spacing:-.02em;">' + esc(f.title) + '</h1>'
     +       '<p style="margin:0 0 18px;color:var(--ink-2);font-size:15.5px;line-height:1.65;">' + esc(f.excerpt) + '</p>'
     +       '<div style="display:flex;align-items:center;gap:11px;font-size:13px;color:var(--ink-3);">'
     +         '<span style="width:30px;height:30px;border-radius:50%;background:var(--ink);color:var(--paper);display:grid;place-items:center;font-weight:700;font-size:13px;">' + f.initial + '</span>'
@@ -131,7 +132,7 @@ function homeView() {
     +   '</article>'
     +   '<aside style="background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow);padding:18px 18px 8px;align-self:start;">'
     +     '<div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:6px;">'
-    +       '<h2 style="font-size:15px;font-weight:700;margin:0;">หุ้นที่ติดตาม</h2>'
+    +       '<h2 style="font-size:15px;font-weight:800;margin:0;letter-spacing:-.01em;">หุ้นที่ติดตาม</h2>'
     +       '<span style="font-size:11px;color:var(--ink-3);font-weight:600;">' + (quoteTime() ? 'อัปเดต ' + quoteTime() + ' น.' : 'ข้อมูลตัวอย่าง') + '</span>'
     +     '</div>' + watchHtml + '<div style="height:8px;"></div>'
     +   '</aside>'
