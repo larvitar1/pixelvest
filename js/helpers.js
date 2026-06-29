@@ -68,6 +68,23 @@ function quoteTime() {
   return new Date(QUOTES.updated).toLocaleTimeString('th-TH', { hour: '2-digit', minute: '2-digit' });
 }
 
+/* ── Stock logo: img from Parqet CDN, falls back to coloured initial badge ── */
+function stockLogoHtml(sym, size) {
+  size = size || 32;
+  const hue = sym.split('').reduce(function(h, c) { return h + c.charCodeAt(0) * 37; }, 0) % 360;
+  return '<span style="display:inline-flex;align-items:center;justify-content:center;flex:none;width:' + size + 'px;height:' + size + 'px;">'
+    + '<img src="https://assets.parqet.com/logos/symbol/' + esc(sym) + '?format=png" '
+    + 'style="width:' + size + 'px;height:' + size + 'px;border-radius:50%;object-fit:contain;background:#fff;border:1px solid var(--line);" '
+    + 'onerror="this.style.display=\'none\';this.nextElementSibling.style.display=\'flex\';" '
+    + 'alt="' + esc(sym) + '">'
+    + '<span style="display:none;width:' + size + 'px;height:' + size + 'px;border-radius:50%;'
+    + 'background:hsl(' + hue + ',52%,40%);color:#fff;font-size:' + Math.round(size * 0.38) + 'px;'
+    + 'font-weight:700;font-family:\'IBM Plex Mono\',monospace;align-items:center;justify-content:center;">'
+    + esc(sym[0])
+    + '</span>'
+    + '</span>';
+}
+
 /* ── Data lookups ── */
 const stockOf = sym => STOCKS.find(s => s.sym === sym) || STOCKS[0];
 const artOf   = id  => ARTS.find(a => a.id === id) || ARTS[0];

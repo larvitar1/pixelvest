@@ -98,12 +98,13 @@ function homeView() {
   const popular  = [...ARTS].sort((a, b) => a.rank - b.rank).slice(0, 5).map(a => decArt(a));
 
   const watchHtml = watchlist.map(w =>
-    '<div data-link data-stock="' + w.sym + '" style="cursor:pointer;display:flex;align-items:center;gap:12px;padding:11px 4px;border-bottom:1px solid var(--line);">'
-    + '<div style="min-width:62px;">'
+    '<div data-link data-stock="' + w.sym + '" style="cursor:pointer;display:flex;align-items:center;gap:10px;padding:10px 4px;border-bottom:1px solid var(--line);">'
+    + stockLogoHtml(w.sym, 32)
+    + '<div style="min-width:52px;">'
     +   '<div style="font-weight:700;font-size:14px;">' + w.sym + '</div>'
-    +   '<div style="font-size:11px;color:var(--ink-3);white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:62px;">' + esc(w.name) + '</div>'
+    +   '<div style="font-size:11px;color:var(--ink-3);white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:52px;">' + esc(w.name) + '</div>'
     + '</div>'
-    + '<div style="width:74px;height:30px;flex:none;">' + w.spark + '</div>'
+    + '<div style="width:68px;height:30px;flex:none;">' + w.spark + '</div>'
     + '<div style="flex:1;text-align:right;">'
     +   '<div style="font-weight:700;font-size:14px;font-variant-numeric:tabular-nums;">' + w.price + '</div>'
     +   '<div style="font-size:11.5px;font-weight:600;color:' + w.color + ';font-variant-numeric:tabular-nums;">' + w.arrow + w.pct + '</div>'
@@ -195,11 +196,21 @@ function newsView() {
 
   const groupsHtml = groups.map(g => {
     const items = g.items.map(n => {
-      const badges = n.badges.map(b =>
-        '<span style="display:inline-flex;align-items:center;font-family:\'IBM Plex Mono\',monospace;font-size:11px;font-weight:600;letter-spacing:.02em;color:var(--paper);background:var(--ink);padding:4px 9px;border-radius:7px;">' + b + '</span>'
-      ).join('');
+      const sym0 = n.badges.length > 0 ? n.badges[0].replace('$', '') : null;
+      const logoCol = sym0
+        ? '<div style="display:flex;flex-direction:column;align-items:center;gap:5px;flex:none;width:56px;">'
+          + stockLogoHtml(sym0, 40)
+          + '<span style="font-family:\'IBM Plex Mono\',monospace;font-size:10px;font-weight:700;color:var(--ink-2);">$' + esc(sym0) + '</span>'
+          + (n.badges.length > 1 ? '<span style="font-size:10px;font-weight:600;color:var(--ink-3);">+' + (n.badges.length - 1) + '</span>' : '')
+          + '</div>'
+        : '<div style="display:flex;flex-direction:column;align-items:center;gap:5px;flex:none;width:56px;">'
+          + '<span style="width:40px;height:40px;border-radius:50%;background:var(--surface-2);border:1px solid var(--line);display:flex;align-items:center;justify-content:center;">'
+          + '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="var(--ink-3)" stroke-width="2" stroke-linecap="round"><path d="M4 22h14a2 2 0 0 0 2-2V7.5L14.5 2H6a2 2 0 0 0-2 2v4"/><polyline points="14 2 14 8 20 8"/><path d="M2 15h10"/></svg>'
+          + '</span>'
+          + '<span style="font-family:\'IBM Plex Mono\',monospace;font-size:9px;font-weight:700;color:var(--ink-3);">NEWS</span>'
+          + '</div>';
       return '<div data-card data-article="' + n.id + '" style="cursor:pointer;display:flex;gap:18px;align-items:flex-start;background:var(--surface);border:1px solid var(--line);border-radius:18px;padding:18px 22px;box-shadow:var(--shadow);">'
-        + '<div style="display:flex;flex-direction:column;gap:6px;flex:none;width:86px;align-items:flex-start;padding-top:2px;">' + badges + '</div>'
+        + logoCol
         + '<div style="flex:1;min-width:0;">'
         +   '<div style="font-family:\'IBM Plex Mono\',monospace;font-size:11px;color:var(--ink-3);margin-bottom:7px;">' + n.dateLabel + ' · ' + n.cat + ' · อ่าน ' + n.read + ' นาที</div>'
         +   '<div style="font-size:16.5px;line-height:1.6;"><strong style="font-weight:700;color:var(--ink);">' + esc(n.title) + '</strong> <span style="color:var(--ink-2);">— ' + esc(n.excerpt) + '</span></div>'
