@@ -26,6 +26,38 @@ function applyTheme() {
   app.style.setProperty('--fs', String(settings.fontScale));
 }
 
+/* ── Sidebar collapse / mobile open-close ── */
+function pvToggleSidebar() {
+  const sb = document.getElementById('pv-sidebar');
+  if (!sb) return;
+  const collapsed = sb.classList.toggle('pv-collapsed');
+  const btn = sb.querySelector('[data-sidebar-toggle]');
+  if (btn) btn.textContent = collapsed ? '»' : '«';
+  try { localStorage.setItem('pv-sb-collapsed', collapsed ? '1' : '0'); } catch(e) {}
+}
+function pvOpenSidebar() {
+  const sb = document.getElementById('pv-sidebar');
+  const ov = app.querySelector('.pv-sb-overlay');
+  if (sb) sb.classList.add('pv-open');
+  if (ov) ov.classList.add('active');
+}
+function pvCloseSidebar() {
+  const sb = document.getElementById('pv-sidebar');
+  const ov = app.querySelector('.pv-sb-overlay');
+  if (sb) sb.classList.remove('pv-open');
+  if (ov) ov.classList.remove('active');
+}
+function restoreSidebarState() {
+  try {
+    if (localStorage.getItem('pv-sb-collapsed') === '1') {
+      const sb = document.getElementById('pv-sidebar');
+      const btn = sb && sb.querySelector('[data-sidebar-toggle]');
+      if (sb) sb.classList.add('pv-collapsed');
+      if (btn) btn.textContent = '»';
+    }
+  } catch(e) {}
+}
+
 /* ── Re-render the whole app shell ── */
 function render() {
   let main = '';
@@ -34,8 +66,18 @@ function render() {
   else if (state.route.page === 'article') main = articleView(state.route.id);
   else if (state.route.page === 'stock')   main = stockView(state.route.id);
   else if (state.route.page === 'team')    main = teamView();
-  app.innerHTML = headerView() + tickerView() + main + footerView();
+  app.innerHTML = '<div class="pv-layout">'
+    + sidebarView()
+    + '<div class="pv-main-area">'
+    +   mobileTopBarView()
+    +   tickerView()
+    +   main
+    +   footerView()
+    + '</div>'
+    + '<div class="pv-sb-overlay" data-sidebar-close></div>'
+    + '</div>';
   applyTheme();
+  restoreSidebarState();
 }
 
 /* ── Navigate to a new page ── */
@@ -56,6 +98,12 @@ function back() {
 
 /* ── Delegated click handler for in-app navigation ── */
 app.addEventListener('click', e => {
+  const tog = e.target.closest('[data-sidebar-toggle]');
+  if (tog) { pvToggleSidebar(); return; }
+  const mob = e.target.closest('[data-mobile-menu]');
+  if (mob) { pvOpenSidebar(); return; }
+  const cls = e.target.closest('[data-sidebar-close]');
+  if (cls) { pvCloseSidebar(); return; }
   // เปลี่ยนช่วงเวลากราฟ — render ใหม่โดยไม่เปลี่ยนหน้า/ไม่เพิ่ม history
   const r = e.target.closest('[data-range]');
   if (r) { state.range = r.getAttribute('data-range'); render(); return; }

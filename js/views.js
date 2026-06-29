@@ -15,31 +15,50 @@ function logoSvg(size) {
     + '<polyline points="30,14 37,14 37,21" fill="none" stroke="#fff" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/></svg>';
 }
 
-/* ── Sticky top navigation bar ── */
-function headerView() {
-  const navDef = [{ label: 'หน้าแรก', page: 'home' }, { label: 'ข่าวหุ้น', page: 'news' }, { label: 'ทีมงาน', page: 'team' }];
-  const nav = navDef.map((n, i) => {
-    const active = n.page === state.route.page && (n.page !== 'home' || i === 0);
-    return '<a data-link data-go="' + n.page + '" style="cursor:pointer;padding:8px 14px;border-radius:9px;font-size:14.5px;font-weight:600;'
-      + 'color:' + (active ? 'var(--ink)' : 'var(--ink-2)') + ';background:' + (active ? 'var(--surface-2)' : 'transparent') + ';text-decoration:none;">'
-      + n.label + '</a>';
+/* ── Left sidebar navigation ── */
+function sidebarView() {
+  const navDef = [
+    { label: 'หน้าแรก', page: 'home',
+      icon: '<path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/>' },
+    { label: 'ข่าวหุ้น', page: 'news',
+      icon: '<path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/>' },
+    { label: 'ทีมงาน', page: 'team',
+      icon: '<path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/>' },
+  ];
+  const items = navDef.map(n => {
+    const active = n.page === state.route.page;
+    return '<div data-go="' + n.page + '" class="pv-nav-item' + (active ? ' pv-active' : '') + '">'
+      + '<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="flex:none;">' + n.icon + '</svg>'
+      + '<span class="pv-nav-lbl">' + n.label + '</span>'
+      + '</div>';
   }).join('');
-  return '<header style="position:sticky;top:0;z-index:40;background:color-mix(in srgb, var(--paper) 90%, transparent);backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);border-bottom:1px solid var(--line);box-shadow:0 1px 0 var(--line),0 6px 24px -8px rgba(38,24,6,.10);">'
-    + '<div data-pad style="max-width:1200px;margin:0 auto;padding:13px 28px;display:flex;align-items:center;gap:24px;">'
-    +   '<div data-go="home" style="display:flex;align-items:center;gap:11px;cursor:pointer;flex:none;">'
-    +     logoSvg(40)
-    +     '<div style="line-height:1;">'
-    +       '<div style="font-weight:700;font-size:20px;letter-spacing:-.01em;">Pixel<span style="color:var(--gold);">Vest</span></div>'
-    +       '<div style="font-size:10px;letter-spacing:.18em;color:var(--ink-3);margin-top:3px;font-weight:600;">STOCK NEWS · ข่าวหุ้น</div>'
+  return '<aside id="pv-sidebar">'
+    + '<div class="pv-sb-head">'
+    +   '<div data-go="home" style="display:flex;align-items:center;gap:10px;cursor:pointer;flex:1;min-width:0;">'
+    +     logoSvg(32)
+    +     '<div class="pv-sb-brand">'
+    +       '<div style="font-weight:700;font-size:17px;line-height:1.1;">Pixel<span style="color:var(--gold);">Vest</span></div>'
+    +       '<div style="font-size:9px;letter-spacing:.16em;color:var(--ink-3);font-weight:600;margin-top:3px;">STOCK NEWS</div>'
     +     '</div>'
     +   '</div>'
-    +   '<nav data-hidesm style="display:flex;gap:4px;margin-left:8px;">' + nav + '</nav>'
-    +   '<div style="flex:1;"></div>'
-    +   '<div data-hidesm style="display:flex;align-items:center;gap:8px;background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:8px 13px;min-width:190px;">'
-    +     '<svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="var(--ink-3)" stroke-width="2"><circle cx="11" cy="11" r="7"></circle><path d="m21 21-4-4"></path></svg>'
-    +     '<input placeholder="ค้นหาหุ้น / ข่าว" style="border:none;outline:none;background:none;font-family:inherit;font-size:13.5px;color:var(--ink);width:100%;">'
-    +   '</div>'
-    + '</div></header>';
+    +   '<div class="pv-sb-toggle" data-sidebar-toggle title="ย่อ/ขยาย">«</div>'
+    + '</div>'
+    + '<div class="pv-sb-label">PAGES</div>'
+    + '<nav>' + items + '</nav>'
+    + '</aside>';
+}
+
+/* ── Mobile top bar (hamburger + logo, hidden on desktop) ── */
+function mobileTopBarView() {
+  return '<div class="pv-mobile-bar">'
+    + '<div class="pv-hamburger" data-mobile-menu>'
+    +   '<svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M3 6h18M3 12h18M3 18h18"/></svg>'
+    + '</div>'
+    + '<div data-go="home" style="display:flex;align-items:center;gap:9px;cursor:pointer;">'
+    +   logoSvg(26)
+    +   '<span style="font-weight:700;font-size:16px;">Pixel<span style="color:var(--gold);">Vest</span></span>'
+    + '</div>'
+    + '</div>';
 }
 
 /* ── Scrolling stock ticker bar below header ── */
@@ -61,7 +80,7 @@ function tickerView() {
     + '</div>'
   );
   const tickerItems = tickRaw.concat(tickRaw).join('');
-  return '<div style="background:var(--surface);border-bottom:1px solid var(--line);">'
+  return '<div style="background:var(--surface);border-bottom:1px solid var(--line);position:sticky;top:0;z-index:30;">'
     + '<div data-pad style="max-width:1200px;margin:0 auto;padding:12px 28px;display:flex;align-items:center;gap:22px;">'
     +   '<div data-hidesm style="display:flex;gap:18px;flex:none;">' + indices + '</div>'
     +   '<div style="flex:1;min-width:0;border-left:1px solid var(--line);padding-left:20px;overflow:hidden;mask-image:linear-gradient(90deg,transparent,#000 4%,#000 92%,transparent);-webkit-mask-image:linear-gradient(90deg,transparent,#000 4%,#000 92%,transparent);">'
