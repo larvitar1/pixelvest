@@ -5,16 +5,17 @@
    ============================================================ */
 
 const STOCKS = [
-  { sym:'NVDA',  name:'NVIDIA Corp.',           sector:'เซมิคอนดักเตอร์', exchange:'NASDAQ', price:131.50, pct:2.94,  sd:71 },
-  { sym:'AAPL',  name:'Apple Inc.',             sector:'เทคโนโลยี',       exchange:'NASDAQ', price:214.30, pct:0.62,  sd:12 },
-  { sym:'MSFT',  name:'Microsoft Corp.',        sector:'ซอฟต์แวร์',       exchange:'NASDAQ', price:449.80, pct:1.21,  sd:23 },
-  { sym:'AMZN',  name:'Amazon.com Inc.',        sector:'อีคอมเมิร์ซ',     exchange:'NASDAQ', price:193.60, pct:-0.84, sd:34 },
-  { sym:'GOOGL', name:'Alphabet Inc.',          sector:'เทคโนโลยี',       exchange:'NASDAQ', price:178.40, pct:1.52,  sd:45 },
-  { sym:'META',  name:'Meta Platforms',         sector:'โซเชียลมีเดีย',   exchange:'NASDAQ', price:504.20, pct:2.08,  sd:56 },
-  { sym:'TSLA',  name:'Tesla Inc.',             sector:'ยานยนต์ไฟฟ้า',    exchange:'NASDAQ', price:251.00, pct:-1.93, sd:67 },
-  { sym:'AMD',   name:'Advanced Micro Devices', sector:'เซมิคอนดักเตอร์', exchange:'NASDAQ', price:162.30, pct:3.41,  sd:78 },
-  { sym:'JPM',   name:'JPMorgan Chase',         sector:'ธนาคาร',          exchange:'NYSE',   price:205.10, pct:-0.39, sd:89 },
-  { sym:'NFLX',  name:'Netflix Inc.',           sector:'สตรีมมิ่ง',       exchange:'NASDAQ', price:685.00, pct:0.94,  sd:90 },
+  { sym:'NVDA',  name:'NVIDIA Corp.',           sector:'เซมิคอนดักเตอร์',    exchange:'NASDAQ', price:131.50, pct:2.94,  sd:71 },
+  { sym:'CRWD',  name:'CrowdStrike Holdings',   sector:'ไซเบอร์ซีเคียวริตี้', exchange:'NASDAQ', price:418.50, pct:1.73,  sd:93 },
+  { sym:'AMZN',  name:'Amazon.com Inc.',        sector:'อีคอมเมิร์ซ',        exchange:'NASDAQ', price:193.60, pct:-0.84, sd:34 },
+  { sym:'GOOGL', name:'Alphabet Inc.',          sector:'เทคโนโลยี',          exchange:'NASDAQ', price:178.40, pct:1.52,  sd:45 },
+  { sym:'META',  name:'Meta Platforms',         sector:'โซเชียลมีเดีย',      exchange:'NASDAQ', price:504.20, pct:2.08,  sd:56 },
+  { sym:'TSLA',  name:'Tesla Inc.',             sector:'ยานยนต์ไฟฟ้า',       exchange:'NASDAQ', price:251.00, pct:-1.93, sd:67 },
+  { sym:'AAPL',  name:'Apple Inc.',             sector:'เทคโนโลยี',          exchange:'NASDAQ', price:214.30, pct:0.62,  sd:12 },
+  { sym:'MSFT',  name:'Microsoft Corp.',        sector:'ซอฟต์แวร์',          exchange:'NASDAQ', price:449.80, pct:1.21,  sd:23 },
+  { sym:'AMD',   name:'Advanced Micro Devices', sector:'เซมิคอนดักเตอร์',    exchange:'NASDAQ', price:162.30, pct:3.41,  sd:78 },
+  { sym:'JPM',   name:'JPMorgan Chase',         sector:'ธนาคาร',             exchange:'NYSE',   price:205.10, pct:-0.39, sd:89 },
+  { sym:'NFLX',  name:'Netflix Inc.',           sector:'สตรีมมิ่ง',          exchange:'NASDAQ', price:685.00, pct:0.94,  sd:90 },
 ];
 
 const INDICES = [
