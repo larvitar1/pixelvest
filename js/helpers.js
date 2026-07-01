@@ -103,6 +103,7 @@ const AGENTS = {
   joy:    { name: 'Joy',    role: 'ข่าวผลประกอบการ',    accent: 'var(--gold)' },
   max:    { name: 'Max',    role: 'บทวิเคราะห์พื้นฐาน', accent: 'var(--up)'   },
   hanako: { name: 'Hanako', role: 'ภาพรวมตลาด',         accent: 'var(--ink)'  },
+  chen:   { name: 'Chen',   role: 'ข่าวเจาะเทรนด์',     accent: 'var(--ink-2)' },
 };
 /* คืนข้อมูล agent ของบทความ — ใช้ field agent ก่อน ถ้าไม่มีเดาจากหมวด */
 function agentInfo(a) {

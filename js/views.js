@@ -113,9 +113,8 @@ function homeView() {
 
   const feedHtml = feed.map(a =>
     '<article data-card data-link data-article="' + a.id + '" style="cursor:pointer;background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);overflow:hidden;box-shadow:var(--shadow);display:flex;flex-direction:column;">'
-    + '<div style="height:164px;' + (a.image ? 'background:url(\'' + esc(a.image) + '\') center/cover no-repeat;' : 'background:repeating-linear-gradient(135deg,var(--surface-2),var(--surface-2) 10px,transparent 10px,transparent 20px),var(--surface);') + 'position:relative;">'
-    +   '<span style="position:absolute;top:11px;left:11px;background:var(--gold);color:#fff;font-size:10px;font-weight:700;letter-spacing:.07em;padding:4px 10px;border-radius:20px;">' + a.cat + '</span>'
-    + '</div>'
+    + (a.image ? '<div style="height:164px;background:url(\'' + esc(a.image) + '\') center/cover no-repeat;position:relative;"><span style="position:absolute;top:11px;left:11px;background:var(--gold);color:#fff;font-size:10px;font-weight:700;letter-spacing:.07em;padding:4px 10px;border-radius:20px;">' + a.cat + '</span></div>' : '')
+    + (a.image ? '' : '<div style="padding:14px 16px 0;"><span style="background:var(--gold);color:#fff;font-size:10px;font-weight:700;letter-spacing:.07em;padding:4px 10px;border-radius:20px;">' + a.cat + '</span></div>')
     + '<div style="padding:15px 16px 16px;display:flex;flex-direction:column;flex:1;">'
     +   '<h3 style="font-family:var(--head);font-size:18px;font-weight:700;line-height:1.36;margin:0 0 9px;letter-spacing:-.01em;">' + esc(a.title) + '</h3>'
     +   '<p style="margin:0 0 14px;font-size:13.5px;color:var(--ink-2);line-height:1.6;">' + esc(a.excerpt) + '</p>'
@@ -473,6 +472,13 @@ function teamView() {
       image: 'assets/images/agents/pixel.png',
       role: 'นักออกแบบภาพประกอบ',
       desc: 'สร้างภาพประกอบบทความด้วย AI ให้สอดคล้องกับเนื้อหาและธีมของข่าว เติมสีสันให้ทุกบทความมีชีวิต',
+    },
+    {
+      id: 'chen', name: 'Chen', badge: 'TREND',
+      accent: '#5a7d9a', bg: 'linear-gradient(150deg,#d4e4ef 0%,#8badc4 100%)',
+      image: 'assets/images/agents/Chen.png',
+      role: 'นักข่าวเจาะเทรนด์',
+      desc: 'สแกนกระแสข่าวที่กำลังมาแรง ทั้งหุ้น เศรษฐกิจ ภูมิรัฐศาสตร์ และเทคโนโลยี เจาะลึกเทรนด์ที่นักลงทุนต้องรู้ก่อนใคร',
     },
   ];
 
