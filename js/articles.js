@@ -1555,5 +1555,230 @@ const ARTS = [
     "featured": true,
     "agent": "hanako",
     "image": "assets/images/20-market-2026-06-30.jpg"
+  },
+  {
+    "id": 21,
+    "cat": "เซมิคอนดักเตอร์",
+    "title": "\"OpenAI x Broadcom เปิดตัวชิป Jalapeno — ASIC inference ตัวแรก ลดต้นทุน 50% ท้าทาย NVIDIA\"",
+    "excerpt": "\"OpenAI จับมือ Broadcom เปิดตัว Jalapeno ชิป inference แบบ custom ASIC ตัวแรก ผลิตบน TSMC 3nm พัฒนาจากศูนย์ถึง tape-out ใน 9 เดือน อ้างลดต้นทุน inference ได้ 50% เทียบกับ GPU เตรียม deploy ปลายปี 2026 ใน data center ระดับ gigawatt ร่วมกับ Microsoft\"",
+    "author": "ทีมข่าว PixelVest",
+    "date": "1 ก.ค. 2026",
+    "iso": "2026-07-01",
+    "read": 7,
+    "syms": [
+      "AVGO",
+      "NVDA",
+      "MSFT"
+    ],
+    "rank": 21,
+    "body": {
+      "intro": "OpenAI และ Broadcom ประกาศเปิดตัว **Jalapeno** ชิปประมวลผล AI แบบ custom ASIC ตัวแรกที่ OpenAI ร่วมออกแบบตั้งแต่ศูนย์ ออกแบบเฉพาะสำหรับงาน inference ของ LLM โดยอ้างว่าสามารถลดต้นทุน inference ต่อ token ได้ราว 50% เมื่อเทียบกับ GPU ปัจจุบัน ถือเป็นการเปลี่ยนเกมครั้งสำคัญในตลาดชิป AI ที่ NVIDIA ครองอำนาจมายาวนาน ในการทดสอบเบื้องต้น engineering sample ของ Jalapeno รัน ML workload ได้ที่ความถี่และกำลังไฟตามเป้าหมายการผลิต รวมถึงรันโมเดล GPT-5.3-Codex-Spark ได้สำเร็จ",
+      "sections": [
+        {
+          "h": "9 เดือนจากกระดาษเปล่าสู่ tape-out",
+          "p": "Jalapeno ถูกพัฒนาจากขั้นตอนออกแบบเริ่มต้นจนถึง tape-out (ส่งแบบให้โรงงานผลิต) ในเวลาเพียง 9 เดือน ซึ่งถือเป็นหนึ่งในวงจรการพัฒนา ASIC ที่เร็วที่สุดเท่าที่เคยมีมาในอุตสาหกรรมเซมิคอนดักเตอร์ระดับ high-performance โดยปกติกระบวนการนี้ใช้เวลาหลายปี OpenAI ระบุว่าความเร็วนี้เกิดจากการใช้โมเดล AI ของตัวเองช่วยเร่งกระบวนการออกแบบ และการทำงานร่วมกันอย่างลึกซึ้งระหว่างทีม software และ hardware กับ Broadcom"
+        },
+        {
+          "h": "สเปกทางเทคนิค — reticle-size ASIC บน TSMC 3nm",
+          "p": "ชิป Jalapeno ผลิตบนกระบวนการ TSMC 3nm โดยมี compute chiplet ขนาดประมาณ 840 ตารางมิลลิเมตร ซึ่งเกือบชนขีดจำกัด reticle ของเครื่อง EUV scanner ที่ 858 ตารางมิลลิเมตร แพ็กเกจรวมประกอบด้วย compute chiplet, I/O chiplet แยก, HBM memory stack 6-8 ชุด (HBM3/HBM4) และ dummy die สำหรับสมดุลเชิงกล สถาปัตยกรรมใช้ systolic array คล้ายกับ TPU ของ Google ซึ่งเหมาะกับการคำนวณ matrix multiplication แบบหนาแน่นที่เป็นหัวใจของ LLM inference"
+        },
+        {
+          "h": "ลดต้นทุน inference 50% — หัวใจของสมการธุรกิจ",
+          "p": "ตัวเลข \"ลดต้นทุน inference 50% ต่อ token\" มาจาก Hock Tan ซีอีโอของ Broadcom ที่ให้ข้อมูลกับ Bloomberg โดยระบุว่าเป็นผลจากการทดสอบเบื้องต้น ชิปนี้ออกแบบมาเพื่อแก้ปัญหา memory bottleneck ที่เป็นจุดอ่อนของ GPU ในงาน LLM inference โดยเฉพาะ พร้อมใช้เทคโนโลยี networking ของ Broadcom (Tomahawk) สำหรับการสื่อสารระหว่างชิปในคลัสเตอร์ขนาดใหญ่"
+        },
+        {
+          "h": "แผน deploy ปลายปี 2026 กับ Microsoft",
+          "p": "Jalapeno มีแผน deploy เริ่มต้นปลายปี 2026 ใน data center ระดับ gigawatt ร่วมกับ Microsoft และพันธมิตร โดย Celestica ทำหน้าที่ด้าน system integration ระดับ rack ทั้งนี้ชิปนี้ออกแบบสำหรับ inference เท่านั้น ไม่ใช่สำหรับ training — OpenAI ยังคงพึ่งพา GPU ของ NVIDIA สำหรับการเทรนโมเดล และมีคำสั่งซื้อ GPU รุ่น Rubin ของ NVIDIA อยู่แล้ว"
+        },
+        {
+          "h": "ผลกระทบต่อ NVIDIA และภูมิทัศน์ตลาดชิป AI",
+          "p": "การเปิดตัว Jalapeno ทำให้ OpenAI เข้าร่วมกลุ่มบริษัทที่พัฒนาชิป inference เอง ซึ่งรวมถึง Google (TPU), Meta, Amazon และ Microsoft ที่ต่างมีโปรแกรมชิปของตัวเอง แนวโน้มนี้อาจกระทบรายได้ฝั่ง inference ของ NVIDIA ในระยะยาว แม้ว่า NVIDIA จะยังคงครองตลาด training อย่างมั่นคง สำหรับ Broadcom ถือเป็นการตอกย้ำสถานะผู้นำด้าน custom ASIC ต่อจากความสำเร็จกับ Google และลูกค้ารายอื่น"
+        }
+      ],
+      "quote": "ชิป Jalapeno ไม่ได้เป็นเรื่องของการแทนที่ NVIDIA ทั้งหมด แต่เป็นเรื่องของ unit economics — เมื่อ inference คิดเป็นสัดส่วนต้นทุนมหาศาลของการให้บริการ AI ระดับ ChatGPT การลดต้นทุนตรงนี้ 50% มีผลต่อสมการธุรกิจของ OpenAI อย่างมาก",
+      "quoteBy": "— ทีมข่าว PixelVest",
+      "takeaway": "OpenAI เปิดตัวชิป Jalapeno ร่วมกับ Broadcom เป็น custom ASIC ตัวแรกสำหรับ inference โดยเฉพาะ ผลิตบน TSMC 3nm พัฒนาใน 9 เดือน อ้างลดต้นทุน 50% เทียบ GPU มีแผน deploy ปลายปี 2026 กับ Microsoft แม้จะยังไม่ใช่การทดแทน NVIDIA ในด้าน training แต่สะท้อนเทรนด์ที่บริษัท AI รายใหญ่หันมาพัฒนาชิป inference ของตัวเอง นักลงทุนควรติดตามรายงานทางเทคนิคฉบับเต็มที่จะเผยแพร่ในเดือนต่อ ๆ ไป และผลกระทบต่อสัดส่วนรายได้ inference ของ NVIDIA",
+      "sources": [
+        {
+          "text": "OpenAI and Broadcom unveil LLM-optimized inference chip — OpenAI",
+          "url": "https://openai.com/index/openai-broadcom-jalapeno-inference-chip/"
+        },
+        {
+          "text": "OpenAI unveils its first custom chip, built by Broadcom — TechCrunch",
+          "url": "https://techcrunch.com/2026/06/24/openai-unveils-its-first-custom-chip-built-by-broadcom/"
+        },
+        {
+          "text": "OpenAI and Broadcom reveal Jalapeno, first AI chip in partnership — CNBC",
+          "url": "https://www.cnbc.com/2026/06/24/openai-and-broadcom-reveal-jalapeno-first-ai-chip-in-partnership.html"
+        },
+        {
+          "text": "Broadcom and OpenAI unveil custom-built Jalapeno inference processor — Tom's Hardware",
+          "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/broadcom-and-openai-unveil-custom-built-jalapeno-inference-processor-openais-first-chip-is-a-massive-reticle-sized-asic-built-in-an-ultra-fast-nine-month-development-cycle"
+        },
+        {
+          "text": "OpenAI unveils first custom AI inference chip, Jalapeno, with Broadcom — VentureBeat",
+          "url": "https://venturebeat.com/infrastructure/openai-unveils-first-custom-ai-inference-chip-jalapeno-with-broadcom-and-its-development-was-sped-up-with-openais-own-models"
+        },
+        {
+          "text": "OpenAI's First Custom AI Chip Targets 50% Cheaper Inference — TechTimes",
+          "url": "https://www.techtimes.com/articles/319012/20260624/openais-first-custom-ai-chip-targets-50-cheaper-inference-jalapeno-unveiled.htm"
+        }
+      ]
+    },
+    "agent": "chen"
+  },
+  {
+    "id": 22,
+    "cat": "เซมิคอนดักเตอร์",
+    "title": "เกาหลีใต้ทุ่ม $880 พันล้าน ปักธง AI-เซมิคอนดักเตอร์ — Samsung-SK Hynix สร้าง fab ใหม่ 4 แห่ง",
+    "excerpt": "ประธานาธิบดีอี แจมยอง ประกาศแผน 10 ปี ระดมทุนกว่า 1,350 ล้านล้านวอน ($880B) สร้างโรงงาน fab ใหม่ 4 แห่ง ศูนย์ข้อมูล AI และหุ่นยนต์ — แต่ตลาดกังวล oversupply หุ้น Samsung ร่วง 4.8%",
+    "author": "ทีมข่าว PixelVest",
+    "date": "1 ก.ค. 2026",
+    "iso": "2026-07-01",
+    "read": 7,
+    "syms": [
+      "AMD",
+      "NVDA"
+    ],
+    "rank": 22,
+    "body": {
+      "intro": "เมื่อวันที่ 29 มิถุนายน 2026 ประธานาธิบดีเกาหลีใต้ อี แจมยอง (Lee Jae-myung) ประกาศ \"โครงการก้าวกระโดดครั้งใหญ่\" ระดมทุนภาครัฐ-เอกชนรวมกว่า 1,000 ล้านล้านวอน (ราว $649 พันล้าน) ถึง 1,350 ล้านล้านวอน ($880 พันล้าน) ใน 3 แกนหลัก ได้แก่ เซมิคอนดักเตอร์ ศูนย์ข้อมูล AI และ Physical AI (หุ่นยนต์) ถือเป็นแผนลงทุนด้านชิปที่ใหญ่ที่สุดในประวัติศาสตร์ของเกาหลีใต้ Samsung วางแผนจัดสรรงบราว 300 ล้านล้านวอนสำหรับ fab ใหม่ในภาคตะวันตกเฉียงใต้ อีก 360 ล้านล้านวอนสำหรับคลัสเตอร์เซมิคอนดักเตอร์ที่ยงอิน (Yongin) และกว่า 350 ล้านล้านวอนสำหรับศูนย์ข้อมูล AI โดยเน้นการผลิต HBM (High Bandwidth Memory) ซึ่งต้องใช้กระบวนการระดับ main-fab ด้าน SK Group เร่งไทม์ไลน์โรงงานหน่วยความจำที่ยงอินจากเดิมปี 2045 เป็นปี 2033 พร้อมตั้งเป้าเพิ่มกำลังการผลิตหน่วยความจำของประเทศเป็น 2 เท่าภายใน 5 ปี - **NVIDIA** พึ่งพา SK Hynix เป็นซัพพลายเออร์ HBM หลัก โดยรายงานระบุว่า NVIDIA ต้องการให้ผู้ผลิตหน่วยความจำส่งมอบชิป HBM แบบ 16-Hi ภายในไตรมาส 4 ปี 2026 - **AMD** ใช้ HBM3E จากหลายซัพพลายเออร์รวมถึง Samsung สำหรับแพลตฟอร์ม MI350 ปัจจุบันกำลังการผลิต HBM ของทั้ง 3 ผู้ผลิตหลัก (Samsung, SK Hynix, Micron) ถูกจองเต็มจนถึงสิ้นปี 2026 และตลาด HBM คาดว่าจะขยายตัวจาก $35 พันล้านในปี 2025 เป็น $100 พันล้านภายในปี 2028 ก่อนหน้านี้ดัชนี KOSPI เคยร่วงแรงถึง 4.6% จากแรงเทขายหุ้นเทคโนโลยีในช่วงปลายเดือนมิถุนายน สะท้อนความกังวลเรื่องวัฏจักรชิปที่อาจพลิกจาก demand สูงสู่ภาวะ oversupply",
+      "sections": [
+        {
+          "h": "Fab ใหม่ 4 แห่ง — เดิมพัน 800 ล้านล้านวอน",
+          "p": "หัวใจของแผนคือการสร้างโรงงานผลิตชิป (fab) ใหม่ 4 แห่งในภาคตะวันตกเฉียงใต้ของเกาหลีใต้ โดย Samsung Electronics และ SK Hynix จะสร้างฝ่ายละ 2 แห่ง ด้วยงบลงทุนรวมราว 800 ล้านล้านวอน ($518 พันล้าน) ร่วมกับซัพพลายเออร์ในห่วงโซ่อุปทาน"
+        },
+        {
+          "h": "ทำไมสำคัญต่อ NVIDIA และ AMD",
+          "p": "Samsung และ SK Hynix ครองส่วนแบ่งการผลิต HBM ทั่วโลกราว 80% ซึ่ง HBM คือหน่วยความจำหลักที่ใช้ใน AI accelerator ของทั้ง NVIDIA และ AMD"
+        },
+        {
+          "h": "ตลาดกังวล Oversupply — หุ้น Samsung ร่วง",
+          "p": "แม้แผนลงทุนจะดูยิ่งใหญ่ แต่ตลาดตอบรับในทางลบ หุ้น Samsung Electronics ร่วง 4.8% และ SK Hynix ลดลง 1.6% ในวันที่ประกาศแผน นักลงทุนกังวลเรื่องระยะเวลาคืนทุนจากการลงทุนมหาศาล และความเสี่ยงจาก oversupply ในตลาดหน่วยความจำ"
+        },
+        {
+          "h": "มิติการเมือง — ข้อถกเถียงเรื่องทำเลที่ตั้ง",
+          "p": "แผนนี้ยังมีแง่มุมทางการเมือง ฝ่ายค้านวิจารณ์ว่าการเลือกสร้าง fab ในภาคโฮนัม (Honam) ซึ่งเป็นฐานเสียงเดิมของพรรคประชาธิปไตย พรรคฝ่ายรัฐบาล อาจเป็นการตัดสินใจเชิงการเมืองมากกว่าเหตุผลทางอุตสาหกรรม อย่างไรก็ตาม รัฐบาลระบุว่าเป็นยุทธศาสตร์กระจายอุตสาหกรรมออกจากเขตมหานครโซล"
+        }
+      ],
+      "quote": "การลงทุนครั้งนี้สะท้อนว่าเกาหลีใต้มองการแข่งขัน AI ในระยะยาวว่าจะถูกตัดสินด้วย \"ฮาร์ดแวร์\" ไม่น้อยไปกว่าซอฟต์แวร์ และพยายามสร้างอำนาจครบห่วงโซ่ตั้งแต่การผลิตชิป, packaging, ไปจนถึงศูนย์ข้อมูล",
+      "quoteBy": "— ทีมข่าว PixelVest",
+      "takeaway": "เกาหลีใต้ประกาศแผนลงทุนเซมิคอนดักเตอร์-AI ระดับ $880 พันล้าน ผ่าน Samsung และ SK Hynix ซึ่งเป็นซัพพลายเออร์ HBM หลักของ NVIDIA และ AMD — แผนนี้อาจเปลี่ยนแปลงดุลอำนาจในห่วงโซ่อุปทานชิป AI ทั่วโลก แต่ตลาดยังจับตาเรื่องความเสี่ยง oversupply และระยะเวลาคืนทุนอย่างใกล้ชิด",
+      "sources": [
+        {
+          "text": "Samsung, SK Hynix make $518M investment to meet AI demand — Fast Company",
+          "url": "https://www.fastcompany.com/91566674/samsung-sk-hynix-announce-joint-518-billion-investment-artificial-intelligence"
+        },
+        {
+          "text": "South Korea announces more than $1 trillion AI, chip investment drive — Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/6/29/south-korea-announces-more-than-1-trillion-ai-chip-investment-drive"
+        },
+        {
+          "text": "South Korea says Samsung and SK Hynix investing in AI, semiconductor mega-projects — CNBC",
+          "url": "https://www.cnbc.com/2026/06/29/samsung-sk-hynix-reported-1point3-reported-trillion-spending-plans.html"
+        },
+        {
+          "text": "South Korea unveils $520 billion investment plan with Samsung and SK Hynix — Tom's Hardware",
+          "url": "https://www.tomshardware.com/tech-industry/semiconductors/south-korea-unveils-usd520-billion-investment-plan-with-samsung-and-sk-hynix-to-expand-memory-chip-dominance-plan-includes-four-new-fabs-and-hbm-facilities-amid-strong-government-support"
+        },
+        {
+          "text": "South Korea is betting $880 billion that the next AI race will be won in hardware — TechSpot",
+          "url": "https://www.techspot.com/news/112926-south-korea-betting-880-billion-next-ai-race.html"
+        },
+        {
+          "text": "Korea HBM Chip War 2026: Inside the $100B AI Memory Race — Seoulz",
+          "url": "https://www.seoulz.com/korea-hbm-chip-war-2026/"
+        },
+        {
+          "text": "Samsung, SK to Spend $880 Billion to Drive Korea's AI Lead — Bloomberg",
+          "url": "https://www.bloomberg.com/news/articles/2026-06-28/samsung-sk-reportedly-to-invest-1-3-trillion-over-10-years"
+        }
+      ]
+    },
+    "agent": "chen"
+  },
+  {
+    "id": 23,
+    "cat": "สุขภาพ",
+    "title": "ภาษียา 100% มีผล 31 ก.ค. นี้ — 17 บริษัทยาโลกเร่งเจรจา onshoring ครั้งประวัติศาสตร์",
+    "excerpt": "สหรัฐฯ เตรียมเก็บภาษีนำเข้ายาจดสิทธิบัตร 100% มีผล 31 ก.ค. สำหรับ 17 บริษัทใหญ่ แต่ Pfizer, J&J, Eli Lilly ได้ข้อตกลง MFN ลดเหลือ 0% ขณะที่ AbbVie เพิ่งปิดดีลหลังสุด — กระตุ้นการลงทุนผลิตยาในอเมริการวมกว่า 4 แสนล้านดอลลาร์",
+    "author": "ทีมข่าว PixelVest",
+    "date": "1 ก.ค. 2026",
+    "iso": "2026-07-01",
+    "read": 9,
+    "syms": [
+      "PFE",
+      "LLY",
+      "JNJ",
+      "ABBV"
+    ],
+    "rank": 23,
+    "body": {
+      "intro": "นับถอยหลังไม่ถึง 30 วัน ก่อนที่ภาษีนำเข้ายาจดสิทธิบัตร (patented pharmaceuticals) อัตรา 100% ของสหรัฐฯ จะมีผลบังคับใช้ในวันที่ 31 กรกฎาคม 2026 สำหรับ 17 บริษัทยาขนาดใหญ่ที่ระบุไว้ใน Annex III ของคำสั่ง Section 232 ที่ประธานาธิบดีทรัมป์ลงนามเมื่อวันที่ 2 เมษายน 2026 ขณะที่บริษัทอื่นทั้งหมดจะตามมาในวันที่ 29 กันยายน การเคลื่อนไหวครั้งนี้ถือเป็นการเปลี่ยนแปลงโครงสร้างครั้งใหญ่ที่สุดของอุตสาหกรรมยาในรอบหลายทศวรรษ - **0%** สำหรับบริษัทที่ทำข้อตกลงทั้ง MFN pricing กับ HHS และ Onshoring Agreement กับกระทรวงพาณิชย์ (มีผลถึง 20 ม.ค. 2029) - **20%** สำหรับบริษัทที่มี Onshoring Agreement แต่ยังไม่มี MFN (มีผลถึง 2 เม.ย. 2030 จากนั้นขึ้นเป็น 100%) - **15%** สำหรับสินค้าจากญี่ปุ่น สหภาพยุโรป เกาหลีใต้ และสวิตเซอร์แลนด์ - **10%** สำหรับสินค้าจากสหราชอาณาจักร - **100%** อัตราเต็มสำหรับบริษัทที่ไม่มีข้อตกลงใดเลย ข้อยกเว้นสำคัญคือ ยาชื่อสามัญ (generic) ไม่ถูกเก็บภาษีนี้ **Johnson & Johnson (JNJ)** ปิดดีลทั้ง MFN และ onshoring พร้อมประกาศลงทุนรวม 55,000 ล้านดอลลาร์ในสหรัฐฯ รวมถึงการสร้างโรงงาน CDMO มูลค่า 2,000 ล้านดอลลาร์ในนอร์ทแคโรไลนา และโรงงานผลิตใหม่อีก 2 แห่งในเพนซิลเวเนียและนอร์ทแคโรไลนา โดย AJMC รายงานว่า J&J เป็นบริษัทลำดับที่ 15 จาก 17 ที่เข้าร่วมโครงการ **Eli Lilly (LLY)** ประกาศลงทุนเพิ่มอีก 27,000 ล้านดอลลาร์ เพื่อสร้างโรงงานผลิตใหม่ 4 แห่งในสหรัฐฯ โดย 3 แห่งเน้นผลิตสารออกฤทธิ์ (API) ทำให้ยอดลงทุนผลิตในประเทศรวมเกิน 50,000 ล้านดอลลาร์ตั้งแต่ปี 2020 แลกกับการยกเว้นภาษี 3 ปี **Regeneron** เป็นบริษัทสุดท้ายที่ปิดดีล เมื่อวันที่ 23 เมษายน 2026 ครบทั้ง 17 บริษัท โดยให้คำมั่นลงทุนกว่า 9,000 ล้านดอลลาร์ รวมถึงข้อตกลงผลิตมูลค่า 3,000 ล้านดอลลาร์กับ Fujifilm Biotechnologies ในนอร์ทแคโรไลนา และแผนลงทุนอีกราว 2,000 ล้านดอลลาร์ที่ Saratoga Springs รัฐนิวยอร์ก",
+      "sections": [
+        {
+          "h": "17 บริษัทใน Annex III และโครงสร้างภาษีแบบขั้นบันได",
+          "p": "บริษัท 17 แห่งที่ถูกระบุชื่อใน Annex III ได้แก่ Novo Nordisk, AbbVie, Merck, Pfizer, Eli Lilly, Johnson & Johnson, Bristol Myers Squibb, Roche, Novartis, Sanofi, GSK, AstraZeneca, Bayer, Boehringer Ingelheim, Takeda, Regeneron และ Amgen โดยอัตราภาษีไม่ได้เป็น 100% เท่ากันหมด แต่แบ่งเป็นระดับตามเงื่อนไข:"
+        },
+        {
+          "h": "Pfizer, J&J, Eli Lilly ปิดดีล MFN + Onshoring",
+          "p": "**Pfizer (PFE)** เป็นบริษัทแรกที่ตกลง MFN pricing กับทำเนียบขาว โดยยินยอมจำหน่ายยาบางรายการในราคาต่ำสุดเทียบเท่าประเทศพัฒนาแล้ว ผ่านแพลตฟอร์ม TrumpRx.gov อย่างไรก็ตาม ณ วันที่ลงนามคำสั่ง Pfizer ยังไม่ได้ปิดดีล Onshoring Agreement กับกระทรวงพาณิชย์"
+        },
+        {
+          "h": "AbbVie และ Regeneron — ดีลที่มาทีหลัง",
+          "p": "**AbbVie (ABBV)** เป็นบริษัทลำดับที่ 16 ที่ปิดดีลกับทำเนียบขาว โดยตกลงจำหน่ายยาในกลุ่มภูมิคุ้มกัน จักษุ และเมตาบอลิก ในราคา MFN ผ่าน Medicaid และ TrumpRx.gov พร้อมให้คำมั่นลงทุน 100,000 ล้านดอลลาร์ในสหรัฐฯ ตลอด 10 ปีข้างหน้า ทั้งด้าน R&D และโรงงานผลิต"
+        },
+        {
+          "h": "4 แสนล้านดอลลาร์ กับคำถามเรื่องความคุ้มค่าระยะยาว",
+          "p": "ทำเนียบขาวระบุว่าภัยคุกคามจากภาษีนี้ได้กระตุ้นให้เกิดคำมั่นลงทุนด้านการผลิตยาในสหรัฐฯ รวมกว่า 400,000 ล้านดอลลาร์ อย่างไรก็ตาม นักวิเคราะห์บางส่วนตั้งข้อสังเกตว่าต้นทุนการย้ายฐานผลิตกลับมาสหรัฐฯ สูงมาก และอาจต้องใช้เวลา 8-10 ปีกว่าจะคุ้มทุน เมื่อเทียบกับต้นทุนภาษีที่ต้องจ่าย นอกจากนี้ บริษัทยาขนาดเล็กที่ไม่อยู่ใน Annex III จะมีเวลาเตรียมตัวถึง 29 กันยายน แต่ Forbes ชี้ว่าบริษัทเหล่านี้จะได้รับผลกระทบหนักที่สุด เพราะขาดอำนาจต่อรองและทรัพยากรในการย้ายฐานผลิต"
+        }
+      ],
+      "quote": "แม้ทั้ง 17 บริษัทใหญ่จะปิดดีลครบแล้ว แต่ประเด็นสำคัญไม่ได้อยู่ที่ตัวเลขภาษีเพียงอย่างเดียว — โครงสร้างราคายาในสหรัฐฯ กำลังถูกเขียนใหม่ผ่านกลไก MFN ที่ผูกราคากับตลาดต่างประเทศ ซึ่งจะส่งผลต่อรายได้และมาร์จินของบริษัทยาทั่วโลกในระยะยาว",
+      "quoteBy": "— ทีมข่าว PixelVest",
+      "takeaway": "ประเด็นที่ผู้อ่านควรติดตาม ได้แก่ (1) รายละเอียดของ Onshoring Agreement ที่แต่ละบริษัทยื่นต่อกระทรวงพาณิชย์ ว่าจะมีผลจริงมากน้อยเพียงใด (2) ผลกระทบต่อราคายาในสหรัฐฯ หลัง MFN มีผลบังคับใช้ (3) บริษัทยาขนาดเล็กที่ยังไม่มีดีลและจะเผชิญภาษี 100% เต็มในเดือนกันยายน และ (4) ข้อมูลจาก FOIA ที่ Public Citizen ฟ้องร้องเพื่อเปิดเผยรายละเอียดข้อตกลง MFN ของ Pfizer และ Eli Lilly",
+      "sources": [
+        {
+          "text": "Adjusting Imports of Pharmaceuticals and Pharmaceutical Ingredients into the United States — The White House",
+          "url": "https://www.whitehouse.gov/presidential-actions/2026/04/adjusting-imports-of-pharmaceuticals-and-pharmaceutical-ingredients-into-the-united-states/"
+        },
+        {
+          "text": "100% On Brand: U.S. Imposes New Tariffs (and Key Exemptions) on Patented Pharmaceuticals — Ropes & Gray",
+          "url": "https://www.ropesgray.com/en/insights/alerts/2026/04/100-on-brand-us-imposes-new-tariffs-and-key-exemptions-on-patented-pharmaceuticals"
+        },
+        {
+          "text": "J&J Agreement Brings 15 of 17 Pharma Companies Into Trump's Drug-Pricing Effort — AJMC",
+          "url": "https://www.ajmc.com/view/j-j-agreement-brings-15-of-17-pharma-companies-into-trump-s-drug-pricing-effort"
+        },
+        {
+          "text": "J&J strikes MFN deal with Trump, reveals plan to build 2 US manufacturing sites — Fierce Pharma",
+          "url": "https://www.fiercepharma.com/pharma/jj-strikes-mfn-deal-trump-reveals-plan-build-2-us-manufacturing-sites"
+        },
+        {
+          "text": "Eli Lilly investing $27B more in US manufacturing — Fox Business",
+          "url": "https://www.foxbusiness.com/economy/eli-lilly-investing-27b-more-us-manufacturing"
+        },
+        {
+          "text": "AbbVie inks MFN drug pricing deal, pledges $100bn to US R&D — Pharmaceutical Technology",
+          "url": "https://www.pharmaceutical-technology.com/news/abbvie-mfn-us-drug-pricing-deal-trump-randd-commitment/"
+        },
+        {
+          "text": "Regeneron unveils latest most favored nation drug pricing deal with White House — Fierce Pharma",
+          "url": "https://www.fiercepharma.com/pharma/regeneron-unveil-latest-most-favored-nation-drug-pricing-deal-white-house"
+        },
+        {
+          "text": "Trump's New Pharmaceutical Tariffs Will Hit Small Drugmakers Hardest — Forbes",
+          "url": "https://www.forbes.com/sites/innovationrx/2026/04/08/trumps-new-pharmaceutical-tariffs-will-hit-small-drugmakers-hardest/"
+        },
+        {
+          "text": "FOIA lawsuit targets Trump MFN pricing deals with Lilly, Pfizer — Fierce Pharma",
+          "url": "https://www.fiercepharma.com/pharma/public-citizen-files-foia-lawsuits-against-trump-administration-mfn-pricing-deals-pfizer"
+        },
+        {
+          "text": "Pharma Tariff Exposure: What's at Stake as Implementation Approaches — Exiger",
+          "url": "https://www.exiger.com/perspectives/pharma-tariff-exposure-whats-at-stake-as-implementation-approaches/"
+        }
+      ]
+    },
+    "agent": "chen"
   }
 ];
