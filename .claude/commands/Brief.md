@@ -13,7 +13,15 @@
 
 3. รัน `node build.js` เพื่ออัปเดต `js/articles.js`
 
-4. ยืนยันผ่าน preview ว่าเนื้อหา (และภาพถ้ามี) ขึ้นหน้าเว็บถูกต้อง แล้วรายงานผู้ใช้
+4. Bump version ใน `index.html`: หา `articles.js?v=N` แล้วเพิ่ม N ขึ้น 1
+
+5. ยืนยันผ่าน preview ว่าเนื้อหา (และภาพถ้ามี) ขึ้นหน้าเว็บถูกต้อง
+
+6. Commit และ push ขึ้น GitHub เพื่อ deploy อัตโนมัติ:
+   - `git add` ไฟล์ที่เปลี่ยน (articles/, assets/images/, js/articles.js, index.html)
+   - `git commit` พร้อมข้อความอธิบาย
+   - `git push origin master`
+   - แจ้งผู้ใช้พร้อมลิงก์ https://larvitar1.github.io/pixelvest/
 
 ---
 

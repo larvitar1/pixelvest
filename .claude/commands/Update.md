@@ -18,6 +18,11 @@
 
 4. ถ้า preview server เปิดอยู่ ให้รีเฟรชเว็บเพื่อให้ตัวเลขใหม่ขึ้น (ผ่าน preview_eval: `window.location.reload(true)`) แล้วยืนยันว่าราคาอัปเดตแล้ว
 
-5. รายงานผู้ใช้สั้น ๆ ว่าอัปเดตกี่รายการ และเวลาอัปเดตล่าสุด (จาก `QUOTES.updated` ใน js/quotes.js)
+5. Commit และ push ขึ้น GitHub เพื่อ deploy อัตโนมัติ:
+   - `git add js/quotes.js index.html`
+   - `git commit -m "อัปเดตราคาหุ้น <วันที่>: bump quotes.js v<N> + ราคาจริงจาก Yahoo Finance"`
+   - `git push origin master`
+
+6. รายงานผู้ใช้สั้น ๆ ว่าอัปเดตกี่รายการ เวลาอัปเดตล่าสุด และลิงก์เว็บ https://larvitar1.github.io/pixelvest/
 
 หมายเหตุ: ราคาที่ได้เป็น snapshot ณ เวลาที่รัน ไม่ใช่ realtime ที่ขยับเอง — สั่ง `/Update` ซ้ำเมื่อต้องการเลขล่าสุด
