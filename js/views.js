@@ -325,13 +325,13 @@ function articleView(id) {
           + statGrid(a.body.stats)
           + '</div>'
         : '')
-    + (a.agent === 'hanako'
-        ? (a.image
-            ? '<div style="margin:26px 0;border-radius:var(--radius);overflow:hidden;border:1px solid var(--line);"><img src="' + esc(a.image) + '" alt="' + esc(a.title) + '" style="width:100%;height:330px;object-fit:cover;display:block;"></div>'
-            : '<div style="height:330px;margin:26px 0;border-radius:var(--radius);background:repeating-linear-gradient(135deg,var(--surface-2),var(--surface-2) 12px,transparent 12px,transparent 24px),var(--surface);border:1px solid var(--line);display:grid;place-items:center;">'
+    + (a.image
+        ? '<div style="margin:26px 0;border-radius:var(--radius);overflow:hidden;border:1px solid var(--line);"><img src="' + esc(a.image) + '" alt="' + esc(a.title) + '" style="width:100%;height:330px;object-fit:cover;display:block;"></div>'
+        : a.agent === 'hanako' && a.cat === 'ภาพรวมตลาด'
+            ? '<div style="height:330px;margin:26px 0;border-radius:var(--radius);background:repeating-linear-gradient(135deg,var(--surface-2),var(--surface-2) 12px,transparent 12px,transparent 24px),var(--surface);border:1px solid var(--line);display:grid;place-items:center;">'
             +   '<span style="font-family:\'IBM Plex Mono\',monospace;font-size:12px;color:var(--ink-3);">ภาพประกอบบทความ · 1600×900</span>'
-            + '</div>')
-        : '')
+            + '</div>'
+            : '')
     + '<div style="font-size:17.5px;line-height:1.85;color:#3a342d;">' + blocksHtml + '</div>'
     + '<div style="margin:30px 0;padding-top:22px;border-top:1px solid var(--line);">'
     +   '<div style="font-size:13px;font-weight:700;color:var(--ink-2);margin-bottom:12px;">หุ้นที่เกี่ยวข้อง</div>'
