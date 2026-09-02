@@ -46,6 +46,10 @@ const QUOTES = {
     "NFLX": {
       "price": 74.19,
       "pct": 3.91
+    },
+    "IONQ": {
+      "price": 37.78,
+      "pct": -3.89
     }
   },
   "indices": {

@@ -17,7 +17,7 @@ const path = require('path');
 const OUT_FILE = path.join(__dirname, 'js', 'quotes.js');
 
 /* หุ้นใน STOCKS (js/data.js) — Yahoo ใช้ ticker ตรง ๆ */
-const STOCK_SYMS = ['NVDA', 'AAPL', 'MSFT', 'AMZN', 'GOOGL', 'META', 'TSLA', 'AMD', 'JPM', 'NFLX'];
+const STOCK_SYMS = ['NVDA', 'AAPL', 'MSFT', 'AMZN', 'GOOGL', 'META', 'TSLA', 'AMD', 'JPM', 'NFLX', 'IONQ'];
 
 /* ดัชนีใน INDICES — แม็พชื่อในเว็บ → สัญลักษณ์ Yahoo */
 const INDEX_MAP = [
