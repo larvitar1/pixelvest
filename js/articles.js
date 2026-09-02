@@ -1943,5 +1943,80 @@ const ARTS = [
       "เซมิคอนดักเตอร์"
     ],
     "agent": "hanako"
+  },
+  {
+    "id": 27,
+    "cat": "ภาพรวมตลาด",
+    "title": "วอลล์สตรีทสะดุดต้อนรับกันยายน — บอนด์ยีลด์พุ่ง น้ำมันกระชาก กดดัชนีหลักร่วง",
+    "excerpt": "ตลาดหุ้นสหรัฐฯ ปิดลบวันแรกของกันยายน หลังบอนด์ยีลด์ทะยานสู่ระดับสูงสุดในรอบ 20 เดือน และน้ำมันดิบพุ่งจากเหตุตึงเครียดในช่องแคบฮอร์มุซ สร้างความวิตกด้านเงินเฟ้อครั้งใหม่",
+    "author": "ทีมข่าว PixelVest",
+    "date": "2 ก.ย. 2026",
+    "iso": "2026-09-02",
+    "read": 6,
+    "syms": [
+      "NVDA",
+      "AAPL",
+      "MSFT",
+      "AMZN",
+      "META"
+    ],
+    "rank": 27,
+    "body": {
+      "intro": "วันแรกของเดือนกันยายน 2026 ส่งสัญญาณเตือนนักลงทุนทันที เมื่อดัชนีหลักของวอลล์สตรีทปิดติดลบพร้อมกัน ท่ามกลางการขายพันธบัตรระลอกใหม่ที่ดันบอนด์ยีลด์สหรัฐฯ ขึ้นสู่ระดับสูงสุดในรอบกว่า 20 เดือน ขณะที่ราคาน้ำมันดิบพุ่งขึ้นจากความตึงเครียดในตะวันออกกลาง ทำให้ตลาดเริ่มตั้งคำถามต่อแนวทางดอกเบี้ยของเฟดอีกครั้ง ปัจจัยกดดันหลักมาจากอัตราผลตอบแทนพันธบัตรรัฐบาลสหรัฐฯ อายุ 10 ปี ที่ขยับขึ้นสู่ 4.788% สูงสุดในรอบ 20 เดือน ด้านพันธบัตรอายุ 2 ปีก็ปรับตัวขึ้นที่ 4.38% การขายพันธบัตรเกิดขึ้นพร้อมกันทั่วโลก โดยยีลด์พันธบัตรญี่ปุ่น 10 ปีพุ่งขึ้นสู่ระดับสูงสุดนับตั้งแต่ปี 1996 และยีลด์เยอรมนีก็ทะยานสู่ระดับสูงสุดนับตั้งแต่ปี 2011 ขณะเดียวกัน น้ำมันดิบปรับตัวขึ้นอย่างรวดเร็วหลังเรือบรรทุกน้ำมันถูกโจมตีขณะแล่นผ่านช่องแคบฮอร์มุซเมื่อวันจันทร์ที่ผ่านมา ทำให้นักลงทุนกังวลว่าหากการส่งออกน้ำมันได้รับผลกระทบอย่างต่อเนื่อง อัตราเงินเฟ้อที่ยังคงอยู่เหนือ 3% อาจถูกขับดันขึ้นไปอีก - **Apple (AAPL)** ร่วงราว 1% หลัง Jefferies ปรับลดคำแนะนำจาก Hold เป็น **Underperform** สะท้อนความกังวลต่อแนวโน้มการเติบโตของยอดขายใน iPhone cycle ปัจจุบัน - **Nvidia (NVDA)** ได้รับการยืนยันคำแนะนำ **Buy** จาก Bank of America ซึ่งยังคงจัดให้ NVDA เป็น Top Pick ของกลุ่มเทค โดยระบุว่าหุ้นยังมีมูลค่าที่น่าสนใจเมื่อเทียบกับอัตราการเติบโต ด้านหุ้นอื่น ๆ ในกลุ่ม megacap tech เช่น MSFT, AMZN และ META ก็ถูกแรงขายในฐานะหุ้นที่แบกรับผลตอบแทนตลาดในปีนี้ อย่างไรก็ดี แม้จะปรับลงจากแรงกดดันรายวัน ดัชนี Nasdaq ยังมีผลตอบแทน YTD สะสมราว +12.3% ส่วน S&P 500 อยู่ที่ +11.5%",
+      "sections": [
+        {
+          "h": "บอนด์ยีลด์-น้ำมัน กระตุ้นความกังวลเงินเฟ้อ",
+          "p": "ดัชนี S&P 500 ปิดลดลง 0.71% ที่ 7,631.47 จุด ขณะที่ Nasdaq Composite ร่วงหนักกว่าที่ 1.03% ปิดที่ 26,099.77 จุด สะท้อนว่าการเทขายกระจุกตัวอยู่ในกลุ่มหุ้นเทคโนโลยีขนาดใหญ่ ด้าน Dow Jones Industrial Average หายไป 419.02 จุด หรือ 0.79% ปิดที่ 52,766.88 จุด"
+        },
+        {
+          "h": "เฟดกลับมาอยู่ในจอเรดาร์ — ตลาดเพิ่มน้ำหนักขึ้นดอกเบี้ย",
+          "p": "ผลพวงจากน้ำมันและบอนด์ยีลด์ทำให้ตลาดเพิ่มโอกาสที่เฟดจะปรับขึ้นดอกเบี้ย 25 bps ในการประชุมเดือนนี้เป็นราว 68% สูงขึ้นจาก 40% ในสัปดาห์ก่อนหน้าอย่างมีนัยสำคัญ ทั้งนี้ Fed Governor Kevin Warsh ยังส่งสัญญาณเตือนล่าสุด (27 ส.ค. 2026) เรื่องความเสี่ยงเงินเฟ้อที่ยังยากจะสลัดหลุด ซึ่งเป็นหนึ่งในแรงกดดันให้ตลาดร่วงลงในสัปดาห์ก่อน"
+        },
+        {
+          "h": "Analyst Moves: Apple ถูก Jefferies หั่นเรต — Nvidia ยัง Buy",
+          "p": "ในวันเดียวกัน (1 ก.ย. 2026) มีการเคลื่อนไหวจากนักวิเคราะห์ที่น่าสนใจสองฝั่ง ได้แก่"
+        }
+      ],
+      "quote": "ภาพตลาดในช่วงเปลี่ยนเดือนสะท้อนว่านักลงทุนกำลังชั่งน้ำหนักระหว่างผลประกอบการที่แข็งแกร่งกับความเสี่ยงเชิงมหภาคที่ยังไม่คลายตัว ทั้งบอนด์ยีลด์ที่สูงขึ้นและน้ำมันที่ขยับขึ้นจากความตึงเครียดภูมิรัฐศาสตร์",
+      "quoteBy": "— ทีมข่าว PixelVest",
+      "takeaway": "ดัชนีสหรัฐฯ เริ่มต้นกันยายนด้วยการปรับตัวลง โดยมีสองปัจจัยหลักที่ต้องติดตามต่อคือ ทิศทางบอนด์ยีลด์ในตลาดโลก และสถานการณ์อุปทานน้ำมันในตะวันออกกลาง ขณะที่ความเป็นไปได้ที่เฟดจะขึ้นดอกเบี้ยในเดือนนี้เพิ่มขึ้นอย่างมีนัยสำคัญ ควรติดตามข้อมูลเงินเฟ้อ (CPI) ที่จะรายงานในสัปดาห์นี้เป็นพิเศษ",
+      "sources": [
+        {
+          "text": "Stock Market News for Sep 1, 2026 — Yahoo Finance",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-news-sep-1-085900862.html?.tsrc=rss"
+        },
+        {
+          "text": "Stock market news for Sept. 1, 2026 — CNBC",
+          "url": "https://www.cnbc.com/2026/08/31/stock-market-today-live-updates.html"
+        },
+        {
+          "text": "Wall Street is headed for a winning month. Why September may be a different story — CNBC",
+          "url": "https://www.cnbc.com/2026/08/31/wall-street-heads-for-winning-month-september-may-be-a-different-story.html"
+        },
+        {
+          "text": "S&P 500 falls Friday after Fed's Warsh highlights inflation worries — CNBC",
+          "url": "https://www.cnbc.com/2026/08/27/stock-market-today-live-updates.html"
+        },
+        {
+          "text": "US Stocks Slide as Bond Sell-off and Oil Prices Fuel Inflation Fears — Time News",
+          "url": "https://time.news/us-stocks-slide-as-bond-sell-off-and-oil-prices-fuel-inflation-fears/"
+        },
+        {
+          "text": "Analyst Upgrades and Downgrades for Tuesday, 9/1 — Daily Trade Alert",
+          "url": "https://dailytradealert.com/2026/09/01/analyst-upgrades-and-downgrades-for-tuesday-9-1/"
+        },
+        {
+          "text": "Crude, Yields Flex Muscle, Bruising Stocks Early — Charles Schwab",
+          "url": "https://www.schwab.com/learn/story/stock-market-update-open"
+        },
+        {
+          "text": "Stock Market Recap — September 1, 2026 — Alain Guillot",
+          "url": "https://www.alainguillot.com/stock-market-recap-september-1-2026/"
+        }
+      ]
+    },
+    "featured": true,
+    "agent": "hanako",
+    "image": "https://image.pollinations.ai/prompt/wall-street-stock-market-red-decline-bond-yields-inflation-oil-prices-dramatic-financial-news?width=1200&height=630&nologo=true"
   }
 ];
