@@ -7,6 +7,7 @@
 const STOCKS = [
   { sym:'NVDA',  name:'NVIDIA Corp.',           sector:'เซมิคอนดักเตอร์',    exchange:'NASDAQ', price:131.50, pct:2.94,  sd:71 },
   { sym:'CRWD',  name:'CrowdStrike Holdings',   sector:'ไซเบอร์ซีเคียวริตี้', exchange:'NASDAQ', price:418.50, pct:1.73,  sd:93 },
+  { sym:'IONQ',  name:'IonQ Inc.',              sector:'คอมพิวเตอร์ควอนตัม', exchange:'NYSE',   price:37.78,  pct:-3.89, sd:42 },
   { sym:'AMZN',  name:'Amazon.com Inc.',        sector:'อีคอมเมิร์ซ',        exchange:'NASDAQ', price:193.60, pct:-0.84, sd:34 },
   { sym:'GOOGL', name:'Alphabet Inc.',          sector:'เทคโนโลยี',          exchange:'NASDAQ', price:178.40, pct:1.52,  sd:45 },
   { sym:'META',  name:'Meta Platforms',         sector:'โซเชียลมีเดีย',      exchange:'NASDAQ', price:504.20, pct:2.08,  sd:56 },
@@ -16,7 +17,6 @@ const STOCKS = [
   { sym:'AMD',   name:'Advanced Micro Devices', sector:'เซมิคอนดักเตอร์',    exchange:'NASDAQ', price:162.30, pct:3.41,  sd:78 },
   { sym:'JPM',   name:'JPMorgan Chase',         sector:'ธนาคาร',             exchange:'NYSE',   price:205.10, pct:-0.39, sd:89 },
   { sym:'NFLX',  name:'Netflix Inc.',           sector:'สตรีมมิ่ง',          exchange:'NASDAQ', price:685.00, pct:0.94,  sd:90 },
-  { sym:'IONQ',  name:'IonQ Inc.',              sector:'คอมพิวเตอร์ควอนตัม', exchange:'NYSE',   price:37.78,  pct:-3.89, sd:42 },
 ];
 
 const INDICES = [
