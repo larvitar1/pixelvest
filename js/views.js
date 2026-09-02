@@ -93,11 +93,13 @@ function tickerView() {
 function homeView() {
   const f        = decArt([...ARTS].filter(a => a.featured).sort((a, b) => (b.iso || '').localeCompare(a.iso || '') || b.id - a.id)[0] || ARTS[0]);
   const HIDE_WATCH = ['AAPL', 'MSFT'];  // หุ้นที่ไม่ต้องการในวิดเจ็ต "หุ้นที่ติดตาม"
-  const watchlist = STOCKS.filter(s => !HIDE_WATCH.includes(s.sym)).slice(0, 6).map(s => decStock(s));
+  const allWatch  = STOCKS.filter(s => !HIDE_WATCH.includes(s.sym)).map(s => decStock(s));
+  const watchlist = allWatch.slice(0, 6);
+  const moreWatch = allWatch.slice(6);
   const feed     = ARTS.filter(a => !a.analysis).map(a => decArt(a));
   const popular  = [...ARTS].sort((a, b) => a.rank - b.rank).slice(0, 5).map(a => decArt(a));
 
-  const watchHtml = watchlist.map(w =>
+  const mkWatchRow = w =>
     '<div data-link data-stock="' + w.sym + '" style="cursor:pointer;display:flex;align-items:center;gap:10px;padding:10px 4px;border-bottom:1px solid var(--line);">'
     + stockLogoHtml(w.sym, 32)
     + '<div style="min-width:52px;">'
@@ -108,8 +110,12 @@ function homeView() {
     + '<div style="flex:1;text-align:right;">'
     +   '<div style="font-weight:700;font-size:14px;font-variant-numeric:tabular-nums;">' + w.price + '</div>'
     +   '<div style="font-size:11.5px;font-weight:600;color:' + w.color + ';font-variant-numeric:tabular-nums;">' + w.arrow + w.pct + '</div>'
-    + '</div></div>'
-  ).join('');
+    + '</div></div>';
+
+  const watchHtml = watchlist.map(mkWatchRow).join('')
+    + (moreWatch.length ? '<div id="watch-more" style="display:none;">' + moreWatch.map(mkWatchRow).join('') + '</div>'
+      + '<button onclick="var m=document.getElementById(\'watch-more\'),b=this;m.style.display=m.style.display===\'none\'?\'block\':\'none\';b.textContent=m.style.display===\'none\'?\'ดูทั้งหมด (\'+' + allWatch.length + '+\' ตัว) ›\':\'ย่อ ‹\';" style="width:100%;margin-top:6px;padding:7px;border:1px solid var(--line);border-radius:9px;background:none;color:var(--ink-2);font-family:inherit;font-size:12.5px;font-weight:600;cursor:pointer;">ดูทั้งหมด (' + allWatch.length + ' ตัว) ›</button>'
+      : '');
 
   const feedHtml = feed.map(a =>
     '<article data-card data-link data-article="' + a.id + '" style="cursor:pointer;background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);overflow:hidden;box-shadow:var(--shadow);display:flex;flex-direction:column;">'
