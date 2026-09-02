@@ -98,6 +98,7 @@ function back() {
 
 /* ── Delegated click handler for in-app navigation ── */
 app.addEventListener('click', e => {
+  if (e.target.closest('input,button')) return;
   const tog = e.target.closest('[data-sidebar-toggle]');
   if (tog) { pvToggleSidebar(); return; }
   const mob = e.target.closest('[data-mobile-menu]');
@@ -116,9 +117,6 @@ app.addEventListener('click', e => {
   const g = e.target.closest('[data-go]');
   if (g) { go(g.getAttribute('data-go')); return; }
 });
-
-/* prevent form-field clicks from bubbling into nav cards */
-app.addEventListener('click', e => { if (e.target.closest('input,button')) e.stopPropagation(); }, true);
 
 /* ── Settings widget wiring ── */
 const gear  = document.getElementById('pv-gear');

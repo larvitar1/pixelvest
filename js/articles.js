@@ -2178,5 +2178,250 @@ const ARTS = [
       "เทคโนโลยี"
     ],
     "agent": "max"
+  },
+  {
+    "id": 30,
+    "cat": "ผลประกอบการ",
+    "title": "\"CRWD งบ Q2 FY2027 ไตรมาสที่ดีที่สุดในประวัติศาสตร์ รายได้ 1.47 พันล้านดอลลาร์ ARR ทะลุ 5.84 พันล้าน Net New ARR โต 51%\"",
+    "excerpt": "CrowdStrike รายงานรายได้ Q2 FY2027 ที่ 1.47 พันล้านดอลลาร์ โต 26% YoY เกินคาด Net New ARR ทำสถิติใหม่ที่ 332.8 ล้านดอลลาร์ โต 51% CEO ระบุเป็น \"ไตรมาสที่ดีที่สุดในประวัติศาสตร์ของบริษัท\" พร้อมยก guidance ทั้งปีอีกครั้ง",
+    "author": "Joy",
+    "date": "2 ก.ย. 2026",
+    "iso": "2026-09-02",
+    "read": 6,
+    "syms": [
+      "CRWD"
+    ],
+    "rank": 30,
+    "body": {
+      "intro": "CrowdStrike Holdings (CRWD) รายงานผลประกอบการไตรมาสที่ 2 ของปีงบประมาณ 2027 (สิ้นสุด 31 ก.ค. 2026) เมื่อวันที่ 26 สิงหาคม 2026 ด้วยรายได้รวม 1.47 พันล้านดอลลาร์ เติบโต 26% เมื่อเทียบกับช่วงเดียวกันปีก่อน ทั้งรายได้และ EPS ต่างเกิน consensus โดย Net New ARR ที่ 332.8 ล้านดอลลาร์เป็นสถิติสูงสุดตลอดกาลของบริษัท และโต 51% YoY บริษัทยังยกระดับ guidance รายได้และ ARR ทั้งปีขึ้นอีกครั้ง ด้านตัวชี้วัดธุรกิจหลัก Annual Recurring Revenue (ARR) ณ สิ้นไตรมาสอยู่ที่ 5.84 พันล้านดอลลาร์ เติบโต 25% YoY บริษัทเพิ่ม Net New ARR ได้ 332.8 ล้านดอลลาร์ในไตรมาสนี้ สูงขึ้น 51% YoY และสร้างสถิติสูงสุดตลอดกาลของบริษัท นอกจากนี้ ARR จากกลุ่มลูกค้าที่ใช้แพลตฟอร์ม Falcon Flex แตะ 2.29 พันล้านดอลลาร์ เติบโต 101% YoY สะท้อนถึงความสำเร็จของกลยุทธ์รวมผลิตภัณฑ์ (platform consolidation) ด้านกระแสเงินสด กระแสเงินสดจากการดำเนินงานใน Q2 อยู่ที่ 530.3 ล้านดอลลาร์ เพิ่มขึ้นจาก 332.8 ล้านดอลลาร์ในปีก่อน และ Free Cash Flow อยู่ที่ 377.4 ล้านดอลลาร์ เพิ่มขึ้นจาก 283.6 ล้านดอลลาร์ในปีก่อน โดยทั้งสองรายการเป็นสถิติสูงสุดสำหรับไตรมาส Q2 ฝ่ายบริหารระบุว่าความต้องการ AI security กำลังเร่งตัวในแบบที่ไม่เคยเห็นมาก่อน โดย Falcon Flex ช่วยให้ลูกค้ารวมผลิตภัณฑ์ด้านความปลอดภัยทั้งหมดไว้บนแพลตฟอร์มเดียว ลดต้นทุนและความซับซ้อนในการบริหารจัดการ CEO George Kurtz ชี้ว่าองค์กรใหญ่ทั่วโลกกำลังตัดสินใจ \"เลือก AI security vendor เพียงรายเดียว\" และ CrowdStrike อยู่ในตำแหน่งรับประโยชน์จากแนวโน้มนี้โดยตรง",
+      "sections": [
+        {
+          "h": "ตัวเลขไตรมาสล่าสุด",
+          "p": "รายได้รวม Q2 FY2027 อยู่ที่ 1.47 พันล้านดอลลาร์ (+26% YoY) สูงกว่า consensus ที่นักวิเคราะห์คาดไว้ที่ราว 1.44 พันล้านดอลลาร์ กำไรต่อหุ้นปรับลด (non-GAAP diluted EPS) อยู่ที่ 0.31 ดอลลาร์ เกินกว่า consensus ที่ 0.29 ดอลลาร์ ซึ่งปรับตัวขึ้นจาก 0.23 ดอลลาร์ในปีก่อนหน้า"
+        },
+        {
+          "h": "Guidance และมุมมองผู้บริหาร",
+          "p": "สำหรับไตรมาส Q3 FY2027 บริษัทคาดรายได้ในกรอบ 1.523–1.529 พันล้านดอลลาร์ และ non-GAAP EPS ที่ประมาณ 0.31 ดอลลาร์ สำหรับทั้งปี FY2027 บริษัทปรับเพิ่ม guidance รายได้เป็น 5.991–6.011 พันล้านดอลลาร์ และ non-GAAP EPS ที่ 1.25–1.26 ดอลลาร์ พร้อมคาด ARR สิ้นปีที่ 6.603–6.612 พันล้านดอลลาร์ บริษัทยังยกระดับ guidance การเติบโตของ Net New ARR ทั้งปีขึ้น 630 basis points เป็น +34% YoY ที่จุดกลาง"
+        }
+      ],
+      "quote": "ไตรมาส Q2 FY2027 เป็นไตรมาสที่ดีที่สุดในประวัติศาสตร์ของ CrowdStrike นับจากทุกมิติ ไม่ว่าจะเป็น Net New ARR Cash Flow และรายได้ที่ต่างสร้างสถิติใหม่ ขณะที่การเติบโตของ Falcon Flex แสดงให้เห็นว่ากลยุทธ์ platform consolidation กำลังเปลี่ยนจาก thesis ให้กลายเป็นตัวเลขจริง",
+      "quoteBy": "— ฝ่ายผลประกอบการ PixelVest",
+      "takeaway": "CrowdStrike ส่งมอบผลประกอบการ Q2 FY2027 ที่เกิน consensus ทั้งรายได้ EPS และ ARR พร้อม Net New ARR ที่เป็นสถิติตลอดกาล การยก guidance ทั้งปีขึ้นเป็นครั้งที่สองติดต่อกันสะท้อนความมั่นใจของฝ่ายบริหาร ผู้อ่านควรติดตามพัฒนาการของ Falcon Flex และ AI security ในฐานะ growth driver หลักของบริษัทในช่วงที่เหลือของปีงบประมาณ",
+      "stats": [
+        {
+          "label": "รายได้รวม",
+          "value": "1.47B",
+          "change": "+26% YoY"
+        },
+        {
+          "label": "EPS (non-GAAP diluted)",
+          "value": "0.31",
+          "change": "เกิน consensus (0.29) +7%"
+        },
+        {
+          "label": "Ending ARR",
+          "value": "5.84B",
+          "change": "+25% YoY"
+        },
+        {
+          "label": "Net New ARR",
+          "value": "332.8M",
+          "change": "+51% YoY (สถิติตลอดกาล)"
+        },
+        {
+          "label": "Falcon Flex ARR",
+          "value": "2.29B",
+          "change": "+101% YoY"
+        },
+        {
+          "label": "กระแสเงินสดจากการดำเนินงาน",
+          "value": "530.3M",
+          "change": "สถิติ Q2 ใหม่"
+        },
+        {
+          "label": "Free Cash Flow",
+          "value": "377.4M",
+          "change": "สถิติ Q2 ใหม่"
+        },
+        {
+          "label": "Guidance รายได้ Q3 FY2027",
+          "value": "1.523–1.529B",
+          "change": "—"
+        },
+        {
+          "label": "Guidance รายได้ทั้งปี FY2027",
+          "value": "5.991–6.011B",
+          "change": "+23-24% YoY"
+        },
+        {
+          "label": "Guidance Net New ARR growth ทั้งปี",
+          "value": "+34% YoY",
+          "change": "ยก +630bps"
+        }
+      ],
+      "sources": [
+        {
+          "text": "CrowdStrike (CRWD) earnings Q2 2027 — CNBC",
+          "url": "https://www.cnbc.com/2026/08/26/crowdstrike-crwd-earnings-q2-2027.html"
+        },
+        {
+          "text": "CrowdStrike Q2 FY2027 earnings beat: revenue, ARR top estimates — Quartz",
+          "url": "https://qz.com/crowdstrike-earnings-q2-fiscal-2027-revenue-arr-guidance-082626"
+        },
+        {
+          "text": "CrowdStrike (CRWD) Q2 2027 Earnings Call Transcript — The Motley Fool",
+          "url": "https://www.fool.com/earnings/call-transcripts/2026/08/31/crowdstrike-crwd-q2-2027-earnings-call-transcript/"
+        },
+        {
+          "text": "CrowdStrike Holdings (CRWD) Q2 Earnings and Revenues Top Estimates — Yahoo Finance",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/crowdstrike-holdings-crwd-q2-earnings-212002343.html"
+        },
+        {
+          "text": "CrowdStrike Q2 FY27 presentation: record ARR growth, AI security drives adoption — Investing.com",
+          "url": "https://www.investing.com/news/company-news/crowdstrike-q2-fy27-slides-record-arr-growth-ai-security-drives-adoption-93CH-4878044"
+        },
+        {
+          "text": "CrowdStrike Q2 2027: Record ARR and a Nine-Quarter Beat Streak — 24/7 Wall St.",
+          "url": "https://247wallst.com/cards/crowdstrike-q2-2027-earnings-crwd-01m0zv99m2424d42pn7x0w281d"
+        }
+      ]
+    },
+    "agent": "joy",
+    "image": "\"\""
+  },
+  {
+    "id": 31,
+    "cat": "บทวิเคราะห์",
+    "title": "\"เจาะพื้นฐาน CRWD: Falcon Platform กับ Moat ที่เติบโตตามข้อมูล ARR ทะลุ 5.2 พันล้าน FCF 26% ของรายได้\"",
+    "excerpt": "\"CrowdStrike ปิด FY2026 ด้วย ARR 5.25 พันล้านดอลลาร์ โต 24% และ Free Cash Flow 1.24 พันล้านดอลลาร์ บทวิเคราะห์เจาะ Falcon platform, Threat Graph moat, จุดแข็งเทียบคู่แข่ง และความเสี่ยงที่ควรติดตาม\"",
+    "author": "\"Max\"",
+    "date": "\"2026-09-02\"",
+    "iso": "\"2026-09-02\"",
+    "read": 16,
+    "syms": [
+      "CRWD"
+    ],
+    "rank": 31,
+    "body": {
+      "intro": "CrowdStrike Holdings (CRWD) คือหนึ่งในบริษัทไซเบอร์ซีเคียวริตี้ที่เติบโตเร็วที่สุดในโลก สร้างจากแนวคิดว่าระบบรักษาความปลอดภัยควรอยู่บนคลาวด์ ไม่ใช่ซอฟต์แวร์ติดตั้งบนเครื่อง ปีงบประมาณ 2026 (สิ้นสุด 31 มกราคม 2026) บริษัทผ่านจุดสำคัญหลายจุดพร้อมกัน ทั้ง ARR ข้ามเส้น 5 พันล้านดอลลาร์ได้เป็นรายแรกในกลุ่ม pure-play cybersecurity และ Free Cash Flow ทะลุ 1.2 พันล้านดอลลาร์ บทวิเคราะห์นี้ใช้ข้อมูลจากงบ 10-K FY2026 เป็นหลัก ไม่ใช่คำแนะนำการลงทุน CrowdStrike สร้างชื่อจากการเป็นบริษัทแรก ๆ ที่ออกแบบระบบ Endpoint Detection and Response (EDR) บนคลาวด์ตั้งแต่ต้น แทนที่จะเป็นซอฟต์แวร์ดั้งเดิมที่ต้องอัปเดตลายมือของไวรัส (signature) แกนกลางของธุรกิจคือ **แพลตฟอร์ม Falcon** — เอเยนต์ตัวเดียวบนอุปกรณ์ที่ให้บริการความปลอดภัยหลายโดเมนในคราวเดียว โมดูลหลักของ Falcon ณ ปี FY2026 ครอบคลุม: - **Endpoint Security** — ตรวจจับและตอบสนองต่อภัยคุกคามบนอุปกรณ์ปลายทาง - **Cloud Security (Falcon Cloud Security)** — ปกป้องโครงสร้างพื้นฐานบนคลาวด์ ครอบคลุม AWS, Azure, GCP - **Identity Protection** — ป้องกันการโจมตีผ่านช่องทาง credential และ Active Directory - **Next-Gen SIEM (Falcon LogScale)** — รวบรวมและวิเคราะห์ log จากทุกระบบ - **Exposure Management** — ประเมินช่องโหว่และพื้นผิวการโจมตีขององค์กร - **Managed Detection and Response (MDR)** — บริการดูแลระบบโดยทีม CrowdStrike แทนลูกค้า รูปแบบธุรกิจเป็น SaaS แบบ subscription ซึ่งทำให้รายได้มีความสม่ำเสมอสูง รายได้ subscription FY2026 คิดเป็น 4.56 พันล้านดอลลาร์ หรือมากกว่า 94% ของรายได้ทั้งหมด ### Threat Graph — Moat จากข้อมูลสะสม จุดแข็งที่สำคัญที่สุดของ CrowdStrike และเข้าใจง่ายน้อยที่สุดคือ **CrowdStrike Threat Graph** ฐานข้อมูลขนาดใหญ่ที่รวบรวม telemetry จากเอเยนต์ Falcon บนอุปกรณ์ของลูกค้าหลายแสนรายทั่วโลกแบบ real-time กลไกทำงานแบบนี้: เมื่อเอเยนต์บนอุปกรณ์ของลูกค้าคนหนึ่งตรวจพบพฤติกรรมผิดปกติหรือมัลแวร์ใหม่ ข้อมูลนั้นจะถูกส่งขึ้น Threat Graph และใช้ฝึก AI/ML เพื่อป้องกันลูกค้ารายอื่นโดยอัตโนมัติ ยิ่งฐานลูกค้าใหญ่ขึ้น Threat Graph ยิ่งฉลาดขึ้น เกิดเป็น **network effect** ที่คู่แข่งต้องใช้เวลาสร้างฐานข้อมูลระดับเดียวกัน ดัชนีที่สะท้อน Moat นี้คือสัดส่วนลูกค้าที่ใช้หลายโมดูล — ลูกค้าที่ใช้ Falcon มานานมักขยายไปใช้โมดูลเพิ่มขึ้นเรื่อย ๆ เพราะเอเยนต์ตัวเดิมรองรับการเพิ่มโมดูลใหม่ได้โดยไม่ต้องติดตั้งซอฟต์แวร์ใหม่: - **51%** ของลูกค้าใช้งาน 6 โมดูลขึ้นไป (ณ เมษายน 2026) - **35%** ใช้ 7 โมดูลขึ้นไป - **25%** ใช้ 8 โมดูลขึ้นไป สัดส่วนนี้เพิ่มขึ้นทุกปี สะท้อนว่าลูกค้ามีแนวโน้ม \"ผูก\" กับแพลตฟอร์มมากขึ้นตามเวลา ### ตำแหน่งในตลาดเทียบคู่แข่ง | คู่แข่ง | จุดแข็ง | จุดอ่อนเทียบ CRWD | |---|---|---| | **Microsoft Defender** | รวมใน Microsoft 365 ต้นทุนต่ำ | ไม่ใช่ผลิตภัณฑ์หลักของ Microsoft ขาด network effect จาก telemetry | | **Palo Alto Networks** | ฐานลูกค้าเก่าแก่ ครอบคลุม on-premise และ cloud | สถาปัตยกรรมเก่ากว่า มาจากโลก firewall | | **SentinelOne** | AI-native เหมือนกัน ออกแบบบนคลาวด์ | ARR ยังห่างกันมาก (~1.1B vs 5.25B ของ CRWD) | | **Zscaler** | เชี่ยวชาญ SASE/network security | คนละ segment กว่า ไม่แข่งตรงในทุกโดเมน | CrowdStrike อยู่ในกลุ่ม Gartner Magic Quadrant ฐานะ Leader ในหมวด Endpoint Protection Platform มาหลายปีต่อเนื่อง รายได้รวม FY2026 อยู่ที่ **4.81 พันล้านดอลลาร์** เพิ่มจาก 3.95 พันล้านดอลลาร์ในปี FY2025 คิดเป็น **+22% YoY** — ตัวเลขที่ถือว่าดีมากสำหรับบริษัทระดับรายได้เกิน 4 พันล้านดอลลาร์ ตัวชี้วัดคุณภาพธุรกิจที่สำคัญกว่าคือ **Annual Recurring Revenue (ARR)** ซึ่งสะท้อนรายได้ประจำที่ลูกค้า commit ไว้: - ARR สิ้น FY2026: **5.25 พันล้านดอลลาร์** (+24% YoY) - Net New ARR ที่เพิ่มใน FY2026: **1.01 พันล้านดอลลาร์** — เป็นปีแรกที่ Net New ARR ข้ามหลัก 1 พันล้านดอลลาร์ ### อัตรากำไรและโครงสร้างต้นทุน **Gross Margin Subscription (GAAP): 78%** ทั้งในปี FY2026 และ FY2025 — มาร์จินนิ่งตัวในระดับสูง **Non-GAAP Subscription Gross Margin: 81%** (เพิ่มจาก 80%) ตัวเลข GAAP ที่ขาดทุนเป็นประเด็นที่ต้องทำความเข้าใจ: - **GAAP Loss from Operations:** -293.3M USD (เพิ่มจาก -116.4M) - **GAAP Net Loss:** -162.5M USD (เพิ่มจาก -15.2M) สาเหตุหลักคือ **stock-based compensation (SBC)** ที่สูง ซึ่งเป็นโครงสร้างปกติของบริษัท SaaS เติบโตเร็ว เมื่อปรับ SBC ออก: - **Non-GAAP Operating Income:** 1.05 พันล้านดอลลาร์ มาร์จิน 22% - **Non-GAAP Net Income:** 956.6M USD (เพิ่มจาก 814.6M) ### กระแสเงินสด — จุดแข็งที่ชัดเจน - **กระแสเงินสดจากดำเนินงาน (GAAP):** 1.61 พันล้านดอลลาร์ (จาก 1.38B) - **Free Cash Flow:** 1.24 พันล้านดอลลาร์ = **26% ของรายได้** FCF ที่เป็นบวกและเพิ่มขึ้นต่อเนื่องแสดงว่าโมเดลธุรกิจสร้างเงินสดจริงแม้ตัวเลข GAAP ยังขาดทุน เป็นสัญญาณที่สำคัญกว่า GAAP net income สำหรับบริษัทประเภทนี้ ### ฐานะการเงิน - **เงินสดและรายการเทียบเท่า:** 5.2 พันล้านดอลลาร์ ณ สิ้น FY2026 - **หนี้ระยะยาว:** 745.5 ล้านดอลลาร์ - **Debt-to-Equity:** ~18% — ต่ำมากสำหรับบริษัทเทคโนโลยี สถานะเงินสดที่สูงกว่าหนี้มากให้ความยืดหยุ่นในการลงทุน M&A หรือ R&D โดยไม่ต้องพึ่งพาตลาดทุน ในเดือนกรกฎาคม 2024 การอัปเดต Falcon sensor ที่ผิดพลาดทำให้คอมพิวเตอร์ Windows หลายล้านเครื่องทั่วโลกหยุดทำงาน (Blue Screen of Death) กระทบองค์กรหลายพันแห่ง ตั้งแต่สายการบินไปจนถึงโรงพยาบาล เหตุการณ์นี้ส่งผลสองด้านต่อ CrowdStrike: - **ด้านลบ:** ความเชื่อมั่นลูกค้าลดลงชั่วคราว บางรายขอส่วนลดหรือเลื่อนการต่อสัญญา ต้นทุนค่าชดเชยและต้นทุนพิเศษที่เกิดขึ้นใน FY2026 - **ด้านบวกที่สังเกตได้:** Net New ARR FY2026 ที่ทะลุ 1 พันล้านดอลลาร์แสดงว่าโมเมนตัมการขายฟื้นตัวได้เร็ว และการที่ 51% ของลูกค้ายังใช้ 6+ โมดูลสะท้อนความ sticky ของแพลตฟอร์ม อย่างไรก็ตาม ความเสี่ยงด้านชื่อเสียง (reputational risk) ยังเป็นปัจจัยที่ต้องติดตามในระยะยาว โดยเฉพาะในการแข่งขันเพื่อดึงลูกค้าองค์กรรายใหญ่ ### 2. ความเสี่ยงด้าน Valuation CrowdStrike ซื้อขายในระดับ EV/Revenue และ P/FCF ที่สูงกว่าค่าเฉลี่ยตลาดอย่างมีนัยสำคัญ ซึ่งหมายความว่าตลาดตั้งสมมติฐานว่าบริษัทจะรักษาอัตราการเติบโตสูงได้อีกหลายปี หาก ARR growth ชะลอตัว valuation มีโอกาสถูก reprice อย่างรุนแรง ### 3. ความเสี่ยงด้านการแข่งขัน Microsoft มีแรงจูงใจสูงในการขาย Defender ในฐานะสินค้า bundle กับ Microsoft 365 ซึ่งทำให้มี cost advantage ที่ CrowdStrike ตอบสนองด้วยราคาไม่ได้โดยตรง ขณะที่ SentinelOne ยังมีพื้นที่เติบโตจากลูกค้า SMB ที่ CRWD ให้ความสำคัญน้อยกว่า ### 4. ความเสี่ยงด้านการพึ่งพาบุคลากรหลัก ธุรกิจ cybersecurity พึ่งพาผู้เชี่ยวชาญด้านความปลอดภัยสูง การสูญเสียทีม threat intelligence หรือทีมวิจัย adversary อาจกระทบคุณภาพ Threat Graph ได้",
+      "sections": [
+        {
+          "h": "ธุรกิจและสถานะการแข่งขัน",
+          "p": "### Falcon Platform คืออะไร"
+        },
+        {
+          "h": "สัญญาณพื้นฐาน",
+          "p": "### รายได้และการเติบโต"
+        },
+        {
+          "h": "ความเสี่ยงหลักที่ควรเข้าใจ",
+          "p": "### 1. เหตุการณ์ Sensor Outage ปี 2024"
+        }
+      ],
+      "quote": "ภาพรวมพื้นฐานของ CrowdStrike คือ SaaS platform ที่มี network effect ชัดเจนจาก Threat Graph กระแสเงินสดดำเนินงานแข็งแกร่ง และ ARR เติบโตสม่ำเสมอ โครงสร้าง GAAP ที่ขาดทุนสะท้อน stock-based compensation ไม่ใช่ปัญหาของธุรกิจ แต่ valuation ที่ตลาดให้อยู่ในระดับที่ตั้งสมมติฐานการเติบโตสูงต่อเนื่อง ซึ่งต้องติดตามใกล้ชิด",
+      "quoteBy": "— ฝ่ายวิเคราะห์ PixelVest",
+      "takeaway": "CrowdStrike มีพื้นฐาน SaaS ที่แข็งแกร่ง ARR โต 24% FCF margin 26% และ Threat Graph ที่สร้าง network effect ที่แท้จริง ความเสี่ยงด้าน valuation และผลกระทบระยะยาวจาก outage ปี 2024 คือสองปัจจัยที่ควรติดตามควบคู่กับตัวเลข ARR และ Net New ARR ในทุกไตรมาส ทั้งนี้เป็นบทวิเคราะห์เชิงข้อมูลจากงบการเงิน ไม่ใช่คำแนะนำการลงทุน",
+      "stats": [
+        {
+          "label": "รายได้รวม (FY2026)",
+          "value": "4.81B USD",
+          "change": "+22% YoY"
+        },
+        {
+          "label": "รายได้ Subscription",
+          "value": "4.56B USD",
+          "change": "~94% ของรายได้ทั้งหมด"
+        },
+        {
+          "label": "Annual Recurring Revenue (ARR)",
+          "value": "5.25B USD",
+          "change": "+24% YoY"
+        },
+        {
+          "label": "Net New ARR (FY2026)",
+          "value": "1.01B USD",
+          "change": "ปีแรกที่ทะลุ 1B"
+        },
+        {
+          "label": "Gross Margin Subscription (GAAP)",
+          "value": "78%",
+          "change": "ทรงตัว YoY"
+        },
+        {
+          "label": "Non-GAAP Subscription Gross Margin",
+          "value": "81%",
+          "change": "+1pp YoY"
+        },
+        {
+          "label": "GAAP Loss from Operations",
+          "value": "-293.3M USD",
+          "change": "จาก -116.4M"
+        },
+        {
+          "label": "Non-GAAP Operating Income",
+          "value": "1.05B USD",
+          "change": "margin 22%"
+        },
+        {
+          "label": "GAAP Net Loss",
+          "value": "-162.5M USD",
+          "change": "จาก -15.2M"
+        },
+        {
+          "label": "Non-GAAP Net Income",
+          "value": "956.6M USD",
+          "change": "จาก 814.6M"
+        },
+        {
+          "label": "กระแสเงินสดจากดำเนินงาน",
+          "value": "1.61B USD",
+          "change": "จาก 1.38B"
+        },
+        {
+          "label": "Free Cash Flow",
+          "value": "1.24B USD",
+          "change": "26% ของรายได้"
+        },
+        {
+          "label": "เงินสด + รายการเทียบเท่า",
+          "value": "5.2B USD",
+          "change": ""
+        },
+        {
+          "label": "หนี้ระยะยาว",
+          "value": "745.5M USD",
+          "change": ""
+        },
+        {
+          "label": "Debt-to-Equity",
+          "value": "~18%",
+          "change": ""
+        },
+        {
+          "label": "ลูกค้าที่ใช้ 6+ โมดูล",
+          "value": "51% ของฐานลูกค้า",
+          "change": "ณ เมษายน 2026"
+        }
+      ],
+      "sources": [
+        {
+          "text": "CrowdStrike Form 10-K FY2026 (สิ้นสุด 31 ม.ค. 2026) — SEC EDGAR",
+          "url": "https://www.sec.gov/Archives/edgar/data/0001535527/000153552726000010/crwd-20260131.htm"
+        },
+        {
+          "text": "CrowdStrike Reports Fourth Quarter and Fiscal Year 2026 Financial Results — CrowdStrike IR",
+          "url": "https://ir.crowdstrike.com/news-releases/news-release-details/crowdstrike-reports-fourth-quarter-and-fiscal-year-2026"
+        },
+        {
+          "text": "CrowdStrike Holdings Form 8-K Exhibit 99.1 FY2026 — SEC EDGAR",
+          "url": "https://www.sec.gov/Archives/edgar/data/0001535527/000153552726000007/crwd-20260303xex991.htm"
+        },
+        {
+          "text": "เจาะพื้นฐาน CRWD FY2026 — PixelVest",
+          "url": "articles/CRWD/17-crwd-fundamentals.md"
+        }
+      ]
+    },
+    "image": "\"\""
   }
 ];
