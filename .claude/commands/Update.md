@@ -3,7 +3,7 @@
 ทำตามขั้นตอนนี้:
 
 1. รันคำสั่ง `node fetch-quotes.js` ที่ `C:\Users\ASUS\Desktop\Web`
-   - สคริปต์จะดึงราคา + %เปลี่ยนแปลงของหุ้น 10 ตัว และดัชนี 3 ตัว แล้วเขียนทับ `js/quotes.js`
+   - สคริปต์จะดึงราคา + %เปลี่ยนแปลงของหุ้น 12 ตัว (NVDA, CRWD, IONQ, AMZN, GOOGL, META, TSLA, AAPL, MSFT, AMD, JPM, NFLX) และดัชนี 3 ตัว (S&P 500, NASDAQ 100, DOW JONES) แล้วเขียนทับ `js/quotes.js`
    - ไม่ต้องใช้ API key (ดึงผ่าน node ฝั่ง server)
 
 2. ดูผลลัพธ์ที่สคริปต์รายงาน:
@@ -19,9 +19,11 @@
 4. ถ้า preview server เปิดอยู่ ให้รีเฟรชเว็บเพื่อให้ตัวเลขใหม่ขึ้น (ผ่าน preview_eval: `window.location.reload(true)`) แล้วยืนยันว่าราคาอัปเดตแล้ว
 
 5. Commit และ push ขึ้น GitHub เพื่อ deploy อัตโนมัติ:
-   - `git add js/quotes.js index.html`
+   - `git add js/quotes.js index.html` (ถ้ามีแก้ fetch-quotes.js ด้วยให้ add ไปด้วย)
    - `git commit -m "อัปเดตราคาหุ้น <วันที่>: bump quotes.js v<N> + ราคาจริงจาก Yahoo Finance"`
    - `git push origin master`
+
+   **หมายเหตุ**: ถ้ามีหุ้นใหม่เพิ่งเพิ่มใน `js/data.js` แต่ยังไม่อยู่ใน `STOCK_SYMS` ของ `fetch-quotes.js` → เพิ่มก่อนรันสคริปต์ แล้ว add `fetch-quotes.js` เข้า commit ด้วย
 
 6. รายงานผู้ใช้สั้น ๆ ว่าอัปเดตกี่รายการ เวลาอัปเดตล่าสุด และลิงก์เว็บ https://larvitar1.github.io/pixelvest/
 
