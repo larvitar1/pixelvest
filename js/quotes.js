@@ -8,63 +8,63 @@
 const QUOTES = {
   "stocks": {
     "NVDA": {
-      "price": 197.58,
-      "pct": -1.25
+      "price": 230.36,
+      "pct": 0.84
     },
     "AAPL": {
-      "price": 294.38,
-      "pct": 1.73
+      "price": 319.97,
+      "pct": -2.51
     },
     "MSFT": {
-      "price": 384.28,
-      "pct": 3.02
+      "price": 499.7,
+      "pct": -2.04
     },
     "AMZN": {
-      "price": 241.7,
-      "pct": 1.41
+      "price": 258.51,
+      "pct": -0.15
     },
     "GOOGL": {
-      "price": 361.21,
-      "pct": 1.07
+      "price": 338.46,
+      "pct": -1.11
     },
     "META": {
-      "price": 612.91,
-      "pct": 8.81
+      "price": 616.77,
+      "pct": 1
     },
     "TSLA": {
-      "price": 425.3,
-      "pct": 1.12
+      "price": 354.08,
+      "pct": -5.92
     },
     "AMD": {
-      "price": 540.88,
-      "pct": -6.89
+      "price": 477.57,
+      "pct": 4.69
     },
     "JPM": {
-      "price": 334.07,
-      "pct": 2.06
+      "price": 358.64,
+      "pct": -0.94
     },
     "NFLX": {
-      "price": 74.19,
-      "pct": 3.91
+      "price": 78.25,
+      "pct": -5.35
     },
     "IONQ": {
-      "price": 37.78,
-      "pct": -3.89
+      "price": 39.52,
+      "pct": 1.28
     }
   },
   "indices": {
     "S&P 500": {
-      "value": 7483.23,
-      "chg": -16.13
+      "value": 7718.6,
+      "chg": -29.11
     },
     "NASDAQ 100": {
-      "value": 29809.13,
-      "chg": -467.22
+      "value": 29544.15,
+      "chg": 61.85
     },
     "DOW JONES": {
-      "value": 52305.24,
-      "chg": -13.96
+      "value": 53414.25,
+      "chg": -271.85
     }
   },
-  "updated": "2026-07-02T06:37:53.694Z"
+  "updated": "2026-09-06T03:19:59.816Z"
 };
