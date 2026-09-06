@@ -50,6 +50,10 @@ const QUOTES = {
     "IONQ": {
       "price": 39.52,
       "pct": 1.28
+    },
+    "CRWD": {
+      "price": 213.1,
+      "pct": -0.87
     }
   },
   "indices": {
@@ -66,5 +70,5 @@ const QUOTES = {
       "chg": -271.85
     }
   },
-  "updated": "2026-09-06T03:19:59.816Z"
+  "updated": "2026-09-06T03:22:38.024Z"
 };
