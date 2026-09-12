@@ -17,6 +17,7 @@ const STOCKS = [
   { sym:'AMD',   name:'Advanced Micro Devices', sector:'เซมิคอนดักเตอร์',    exchange:'NASDAQ', price:162.30, pct:3.41,  sd:78 },
   { sym:'JPM',   name:'JPMorgan Chase',         sector:'ธนาคาร',             exchange:'NYSE',   price:205.10, pct:-0.39, sd:89 },
   { sym:'NFLX',  name:'Netflix Inc.',           sector:'สตรีมมิ่ง',          exchange:'NASDAQ', price:685.00, pct:0.94,  sd:90 },
+  { sym:'DELTA', name:'Delta Electronics (Thailand)', sector:'อิเล็กทรอนิกส์', exchange:'SET',   price:264.00, pct:-1.49, sd:55 },
 ];
 
 const INDICES = [

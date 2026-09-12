@@ -17,7 +17,10 @@ const path = require('path');
 const OUT_FILE = path.join(__dirname, 'js', 'quotes.js');
 
 /* หุ้นใน STOCKS (js/data.js) — Yahoo ใช้ ticker ตรง ๆ */
-const STOCK_SYMS = ['NVDA', 'AAPL', 'MSFT', 'AMZN', 'GOOGL', 'META', 'TSLA', 'AMD', 'JPM', 'NFLX', 'IONQ', 'CRWD'];
+const STOCK_SYMS = ['NVDA', 'AAPL', 'MSFT', 'AMZN', 'GOOGL', 'META', 'TSLA', 'AMD', 'JPM', 'NFLX', 'IONQ', 'CRWD', 'DELTA'];
+
+/* หุ้นที่สัญลักษณ์บน Yahoo ไม่ตรงกับ sym ในเว็บ (หุ้นไทยต้องมี .BK) */
+const YAHOO_SYM = { DELTA: 'DELTA.BK' };
 
 /* ดัชนีใน INDICES — แม็พชื่อในเว็บ → สัญลักษณ์ Yahoo */
 const INDEX_MAP = [
@@ -48,7 +51,7 @@ async function main() {
 
   for (const sym of STOCK_SYMS) {
     try {
-      const q = await quote(sym);
+      const q = await quote(YAHOO_SYM[sym] || sym);
       out.stocks[sym] = { price: round(q.price), pct: round(q.pct) };
       ok++;
     } catch (e) { console.error('  ✗ ' + sym + ': ' + e.message); fail++; }
