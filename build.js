@@ -30,6 +30,14 @@ function thaiShort(iso) {
   return parseInt(m[3], 10) + ' ' + TH_MONTH_SHORT[parseInt(m[2], 10) - 1] + ' ' + m[1];
 }
 
+/* ── ตัดเครื่องหมายคำพูดที่ครอบค่าใน frontmatter ออก + คลาย escape ข้างใน ── */
+function unquote(v) {
+  if (typeof v !== 'string') return v;
+  const m = /^"([\s\S]*)"$/.exec(v) || /^'([\s\S]*)'$/.exec(v);
+  if (!m) return v;
+  return m[1].replace(/\\(["'\\])/g, '$1');
+}
+
 /* ── parse one markdown file into an article object ── */
 function parseArticle(raw, id) {
   const fmMatch = /^---\s*\n([\s\S]*?)\n---\s*\n?([\s\S]*)$/.exec(raw);
@@ -46,7 +54,9 @@ function parseArticle(raw, id) {
     const key = line.slice(0, i).trim();
     let val = line.slice(i + 1).trim();
     if (val.startsWith('[') && val.endsWith(']')) {
-      val = val.slice(1, -1).split(',').map(s => s.trim()).filter(Boolean);
+      val = val.slice(1, -1).split(',').map(s => unquote(s.trim())).filter(Boolean);
+    } else {
+      val = unquote(val);
     }
     fm[key] = val;
   });
