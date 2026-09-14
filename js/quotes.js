@@ -56,8 +56,8 @@ const QUOTES = {
       "pct": -1.02
     },
     "DELTA": {
-      "price": 264,
-      "pct": -1.49
+      "price": 256,
+      "pct": -3.03
     }
   },
   "indices": {
@@ -67,12 +67,12 @@ const QUOTES = {
     },
     "NASDAQ 100": {
       "value": 29368.44,
-      "chg": 264.93
+      "chg": 264.94
     },
     "DOW JONES": {
       "value": 52573.29,
       "chg": 509.19
     }
   },
-  "updated": "2026-09-12T14:12:23.580Z"
+  "updated": "2026-09-14T06:05:52.243Z"
 };
