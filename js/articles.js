@@ -3378,5 +3378,111 @@ const ARTS = [
     "featured": true,
     "agent": "hanako",
     "image": "assets/images/39-market-2026-09-12.jpg"
+  },
+  {
+    "id": 40,
+    "cat": "ภาพรวมตลาด",
+    "title": "ฟิวเจอร์สแนสแด็กร่วงกว่า 1% — ซีอีโอ AI เรียกร้องชะลอการพัฒนา ก่อนสัปดาห์ชี้ชะตาเฟด",
+    "excerpt": "สัญญาฟิวเจอร์ส Nasdaq 100 ร่วงกว่า 1% เปิดสัปดาห์ 14 กันยายน 2026 หลังซีอีโอ Anthropic เผยแพร่บทความเรียกร้องให้อุตสาหกรรมชะลอการพัฒนาโมเดล AI และ OpenAI ประกาศไม่ IPO ในปีนี้ ขณะที่ตลาดเตรียมรับผลประชุมเฟดวันพุธที่คาดว่าจะขึ้นดอกเบี้ย",
+    "author": "ทีมข่าว PixelVest",
+    "date": "14 ก.ย. 2026",
+    "iso": "2026-09-14",
+    "read": 10,
+    "syms": [
+      "NVDA",
+      "AMD",
+      "MSFT",
+      "GOOGL"
+    ],
+    "rank": 40,
+    "body": {
+      "intro": "ตลาดหุ้นสหรัฐฯ เข้าสู่สัปดาห์ใหม่ด้วยแรงกดดันฝั่งหุ้นเทคโนโลยี หลังจากดัชนีหลักทั้งสามปิดบวกเมื่อวันศุกร์ที่ 11 กันยายน 2026 ในการซื้อขายช่วงค่ำวันอาทิตย์ที่ 13 กันยายน (เวลาสหรัฐฯ) สัญญาฟิวเจอร์ส Nasdaq 100 ปรับลงราว 1.2% ขณะที่ฟิวเจอร์ส S&P 500 ลดลง 0.6% และฟิวเจอร์ส Dow Jones ลดลง 0.4% ตัวจุดชนวนไม่ใช่ข้อมูลเศรษฐกิจ แต่เป็นความเคลื่อนไหวจากผู้นำบริษัท AI เอง ซ้อนกับความคาดหวังว่าเฟดจะขึ้นดอกเบี้ยในวันพุธนี้ ทั้งนี้ ณ เวลาที่เขียนข่าว ตลาดหุ้นสหรัฐฯ ยังไม่ปิดการซื้อขายของวันจันทร์ ตัวเลขที่รายงานจึงเป็นสัญญาณจากตลาดล่วงหน้าและการซื้อขายนอกเวลาเท่านั้น ภายในไม่กี่ชั่วโมง Sam Altman ซีอีโอ OpenAI ออกมาแสดงความเห็นด้วย และระบุว่า OpenAI จะเปิดให้ผู้ประเมินอิสระเข้าถึงในลักษณะเดียวกัน ขณะที่ Elon Musk และผู้บริหาร Google DeepMind ก็แสดงท่าทีสนับสนุนเช่นกัน ในวันเดียวกัน Altman ยืนยันกับ Fortune ว่า OpenAI จะไม่เข้าตลาดหลักทรัพย์ในปี 2026 โดยให้เหตุผลเรื่องความท้าทายด้านความปลอดภัยของ AI ส่งผลให้ IPO ที่ตลาดจับตามากที่สุดรายการหนึ่งถูกเลื่อนไปอย่างน้อยถึงปี 2027 ในการซื้อขายนอกเวลาของสหรัฐฯ ช่วงค่ำวันอาทิตย์ หุ้น Intel และ **AMD** ปรับลงมากกว่า 4% ส่วนหุ้นหน่วยความจำ Micron และ SanDisk ลดลง 3.9% และ 4.5% ตามลำดับ ขณะที่ **Nvidia (NVDA)** ถูกระบุว่าเคลื่อนไหวต่ำลงชัดเจนในช่วงก่อนตลาดเปิด และ **Microsoft (MSFT)** กับ **Alphabet (GOOGL)** ก็ขยับลงเช่นกัน รายงานข่าวชี้ว่าประเด็นที่นักลงทุนกังวลคือ หากการพัฒนาโมเดลแนวหน้าช้าลง อาจกระทบดีมานด์ชิปสำหรับการเทรนโมเดล ส่วน Microsoft มีความเชื่อมโยงโดยตรงผ่านการถือหุ้นใน OpenAI อย่างไรก็ดี มีบทวิเคราะห์บางส่วนตั้งข้อสังเกตว่า ณ ตอนนี้ยังไม่มีสัญญาณว่าแผนลงทุนโครงสร้างพื้นฐาน AI (capex) ของ Nvidia, Microsoft, Amazon, Alphabet และ Oracle จะเปลี่ยนทิศทาง โดยสัญญาในตลาดคาดการณ์ (prediction markets) ที่ผูกกับ OpenAI และ Anthropic เป็นส่วนที่ปรับลงแรงที่สุดหลังบทความเผยแพร่ - **จันทร์ 14 ก.ย.** — ผลประกอบการ Dave & Buster's - **พุธ 16 ก.ย.** — ยอดค้าปลีกเดือนสิงหาคม (ช่วงเช้า), ผลประกอบการ Lennar, งาน Investor Day ของ Salesforce ในช่วง Dreamforce และการประกาศผลประชุมเฟดเวลา 14.00 น. ตามเวลาสหรัฐฯ ฝั่งตะวันออก พร้อม Summary of Economic Projections และ dot plot ชุดใหม่ - **พฤหัสบดี 17 ก.ย.** — ผลประกอบการ Carnival, ตัวเลขผู้ขอรับสวัสดิการว่างงานรายสัปดาห์ และดัชนีภาคการผลิต Philadelphia Fed เดือนกันยายน ด้านความคาดหวัง สัญญาฟิวเจอร์สอัตราดอกเบี้ยเฟดชี้โอกาสราว 85% ที่เฟดจะขึ้นดอกเบี้ย 0.25% ส่วนตลาด swaps สะท้อนความน่าจะเป็นสูงถึง 92% และคาดการณ์การคุมเข้มสะสม 0.50% ภายในสิ้นปี แรงผลักดันหลักมาจากข้อมูลเงินเฟ้อเดือนสิงหาคม ทั้งดัชนีราคาผู้ผลิต (PPI) ที่เพิ่มขึ้น 0.4% MoM และ CPI ที่เพิ่มขึ้น 0.4% โดย Core CPI สูงกว่าคาด ประกอบกับต้นทุนพลังงานที่ยังสูงจากความขัดแย้งสหรัฐฯ–อิหร่านซึ่งกระทบการเดินเรือในช่องแคบฮอร์มุซ โดย Goldman Sachs ประเมินว่าหากการโจมตีเรือขนส่งยังยกระดับ ราคาน้ำมันมีความเสี่ยงขึ้นไปเกิน 120 ดอลลาร์ต่อบาร์เรล",
+      "sections": [
+        {
+          "h": "ซีอีโอ AI เรียกร้อง \"ชะลอแนวหน้า\" — OpenAI เลื่อน IPO",
+          "p": "เมื่อวันเสาร์ที่ 12 กันยายน 2026 Dario Amodei ซีอีโอของ Anthropic เผยแพร่บทความความยาวราว 3,800 คำชื่อ \"We Must Pace the Frontier\" เสนอให้บริษัท AI ชั้นนำร่วมกันชะลออัตราการเพิ่มขีดความสามารถของโมเดลระดับแนวหน้า เพื่อให้งานด้าน alignment, interpretability และการประเมินความปลอดภัยตามทัน โดยมีบุคคลภายนอกคอยตรวจสอบ Anthropic ยังประกาศให้ผู้ประเมินภายนอก รวมถึงองค์กร METR เข้าถึงระบบได้ในระดับเดียวกับพนักงานอย่างถาวร"
+        },
+        {
+          "h": "หุ้นชิปนำการขาย — จากเอเชียถึงการซื้อขายนอกเวลาในสหรัฐฯ",
+          "p": "แรงขายเริ่มจากตลาดเอเชียเช้าวันจันทร์ที่ 14 กันยายน โดย SoftBank ดิ่งลงมากกว่า 12% ขณะที่ SK Hynix และ Samsung ปรับลงแรง ดัชนี KOSPI ของเกาหลีใต้นำการปรับลงในภูมิภาค ส่วนตลาดโตเกียว ฮ่องกง เซี่ยงไฮ้ ไทเป และมะนิลาก็ปิดในแดนลบเช่นกัน"
+        },
+        {
+          "h": "Catalyst สัปดาห์นี้: FOMC 16 ก.ย. และยอดค้าปลีก",
+          "p": "ปัจจัยที่สองซึ่งกดดันตลาดคือความคาดหวังต่อการประชุมคณะกรรมการนโยบายการเงิน (FOMC) วันที่ 15–16 กันยายน 2026 ซึ่งหากเฟดขึ้นดอกเบี้ยจริงจะเป็นการขึ้นครั้งแรกของวัฏจักรนี้ ปฏิทินสำคัญของสัปดาห์มีดังนี้"
+        }
+      ],
+      "quote": "สัปดาห์นี้ตลาดต้องประมวลผลแรงกดดันสองแหล่งพร้อมกัน ฝั่งหนึ่งเป็นคำถามเชิงโครงสร้างที่ผู้นำอุตสาหกรรม AI ตั้งขึ้นเองเกี่ยวกับความเร็วของการพัฒนาเทคโนโลยี อีกฝั่งเป็นนโยบายการเงินที่มีแนวโน้มคุมเข้มขึ้น ข้อมูลที่จะช่วยแยกผลของทั้งสองปัจจัยได้ชัดขึ้นคือการซื้อขายจริงในวันจันทร์ ยอดค้าปลีก และแถลงการณ์เฟดวันพุธ",
+      "quoteBy": "— ทีมข่าว PixelVest",
+      "takeaway": "ฟิวเจอร์สหุ้นสหรัฐฯ ปรับลงเปิดสัปดาห์ 14 กันยายน 2026 นำโดย Nasdaq 100 ที่ร่วงราว 1.2% หลัง Dario Amodei แห่ง Anthropic เรียกร้องให้ชะลอการพัฒนา AI แนวหน้า โดยมี Sam Altman, Elon Musk และผู้บริหาร Google DeepMind สนับสนุน และ OpenAI ประกาศไม่ IPO ในปีนี้ หุ้นชิปอย่าง AMD, Intel, Micron และ NVDA ถูกขายนำตลาดทั้งในเอเชียและช่วงนอกเวลา เหตุการณ์ที่มีวันที่ชัดเจนและควรติดตามคือยอดค้าปลีกและผลประชุม FOMC ในวันพุธที่ 16 กันยายน",
+      "sources": [
+        {
+          "text": "US Stock Futures Fall on AI Warning, Oil Gains: Markets Wrap — Bloomberg",
+          "url": "https://www.bloomberg.com/news/articles/2026-09-13/us-stock-futures-fall-on-ai-warning-oil-gains-markets-wrap"
+        },
+        {
+          "text": "Amodei's AI Slowdown Warning Rattles Futures: Will Stocks Open Lower? — Yahoo Finance",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/amodeis-ai-slowdown-warning-rattles-020434313.html"
+        },
+        {
+          "text": "U.S. stock futures slide on calls to slow AI development, M.East escalation — Investing.com",
+          "url": "https://www.investing.com/news/stock-market-news/us-stock-futures-slide-on-calls-to-slow-ai-development-meast-escalation-4898779"
+        },
+        {
+          "text": "Tech firms hit by AI slowdown call with Fed expected to hike rates — Yahoo Finance/AFP",
+          "url": "https://finance.yahoo.com/technology/ai/articles/tech-firms-hit-ai-slowdown-024739551.html"
+        },
+        {
+          "text": "Tech firms hit by AI slowdown call with Fed expected to hike rates — Malay Mail",
+          "url": "https://www.malaymail.com/news/money/2026/09/14/tech-firms-hit-by-ai-slowdown-call-with-fed-expected-to-hike-rates/235146"
+        },
+        {
+          "text": "AI-linked Asian stocks slump after top lab CEOs call for slowing down technology's development — Investing.com/Reuters",
+          "url": "https://www.investing.com/news/stock-market-news/ailinked-asian-stocks-slump-after-top-lab-ceos-call-for-slowing-down-technologys-development-4898809"
+        },
+        {
+          "text": "MU, SNDK, INTC, AMD: Chip Stocks Slide After Anthropic Calls For AI Industry Slowdown — Yahoo Finance",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/mu-sndk-intc-amd-chip-022018383.html"
+        },
+        {
+          "text": "Micron, Nvidia, AMD stocks at risk as Anthropic, OpenAI leads push to slow AI growth — Invezz",
+          "url": "https://invezz.com/news/2026/09/13/micron-nvidia-amd-stocks-at-risk-as-anthropic-openai-leads-push-to-slow-ai-growth/"
+        },
+        {
+          "text": "Dario Amodei AI Slowdown Call: 3-Step Plan Explained — Tech Insider",
+          "url": "https://tech-insider.org/dario-amodei-ai-slowdown-pacing-frontier-2026/"
+        },
+        {
+          "text": "Amodei Calls for Pacing the AI Frontier and Pledges Permanent Third-Party On-Site Access — Winzheng",
+          "url": "https://www.winzheng.com/en/article/amodei-pace-the-frontier-ai-slowdown-third-party-evaluation"
+        },
+        {
+          "text": "OpenAI rules out IPO this year as Altman, Musk & Amodei warn AI is moving too fast — CNBC",
+          "url": "https://www.cnbc.com/2026/09/12/anthropics-amodei-proposes-plan-to-slow-the-pace-of-advancing-ai-capabilities.html"
+        },
+        {
+          "text": "Sam Altman confirms OpenAI won't go public this year — Fortune",
+          "url": "https://fortune.com/2026/09/12/sam-altman-openai-ipo-delay-ill-advised-moment-safety-concerns/"
+        },
+        {
+          "text": "Wall Street week ahead: Federal Reserve decision on interest rates, retail sales update — WTOP News",
+          "url": "https://wtop.com/national/2026/09/wall-street-week-ahead-federal-reserve-decision-on-interest-rates-retail-sales-update"
+        },
+        {
+          "text": "September Fed Rate Hike Odds Surge After Hot Inflation Data — DeFi Rate",
+          "url": "https://defirate.com/prediction-markets/fed-decision-odds/"
+        },
+        {
+          "text": "Will the Fed Hike Rates in September? A 25-Basis-Point Move Is Now Expected — Chase",
+          "url": "https://www.chase.com/personal/investments/learning-and-insights/article/september-2026-rate-hike-now-expected-amid-energy-shocks"
+        },
+        {
+          "text": "Oil Prices Could Top $120 as Middle East Conflict Escalates — OilPrice.com",
+          "url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Could-Top-120-as-Middle-East-Conflict-Escalates.html"
+        }
+      ]
+    },
+    "featured": true,
+    "agent": "hanako",
+    "image": "assets/images/40-market-2026-09-14.jpg"
   }
 ];
