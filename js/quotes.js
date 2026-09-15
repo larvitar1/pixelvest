@@ -8,71 +8,75 @@
 const QUOTES = {
   "stocks": {
     "NVDA": {
-      "price": 218.29,
-      "pct": -0.03
+      "price": 210.96,
+      "pct": -3.36
     },
     "AAPL": {
-      "price": 332.27,
-      "pct": 1.75
+      "price": 333.08,
+      "pct": 0.24
     },
     "MSFT": {
-      "price": 495.63,
-      "pct": 0.65
+      "price": 505.41,
+      "pct": 1.97
     },
     "AMZN": {
-      "price": 256.78,
-      "pct": 1.94
+      "price": 253.54,
+      "pct": -1.26
     },
     "GOOGL": {
-      "price": 338.5,
-      "pct": 1.77
+      "price": 349.39,
+      "pct": 3.22
     },
     "META": {
-      "price": 648.03,
-      "pct": 0.57
+      "price": 665.6,
+      "pct": 2.71
     },
     "TSLA": {
-      "price": 365.44,
-      "pct": 0.52
+      "price": 358.97,
+      "pct": -1.77
     },
     "AMD": {
-      "price": 516.13,
-      "pct": 2.49
+      "price": 493.41,
+      "pct": -4.4
     },
     "JPM": {
-      "price": 356.23,
-      "pct": 0.76
+      "price": 350.13,
+      "pct": -1.71
     },
     "NFLX": {
-      "price": 77.4,
-      "pct": 1.83
+      "price": 80.32,
+      "pct": 3.77
     },
     "IONQ": {
-      "price": 36.75,
-      "pct": -0.24
+      "price": 37.5,
+      "pct": 2.04
     },
     "CRWD": {
-      "price": 206.74,
-      "pct": -1.02
+      "price": 235.38,
+      "pct": 13.85
     },
     "DELTA": {
-      "price": 256,
-      "pct": -3.03
+      "price": 238,
+      "pct": -5.56
+    },
+    "RKLB": {
+      "price": 62.55,
+      "pct": -0.64
     }
   },
   "indices": {
     "S&P 500": {
-      "value": 7656.98,
-      "chg": 65.28
+      "value": 7619.98,
+      "chg": -37
     },
     "NASDAQ 100": {
-      "value": 29368.44,
-      "chg": 264.94
+      "value": 29127.16,
+      "chg": -241.28
     },
     "DOW JONES": {
-      "value": 52573.29,
-      "chg": 509.19
+      "value": 52421.2,
+      "chg": -152.1
     }
   },
-  "updated": "2026-09-14T06:05:52.243Z"
+  "updated": "2026-09-15T07:22:37.685Z"
 };

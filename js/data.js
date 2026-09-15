@@ -18,6 +18,7 @@ const STOCKS = [
   { sym:'JPM',   name:'JPMorgan Chase',         sector:'ธนาคาร',             exchange:'NYSE',   price:205.10, pct:-0.39, sd:89 },
   { sym:'NFLX',  name:'Netflix Inc.',           sector:'สตรีมมิ่ง',          exchange:'NASDAQ', price:685.00, pct:0.94,  sd:90 },
   { sym:'DELTA', name:'Delta Electronics (Thailand)', sector:'อิเล็กทรอนิกส์', exchange:'SET',   price:264.00, pct:-1.49, sd:55 },
+  { sym:'RKLB',  name:'Rocket Lab',             sector:'อวกาศ',              exchange:'NASDAQ', price:62.55,  pct:-0.64, sd:61 },
 ];
 
 const INDICES = [
