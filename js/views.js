@@ -314,7 +314,7 @@ function articleView(id) {
     +   '<span style="font-size:12px;font-weight:700;letter-spacing:.05em;color:var(--gold);">' + a.cat + '</span>'
     +   (ag ? '<span style="display:inline-flex;align-items:center;gap:7px;font-size:12px;font-weight:600;color:var(--ink-2);background:var(--surface-2);padding:5px 12px;border-radius:8px;">'
     +     '<span style="width:8px;height:8px;border-radius:50%;background:' + ag.accent + ';"></span>'
-    +     'เรียบเรียงโดย ' + ag.name + ' · ' + ag.role + '</span>' : '')
+    +     'เรียบเรียงโดย ' + ag.name + (ag.role ? ' · ' + ag.role : '') + '</span>' : '')
     + '</div>'
     + '<h1 style="font-family:var(--head);font-weight:700;font-size:35px;line-height:1.26;margin:0 0 16px;letter-spacing:-.01em;">' + esc(a.title) + '</h1>'
     + '<p style="font-size:18px;color:var(--ink-2);line-height:1.6;margin:0 0 22px;">' + esc(a.excerpt) + '</p>'
@@ -483,7 +483,6 @@ function teamView() {
       id: 'chen', name: 'Chen', badge: 'TREND',
       accent: '#5a7d9a', bg: 'linear-gradient(150deg,#d4e4ef 0%,#8badc4 100%)',
       image: 'assets/images/agents/Chen.png',
-      role: 'นักข่าวเจาะเทรนด์',
       desc: 'สแกนกระแสข่าวที่กำลังมาแรง ทั้งหุ้น เศรษฐกิจ ภูมิรัฐศาสตร์ และเทคโนโลยี เจาะลึกเทรนด์ที่นักลงทุนต้องรู้ก่อนใคร',
     },
   ];
@@ -506,7 +505,7 @@ function teamView() {
       +   '<div style="position:absolute;top:14px;left:14px;font-family:\'IBM Plex Mono\',monospace;font-size:10px;font-weight:700;letter-spacing:.12em;background:' + a.accent + ';color:#fff;padding:3px 10px;border-radius:6px;">' + a.badge + '</div>'
       +   '<div style="position:absolute;bottom:0;left:0;right:0;background:linear-gradient(transparent,rgba(0,0,0,.58));padding:24px 18px 18px;">'
       +     '<div style="font-family:Georgia,\'Times New Roman\',serif;font-size:28px;color:#fff;font-style:italic;text-shadow:0 1px 4px rgba(0,0,0,.3);">' + a.name + '</div>'
-      +     '<div style="font-family:\'IBM Plex Mono\',monospace;font-size:10px;letter-spacing:.1em;color:rgba(255,255,255,.75);margin-top:4px;">' + a.role + '</div>'
+      +     '<div style="font-family:\'IBM Plex Mono\',monospace;font-size:10px;letter-spacing:.1em;color:rgba(255,255,255,.75);margin-top:4px;">' + (a.role || '') + '</div>'
       +   '</div>'
       + '</div>'
       + '<div class="pv-face pv-face-back" style="background:var(--paper);display:flex;flex-direction:column;justify-content:center;padding:28px 22px;">'
