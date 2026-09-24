@@ -17,22 +17,35 @@
 
    ✅ เขียนลงเว็บแล้ว: ข้อ <N>
    ```
-4. ทำ pipeline ต่อให้ครบเหมือนด้านล่าง (ข้อ 3-6): `node build.js` → bump `articles.js?v=N` ใน index.html → ตรวจ preview → commit + push origin master
+4. ทำ pipeline ต่อให้ครบเหมือนด้านล่าง (ข้อ 3-7): `node build.js` → bump `articles.js?v=N` ใน index.html → ตรวจ preview → commit + push origin master → push backup master
 5. ถ้าผู้ใช้อยากได้ข่าวชิ้นอื่นเพิ่มจากที่สรุปไว้ → เขียนเพิ่มแล้วรัน pipeline ซ้ำ
 
 ---
 
-**ถ้า $ARGUMENTS เป็นชื่อ agent** (hanako, joy, max, chen — ไม่สนใจตัวพิมพ์เล็กใหญ่ ไม่มี ticker ต่อท้าย):
+**ถ้า $ARGUMENTS เป็น `chen`** (ไม่สนใจตัวพิมพ์เล็กใหญ่):
+โหมดข่าวด่วนประจำพอร์ต — **สรุปในแชท + เก็บไฟล์ลง `briefs/` เท่านั้น ไม่แตะเว็บ ไม่ build ไม่ commit**:
+
+1. Spawn agent `chen` ให้ทำตาม role ของตัวเอง:
+   - อ่าน `js/data.js` ดูว่าติดตามหุ้นตัวไหนอยู่
+   - อ่าน `js/articles.js` กันข่าวซ้ำกับช่อง "ข่าวหุ้นล่าสุด" บนเว็บ
+   - WebSearch หาข่าว **ใหม่ภายใน 12 ชม.เท่านั้น** ที่กระทบหุ้นเหล่านั้น
+2. Chen เสนอ 3-6 หัวข้อในแชท → **หยุดรอผู้ใช้เลือก**
+3. ผู้ใช้เลือกเลขแล้ว → Chen สรุปใจความหัวข้อนั้นแบบอ่านไวๆ (เกิดอะไรขึ้น / กระทบยังไง / ราคาตอบรับ / มุมตรงข้าม / จับตาอะไรต่อ + ลิงก์แหล่งข่าว)
+4. Chen บันทึกสรุปเป็นไฟล์ `briefs/<TICKER>-<DD>-<MM>-<YYYY>.md` (เช่น `briefs/NVDA-23-09-2026.md`) — หุ้นคนละตัวแยกไฟล์, ตัวเดิมวันเดิมต่อท้ายไฟล์เดิม แล้วแจ้งชื่อไฟล์ในแชท
+5. **ห้าม**ทำ pipeline เขียนเว็บ (build.js / bump version / commit / push) ในโหมดนี้ — ไฟล์ใน `briefs/` ไม่เข้า build — ถ้าผู้ใช้อยากให้ขึ้นเว็บค่อยสั่ง `Brief hanako <TICKER>` แยกต่างหาก
+
+---
+
+**ถ้า $ARGUMENTS เป็นชื่อ agent** (hanako, joy, max — ไม่สนใจตัวพิมพ์เล็กใหญ่ ไม่มี ticker ต่อท้าย):
 เรียก agent นั้นให้ทำงานตามขั้นตอนต่อไปนี้:
 
 1. Spawn agent ตามชื่อ ให้เขียนข่าวลงเว็บ PixelVest ตาม role ของ agent นั้น
    - ถ้า `hanako` → เขียนข่าวภาพรวมตลาดวันนี้ โดยต้องใช้ `type: featured` และ `cat: ภาพรวมตลาด` เท่านั้น ห้ามใช้ `type: news`
    - ถ้า `joy` → เขียนข่าวสรุปผลประกอบการ (ต้องบอก TICKER ให้ agent ด้วย)
    - ถ้า `max` → เขียนบทวิเคราะห์พื้นฐาน (ต้องบอก TICKER ให้ agent ด้วย)
-   - ถ้า `chen` → สแกนเทรนด์ปัจจุบัน เสนอหัวข้อให้ผู้ใช้เลือก แล้วเขียนข่าวเจาะลึก (type: news เท่านั้น)
 
 2. หลัง agent เขียนไฟล์ `articles/` เสร็จ → spawn agent `pixel` กับไฟล์นั้น **เฉพาะกรณี hanako เท่านั้น** เพื่อสร้างภาพประกอบและอัปเดต `image:` ใน frontmatter
-   - ถ้าเป็น `joy`, `max` หรือ `chen` → ข้ามขั้นนี้
+   - ถ้าเป็น `joy` หรือ `max` → ข้ามขั้นนี้
 
 3. รัน `node build.js` เพื่ออัปเดต `js/articles.js`
 
@@ -45,6 +58,11 @@
    - `git commit` พร้อมข้อความอธิบาย
    - `git push origin master`
    - แจ้งผู้ใช้พร้อมลิงก์ https://larvitar1.github.io/pixelvest/
+
+7. Backup ขึ้น repo สำรองทุกครั้งที่ทำงานเสร็จ (ตามขั้นตอนใน `.claude/commands/repo.md`):
+   - เช็ก remote `backup` มีหรือยัง ถ้าไม่มี → `git remote add backup https://github.com/larvitar1/pixelvest-backup.git`
+   - `git fetch backup` แล้วเทียบ `git rev-list --left-right --count master...backup/master` — ถ้า backup นำหน้า → หยุดถามผู้ใช้ ห้าม force push
+   - `git push backup master` (ไม่ใช้ `--force`)
 
 ---
 

@@ -3,7 +3,7 @@
 ทำตามขั้นตอนนี้:
 
 1. รันคำสั่ง `node fetch-quotes.js` ที่ `C:\Users\ASUS\Desktop\Web`
-   - สคริปต์จะดึงราคา + %เปลี่ยนแปลงของหุ้น 12 ตัว (NVDA, CRWD, IONQ, AMZN, GOOGL, META, TSLA, AAPL, MSFT, AMD, JPM, NFLX) และดัชนี 3 ตัว (S&P 500, NASDAQ 100, DOW JONES) แล้วเขียนทับ `js/quotes.js`
+   - สคริปต์จะดึงราคา + %เปลี่ยนแปลงของหุ้น 12 ตัว (NVDA, CRWD, IONQ, AMZN, GOOGL, META, TSLA, AAPL, MSFT, AMD, JPM, NFLX,) และดัชนี 3 ตัว (S&P 500, NASDAQ 100, DOW JONES) แล้วเขียนทับ `js/quotes.js`
    - ไม่ต้องใช้ API key (ดึงผ่าน node ฝั่ง server)
 
 2. ดูผลลัพธ์ที่สคริปต์รายงาน:
