@@ -19,6 +19,7 @@ const STOCKS = [
   { sym:'NFLX',  name:'Netflix Inc.',           sector:'สตรีมมิ่ง',          exchange:'NASDAQ', price:685.00, pct:0.94,  sd:90 },
   { sym:'DELTA', name:'Delta Electronics (Thailand)', sector:'อิเล็กทรอนิกส์', exchange:'SET',   price:264.00, pct:-1.49, sd:55 },
   { sym:'RKLB',  name:'Rocket Lab',             sector:'อวกาศ',              exchange:'NASDAQ', price:62.55,  pct:-0.64, sd:61 },
+  { sym:'RXRX',  name:'Recursion Pharmaceuticals', sector:'เทคโนโลยีชีวภาพ', exchange:'NASDAQ', price:3.70,   pct:4.52,  sd:37 },
 ];
 
 const INDICES = [
