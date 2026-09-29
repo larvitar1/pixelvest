@@ -20,6 +20,9 @@ const STOCKS = [
   { sym:'DELTA', name:'Delta Electronics (Thailand)', sector:'อิเล็กทรอนิกส์', exchange:'SET',   price:264.00, pct:-1.49, sd:55 },
   { sym:'RKLB',  name:'Rocket Lab',             sector:'อวกาศ',              exchange:'NASDAQ', price:62.55,  pct:-0.64, sd:61 },
   { sym:'RXRX',  name:'Recursion Pharmaceuticals', sector:'เทคโนโลยีชีวภาพ', exchange:'NASDAQ', price:3.70,   pct:4.52,  sd:37 },
+  { sym:'CRWV',  name:'CoreWeave Inc.',          sector:'คลาวด์เอไอ',         exchange:'NASDAQ', price:0,      pct:0,     sd:47 },
+  { sym:'NBIS',  name:'Nebius Group',            sector:'คลาวด์เอไอ',         exchange:'NASDAQ', price:0,      pct:0,     sd:53 },
+  { sym:'IREN',  name:'IREN Limited',            sector:'ดาต้าเซ็นเตอร์เอไอ',  exchange:'NASDAQ', price:0,      pct:0,     sd:66 },
 ];
 
 const INDICES = [

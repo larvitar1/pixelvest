@@ -8,75 +8,91 @@
 const QUOTES = {
   "stocks": {
     "NVDA": {
-      "price": 210.96,
-      "pct": -3.36
+      "price": 228.86,
+      "pct": 1.68
     },
     "AAPL": {
-      "price": 333.08,
-      "pct": 0.24
+      "price": 338.4,
+      "pct": -0.78
     },
     "MSFT": {
-      "price": 505.41,
-      "pct": 1.97
+      "price": 509.22,
+      "pct": -1.35
     },
     "AMZN": {
-      "price": 253.54,
-      "pct": -1.26
+      "price": 246.15,
+      "pct": -1.41
     },
     "GOOGL": {
-      "price": 349.39,
-      "pct": 3.22
+      "price": 342.75,
+      "pct": -0.34
     },
     "META": {
-      "price": 665.6,
-      "pct": 2.71
+      "price": 715.62,
+      "pct": -4.79
     },
     "TSLA": {
-      "price": 358.97,
-      "pct": -1.77
+      "price": 357.45,
+      "pct": -3.94
     },
     "AMD": {
-      "price": 493.41,
-      "pct": -4.4
+      "price": 607.87,
+      "pct": -3.61
     },
     "JPM": {
-      "price": 350.13,
-      "pct": -1.71
+      "price": 336.59,
+      "pct": -1.89
     },
     "NFLX": {
-      "price": 80.32,
-      "pct": 3.77
+      "price": 69.23,
+      "pct": -2.69
     },
     "IONQ": {
-      "price": 37.5,
-      "pct": 2.04
+      "price": 44.58,
+      "pct": -1.98
     },
     "CRWD": {
-      "price": 235.38,
-      "pct": 13.85
+      "price": 259.25,
+      "pct": 2.82
     },
     "DELTA": {
-      "price": 238,
-      "pct": -5.56
+      "price": 262,
+      "pct": 1.16
     },
     "RKLB": {
-      "price": 62.55,
-      "pct": -0.64
+      "price": 72.19,
+      "pct": -2.38
+    },
+    "RXRX": {
+      "price": 3.7,
+      "pct": -1.07
+    },
+    "CRWV": {
+      "price": 85.07,
+      "pct": -2.88
+    },
+    "NBIS": {
+      "price": 231.88,
+      "pct": -2.3
+    },
+    "IREN": {
+      "price": 41.72,
+      "pct": -5.45
     }
   },
   "indices": {
     "S&P 500": {
-      "value": 7619.98,
-      "chg": -37
+      "value": 7683.69,
+      "chg": -59.72
     },
     "NASDAQ 100": {
-      "value": 29127.16,
-      "chg": -241.28
+      "value": 30276.81,
+      "chg": -331.32
     },
     "DOW JONES": {
-      "value": 52421.2,
-      "chg": -152.1
+      "value": 51481.51,
+      "chg": -347.09
     }
   },
-  "updated": "2026-09-15T07:22:37.685Z"
+  "updated": "2026-09-29T10:57:58.607Z"
 };
