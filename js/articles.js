@@ -7040,5 +7040,175 @@ const ARTS = [
       "บิตคอยน์"
     ],
     "agent": "joy"
+  },
+  {
+    "id": 66,
+    "cat": "ภาพรวมตลาด",
+    "title": "จ้างงานกันยายนเพิ่มแค่ 2.9 หมื่นตำแหน่ง หุ้นเด้งรับโอกาสเฟดพักขึ้นดอกเบี้ย แต่ยีลด์ 10 ปีกลับปิดสูงขึ้นที่ 5.28%",
+    "excerpt": "S&P 500 บวก 0.7% ที่ 7,722.72 จุด และแนสแด็กบวก 1.2% หลังตัวเลขจ้างงานกันยายนเพิ่มเพียง 29,000 ตำแหน่ง ทำให้โอกาสเฟดขึ้นดอกเบี้ยรอบตุลาคมร่วงเหลือราว 16–18% แต่ยีลด์ 10 ปีกลับปิดสูงขึ้นที่ 5.28% สัปดาห์หน้าจับตารายงานการประชุมเฟด 7 ต.ค.",
+    "author": "ทีมข่าว PixelVest",
+    "date": "4 ต.ค. 2026",
+    "iso": "2026-10-04",
+    "read": 14,
+    "syms": [
+      "NVDA",
+      "TSLA",
+      "JPM",
+      "DELTA"
+    ],
+    "rank": 66,
+    "body": {
+      "intro": "ตลาดหุ้นสหรัฐฯ ปิดวันศุกร์ที่ 2 ตุลาคมในแดนบวกทั้งสามดัชนี S&P 500 เพิ่มขึ้น 0.7% ปิดที่ 7,722.72 จุด แนสแด็ก คอมโพสิต บวก 1.2% ที่ 27,190.86 จุด และดาวโจนส์บวกราว 250 จุดหรือ 0.5% ที่ 51,176.96 จุด แรงขับหลักคือรายงานการจ้างงานเดือนกันยายนที่อ่อนกว่าคาดอย่างมาก ซึ่งตลาดตีความแบบ \"ข่าวร้ายคือข่าวดี\" — แรงงานที่เย็นลงลดเหตุผลที่เฟดต้องขึ้นดอกเบี้ยต่อ แต่ภาพทั้งสัปดาห์ไม่ได้สดใสเท่าวันศุกร์ เมื่อเทียบกับระดับปิดวันที่ 25 กันยายน S&P 500 ยังติดลบราว 0.3% ดาวโจนส์ลดลงราว 1.3% มีเพียงแนสแด็กที่บวกราว 0.45% ข้อสังเกตของเราคือ ตลาดหุ้นได้ข่าวดีด้านนโยบายการเงิน แต่ตลาดพันธบัตรไม่ได้ยอมรับข่าวดีนั้นตามไปด้วย บริบทสำคัญคือเฟดเพิ่งขึ้นดอกเบี้ย 25 basis point (bp — หนึ่งในร้อยของหนึ่งเปอร์เซ็นต์) เมื่อวันที่ 16 กันยายน สู่กรอบ 3.75–4.00% และเมื่อวันที่ 25 กันยายน CME FedWatch ยังให้โอกาสขึ้นดอกเบี้ยอีกครั้งในการประชุมวันที่ 27–28 ตุลาคมถึง 54.2% หลังรายงานจ้างงาน ความน่าจะเป็นนี้ร่วงเหลือราว 16–18% และการคงดอกเบี้ยกลายเป็นกรณีฐานที่ราว 80% ขึ้นไป อย่างไรก็ดี นักวิเคราะห์บางส่วนชี้ว่าเงินเฟ้อยังสูงกว่าเป้า 2% เฟดจึงยังตัดสินใจเป็นรายครั้ง ไม่ใช่การปิดประตูการขึ้นดอกเบี้ย **Nvidia** ประกาศเมื่อวันที่ 28 กันยายนเพิ่มวงเงินซื้อหุ้นคืนอีก 1.5 แสนล้านดอลลาร์ รวมวงเงินคงเหลือราว 2.35 แสนล้านดอลลาร์ ใช้ได้ถึงสิ้นปีงบประมาณ 2028 ถือเป็นการเพิ่มวงเงินซื้อหุ้นคืนครั้งใหญ่ที่สุดเท่าที่มีการบันทึก แซงสถิติ 1.1 แสนล้านดอลลาร์ของ Apple เมื่อปี 2024 จุดที่น่าสนใจกว่าขนาดวงเงินคือจังหวะ ในสัปดาห์ที่ยีลด์พุ่ง การคืนเงินสดให้ผู้ถือหุ้นเป็นสัญญาณว่าผู้บริหารมั่นใจในกระแสเงินสด และเป็นส่วนหนึ่งที่อธิบายว่าทำไมแนสแด็กปิดสัปดาห์เป็นบวกได้ ขณะที่ดาวโจนส์ติดลบ ส่วนต่างระหว่างยีลด์ 10 ปีกับ 2 ปีจึงกว้างราว 44 bp ภาพนี้เรียกว่า yield curve ชันขึ้น (ส่วนต่างระหว่างดอกเบี้ยระยะยาวกับระยะสั้นกว้างขึ้น) ยีลด์ระยะสั้นซึ่งผูกกับนโยบายเฟดได้แรงหนุนจากโอกาสขึ้นดอกเบี้ยที่ลดลง แต่ยีลด์ระยะยาวยังถูกดันจากความกังวลเรื่องเงินเฟ้อ หนี้ภาครัฐ และราคาพลังงาน เรามองว่านี่คือสัญญาณว่าแรงกดดันฝั่งยาวไม่ได้มาจากเฟดเพียงอย่างเดียว ข่าวดีด้านนโยบายจึงช่วยฝั่งยาวได้จำกัด ดัชนีดอลลาร์ (DXY) อ่อนลงมาที่ราว 101.72 ตามความคาดหวังดอกเบี้ยที่ถอยลง แต่ทองคำกลับไม่ได้ประโยชน์ ราคาทองคำล่วงหน้าลดลงราว 0.95% ที่ 4,162.30 ดอลลาร์ต่อออนซ์ สะท้อนว่ายีลด์ระยะยาวที่สูงขึ้นทำให้ต้นทุนการถือสินทรัพย์ที่ไม่ให้ผลตอบแทนสูงขึ้น และแรงกดดันนี้มีน้ำหนักมากกว่าดอลลาร์ที่อ่อนลง ราคาน้ำมันดิบ WTI ลดลง 1.90% ที่ราว 91.11 ดอลลาร์ต่อบาร์เรล ขณะเบรนท์แทบทรงตัวที่ 102.25 ดอลลาร์ ฝั่งคริปโตตอบสนองไวที่สุด บิตคอยน์เริ่มวันแถว 84,000 ดอลลาร์ แล้วพุ่งเกิน 87,200 ดอลลาร์หลังตัวเลขจ้างงาน ก่อนย่อลงมาแถว 86,000 ดอลลาร์ สินทรัพย์ที่อ่อนไหวต่อสภาพคล่องที่สุดจึงตอบรับข่าวลดโอกาสขึ้นดอกเบี้ยเต็มที่ ขณะที่ทองคำซึ่งอ่อนไหวต่อดอกเบี้ยแท้จริงระยะยาวกลับเดินสวนทาง สำหรับ Delta Electronics (Thailand) ภาพยังมีสองด้าน ข่าวการซื้อหุ้นคืนของ Nvidia ตอกย้ำความแข็งแรงของวงจรลงทุนโครงสร้างพื้นฐานเอไอที่ห่วงโซ่ฮาร์ดแวร์อ่อนไหวตาม แต่หากเงินบาทแข็งขึ้นตามดอลลาร์ที่อ่อน จะกระทบรายได้เมื่อแปลงกลับเป็นบาท ด้านกลุ่มธนาคารอย่าง JPMorgan ส่วนต่างดอกเบี้ยสุทธิได้ประโยชน์จาก yield curve ที่ชันขึ้น แต่ตลาดแรงงานที่เย็นลงเป็นตัวแปรที่ต้องดูคู่กันในแง่คุณภาพสินเชื่อ *หมายเหตุ: บทความนี้จัดทำเพื่อให้ข้อมูลและมุมมองเชิงบรรณาธิการเท่านั้น ไม่ใช่คำแนะนำการลงทุน โปรดประเมินความเสี่ยงก่อนตัดสินใจทุกครั้ง*",
+      "sections": [
+        {
+          "h": "ตัวเลขจ้างงานที่เปลี่ยนเส้นทางเฟดในวันเดียว",
+          "p": "กระทรวงแรงงานสหรัฐฯ รายงานว่าการจ้างงานนอกภาคเกษตร (Nonfarm Payrolls — จำนวนตำแหน่งงานที่เพิ่มขึ้นสุทธิ ไม่นับภาคเกษตร) เดือนกันยายนเพิ่มเพียง 29,000 ตำแหน่ง ต่ำกว่าที่ตลาดคาดไว้ราว 84,000–90,000 ตำแหน่ง อัตราว่างงานขยับขึ้นจาก 4.1% เป็น 4.2% ตัวเลขเดือนกรกฎาคมและสิงหาคมถูกปรับลดรวมกันราว 60,000 ตำแหน่ง และค่าจ้างรายชั่วโมงเฉลี่ยเพิ่มเพียง 0.1%"
+        },
+        {
+          "h": "หุ้นรายตัวที่มีข่าวรองรับ: Tesla และ Nvidia",
+          "p": "**Tesla** ปรับขึ้นราว 5% หลังรายงานยอดส่งมอบไตรมาส 3/2026 ที่ 486,532 คัน สูงกว่าค่าเฉลี่ยประมาณการที่บริษัทรวบรวมไว้ 461,974 คัน แม้จะลดลง 2.1% จากสถิติ 497,099 คันในไตรมาสเดียวกันปีก่อน ยอดส่งมอบที่สูงกว่ายอดผลิต 464,391 คันหมายความว่าสต๊อกรถลดลง แต่การติดตั้งระบบกักเก็บพลังงาน 13.7 GWh ต่ำกว่าที่นักวิเคราะห์บางส่วนคาดไว้ราว 15.9 GWh งบการเงินเต็มจะประกาศวันที่ 21 ตุลาคม"
+        },
+        {
+          "h": "ภาพ Cross-asset: ยีลด์ไม่ลงตาม ทั้งที่ดอลลาร์อ่อน",
+          "p": "นี่คือจุดที่ขัดกันที่สุดของสัปดาห์ ยีลด์พันธบัตรรัฐบาลสหรัฐฯ อายุ 10 ปีร่วงลงไปแถว 5.20% ทันทีหลังตัวเลขจ้างงานออก แต่กลับตัวขึ้นไปปิดที่ราว 5.28% จาก 5.24% ในวันก่อนหน้า และสูงกว่าระดับ 5.17% เมื่อสัปดาห์ก่อน ซึ่งตอนนั้นก็เป็นระดับสูงสุดนับตั้งแต่ปี 2007 อยู่แล้ว ระหว่างสัปดาห์ยีลด์เคยขึ้นไปเหนือ 5.34% ส่วนยีลด์ 2 ปีปิดราว 4.84%"
+        },
+        {
+          "h": "สิ่งที่ต้องจับตาสัปดาห์หน้า",
+          "p": "- **รายงานการประชุม FOMC (Minutes) ของการประชุม 15–16 กันยายน — วันพุธที่ 7 ตุลาคม 14.00 น. ET (ราว 01.00 น. เช้าวันพฤหัสฯ ที่ 8 ตุลาคม เวลาไทย)** เป็นเอกสารที่เปิดให้เห็นการถกเถียงในห้องประชุมรอบที่เฟดขึ้นดอกเบี้ย หากรายงานชี้ว่ากรรมการจำนวนมากยังเห็นความจำเป็นต้องคุมเข้มเพิ่ม โอกาสขึ้นดอกเบี้ยที่ตลาดเพิ่งลดลงมีแนวโน้มถูกประเมินใหม่ ซึ่งหุ้นกลุ่ม valuation สูงอ่อนไหวเป็นพิเศษ แต่หากน้ำเสียงเน้นการรอดูข้อมูลและความเสี่ยงฝั่งตลาดแรงงาน จะสนับสนุนการคาดการณ์ \"พักขึ้นดอกเบี้ย\" ที่เกิดขึ้นในวันศุกร์ ข้อควรระวังคือรายงานนี้เขียนขึ้นก่อนตัวเลขจ้างงานล่าสุดจะออก - **ยีลด์ 10 ปีกับระดับ 5.3%** หากยีลด์ยังขึ้นต่อแม้ข้อมูลแรงงานอ่อน จะยืนยันว่าปัจจัยฝั่งอุปทานพันธบัตรและเงินเฟ้อมีน้ำหนักกว่านโยบายเฟด - **CPI เดือนกันยายน วันที่ 14 ตุลาคม 8.30 น. ET (19.30 น. เวลาไทย)** เป็นตัวชี้ขาดถัดไปก่อนการประชุมเฟดวันที่ 27–28 ตุลาคม"
+        },
+        {
+          "h": "มุมนักลงทุนไทย",
+          "p": "ดอลลาร์ที่อ่อนลงพร้อมโอกาสขึ้นดอกเบี้ยสหรัฐฯ ที่ลดลง เป็นเงื่อนไขที่ในอดีตมักช่วยลดแรงกดดันต่อสกุลเงินตลาดเกิดใหม่รวมถึงเงินบาท แต่ยีลด์สหรัฐฯ ระยะยาวที่ยังสูงทำให้ส่วนต่างผลตอบแทนยังกว้าง แรงหนุนนี้จึงอาจจำกัด"
+        }
+      ],
+      "quote": "วันศุกร์ที่ผ่านมาให้บทเรียนว่าข่าวดีด้านนโยบายการเงินไม่ได้แปลว่าต้นทุนเงินระยะยาวจะลดลงเสมอไป ตลาดเพิ่งลดโอกาสขึ้นดอกเบี้ยรอบตุลาคมจากกว่าครึ่งเหลือไม่ถึงหนึ่งในห้า แต่ยีลด์ 10 ปีกลับปิดสูงขึ้น เราจึงมองว่าตัวแปรที่ตัดสินทิศทางตลาดตอนนี้คือดอกเบี้ยระยะยาว ไม่ใช่ดอกเบี้ยนโยบาย และตราบใดที่ยีลด์ยาวยังไม่สงบ การฟื้นตัวของหุ้นก็ยังเปราะบาง",
+      "quoteBy": "— ทีมข่าว PixelVest",
+      "takeaway": "การจ้างงานกันยายนที่เพิ่มเพียง 29,000 ตำแหน่ง และอัตราว่างงาน 4.2% ดัน S&P 500 บวก 0.7% และแนสแด็กบวก 1.2% ขณะโอกาสเฟดขึ้นดอกเบี้ยรอบตุลาคมร่วงจาก 54.2% เหลือราว 16–18% แต่ทั้งสัปดาห์ S&P 500 ยังติดลบเล็กน้อย และยีลด์ 10 ปีปิดสูงขึ้นที่ 5.28% ทองคำลดลงแม้ดอลลาร์อ่อน ส่วนบิตคอยน์แตะเหนือ 87,000 ดอลลาร์ จุดชี้ขาดถัดไปคือรายงานการประชุมเฟดวันที่ 7 ตุลาคม และ CPI วันที่ 14 ตุลาคม",
+      "sources": [
+        {
+          "text": "US stock market close, October 2, 2026 — Trading Economics",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGyaCi7tBN_55xWy02z_fZ8j6cwzu3mAiCClANMOel4dimIHRxRq5pNGKKg8PUBWsD79L1Snf6CqtmzsCmfN7PvUCnQMbI0ycU76keCbctYa-NxO-mNUqK-pB6PZryYeJieTSl_g4F2XWTkbOW-"
+        },
+        {
+          "text": "Wall Street closes higher after weak jobs report — STL.News",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHtRoLZ26oWxkPsbxEde7Df615f2uA-Ct2kvzyT0IhwZwsz7BmSnxbRqragQG2yShe8Ma9hiCohBkw5dn1eJLnQprFZVKlebsTi9ybzpAJZijZ5R8HrhXAkkmhTo6oyto534JyRH-avbuxLPXckYdErbkY55WY="
+        },
+        {
+          "text": "Stock market today, Oct. 2 — Pittsburgh Post-Gazette",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFfYCvhXNpHFu0BeNhWse4MDsFxT8tBU5G7XocH_byjGqE6zfk1Jvf6tQq4nnYOz39z7pn9XggDXJQ0d0KCoNU1C5uNSNSL_RzHNHjW_h0pAJbEhkllhSaWKT4HfQpbg_m9e2K-pOsHpK6y0YXQeBKHXkqyx0foQsJ1wEg2yb-FyvwgEcNL-Zm1Tj0HHd4wbCjiRYaDis2fXnByTEUxy-zeKJXzivWL"
+        },
+        {
+          "text": "US economy adds 29,000 jobs in September — Al Jazeera",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEePWsdLJ8QC0C3chXsd6_eRmsKYPXaImRIgOjX5ekB6CpJcaZZQZAN3sym7vyUYEN88mQ35YNVVZEGZHgJ1AUA9jRMjuDwSgAKEOB5M6giSbatqW88EoV0Wju_VToTJmFYRT3v5liStskqTlIpTFsKT8p-aAZd4ynRK5ZpPQLc3If8c0-IBgQcZmB_6lLgUUTgIW2XA72556EetGhB0GUORq-4jg=="
+        },
+        {
+          "text": "September jobs report: revisions and unemployment — The Washington Post",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHNV4zUukQtoAKfkrK5jgo-1wtBhHe5ZFkFyBubVxDcu2cAtCYdu6q-CGMueVPGNzFQn1doAEuQCz6rILv9KX8Pt88uPDZ0aQdOxqKQ8K9MYKaDZdIe8zngCQCCUq5T2UCns3FBgt1usL3ls25O7ELM6Dvta0XBuCmlkMAd8O7udPF86SGxhlY_wqqsT6tw2bNMcUpgSZbNAhSwPi2VjKnbYw=="
+        },
+        {
+          "text": "September payrolls, wages and revisions — Interactive Brokers",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGOshriHCI2lmU4WPtuSU5JU8ZlmQXNZhPI15wudngUhCxiGLdAnNIGUs2OQMSSC62AFLZ66SIzK2PGXGld_S_DmjjNGEXXB1nSh-l2MVVVFQuoxcGifbubUzngfb4wPFuDGzNCCIQ1e6gF-cPTWa6QOaeOEWRbPKszI9iUu7lazQ4bU9EK9lJ-qo_rd3FkWL2eoeESwJqM3kMINig="
+        },
+        {
+          "text": "Rate hike odds after jobs report — TradingView",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGgPQU10rBtX__8GgtjoJL5fXU2fcMMi7O6qNuL2cy6XuEbdwuNraao2i-Egjj7i8crzC4k25UXZIByYlHdbCjs_d7YkX0jIm7zuEZq86vljoi9pJ2mKKZkdl6JYoHd2mzAZ3oHBC-dLY2DBiGhj8Zkz7racZ4bm04JTJGhaNHslxLsblv0cUglYIdqW1dtcbhDFYgis9WJNXLWfNTfgM70WTJkDbg3B4hrbqItew44"
+        },
+        {
+          "text": "Jobs report and the Fed's October decision — Kiplinger",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGuwTnbX0s-mSDWAvmYyvp5dvgRUbfNHeG8AvgD9K557JBF4iFtbqZX7rbAOH29YgBvPlOBwP1H6SQ9kXVd6_4hWmXA8LMkYIH4dLHNXO_TNHlwIaFOokExFRAZGiQSn0Os0DB1C1PW-8TQwy_hlwpymT-MKzPsa9ns4sKoRNQDpiE0wpgjDylZOvAEKfGu"
+        },
+        {
+          "text": "Fed rate hike odds fall after September payrolls — TheStreet",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG0GaxBfEVFUrnn4V1cwUTnuVHVHNEreg7qIkE42vvpH8j7VBj4raUS9jy_cdmTRL1JAicBAEH2aD4QEBPBX3-Nnvl78xG-zPhz0NtlcjZMEGCOfCaD3pHYDTfANoGKdIUwZ8xjjMKv-Q_vzRMF8B1F_1_7UvVqBRc8dbD6WVsWOJQnqgmXclrsKqsnEZty6Czs_810Nat-Nj2DCyM5J9pdYQ=="
+        },
+        {
+          "text": "United States Fed Interest Rate — Trading Economics",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQESktYFGl3hqTa4qt31B011s2OzUlpaghdrc1nt7n-K1a9LHhqDg0e39G-LAEpWceooikhl6VbuDMQxQIxb3bXW_sK8PwX4Oez9AAzMW9h0skZ-ptOWrAMBKC0iRH61Nnhbx-5g7trRsA0XWJgq"
+        },
+        {
+          "text": "CME FedWatch: 54.2% probability of rate hike at October meeting — Phemex News",
+          "url": "https://phemex.com/news/article/cme-fedwatch-542-probability-of-rate-hike-at-october-meeting-97512"
+        },
+        {
+          "text": "Stock market today: Dow, S&P 500, Nasdaq notch weekly wins (Sept. 25 closes) — Yahoo Finance",
+          "url": "https://finance.yahoo.com/markets/live/stock-market-today-friday-september-25-dow-sp-500-nasdaq-081738529.html"
+        },
+        {
+          "text": "US 10-Year Treasury yield — Trading Economics",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGVmE9OgrAvU8busYX4z1wSj1GPNyi6HyLl9zF_z6Ddf3Zgr3SbJdbOOraaJ17G4yyCdTTEg7fF4jepSK9Uf9sFHfW9FPw2a4Rj7aC-__sa3_J_lqaB4Fen7XfryWsuHmcNPN1EZurBwWzWfebsUcHAWpojfQ0C"
+        },
+        {
+          "text": "10 Year Treasury Rate — YCharts",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHrmIBB_Oi7sc5UeexOzs7H9QZ4eoHFmUSh0ZA07-2XaaIYD6gZNKfwiaZe-72YXbH8k7pPsGe3TF-bH6AxOtJXPAA_LwEA3QebVPdOYK0LY1YIV3z9agA7oAWRqotoDdKFbiNvm9CjQX7H"
+        },
+        {
+          "text": "US 2-Year Treasury yield — Trading Economics",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGEX23XrU1ysdm0_wILKPp7CugrHxUBIA8DVNBBDQIE8m6AwGjBs-3-rIdJquTmLP-C04UzrDBc8mZS_TJtf4r806wOHVCLWPjJIro1R-ROdB2yE7nJQ7S6OoEjnVXtqRUDK13Zg7--gj3T02-1pHtum0k="
+        },
+        {
+          "text": "Bonds reverse after jobs data — Morningstar",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHhpsCKW2MuC_WuyWCXbdH2ADadytNLhJaHwbrZgeEZtFROsBtu2FGD90NKYwvuIoX9Yd2NY0A7qA4erHN3ErEWjBDzpjp3UnOOMdtbs5694YLLZHQLjElF7z6LpOKKERX1DxAGZF3Okfzve40eKSkJ-fCUI3BJ7-_2Iz88YHsLrtZqYhGMi1KIFHfOvvG7mnmhcgfWkdlcvHRqJ-3sRcp_OnwAu1UNST-77WiQ2g6lFTz0l1UiTmI="
+        },
+        {
+          "text": "Gold and yields after US payrolls — Kitco",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG84e90hp0VdfNkWpfdj23Itc0dBo0H5-2LvBn-YI1Xb9LwuT4jtTarMuqGZdnCikLtljOOXy5ftlVLQD9t-plYBh1tA5ZsEUT1ZGNTlJCOxm6kuXsu4XCn_7uLZwrmPDqbgs6dp5YrDiQGs-lRo46vareOZ4M8j1GOFDArDPXu_zz4qxM0My2_xfgzQlMbwb7bRkFrI0eoXYtjQV5zQ0Aa_k20QarmiQ=="
+        },
+        {
+          "text": "Gold futures — Investing.com",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHdQmtxxOuDpdiTxlejHgxMnS8dZwGTfKNUN5rYba9IUlNyNJdeDJ1q-439xrrN8E59zLypBSxF5zQK68ggBU4jgxWVjoeICdACvNY0ZAH39ByBW3P01iTuxQWUc8QO3uNPD6ZIeTh-Nban498ZhtM="
+        },
+        {
+          "text": "Crude Oil WTI — Trading Economics",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEllwNdzTp5o11TGd5Nq9o-v4fAYnduKBa33xhTNphQKpDG4oazvKiESg0D9-gBQlY41PgUYxhhvGCsQlhQUswLggWxiIHB8uVd3ockM4jV-17AAAu7CDvxMRLqrT85afCIlQAK4g=="
+        },
+        {
+          "text": "Brent Crude Oil — Trading Economics",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEkfNCdoIw6VdQ3RO6EMQTB5bJqVlcdMgXtKE8gqCYWj0Sq0tkbocrPwIgG6kJfrlosCsFC3ojbX5HBqDiDlO8OWGbm7p5D8rAbibEP0Tw6PbTWZy2D2iwMurViFXSgobO5Ou54dllS6UBU8w=="
+        },
+        {
+          "text": "US Dollar Index — Investing.com",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHbu8cdq_35Y0h4jZrlTiGyVMRvh-0hq91l96l8tiAQzEOSUc2hkE9BsR26N-y6lCf95JqiD1aTuQNt4thpcb1PoDLOlnZS9nJlcg6pfqJcbN18nqNwlrz3p2ALGC9dDLhpFbTb3yWYe_5wJ0Pm_mDM5i_sdKDCgms5"
+        },
+        {
+          "text": "Bitcoin swings after US jobs data — Pluang",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFXAjmlRdSfAgX5uN081Uyg9i7STalhbmC-m6VgV2mzs9RDoqtocT5Ppj-b1vHoti5MU7vG8jPSbnO7aRwR3NfyD8Y0lICX_FHnZLUCvaFTSUZfZPrNR9yhC5j0sFy4px1nD6VJUFGWdf4cg3-QpTjT7tjnWlJPOI3vRWVnU594bL90EuFLiNEAyegk"
+        },
+        {
+          "text": "Bitcoin price update — 24/7 Wall St.",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG-KKSHq23CIrsfa2yFdzBjxp9B9-ANd3zVWble8yUjYimUcmKC7h4BkjKlyHp5_J9nFF-DGGQsx157zqIvYyId7w5rOIKu5MvhK566toJ0E8xipzgsdpsGH893zy5aXC4dTnx8oqPDlOy5ckqOUrg82FRAGZmohjlnMLQ24VQXTQ386S9Nu95ZYIz6Wnp-12Min5okR63R0Tw-Rln9zx-1VEG3QZoKKFCnphzNvIa_67VP9wv605k4gy63s23XEiAf1UOzSBJwPr-pmxC_1ttZFHbcHXjOgm1ZTH8="
+        },
+        {
+          "text": "Tesla Q3 2026 production and deliveries — Tesla",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHXNOOYEJqHZPuq4udEwYIuk23sbQ8_OtsEt_LAQSjzuLe7wO5aASf55NLgcWzGhtbhzfbwEvm3dBIhHm5K10WUsfMe-Lc3UXEd1NQLU5XgKgx4xSgLPJxWobe0Qh5dLgbH959sYQua7Rs9ldvBLyPdq3K5i7mqXccstb45tiZ_2W-quWjomwpF9nfDbMgLvVLtyyMc-F5T"
+        },
+        {
+          "text": "Tesla Q3 deliveries beat consensus — Quartz",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEfVX1vcpzNq5iH2kCVBHr9x3gNwW9C9wbA0UQjVaWx5ehUKazkrwMtZgzEelHwggHvZTUlSnfjcIHcwaiK9PJ8UxgdNblhpZKgDL4HNOpPkKJwXTYNRl98CsC_HCQsLQkth7pUFAI7M_fuIeNM1j8Bk45OUPpp_u4aTA=="
+        },
+        {
+          "text": "Tesla stock rises on delivery beat — Forbes",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF_uRBZMwKRhbxY9xcTUdIJFK6S5EgZ0XP_CpUkL_UtFmYsi63YZVwnv4zRprOxOaQOD0RqYdqWh8nxhxN2AGlNx0BLFU8IorTG7Hebl9Enn5zuuG3cOWfvXsWzVu1F_Uoy1Yo2EAWgSOTzVxpKOwk02FSKyVVtdw7XZ55GthXV80V699ffRQX06eGT_8v3yraRq9EtPVBMewUi-ci7MOijuePXm2jCU-IvicR18dFUydR-clf-AQs0"
+        },
+        {
+          "text": "NVIDIA announces additional $150 billion share repurchase authorization — NVIDIA",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF4B4Oml10WarPWlVXiXRRBXrVVXZhwPQKH_InT9i7WCE6v-Lbi-3a_Zoyj5ee09bZuMG03ZGDGTCDe_NOUSfCdRKqhonUkWYCtDIR0QP4lHTr2CDnZ7dmjYl820CKwtDNMaNkQr5ED4e1_2crgxLVCKeL83w_AWW4jsJ5AIKkyfDB0YPjbIvAy3_bvzrmPJiydrCAW7_uLV_vbkE7t7Ac="
+        },
+        {
+          "text": "Nvidia buyback surpasses Apple's record — The Motley Fool",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEM5rPxU2EiMu7KE8V24rfOk7GYAg14JGoTM-S14Afc_a76AcsVJkBSotw8ArWQEIZ5x0MQ59M1Ap8XYR0Xk6JugImUH-tRMGzEZgi8jw0uwAqPvNKV48Um6JIph1QuwpIrvFmUmp3yor8hDp-tu63c53LnFxZYyE3ViG3xwSowS5Eg50iAf7XsZUFojLpz0vpu6s4WV1sJe4cGoiuFcrCKpM7IeY2qcAQk_flEmwnz"
+        },
+        {
+          "text": "FOMC meeting calendar and minutes — Federal Reserve",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF4VsjzEhq7hIqObklW4okC6wyPOphdGg63BJRZdO4m7hmdn63lFxTH_rcxmpRR9ois82EZgkH5xk2TVFA9gNu7sipVGfXqinFSfA_kAh_R36lZ_Pc31cMwyB3DqLoQr8DjIAjxdRzhitoipn0="
+        },
+        {
+          "text": "CPI release schedule — U.S. Bureau of Labor Statistics",
+          "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF8RpzMoZ-5IK7-4bebHsCE2ubbmITEkVPiiGeuQdYEhsMa0lZyD5ALYGAU7bfeeGqpOXO8fEMNLkTY9_2kwa5x1o3flb3WD6e_Sd8MqT4="
+        }
+      ]
+    },
+    "featured": true,
+    "agent": "hanako",
+    "image": "assets/images/66-market-2026-10-04.jpg"
   }
 ];
