@@ -18,7 +18,8 @@
    ✅ เขียนลงเว็บแล้ว: ข้อ <N>
    ```
 4. ทำ pipeline ต่อให้ครบเหมือนด้านล่าง (ข้อ 3-7): `node build.js` → bump `articles.js?v=N` ใน index.html → ตรวจ preview → commit + push origin master → push backup master
-5. ถ้าผู้ใช้อยากได้ข่าวชิ้นอื่นเพิ่มจากที่สรุปไว้ → เขียนเพิ่มแล้วรัน pipeline ซ้ำ
+5. **แนบไฟล์ .md ขึ้น NotebookLM** → ทำตามหัวข้อ "📎 ขั้นตอนร่วม: แนบไฟล์ .md ขึ้น NotebookLM" ท้ายไฟล์นี้ (notebook ปลายทาง = ชื่อเดียวกับ `<TICKER>`)
+6. ถ้าผู้ใช้อยากได้ข่าวชิ้นอื่นเพิ่มจากที่สรุปไว้ → เขียนเพิ่มแล้วรัน pipeline ซ้ำ
 
 ---
 
@@ -64,6 +65,9 @@
    - `git fetch backup` แล้วเทียบ `git rev-list --left-right --count master...backup/master` — ถ้า backup นำหน้า → หยุดถามผู้ใช้ ห้าม force push
    - `git push backup master` (ไม่ใช้ `--force`)
 
+8. **แนบไฟล์ .md ขึ้น NotebookLM** — **เฉพาะกรณี `hanako` เท่านั้น** (`joy` / `max` ข้ามขั้นนี้)
+   ทำตามหัวข้อ "📎 ขั้นตอนร่วม: แนบไฟล์ .md ขึ้น NotebookLM" ท้ายไฟล์นี้ (notebook ปลายทาง = `Overview_Market`)
+
 ---
 
 **ถ้า $ARGUMENTS เป็น stock ticker** (เช่น AAPL, NVDA, TSLA):
@@ -82,3 +86,57 @@
 ---
 
 **ถ้าไม่มี $ARGUMENTS หรือไม่รู้ว่าเป็น agent หรือ ticker**: ถามผู้ใช้ก่อน
+
+---
+
+## 📎 ขั้นตอนร่วม: แนบไฟล์ .md ขึ้น NotebookLM
+
+ใช้กับ **โหมด hanako เท่านั้น** (ทั้งภาพรวมตลาด และข่าวหุ้นรายตัว) — joy / max / chen **ไม่ต้องทำ**
+
+ทำ **หลัง** `git push backup master` สำเร็จแล้ว (ท้ายสุดของ pipeline)
+
+### เลือก notebook ปลายทาง
+
+| โหมด | ไฟล์ที่แนบ | notebook ปลายทาง |
+|------|-----------|------------------|
+| `Brief hanako` (ภาพรวมตลาด) | `articles/NN-market-YYYY-MM-DD.md` | `Overview_Market` |
+| `Brief hanako <TICKER>` | `articles/<TICKER>/NN-<ticker>-<slug>.md` | ชื่อเดียวกับ `<TICKER>` (เช่น `CRWD`) |
+
+ถ้ามีหลาย ticker ในคำสั่งเดียว → แนบแยกไฟล์เข้า notebook ของแต่ละ ticker
+
+### ขั้นตอน
+
+1. **หา notebook id จากชื่อ** (CLI รับเฉพาะ id ไม่รับชื่อ):
+   ```bash
+   notebooklm list --json
+   ```
+   แล้วจับคู่ `title` ให้ตรงเป๊ะกับชื่อ notebook ปลายทาง → เอา `id` มาใช้
+
+2. **ถ้าไม่เจอ notebook ที่ชื่อตรงกัน → หยุด ถามผู้ใช้ก่อน ห้ามสร้างเอง**
+   แจ้งว่า "ไม่พบ notebook `<ชื่อ>` — ต้องการให้สร้างใหม่ไหม?" แล้วรอคำตอบ
+   (ถ้าผู้ใช้ตอบว่าสร้าง → `notebooklm create "<ชื่อ>"` แล้วทำข้อ 3 ต่อ)
+
+3. **แนบไฟล์** — ใช้ `-n <notebook_id>` เสมอ อย่าพึ่ง `notebooklm use`:
+   ```bash
+   notebooklm source add "<path/to/file.md>" -n <notebook_id> --title "<ชื่อไฟล์หรือหัวข้อข่าว>" --json
+   ```
+   - ใช้ `--title` ตั้งชื่อให้อ่านรู้เรื่อง เช่น `71-market-2026-10-12 — <หัวข้อข่าว>`
+   - ถ้า source ชื่อเดิมมีอยู่แล้ว (แนบซ้ำรอบสอง) → `notebooklm source delete-by-title "<ชื่อเดิม>" ` ก่อน แล้วค่อย add ใหม่
+
+4. **แจ้งผลในแชท** ต่อท้ายสรุป pipeline:
+   ```
+   📎 NotebookLM: แนบ <ชื่อไฟล์> → <ชื่อ notebook> สำเร็จ (source id: <id>)
+   ```
+
+### เมื่อพลาด
+
+- ถ้า `notebooklm` ล้มเหลว (auth หมดอายุ / rate limit / network) → **เตือนในแชท แต่ห้ามถือว่า pipeline ล้มเหลว**
+  งานหลัก (build + push origin + push backup) ที่สำเร็จไปแล้วยังนับว่าเสร็จสมบูรณ์
+- รายงานแบบนี้:
+  ```
+  ⚠️ NotebookLM: แนบไฟล์ไม่สำเร็จ — <สาเหตุจาก stderr>
+     งานเว็บเสร็จครบแล้ว แนบซ้ำทีหลังได้ด้วย:
+     notebooklm source add "<path>" -n <notebook_id> --title "<title>"
+  ```
+- ถ้าเป็นปัญหา auth ให้บอกผู้ใช้ว่าแก้ได้ด้วย `notebooklm auth refresh` หรือ `notebooklm login`
+  (คำสั่ง login ต้องเปิดเบราว์เซอร์ → ให้ผู้ใช้พิมพ์ `! notebooklm login` เอง)
