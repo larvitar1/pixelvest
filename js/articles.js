@@ -9741,5 +9741,199 @@ const ARTS = [
     "featured": true,
     "agent": "hanako",
     "image": "assets/images/84-market-2026-10-19.jpg"
+  },
+  {
+    "id": 85,
+    "cat": "ภาพรวมตลาด",
+    "title": "ดาวโจนส์บวกกว่า 500 จุดจากงบ 3M แต่ Nasdaq ทรงตัว Netflix ร่วงหลังปิดตลาดจากเป้ารายได้ที่ต่ำกว่าคาด คืนนี้ถึงคิว Meta-Tesla-Lam Research",
+    "excerpt": "วันอังคารที่ 20 ต.ค. ดาวโจนส์บวก 1.02% จากงบ 3M และหุ้นสุขภาพ แต่ Nasdaq ปิดลบ 0.02% หลังตลาดปิด Netflix ลดลงราว 6% เพราะเป้ารายได้ไตรมาส 4 และรายได้โฆษณาต่ำกว่าคาด ส่วนเบรนท์แตะ 111.99 ดอลลาร์ระหว่างวันจากเหตุเรือบรรทุกน้ำมันชนทุ่นระเบิดในช่องแคบฮอร์มุซ คืนนี้ต้องดูงบ Meta, Tesla, Lam Research และ Texas Instruments",
+    "author": "ทีมข่าว PixelVest",
+    "date": "21 ต.ค. 2026",
+    "iso": "2026-10-21",
+    "read": 19,
+    "syms": [
+      "META",
+      "TSLA",
+      "NFLX",
+      "AMD"
+    ],
+    "rank": 85,
+    "body": {
+      "intro": "วันอังคารที่ 20 ตุลาคม 2569 ดัชนีหลักของสหรัฐฯ ปิดไม่ไปทางเดียวกัน CNBC รายงานว่าดาวโจนส์บวก 529.85 จุด หรือ 1.02% ปิดที่ 52,495.88 จุด S&P 500 บวก 0.28% ปิดที่ 7,712.57 จุด แต่ Nasdaq Composite ลบ 0.02% ปิดที่ 26,424.82 จุด ตลาดยังให้น้ำหนักกับงบบริษัทและราคาน้ำมันที่ลดลงจากจุดสูงระหว่างวัน มากกว่าการไล่ซื้อหุ้น AI ต่อ ตลาดเพิ่งได้แรงหนุนจากหุ้นเทคเมื่อวันจันทร์ที่ 19 ต.ค. วันนั้น Nasdaq บวก 1.11% และดัชนีหุ้นชิป SOX บวก 1.61% ยุติการลง 8 วันติดต่อกันได้ แต่วันอังคารเงินย้ายไปหาหุ้นบลูชิพและหุ้นกลุ่มสุขภาพแทน ข้อสังเกตของเราคือการเด้งของหุ้นเทควันจันทร์ยังไม่มีแรงซื้อต่อเนื่อง และตลาดยังไม่พร้อมเลือกข้างก่อนงบ Meta และ Tesla คืนนี้ แต่ไม่ใช่ทุกบริษัทที่งบดีแล้วหุ้นขึ้น GuruFocus รายงานว่า General Motors ลดลง 6.85% ระหว่างวัน ลดลงมากที่สุดใน S&P 500 ทั้งที่กำไรต่อหุ้นปรับปรุงไตรมาส 3 อยู่ที่ 3.70 ดอลลาร์ ดีกว่าคาด และประกาศซื้อหุ้นคืน 20,000 ล้านดอลลาร์ สาเหตุคือ GM บีบกรอบเป้ากำไรทั้งปีให้แคบลง โดยค่ากลางอยู่ที่ 13.25 ดอลลาร์ต่อหุ้น ต่ำกว่าที่นักวิเคราะห์คาดไว้ 13.41 ดอลลาร์ และ CNBC รายงานว่าผู้บริหารเตือนว่ากำไรไตรมาส 4 จะลดลงจากไตรมาส 3 เรามองว่ากรณี GM บอกได้ว่าฤดูงบรอบนี้ตลาดดูแนวโน้ม (guidance) มากกว่าผลไตรมาสที่ผ่านมา ซึ่งเป็นบททดสอบเดียวกับที่ Netflix เจอในคืนเดียวกัน **มุมบวก:** กำไรยังโตได้ดี และ Netflix คาดว่ารายได้ไตรมาส 4 จะโตกว่า 11% จากปีก่อน ธุรกิจหลักจึงยังไม่ได้ชะลอแรง **มุมลบ:** โฆษณาเป็นธุรกิจที่ตลาดหวังว่าจะเป็นตัวเร่งการเติบโตรอบใหม่ เมื่อเป้าโฆษณาถูกปรับลงในปีเดียวกับที่ราคาหุ้นลดลงหนัก ตลาดมีแนวโน้มตั้งคำถามว่าโฆษณาจะชดเชยการเติบโตของสมาชิกที่ชะลอลงได้หรือไม่ ในคืนเดียวกัน SpaceX รายงานรายได้ไตรมาส 3 ที่ 14,600 ล้านดอลลาร์ เพิ่มขึ้น 161% จากปีก่อน หน่วยธุรกิจ AI มีกำไรจากการดำเนินงาน 431 ล้านดอลลาร์ (ABC News) และหุ้นบวกราว 4–5% หลังตลาดปิด Stocktwits รายงานว่าช่วงค่ำวันอังคาร ฟิวเจอร์ส S&P 500 บวกราว 0.3% และฟิวเจอร์ส Nasdaq 100 บวกราว 1% *(ขณะเขียน ตลาดสหรัฐฯ ยังไม่เปิด ตัวเลขฟิวเจอร์สเปลี่ยนแปลงได้มาก)* ความเชื่อมโยงที่เราเห็นคือ ตอนนี้เศรษฐกิจสหรัฐฯ ส่งสัญญาณขัดกันเอง ตลาดที่อยู่อาศัยอ่อนแอมากเพราะดอกเบี้ยเงินกู้บ้านสูง ซึ่งเป็นเหตุผลให้เฟดไม่ควรเข้มงวดเพิ่ม แต่ราคาน้ำมันที่อยู่แถว 110 ดอลลาร์ทำให้ความเสี่ยงเงินเฟ้อยังสูง The Globe and Mail อ้าง CME FedWatch ว่าตลาดให้ความน่าจะเป็นราว 90% ที่เฟดจะขึ้นดอกเบี้ยในการประชุมวันที่ 9 ธ.ค. ขณะที่ Yardeni อ้างความน่าจะเป็นราว 84% ที่เฟดจะคงดอกเบี้ยในการประชุม 27–28 ต.ค. ทองที่ลดลงพร้อมกับน้ำมันที่ขึ้นสะท้อนว่า ตอนนี้ตลาดมองน้ำมันเป็นปัจจัยเรื่องดอกเบี้ยมากกว่าปัจจัยหลบภัย - **Meta (META)** — กรอบงบลงทุนปี 2569 ยังอยู่ที่ 130,000–145,000 ล้านดอลลาร์ (MarketPulse) และ Meta แจ้งไว้แล้วว่าไตรมาสนี้จะมีค่าใช้จ่ายทางกฎหมายราว 10,000 ล้านดอลลาร์ (MarketBeat) ประเด็นที่ตลาดถกเถียงคืองบลงทุนปี 2570 Mark Mahaney จาก Evercore ISI คาดว่าเป้างบลงทุนและค่าใช้จ่ายจะสูงกว่าที่ตลาดคาด จนนักวิเคราะห์อาจต้องปรับลดประมาณการกำไรปี 2570 หากรายได้โฆษณาโตทันงบลงทุน ตลาดมีแนวโน้มแยก Meta ออกจากกลุ่ม AI ที่ลงทุนด้วยเงินกู้ แต่หากงบลงทุนสูงขึ้นมากโดยที่รายได้ไม่โตตาม ความกังวลเรื่องผลตอบแทนการลงทุน AI จากสัปดาห์ก่อนมีโอกาสกลับมา - **Tesla (TSLA)** — Electrek ระบุว่าตลาดคาดกำไรต่อหุ้นราว 0.45 ดอลลาร์ ต่ำกว่าปีก่อน และรายได้ใกล้เคียงเดิม ประมาณการรายได้ของแต่ละสำนักอยู่ราว 27,800–28,400 ล้านดอลลาร์ ตัวเลขที่ต้องดูคืออัตรากำไรขั้นต้นของธุรกิจรถยนต์และกระแสเงินสดอิสระ เพราะ Tesla ตั้งงบลงทุนปีนี้ไว้ตั้งแต่ 25,000 ล้านดอลลาร์ขึ้นไป หลังจากที่ GM เพิ่งโดนขายเพราะเป้ากำไร ตลาดมีแนวโน้มให้น้ำหนักกับสิ่งที่ผู้บริหารพูดถึงอนาคตมากกว่ายอดส่งมอบที่ออกมาดีกว่าคาดไปแล้ว - **Lam Research และ Texas Instruments** — Seeking Alpha รายงานว่า UBS คาดว่างบ Lam จะออกมาแข็งแกร่ง และอาจปรับเป้าการใช้จ่ายซื้ออุปกรณ์ผลิตชิปทั้งอุตสาหกรรมปี 2569 ขึ้นไปเกิน 150,000 ล้านดอลลาร์ งบสองบริษัทนี้จะช่วยบอกว่าแรงขายหุ้นชิป 8 วันก่อนหน้านี้มาจากคำสั่งซื้อที่ลดลงจริงหรือแค่อารมณ์ตลาด ซึ่งส่งผลถึงหุ้นอย่าง AMD และ NVDA ด้วย ผู้ถือกองทุนหุ้นเทคสหรัฐฯ ควรรู้ว่างบ Meta, Tesla และ Lam Research จะออกช่วงเช้ามืดวันพฤหัสตามเวลาไทย และ NAV กองทุนจะสะท้อนผลช้ากว่าราคาหุ้นหนึ่งวันทำการ ส่วนหุ้นไทยที่ผูกกับดาต้าเซ็นเตอร์อย่าง Delta Electronics (Thailand) ได้รับผลจากทิศทางงบ Lam Research และอารมณ์ของตลาดหุ้นชิปในภูมิภาคโดยตรง *หมายเหตุ: บทความนี้จัดทำเพื่อให้ข้อมูลและมุมมองเชิงบรรณาธิการเท่านั้น ไม่ใช่คำแนะนำการลงทุน โปรดประเมินความเสี่ยงก่อนตัดสินใจทุกครั้ง*",
+      "sections": [
+        {
+          "h": "ดาวโจนส์นำตลาดจากงบบริษัทเก่าแก่ ส่วน GM ร่วงเพราะเป้ากำไร",
+          "p": "CNBC ระบุว่าตัวขับดาวโจนส์คือ 3M ซึ่งบวกกว่า 5% หลังกำไรออกมาดีกว่าคาดและปรับเป้าทั้งปีขึ้น Motley Fool รายงานว่าช่วงกลางวัน Eli Lilly บวกราว 5% ด้วย ราคาน้ำมันที่ลดลงจากจุดสูงระหว่างวันช่วยหุ้นบลูชิพ ส่วนหุ้น AI ฟื้นขึ้นมาได้ในช่วงท้ายตลาด"
+        },
+        {
+          "h": "Netflix กำไรดีกว่าคาด แต่ตลาดขายเพราะเป้ารายได้และโฆษณา",
+          "p": "หลังตลาดปิด Netflix รายงานกำไรต่อหุ้นไตรมาส 3 ที่ 0.87 ดอลลาร์ สูงกว่าที่ตลาดคาด 0.82 ดอลลาร์ รายได้ 12,870 ล้านดอลลาร์ ตรงกับที่คาด (CNBC) แต่บริษัทให้เป้ารายได้ไตรมาส 4 ที่ 13,440 ล้านดอลลาร์ ต่ำกว่าที่ตลาดคาดราว 13,510 ล้านดอลลาร์ ส่วนเป้ารายได้ทั้งปี 2569 บีบลงมาที่ 51,100 ล้านดอลลาร์ ซึ่งอยู่ปลายล่างของกรอบเดิม Exchange4media รายงานว่า Netflix ลดคาดการณ์รายได้โฆษณาปีนี้ลงมาราว 2,700 ล้านดอลลาร์ จากราว 3,000 ล้านดอลลาร์ หุ้นลดลงราว 6% ในการซื้อขายหลังตลาดปิด ทั้งที่ราคาหุ้นลดลงมาแล้วราว 25% ตั้งแต่ต้นปี (Yahoo Finance)"
+        },
+        {
+          "h": "ภาพ Cross-asset: น้ำมันกลับมาเป็นตัวแปรหลักของดอกเบี้ย",
+          "p": "- **น้ำมัน:** ข่าววันที่ 19 ต.ค. คือน้ำมันย่อลงเพราะ Trump ระงับมาตรการคว่ำบาตรรัสเซีย แต่สัปดาห์นี้มีข่าวใหม่คือ กองกำลังพิทักษ์การปฏิวัติอิสลามของอิหร่านระบุว่าเรือบรรทุกน้ำมันสองลำชนทุ่นระเบิดในช่องแคบฮอร์มุซและเกิดไฟไหม้ สื่อของรัฐอิหร่านระบุว่าเรือสองลำนี้บรรทุกน้ำมันดิบรวมราว 2 ล้านบาร์เรล ข้อมูลของ Kpler ระบุว่าในช่วงสองสัปดาห์มีเรือถูกโจมตีอย่างน้อย 18 ลำ (Oil & Gas Middle East) CNBC รายงานว่าวันอังคารเบรนท์ขึ้นไปแตะ 111.99 ดอลลาร์ ซึ่งเป็นจุดสูงสุดในรอบ 5 เดือน ก่อนปิดลบ 0.7% ที่ 108.79 ดอลลาร์ เพราะตลาดหวังว่าการเจรจาระหว่างสหรัฐฯ กับอิหร่านจะคืบหน้า เช้าวันพุธในเอเชีย เบรนท์บวก 85 เซนต์ขึ้นมาที่ 109.64 ดอลลาร์ และ WTI อยู่ที่ราว 98.58 ดอลลาร์ - **พันธบัตรสหรัฐฯ:** Trading Economics รายงานว่ายีลด์ 10 ปีลดลงมาที่ราว 5.12% และยีลด์ 2 ปีที่ราว 4.76% ในวันที่ 20 ต.ค. (TradingView รายงานยีลด์ 10 ปีที่ 5.09%) ลดลงจากระดับ 5.15% ของวันที่ 19 ต.ค. ตามข้อมูลกระทรวงการคลังสหรัฐฯ ตัวที่กดยีลด์ลงคือข้อมูลที่อยู่อาศัย ยอดเริ่มสร้างบ้านเดือนกันยายนอยู่ที่ 1.221 ล้านหน่วยต่อปี ต่ำกว่าที่คาดไว้ราว 1.3 ล้านหน่วย ดัชนียอดทำสัญญาซื้อบ้าน (pending home sales) ลดลง 7.3% มาที่ 66.0 ต่ำที่สุดตั้งแต่เริ่มเก็บข้อมูลในปี 2001 (Breitbart) และ CNBC รายงานว่าความเชื่อมั่นผู้สร้างบ้านเดือนตุลาคมต่ำที่สุดในรอบ 14 ปี - **ดอลลาร์:** FXStreet รายงานดัชนีดอลลาร์ (DXY) ราว 101.88 ลดลง 0.10% ในวันนั้น - **ทองคำ:** Kitco รายงานราคาทองจุดที่ 4,126.40 ดอลลาร์ต่อออนซ์ ช่วงกลางวันที่ 20 ต.ค. ลดลง 13.50 ดอลลาร์ FXStreet ระบุว่าราคาน้ำมันที่สูงขึ้นทำให้ตลาดคาดมากขึ้นว่าเฟดจะขึ้นดอกเบี้ยภายในเดือนธันวาคม ซึ่งเป็นแรงกดดันทองคำ - **คริปโต:** ยังไม่มีข้อมูลยืนยันราคาบิตคอยน์ของวันที่ 20 ต.ค."
+        },
+        {
+          "h": "สิ่งที่ต้องจับตาคืนนี้: Meta, Tesla และหุ้นชิปสองตัว",
+          "p": "ทั้งสี่บริษัทประกาศงบหลังตลาดปิดวันพุธที่ 21 ต.ค. ตรงกับเช้ามืดวันพฤหัสที่ 22 ต.ค. ตามเวลาไทย Benzinga ประเมินจากตลาดออปชันว่ามูลค่าตลาดของ Meta กับ Tesla รวมกันอาจขยับมากกว่า 100,000 ล้านดอลลาร์หลังงบออก"
+        },
+        {
+          "h": "มุมนักลงทุนไทย",
+          "p": "ข่าวหุ้นรายงานว่าเช้านี้เงินบาทเปิดที่ 33.63 บาทต่อดอลลาร์ แข็งค่าเล็กน้อยจาก 33.65 บาทเมื่อวาน (แต่เดลินิวส์รายงานว่าเป็นการอ่อนค่า แหล่งข่าวจึงยังตีความไม่ตรงกัน) SCB Financial Markets ประเมินกรอบวันนี้ที่ 33.50–33.80 บาท ดอลลาร์ที่อ่อนลงช่วยพยุงเงินบาท แต่ไทยเป็นผู้นำเข้าน้ำมันสุทธิ ถ้าเบรนท์ยังอยู่เหนือ 110 ดอลลาร์ ดุลการค้าที่แย่ลงก็เป็นแรงกดดันเงินบาทอีกด้าน ราคาทองในประเทศเปิดตลาดเช้านี้ปรับขึ้น 50 บาท ทองคำแท่งขายออกที่ 65,650 บาท (กรุงเทพธุรกิจ)"
+        }
+      ],
+      "quote": "สิ่งที่ตลาดบอกในวันอังคารคือ งบที่ดีอย่างเดียวไม่พอ Netflix กับ GM มีกำไรดีกว่าคาดทั้งคู่ แต่หุ้นยังลง เพราะแนวโน้มข้างหน้าออกมาอ่อนกว่าที่หวัง เรามองว่าคืนนี้ใช้หลักเดียวกัน ตัวเลขที่ชี้ขาดสำหรับ Meta คือเป้างบลงทุนปีหน้า ไม่ใช่กำไรไตรมาสนี้ และทั้งหมดนี้เกิดขึ้นในช่วงที่ราคาน้ำมันจากช่องแคบฮอร์มุซกำลังทำให้ตลาดคาดว่าเฟดจะขึ้นดอกเบี้ยในเดือนธันวาคม",
+      "quoteBy": "— ทีมข่าว PixelVest",
+      "takeaway": "ดาวโจนส์บวก 1.02% จากงบ 3M แต่ Nasdaq ทรงตัว หลังตลาดปิด Netflix ลดลงราว 6% เพราะเป้ารายได้ไตรมาส 4 และรายได้โฆษณาต่ำกว่าคาด เบรนท์แตะ 111.99 ดอลลาร์ระหว่างวันจากเหตุเรือชนทุ่นระเบิดในช่องแคบฮอร์มุซ ยีลด์ 10 ปีลดลงมาราว 5.1% จากข้อมูลที่อยู่อาศัยที่อ่อนแอมาก แต่ตลาดยังให้ความน่าจะเป็นสูงว่าเฟดจะขึ้นดอกเบี้ยในเดือนธันวาคม ตัวชี้ขาดคืนนี้คือเป้างบลงทุนของ Meta, อัตรากำไรของ Tesla และคำสั่งซื้ออุปกรณ์ผลิตชิปของ Lam Research",
+      "sources": [
+        {
+          "text": "Stock market news for Oct. 20, 2026 — CNBC",
+          "url": "https://www.cnbc.com/2026/10/19/stock-market-today-live-updates.html"
+        },
+        {
+          "text": "Stock market today: Live updates (Oct. 20) — CNBC",
+          "url": "https://cnbc.com/2026/10/20/stock-market-today-live-updates.html"
+        },
+        {
+          "text": "Dow jumps 500 points as earnings optimism steadies market: Live updates (Oct. 19) — CNBC",
+          "url": "https://www.cnbc.com/2026/10/19/stock-market-today-live-updates.html"
+        },
+        {
+          "text": "Closing Look — Monday, October 19, 2026 — CappNotes",
+          "url": "https://cappnotes.substack.com/p/closing-look-monday-october-19-2026"
+        },
+        {
+          "text": "Closing Look — Tuesday, October 20, 2026 — CappNotes",
+          "url": "https://cappnotes.substack.com/p/closing-look-tuesday-october-20-2026"
+        },
+        {
+          "text": "Stock Market Midday, Oct. 20: Blue Chips Rally, Eli Lilly Gains 5% — The Motley Fool",
+          "url": "https://www.fool.com/coverage/stock-market-today/2026/10/20/stock-market-midday-oct-20-blue-chips-rally-eli-lilly-gains-5/"
+        },
+        {
+          "text": "General Motors (GM) Shares Slide 6.85% Despite Broader Market Gains on October 20, 2026 — GuruFocus",
+          "url": "https://www.gurufocus.com/news/9132243/general-motors-gm-shares-slide-685-despite-broader-market-gains-on-october-20-2026"
+        },
+        {
+          "text": "General Motors (GM) earnings Q3 2026 — CNBC",
+          "url": "https://www.cnbc.com/2026/10/20/general-motors-gm-earnings-q3-2026.html"
+        },
+        {
+          "text": "Netflix posts third-quarter earnings beat, but shares fall on advertising and revenue guidance — CNBC",
+          "url": "https://www.cnbc.com/2026/10/20/netflix-nflx-earnings-q3-2026.html"
+        },
+        {
+          "text": "Netflix Q3 profit jumps 44%, but weak advertising outlook sends shares lower — Exchange4media",
+          "url": "https://www.exchange4media.com/digital-news/netflix-q3-profit-jumps-44-but-weak-advertising-outlook-sends-shares-lower-159309.html"
+        },
+        {
+          "text": "Netflix stock is down roughly 25% in 2026 as Q3 earnings loom — Yahoo Finance",
+          "url": "https://finance.yahoo.com/markets/stocks/article/netflix-stock-is-down-roughly-25-in-2026-as-q3-earnings-loom-135650094.html"
+        },
+        {
+          "text": "SpaceX revenue soars 161% as AI business grows — ABC News",
+          "url": "https://abcnews.com/Business/spacex-revenue-soars-161-ai-business-grows/story?id=137408509"
+        },
+        {
+          "text": "How Are Dow, S&P 500, Nasdaq Futures Trading After SpaceX Earnings? — Stocktwits",
+          "url": "https://stocktwits.com/news-articles/markets/equity/nasdaq-s-and-p-500-futures-climb-after-space-x-s-blowout-quarter-smci-nflx-ge-stocks-in-focus/cZxtFA9RBHZ"
+        },
+        {
+          "text": "Oil prices fall as traders hope for diplomatic progress in Middle East — CNBC",
+          "url": "https://www.cnbc.com/2026/10/20/oil-price-wti-brent-crude.html"
+        },
+        {
+          "text": "Iran says two Hormuz tankers hit mines as Brent touched $110 — Oil & Gas Middle East",
+          "url": "https://www.oilandgasmiddleeast.com/news/hormuz-tankers-mines-oil-price"
+        },
+        {
+          "text": "Oil Prices Rise on Middle East Supply and Shipping Concerns — Global Banking & Finance Review",
+          "url": "https://www.globalbankingandfinance.com/oil-rises-middle-east-supply-worries/"
+        },
+        {
+          "text": "US 10 Year Treasury Note Yield — Trading Economics",
+          "url": "https://tradingeconomics.com/united-states/government-bond-yield"
+        },
+        {
+          "text": "US Treasury Yields Fall on Tuesday — TradingView News",
+          "url": "https://tradingview.com/news/te_news:593498:0-us-treasury-yields-fall-on-tuesday"
+        },
+        {
+          "text": "Treasury Yields Today — StockMarketWatch",
+          "url": "https://stockmarketwatch.com/bonds"
+        },
+        {
+          "text": "September data shows housing market in a deep freeze — CNBC",
+          "url": "https://www.cnbc.com/2026/10/20/september-data-shows-housing-market-in-a-deep-freeze.html"
+        },
+        {
+          "text": "Housing Slump Worsens Amid Higher Rates — Breitbart",
+          "url": "https://www.breitbart.com/politics/2026/10/20/housing-slump-worsens-amid-higher-rates/"
+        },
+        {
+          "text": "Gold extends losses as rising Oil prices reinforce Fed rate hike bets — FXStreet",
+          "url": "https://www.fxstreet.com/news/gold-extends-losses-as-rising-oil-prices-reinforce-fed-rate-hike-bets-202610201130"
+        },
+        {
+          "text": "Gold Price Today — Kitco",
+          "url": "http://www.kitco.com/charts/gold"
+        },
+        {
+          "text": "Another Rate Hike Is Expected Before the End of 2026 — The Globe and Mail",
+          "url": "https://www.theglobeandmail.com/investing/markets/markets-news/motley/8232666/another-rate-hike-is-expected-before-the-end-of-2026-here-s-why-it-might-have-a-much-bigger-impact-on-the-markets-this-time/"
+        },
+        {
+          "text": "What Will Warsh Do? — Yardeni QuickTakes",
+          "url": "https://www.yardeniquicktakes.com/what-will-warsh-do/"
+        },
+        {
+          "text": "Meta Platforms, Tesla Could Swing More Than $100 Billion After Earnings — Benzinga",
+          "url": "https://www.benzinga.com/markets/options/26/10/62480628/meta-platforms-tesla-could-swing-more-than-100-billion-after-earnings"
+        },
+        {
+          "text": "Meta Platforms (META) Q3 earnings preview: Can AI returns justify surging infrastructure spending? — MarketPulse",
+          "url": "https://www.marketpulse.com/markets/meta-platforms-meta-q3-earnings-preview-can-ai-returns-justify-surging-infrastructure-spending/"
+        },
+        {
+          "text": "META Stock: What to Watch in Q3 Earnings as Muse Buzz Builds — MarketBeat",
+          "url": "https://www.marketbeat.com/articles/meta-platforms-ai-comeback-faces-an-earnings-testand-a-10-billion-charge/"
+        },
+        {
+          "text": "Meta Q3 Earnings Preview: AI Spending Could Pressure 2027 Profit Estimates, Analysts Warn — BigGo Finance",
+          "url": "https://finance.biggo.com/news/7704261d-f24f-48c4-b5be-014986e460d6"
+        },
+        {
+          "text": "Tesla (TSLA) Q3 2026 earnings preview: flat revenue, falling profits — Electrek",
+          "url": "https://electrek.co/2026/10/20/tesla-tsla-q3-2026-earnings-preview/"
+        },
+        {
+          "text": "Lam Research, TI and Western Digital are likely to post strong results, guidance: UBS — Seeking Alpha",
+          "url": "https://seekingalpha.com/news/4652191-lam-research-ti-and-western-digital-are-likely-to-post-strong-results-guidance-ubs"
+        },
+        {
+          "text": "Texas Instruments and Lam Research Report Earnings: AI Equipment Boom Meets Analog Rebound — 24/7 Wall St.",
+          "url": "https://247wallst.com/investing/2026/10/20/texas-instruments-and-lam-research-report-earnings-ai-equipment-boom-meets-analog-rebound/"
+        },
+        {
+          "text": "เงินบาทเช้านี้ \"แข็งค่า\" เปิดตลาด 33.63 บ./ดอลลาร์ — ข่าวหุ้น",
+          "url": "https://www.kaohoon.com/news/873516"
+        },
+        {
+          "text": "ค่าเงินบาทอ่อนค่า 33.63 บาท ราคาน้ำมันสูงต่อเนื่อง — เดลินิวส์",
+          "url": "https://www.dailynews.co.th/news/6291442/"
+        },
+        {
+          "text": "ค่าเงินบาทวันนี้ 21 ต.ค. 69 คาดเคลื่อนไหวในกรอบ 33.50 - 33.80 บาทต่อดอลลาร์ — Sanook",
+          "url": "https://www.sanook.com/money/959815/"
+        },
+        {
+          "text": "ราคาทองวันนี้ 21 ต.ค.69 ทองแท่ง ทองรูปพรรณ เปิดตลาด ปรับขึ้น 50 บาท — กรุงเทพธุรกิจ",
+          "url": "https://www.bangkokbiznews.com/finance/investment/1257217"
+        }
+      ]
+    },
+    "featured": true,
+    "agent": "hanako",
+    "image": "assets/images/85-market-2026-10-21.jpg"
   }
 ];
