@@ -10570,5 +10570,348 @@ const ARTS = [
       "Nvidia"
     ],
     "agent": "hanako"
+  },
+  {
+    "id": 90,
+    "cat": "ภาพรวมตลาด",
+    "title": "หุ้นสหรัฐฯ ลงสัปดาห์ที่สอง หุ้นชิปร่วงหนักวันพฤหัส เบรนท์แตะ 116 ดอลลาร์ สัปดาห์หน้าเจอทั้งเฟด งบ Microsoft-Alphabet-Amazon-Apple และ PCE",
+    "excerpt": "สัปดาห์ที่ผ่านมา S&P 500 ลบ 0.5% และ Nasdaq ลบ 0.7% เป็นสัปดาห์ที่สองติดกัน หลังดัชนีหุ้นชิป SOX ร่วง 6.72% ในวันพฤหัส และวันศุกร์ดาวโจนส์ลบ 652 จุดเพราะเบรนท์ปิดที่ 116.72 ดอลลาร์ สูงสุดตั้งแต่ปลายเมษายน สัปดาห์หน้าตลาดต้องผ่านการประชุมเฟด 28 ต.ค. งบ Microsoft, Alphabet, Amazon, Apple และตัวเลข PCE ภายใน 48 ชั่วโมง",
+    "author": "ทีมข่าว PixelVest",
+    "date": "25 ต.ค. 2026",
+    "iso": "2026-10-25",
+    "read": 20,
+    "syms": [
+      "META",
+      "NVDA",
+      "AMD",
+      "MSFT",
+      "GOOGL"
+    ],
+    "rank": 90,
+    "body": {
+      "intro": "ตลาดหุ้นสหรัฐฯ ปิดสัปดาห์ที่ 19–23 ตุลาคม 2569 ในแดนลบ CNBC สรุปว่าทั้งสัปดาห์ S&P 500 ลบ 0.5% และ Nasdaq ลบ 0.7% เป็นการลงสัปดาห์ที่สองติดกัน ส่วนดาวโจนส์ยังบวก 0.4% วันศุกร์ที่ 23 ต.ค. ดาวโจนส์ลบ 652.82 จุด หรือ 1.23% ปิดที่ 52,215.16 จุด S&P 500 ลบ 0.52% ปิดที่ 7,623.68 จุด และ Nasdaq Composite ลบ 0.21% ปิดที่ 25,955.34 จุด (Yahoo Finance, CappNotes) ปัจจัยที่กดตลาดในสัปดาห์นี้เปลี่ยนไปตามวัน วันพฤหัสเป็นความกังวลเรื่องเงินลงทุน AI หลังงบ Meta ส่วนวันศุกร์เป็นราคาน้ำมันที่ขึ้นแรงจากการโจมตีในซาอุดีอาระเบีย เรามองว่าแรงกดดันทั้งสองเรื่องนี้ไปเจอกันที่จุดเดียวกัน คือการตัดสินใจของเฟดในวันพุธหน้า ตัวเร่งแรงขายคืองบ Meta ซึ่งออกหลังตลาดปิดวันที่ 21 ต.ค. ตามเอกสารที่ Meta ยื่นต่อ SEC และรายงานของ CNBC รายได้ไตรมาส 3 อยู่ที่ 64,600 ล้านดอลลาร์ เพิ่มขึ้น 26% จากปีก่อน และเป้ารายได้ไตรมาส 4 อยู่ที่ 73,000–76,000 ล้านดอลลาร์ แต่กำไรจากการดำเนินงานลดลง 37% มาที่ราว 13,000 ล้านดอลลาร์ เพราะค่าใช้จ่ายเพิ่มขึ้น 68% ซึ่งรวมค่าใช้จ่ายคดีความ 9,900 ล้านดอลลาร์ งบลงทุนในไตรมาสนี้อยู่ที่ 34,910 ล้านดอลลาร์ ทำให้กระแสเงินสดอิสระติดลบ 2,100 ล้านดอลลาร์ Meta บีบกรอบงบลงทุนปี 2569 ให้แคบลงเป็น 135,000–145,000 ล้านดอลลาร์ ช่วงหลังตลาดปิดหุ้นขึ้นราว 2.5% แต่วันพฤหัสกลับปิดลบราว 7% ส่วน Tesla มีรายได้ไตรมาส 3 ที่ 28,050 ล้านดอลลาร์ ทรงตัวจากปีก่อน กำไรต่อหุ้นปรับปรุงอยู่ที่ 0.48 ดอลลาร์ ดีกว่าที่คาด 0.45 ดอลลาร์ แต่ระบบกักเก็บพลังงานติดตั้งได้ 13.7 GWh ต่ำกว่าที่คาดราว 15.9 GWh (Electrek) ทีมข่าวยังไม่พบตัวเลขยืนยันราคาปิดของ Tesla ในวันพฤหัส **มุมลบ:** ไตรมาสนี้ Meta ใช้เงินลงทุนมากจนกระแสเงินสดอิสระติดลบ 2,100 ล้านดอลลาร์ ตลาดจึงกลับมาถามว่ารายได้โฆษณาโตทันเงินลงทุน AI หรือไม่ และคำพูดของ Huang เรื่องเงินทุนของ neocloud ทำให้คำถามนี้ขยายจากบริษัทเดียวไปถึงผู้ซื้อชิปทั้งกลุ่ม **มุมบวก:** CNBC และ CappNotes ระบุว่าในวันเดียวกันนั้นหุ้นส่วนใหญ่ของตลาดยังปิดบวก และหุ้นที่ปิดบวกบน NYSE มีมากกว่าหุ้นที่ปิดลบ แรงขายจึงกระจุกอยู่ในหุ้นกลุ่ม AI ไม่ได้ลามไปทั้งตลาด วันศุกร์หุ้นชิปก็หยุดลง Nasdaq จึงลงน้อยกว่าดาวโจนส์ และ TradingKey รายงานว่า CrowdStrike บวกกว่า 8% ดาวโจนส์ลงหนักกว่าดัชนีอื่นเพราะหุ้นบลูชิพหลายตัวได้รับผลจากต้นทุนน้ำมัน และ American Express ลบ 3.7% แม้บริษัทจะปรับเป้ากำไรขึ้น เพราะประกาศลดพนักงาน 5% (AP ผ่าน Star Advertiser) ข้อสังเกตของเราคือ ดาวโจนส์เป็นดัชนีที่พยุงตลาดไว้ในวันที่หุ้นเทคลงแรง แต่พอปัจจัยกดดันเปลี่ยนเป็นน้ำมันก็กลายเป็นดัชนีที่ลงหนักที่สุด ตอนนี้จึงยังไม่มีกลุ่มไหนที่เป็นที่หลบภัยได้ทุกสถานการณ์ กลไกที่เชื่อมตัวเลขเหล่านี้คือ น้ำมันแพงทำให้ตลาดกังวลเรื่องเงินเฟ้อมากขึ้น ตลาดจึงคาดว่าเฟดมีโอกาสขึ้นดอกเบี้ยมากขึ้น ยีลด์จึงขึ้น และเมื่อยีลด์สูง ทองคำซึ่งไม่ให้ดอกเบี้ยก็น่าถือน้อยลง ทองจึงลงแม้ความตึงเครียดในตะวันออกกลางจะสูงขึ้น Trading Economics ระบุว่าตลาดให้ความน่าจะเป็นราว 91% ที่เฟดจะคงดอกเบี้ยในการประชุม 28 ต.ค. และราว 76% ที่จะขึ้นดอกเบี้ย 0.25% ในเดือนธันวาคม (ตัวเลขเดือนธันวาคมต่างกันตามแหล่ง Nation Thailand ระบุ 78% ส่วน USAGold ระบุ 86%) - **ประชุมเฟด (พุธ 28 ต.ค. 14:00 น. เวลานิวยอร์ก ตรงกับ 01:00 น. คืนวันพุธต่อเช้ามืดวันพฤหัสที่ 29 ต.ค. เวลาไทย)** — ตลาดคาดว่าเฟดจะคงดอกเบี้ย จุดที่ต้องดูคือท่าทีของประธานเฟด Kevin Warsh ต่อราคาน้ำมัน หากเขาให้น้ำหนักกับความเสี่ยงเงินเฟ้อจากน้ำมัน ตลาดมีแนวโน้มยืนยันการคาดการณ์ขึ้นดอกเบี้ยเดือนธันวาคม ซึ่งกดดันหุ้นที่มี valuation (ราคาเทียบกับกำไร) สูง แต่หากเขาให้น้ำหนักกับเศรษฐกิจที่อาจชะลอลงจากราคาพลังงาน ยีลด์มีโอกาสลดลง ซึ่งช่วยลดแรงกดดันต่อหุ้นกลุ่มนี้ - **Microsoft และ Alphabet (หลังตลาดปิดวันพุธ)** และ **Amazon กับ Apple (วันพฤหัส)** — หลังจากที่งบ Meta ทำให้ตลาดกังวลเรื่องเงินลงทุน AI ตัวเลขที่ต้องดูคืองบลงทุนเทียบกับการเติบโตของธุรกิจคลาวด์ (Azure, Google Cloud, AWS) หากรายได้คลาวด์โตทันงบลงทุน ความกังวลจากวันพฤหัสอาจลดลง แต่หากงบลงทุนสูงขึ้นแต่รายได้ไม่โตตาม หุ้นชิปอย่าง NVDA และ AMD ซึ่งพึ่งพาคำสั่งซื้อจากบริษัทเหล่านี้มีแนวโน้มได้รับผลอีกรอบ - **GDP ไตรมาส 3 และ PCE เดือนกันยายน (พฤหัส 08:30 น. เวลานิวยอร์ก ตรงกับ 19:30 น. เวลาไทย)** — PCE (ดัชนีราคาการใช้จ่ายส่วนบุคคล ซึ่งเป็นตัวเลขเงินเฟ้อที่เฟดใช้อ้างอิงหลัก) คาดว่า core PCE เดือนกันยายนจะเพิ่มขึ้น 0.3% จากเดือนก่อน และ 3.1% จากปีก่อน ส่วน GDP คาดไว้ที่ 3.0% ต่อปี (สรุปจากปฏิทินเศรษฐกิจของ Investing.com และ Stocks Down Under) PCE ออกหลังเฟดประชุมแล้ว ถ้าตัวเลขสูงกว่าคาด ตลาดอาจตีความสิ่งที่เฟดพูดในคืนวันพุธใหม่ - **ECB (พฤหัส 29 ต.ค.) และ BOJ (คาดว่าศุกร์ 30 ต.ค.)** — ตาม Admiral Markets ECB จะประกาศเวลา 14:15 น. ตามเวลายุโรปกลาง ตรงกับ 20:15 น. เวลาไทย ส่วนวันประชุม BOJ ยังไม่มีข้อมูลยืนยันจากเว็บไซต์ทางการ ผลประชุมของทั้งสองแห่งส่งผลต่อค่าเงินยูโรและเยน ซึ่งมีผลต่อดัชนีดอลลาร์ด้วย หุ้นไทยที่ผูกกับห่วงโซ่ดาต้าเซ็นเตอร์อย่าง Delta Electronics (Thailand) อ่อนไหวต่อดัชนี SOX ที่เพิ่งร่วง 6.72% ในวันเดียว และต่องบลงทุนของ Microsoft, Alphabet และ Amazon ที่จะออกสัปดาห์หน้า ส่วนผู้ถือกองทุนหุ้นเทคสหรัฐฯ ควรรู้ว่าผลประชุมเฟดและงบ Microsoft-Alphabet จะออกช่วงเช้ามืดวันพฤหัสตามเวลาไทย และ NAV กองทุนจะสะท้อนผลช้ากว่าราคาหุ้นหนึ่งวันทำการ ในอดีตราคามักผันผวนมากในช่วง 30 นาทีแรกหลังเฟดประกาศ *หมายเหตุ: บทความนี้จัดทำเพื่อให้ข้อมูลและมุมมองเชิงบรรณาธิการเท่านั้น ไม่ใช่คำแนะนำการลงทุน โปรดประเมินความเสี่ยงก่อนตัดสินใจทุกครั้ง*",
+      "sections": [
+        {
+          "h": "วันพฤหัสที่หุ้นชิปลงทั้งกระดาน: Meta งบดี แต่ตลาดกังวลเรื่องเงินลงทุน",
+          "p": "ตามรายงานของ CNBC และ CappNotes วันพฤหัสที่ 22 ต.ค. Nasdaq ลบ 2.6% ปิดที่ 26,008.86 จุด ลงแรงที่สุดตั้งแต่เดือนมิถุนายน S&P 500 ลบ 1.21% เป็นวันที่แย่ที่สุดตั้งแต่เดือนกรกฎาคม ดัชนีหุ้นชิป SOX (Philadelphia Semiconductor Index ซึ่งรวมหุ้นชิปใหญ่ 30 ตัว) ร่วง 6.72% มาที่ 10,731.98 จุด ต่ำสุดตั้งแต่ 29 ก.ค. และหุ้นทั้ง 30 ตัวในดัชนีปิดลบ AMD ลดลงมากกว่า 8% Micron ลบ 6% ส่วน Nvidia ลบราว 4.4% หลัง Jensen Huang ซีอีโอพูดว่าบริษัทกลุ่ม neocloud (บริษัทที่ให้เช่าพลังประมวลผล AI โดยเฉพาะ) มีเงินทุนหมุนเวียนไม่พอขยายธุรกิจ"
+        },
+        {
+          "h": "วันศุกร์ที่น้ำมันขึ้นแรง: ดาวโจนส์ลบ 652 จุด",
+          "p": "CNBC รายงานว่าวันศุกร์เบรนท์บวก 3.1% ปิดที่ 116.72 ดอลลาร์ต่อบาร์เรล สูงที่สุดตั้งแต่ 29 เมษายน และ WTI บวก 3.8% ปิดที่ 103.27 ดอลลาร์ ทั้งสัปดาห์เบรนท์บวก 6% และ WTI บวก 2.3% สาเหตุหลักคือกลุ่มฮูตีที่อิหร่านหนุนหลังโจมตีหลายจุดในซาอุดีอาระเบีย รวมถึงโครงสร้างพื้นฐานพลังงาน จน Aramco สั่งให้พนักงานออกจากสำนักงานใหญ่ที่ Dhahran ไปทำงานจากที่อื่น นอกจากนี้ยังมีรายงานคราบน้ำมันรั่วนอกชายฝั่ง Umm Al Quwain ของ UAE และตลาดกำลังประเมินว่าสหรัฐฯ อาจกลับมาโจมตีอิหร่านอีก"
+        },
+        {
+          "h": "ภาพ Cross-asset: ยีลด์กลับมาที่ 5% ส่วนทองหลุด 4,000",
+          "p": "- **พันธบัตรสหรัฐฯ:** Kiplinger รายงานว่าวันศุกร์ยีลด์ 10 ปีขึ้น 4.8 basis point (1 basis point = 0.01%) ปิดที่ 5.001% ยีลด์ 2 ปีและ 30 ปีก็ขึ้นด้วย CNBC ระบุว่าวันพฤหัสยีลด์ 10 ปีลงมาต่ำกว่า 5% ครั้งแรกในรอบหนึ่งเดือน เพราะนักลงทุนย้ายเงินจากหุ้น AI มาซื้อพันธบัตร แต่พอน้ำมันขึ้นในวันศุกร์ยีลด์ก็กลับขึ้นไป - **น้ำมัน:** เบรนท์ 116.72 ดอลลาร์ และ WTI 103.27 ดอลลาร์ ตามที่ระบุข้างต้น - **ทองคำ:** Nation Thailand และ Kitco รายงานว่าราคาทองจุดปิดราว 3,996 ดอลลาร์ต่อออนซ์ ลบ 0.7% ในวันศุกร์ และลบเกือบ 4% ทั้งสัปดาห์ ต่ำที่สุดตั้งแต่ 20 ก.ค. (Rio Times รายงานราคาที่ 4,012 ดอลลาร์ ตัวเลขต่างกันตามเวลาที่บันทึก) มีรายงานด้วยว่านักลงทุนบางส่วนขายทองเพื่อหาเงินมาวางหลักประกันเพิ่ม (margin call) ให้พอร์ตหุ้น - **ดอลลาร์และคริปโต:** ยังไม่มีข้อมูลยืนยันดัชนีดอลลาร์ (DXY) และราคาบิตคอยน์ ณ วันปิดตลาด 23 ต.ค."
+        },
+        {
+          "h": "สิ่งที่ต้องจับตาสัปดาห์หน้า: เฟด งบบริษัทใหญ่ และ PCE ภายใน 48 ชั่วโมง",
+          "p": "ราวหนึ่งในสามของบริษัทใน S&P 500 จะประกาศงบสัปดาห์หน้า (AP) และเหตุการณ์สำคัญอยู่ในช่วงวันพุธถึงวันพฤหัส"
+        },
+        {
+          "h": "มุมนักลงทุนไทย",
+          "p": "ยังไม่มีข้อมูลยืนยันค่าเงินบาท ณ วันปิดตลาดศุกร์ที่ 23 ต.ค. แต่ปัจจัยสัปดาห์นี้ส่วนใหญ่เป็นลบต่อเงินบาท ไทยนำเข้าน้ำมันสุทธิ ถ้าเบรนท์อยู่สูงกว่า 115 ดอลลาร์ ดุลการค้าจะแย่ลง และยีลด์สหรัฐฯ ที่กลับมาที่ 5% ทำให้เงินทุนต่างชาติมีแนวโน้มไหลออกจากตลาดเกิดใหม่ ราคาทองในประเทศน่าจะได้รับผลจากทองโลกที่หลุด 4,000 ดอลลาร์ แต่เงินบาทที่อ่อนลงอาจช่วยพยุงราคาทองในประเทศไว้บางส่วน"
+        }
+      ],
+      "quote": "สัปดาห์นี้ตลาดเจอแรงกดดันสองเรื่องที่ต่างกัน เรื่องแรกคือความกังวลว่าเงินลงทุน AI จะคุ้มหรือไม่ ซึ่งเริ่มจากกระแสเงินสดติดลบของ Meta เรื่องที่สองคือราคาน้ำมันที่ขึ้นจากการโจมตีในซาอุดีอาระเบีย ซึ่งทำให้ยีลด์กลับมาที่ 5% เรามองว่าสัปดาห์หน้าทั้งสองเรื่องจะได้คำตอบในช่วงเวลาไล่เลี่ยกัน งบ Microsoft, Alphabet และ Amazon จะบอกว่าเงินลงทุน AI สร้างรายได้ทันหรือไม่ ส่วนเฟดและ PCE จะบอกว่าน้ำมันแพงทำให้ดอกเบี้ยต้องสูงขึ้นอีกหรือไม่",
+      "quoteBy": "— ทีมข่าว PixelVest",
+      "takeaway": "S&P 500 และ Nasdaq ลงสัปดาห์ที่สองติดกัน วันพฤหัส SOX ร่วง 6.72% หลังงบ Meta ที่กระแสเงินสดอิสระติดลบ และวันศุกร์ดาวโจนส์ลบ 652 จุด เพราะเบรนท์ขึ้นไปที่ 116.72 ดอลลาร์ ยีลด์ 10 ปีกลับมาที่ 5.00% และทองหลุด 4,000 ดอลลาร์ ตัวชี้ขาดของสัปดาห์หน้าคือท่าทีของเฟดต่อน้ำมันในคืนวันพุธ งบลงทุนเทียบกับรายได้คลาวด์ของ Microsoft, Alphabet และ Amazon และตัวเลข core PCE ในวันพฤหัส",
+      "sources": [
+        {
+          "text": "Stock market today: Dow sinks 600 points, S&P 500, Nasdaq drop to cap a volatile week, oil prices rise — Yahoo Finance",
+          "url": "https://finance.yahoo.com/markets/live/stock-market-today-friday-october-23-dow-sp-500-nasdaq-tesla-meta-093000521.html"
+        },
+        {
+          "text": "How major US stock indexes fared Friday 10/23/2026 — Yahoo Finance / AP",
+          "url": "https://finance.yahoo.com/markets/world-indices/articles/major-us-stock-indexes-fared-201458598.html"
+        },
+        {
+          "text": "Closing Look — Friday, October 23, 2026 — CappNotes",
+          "url": "https://cappnotes.substack.com/p/closing-look-friday-october-23-2026"
+        },
+        {
+          "text": "Stock market news for Oct. 23, 2026 — CNBC",
+          "url": "https://www.cnbc.com/2026/10/22/stock-market-today-live-update.html"
+        },
+        {
+          "text": "Wall Street loses ground under pressure from rising oil prices — The Washington Times",
+          "url": "https://www.washingtontimes.com/news/2026/oct/23/wall-street-loses-ground-friday-pressure-rising-oil-prices/"
+        },
+        {
+          "text": "Wall Street closes lower to end rocky week — Honolulu Star-Advertiser",
+          "url": "https://www.staradvertiser.com/2026/10/23/breaking-news/wall-street-closes-lower-to-end-rocky-week/"
+        },
+        {
+          "text": "US Stocks Close: Dow Drops Over 600 Points, Some Tech Stocks Rebound, CrowdStrike Gains Over 8% — TradingKey",
+          "url": "https://www.tradingkey.com/analysis/stocks/us-stocks/262236830-us-market-close-dow-drop-consumer-healthcare-chips-rebound-crowdstrike-tradingkey"
+        },
+        {
+          "text": "Stock market news for Oct. 22, 2026 — CNBC",
+          "url": "https://www.cnbc.com/2026/10/21/stock-market-today-live-updates.html"
+        },
+        {
+          "text": "Closing Look — Thursday, October 22, 2026 — CappNotes",
+          "url": "https://cappnotes.substack.com/p/closing-look-thursday-october-22"
+        },
+        {
+          "text": "How major US stock indexes fared Thursday 10/22/2026 — Yahoo Finance / AP",
+          "url": "https://finance.yahoo.com/markets/world-indices/articles/major-us-stock-indexes-fared-202801299.html"
+        },
+        {
+          "text": "Stock market today: S&P 500, Nasdaq tanks as tech stocks sink amid AI trade worries, Meta shares plummet — Yahoo Finance",
+          "url": "https://finance.yahoo.com/markets/article/stock-market-today-thursday-october-22-dow-sp-500-nasdaq-tesla-meta-112217857.html"
+        },
+        {
+          "text": "Stock Market Midday, Oct. 22: Tech Weakness Drags Nasdaq Lower as AI Spending Concerns Mount — The Motley Fool",
+          "url": "https://www.fool.com/coverage/stock-market-today/2026/10/22/stock-market-midday-oct-22-tech-weakness-drags-nasdaq-lower-as-ai-spending-concerns-mount/"
+        },
+        {
+          "text": "Meta Reports Third Quarter 2026 Results — Meta Investor Relations",
+          "url": "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-Third-Quarter-2026-Results/default.aspx"
+        },
+        {
+          "text": "Meta Platforms, Inc. Form 8-K Exhibit 99.1 (Q3 2026) — SEC",
+          "url": "https://www.sec.gov/Archives/edgar/data/0001326801/000162828026066700/meta-09302026xexhibit991.htm"
+        },
+        {
+          "text": "Meta reports third-quarter revenue beat and issues strong guidance — CNBC",
+          "url": "https://www.cnbc.com/2026/10/21/meta-earnings-q3-2026-live-updates.html"
+        },
+        {
+          "text": "Tesla (TSLA) Q3 2026 financial results — Electrek",
+          "url": "https://electrek.co/2026/10/21/tesla-tsla-q3-2026-financial-results/"
+        },
+        {
+          "text": "Brent crude oil tops $116, a six-month high, as tensions swell in the Middle East — CNBC",
+          "url": "https://cnbc.com/2026/10/23/oil-price-brent-wti-iran-war-saudi-arabia.html"
+        },
+        {
+          "text": "Oil prices jump $3.83 on Houthi attacks, oil spill, highest settlement since April — AsiaOne / Reuters",
+          "url": "https://www.asiaone.com/money/oil-prices-jump-383-houthi-attacks-oil-spill-highest-settlement-april"
+        },
+        {
+          "text": "10-year Treasury yield drops back to 5% this week as investors seek cover from AI worries — CNBC",
+          "url": "https://www.cnbc.com/2026/10/23/bonds-yields-us-treasurys.html"
+        },
+        {
+          "text": "Dow Drops 652 Points as Oil Prices Pop and Treasury Yields Rise: Stock Market Today — Kiplinger",
+          "url": "https://www.kiplinger.com/investing/stocks/dow-drops-652-points-as-oil-treasury-yields-rise-stock-market-today"
+        },
+        {
+          "text": "US 10 Year Treasury Note Yield — Trading Economics",
+          "url": "https://tradingeconomics.com/united-states/government-bond-yield"
+        },
+        {
+          "text": "Gold slips below US$4,000 an ounce on 23 Oct as oil surges — Nation Thailand",
+          "url": "https://www.nationthailand.com/business/trading-investment/40072669"
+        },
+        {
+          "text": "Gold off three-month lows as oil rally fans inflation worries — Kitco",
+          "url": "https://www.kitco.com/news/off-the-wire/2026-10-23/gold-three-month-lows-oil-rally-fans-inflation-worries"
+        },
+        {
+          "text": "Gold Slips 0.30% to US$4,012 as Yields Rise — Rio Times",
+          "url": "https://www.riotimesonline.com/gold-silver-precious-metals-friday-october-23-2026/"
+        },
+        {
+          "text": "Physical Gold Reclaims $4,000 As Silver's Slide Pushes The Gold-Silver Ratio Past 74 — USAGold",
+          "url": "https://www.usagold.com/daily-precious-metals-market-report-october-23-2026/"
+        },
+        {
+          "text": "S&P 500 Earnings Face Key Test as Fed, Inflation Data and Tech Giants Take Focus — Investing.com",
+          "url": "https://www.investing.com/analysis/sp-500-earnings-face-key-test-as-fed-inflation-data-and-tech-giants-take-focus-200690183"
+        },
+        {
+          "text": "US Stock Market Week Ahead: The Fed, Microsoft, Meta, Apple and Amazon All Land Within 48 Hours — Stocks Down Under",
+          "url": "https://stocksdownunder.com/us-stock-market-week-ahead-fed-tech-earnings/"
+        },
+        {
+          "text": "Wall Street's week ahead: Earnings flood, Fed meeting pose pivotal tests for rickety AI market rally — The Globe and Mail",
+          "url": "https://www.theglobeandmail.com/investing/article-wall-streets-week-ahead-earnings-flood-fed-meeting-pose-pivotal-tests/"
+        },
+        {
+          "text": "ECB Meeting October 2026: Real Dates and What Markets Watch — Admiral Markets",
+          "url": "https://admiralmarkets.com/analytics/traders-blog/ecb-meeting-october-2026"
+        }
+      ]
+    },
+    "featured": true,
+    "agent": "hanako",
+    "image": "assets/images/90-market-2026-10-25.jpg"
+  },
+  {
+    "id": 91,
+    "cat": "คลาวด์เอไอ",
+    "title": "นักวิเคราะห์ทยอยหั่นเป้า CoreWeave ต่อ Morgan Stanley เหลือ 70 ดอลลาร์ หุ้นปิดสัปดาห์ที่ 54.24 ขณะที่บทบาท \"ผู้ค้ำ\" ของ Nvidia เจอบททดสอบแรก",
+    "excerpt": "หุ้น CoreWeave (CRWV) ปิดวันศุกร์ที่ 23 ต.ค. ที่ 54.24 ดอลลาร์ ลดลงราว 2.4% หลัง Morgan Stanley ลดเป้าจาก 99 เหลือ 70 ดอลลาร์ และ UBS กับ Piper Sandler ก็ลดเป้าตาม แม้จะยังให้คำแนะนำเชิงบวก ส่วน CNBC ชี้ว่าแรงขายกลุ่ม neocloud รอบนี้เป็นบททดสอบใหญ่ครั้งแรกของ Nvidia ในบทบาทผู้หนุนเงินทุนให้ลูกค้า",
+    "author": "ทีมข่าว PixelVest",
+    "date": "25 ต.ค. 2026",
+    "iso": "2026-10-25",
+    "read": 4,
+    "syms": [
+      "CRWV"
+    ],
+    "rank": 91,
+    "body": {
+      "intro": "หุ้น CoreWeave, Inc. (NASDAQ: CRWV) ปิดสัปดาห์ด้วยการลงต่อ วันศุกร์ที่ 23 ตุลาคม 2569 ราคาปิดที่ **54.24 ดอลลาร์** ตามรายงานของ Motley Fool ลดลงราว 2.4% จากราคาปิด 55.60 ดอลลาร์ของวันก่อน (Defense World รายงานว่าหุ้นลง 2.4% หลังนักวิเคราะห์ปรับลดมุมมอง) ราคานี้ยังอยู่ใกล้จุดต่ำสุดรอบ 52 สัปดาห์ที่ 53.50 ดอลลาร์ซึ่งเกิดระหว่างวันที่ 22 ต.ค. และ Motley Fool ระบุว่าหุ้นลงราว 13% ในหนึ่งสัปดาห์ ในข่าววันที่ 23 ต.ค. เราเขียนถึงตัวเลขช่องว่างเงินทุนของ Goldman Sachs (19.5–23 พันล้านดอลลาร์) กับ Bernstein (ราว 76 พันล้านดอลลาร์) ช่วงปลายสัปดาห์มีพัฒนาการใหม่ 2 เรื่อง เรื่องแรกคือโบรกเกอร์อีกหลายแห่งลดราคาเป้าหมายลงพร้อมกัน แม้บางแห่งจะยังแนะนำเชิงบวก เรื่องที่สองคือคำถามเริ่มขยายจากตัว CoreWeave ไปถึง Nvidia ในฐานะผู้หนุนหลังกลุ่ม neocloud (ผู้ให้เช่ากำลังประมวลผล GPU ที่ไม่ใช่ยักษ์คลาวด์อย่าง AWS หรือ Azure) ข้อสังเกตของเราคือ ทุกค่ายที่ปรับในสัปดาห์นี้ลดเป้าลงหมด ไม่ว่าจะแนะนำซื้อหรือถือ ต่างกันแค่ระยะห่าง ตอนนี้ราคาเป้าหมายกระจายตั้งแต่ 51 ดอลลาร์ (Bernstein) ถึง 250 ดอลลาร์ (Rosenblatt ตามที่ Yahoo Finance รายงาน) ช่วงที่กว้างขนาดนี้บอกว่านักวิเคราะห์ยังตกลงกันไม่ได้ว่าจะใช้ต้นทุนเงินทุนเท่าไรในการประเมินมูลค่า ตัวเลขของ Morgan Stanley (24–37 พันล้านดอลลาร์สำหรับ 3.3 GW) อยู่ใกล้ฝั่ง Goldman มากกว่าฝั่ง Bernstein แต่ Morgan Stanley ก็ยังเลือกลดเป้าลงราว 29% ประเด็นนี้สำคัญกับ CoreWeave โดยตรง เพราะรายงานที่สรุปข่าวเดียวกันระบุว่า Nvidia ถือหุ้นใน CoreWeave และมีข้อผูกพันจะซื้อกำลังประมวลผลมูลค่าสูงสุด **6.3 พันล้านดอลลาร์** หาก CoreWeave ขายให้ลูกค้ารายอื่นไม่ได้ อีกด้านหนึ่ง Jensen Huang เพิ่งบอก CNBC เมื่อ 22 ต.ค. ว่าการลงทุนของ Nvidia ใน neocloud ไม่ได้มีพันธะต้องเข้าไปช่วยถ้าบริษัทเจอปัญหาการเงิน ตลาดจึงต้องแยกให้ออกว่าการหนุนของ Nvidia ครอบคลุมแค่ไหน ที่ชัดคือการการันตีรายได้บางส่วน ไม่ใช่การค้ำหนี้ *หมายเหตุ: บทความนี้จัดทำเพื่อให้ข้อมูลและมุมมองเชิงบรรณาธิการเท่านั้น ไม่ใช่คำแนะนำการลงทุน โปรดประเมินความเสี่ยงก่อนตัดสินใจทุกครั้ง*",
+      "sections": [
+        {
+          "h": "โบรกเกอร์ลดเป้ากันต่อ ทั้งฝั่งกลางและฝั่งบวก",
+          "p": "- **Morgan Stanley: Equal Weight เป้า 70 ดอลลาร์ (จาก 99)** — Investing.com รายงานวันที่ 23 ต.ค. ว่า Keith Weiss ให้เหตุผลว่าความไม่แน่นอนเรื่องการหาเงินทุนทำให้มองยากขึ้นว่าบริษัทจะเปิดใช้กำลังการผลิตตามสัญญาได้เร็วแค่ไหน และกระทบเป้าหมายกำลังการผลิตที่ใช้งานจริง 8 GW ด้วย ส่วน TipRanks รายงานว่า Morgan Stanley ประเมินว่าบริษัทอาจต้องกู้ใหม่ราว **24–37 พันล้านดอลลาร์** เพื่อไปถึงราว 3.3 GW ภายในปลายปี 2570 และส่วนต่างอัตราผลตอบแทนหุ้นกู้ไม่มีหลักประกันของบริษัทถ่างออกมากตั้งแต่ปลาย ส.ค. (*หมายเหตุ: TipRanks ระบุชื่อนักวิเคราะห์และอันดับเรตติ้งไม่ตรงกับ Investing.com ทีมข่าวจึงใช้ข้อมูลของ Investing.com เป็นหลัก*) - **UBS: Buy เป้า 105 ดอลลาร์ (จาก 120)** — ยังคงคำแนะนำซื้อ ตามรายงานของ Defense World - **MoffettNathanson: Neutral เป้า 89 ดอลลาร์ (จาก 107)** — อ้างอิงจากรายงานที่สรุปการปรับเป้าช่วงเดียวกัน ทีมข่าวยังไม่พบบทวิเคราะห์ต้นฉบับ - **Piper Sandler: Overweight เป้า 124 ดอลลาร์ (จาก 153)** — goldesel.de รายงานว่า James Fish มองว่าความกังวลเรื่องเงินทุนเกินจริง แต่ก็ยอมรับว่าแรงกดดันต่อ CoreWeave และ neocloud อื่น ๆ น่าจะยังอยู่จนกว่ากระแสเงินสดอิสระ (free cash flow คือเงินสดที่เหลือหลังหักงบลงทุนแล้ว) จะดีขึ้น"
+        },
+        {
+          "h": "คำถามเริ่มไปถึง Nvidia",
+          "p": "CNBC รายงานวันที่ 24 ต.ค. ว่าบทบาทของ Nvidia ในฐานะผู้หนุนเงินทุนให้วงการ AI กำลังเจอบททดสอบใหญ่ครั้งแรก ตลาดสินเชื่อเริ่มตึงตัวสำหรับพันธมิตรหลัก หุ้นกลุ่ม neocloud ร่วงหนัก และยีลด์หุ้นกู้ปรับขึ้น"
+        },
+        {
+          "h": "มุมบวก: ความต้องการไม่ได้หาย และฝั่งบวกยังไม่ถอย",
+          "p": "- **ยังไม่มีใครพูดว่าความต้องการลดลง** — แม้แต่ Morgan Stanley ที่ลดเป้าก็ยกเหตุผลเรื่องเงินทุน ไม่ใช่เรื่องลูกค้า สอดคล้องกับที่ Jensen Huang บอกว่าความต้องการ neocloud สูงเป็นประวัติการณ์ - **โบรกเกอร์ฝั่ง Buy ยังคงคำแนะนำเดิม** — UBS และ Piper Sandler ลดเป้าแต่ไม่ลดเรตติ้ง ส่วน CNBC รายงานว่า Goldman Sachs, JPMorgan และ Barclays เคยออกมาปกป้องบริษัท โดย Goldman มองว่า CoreWeave น่าจะอยู่ในกลุ่มหนึ่งในสี่บนสุดของ neocloud - **มีรายได้บางส่วนที่ Nvidia การันตี** — ข้อผูกพันซื้อกำลังประมวลผล 6.3 พันล้านดอลลาร์ช่วยลดความเสี่ยงเรื่องกำลังการผลิตที่ขายไม่ออก - **สถานะขายชอร์ตสูง** — TradingView ระบุว่า short interest (หุ้นที่ถูกยืมไปขายเพื่อเก็งราคาลง) ขึ้นไปถึงราว 23.7% ของหุ้นที่หมุนเวียนในตลาด ระดับนี้ทำให้หุ้นมีแนวโน้มผันผวนแรงทั้งสองทาง หากมีข่าวดีด้านการระดมทุน แรงซื้อคืนของคนที่ขายชอร์ตไว้อาจเร่งการเด้งกลับได้"
+        },
+        {
+          "h": "มุมลบ: เครดิตยังตึง และหุ้นทั้งกลุ่มยังโดนขาย",
+          "p": "- **CDS เกิน 11%** — รายงานที่สรุปข่าวของ CNBC ระบุว่าส่วนต่าง CDS (credit default swap คือค่าเบี้ยประกันความเสี่ยงที่บริษัทจะผิดนัดชำระหนี้) ของ CoreWeave ขึ้นเกิน 11% สะท้อนว่านักลงทุนตราสารหนี้ยังให้ราคาความเสี่ยงสูงมาก - **ทั้งกลุ่มลงพร้อมกัน** — CoreWeave, Nebius และ IREN ต่างลงอย่างน้อยราว 30% ในเดือนนี้ เป็นหลักฐานว่าตลาดมองกลุ่มนี้เป็นก้อนเดียวที่พึ่งสมมติฐานเรื่องเงินทุนแบบเดียวกัน - **เป้าหมายถูกปรับลงต่อเนื่อง** — การลดเป้าพร้อมกันหลายค่ายในสัปดาห์เดียวเป็นตัวแปรที่กดดันราคาหุ้น แม้คำแนะนำจะไม่ได้เปลี่ยน - **ยังไม่มีดีลระดมทุนใหม่ให้เห็น** — ทีมข่าวยังไม่พบประกาศเงินกู้หรือหุ้นกู้ก้อนใหม่ในเดือน ต.ค. ดีลล่าสุดที่ยืนยันได้คือเงินกู้แบบทยอยเบิก 2.6 พันล้านดอลลาร์เมื่อ 10 ส.ค. ที่ดอกเบี้ย SOFR + 550 basis points (SOFR คืออัตราดอกเบี้ยอ้างอิงข้ามคืนของสหรัฐฯ ส่วน 1 basis point = 0.01%)"
+        },
+        {
+          "h": "สิ่งที่ต้องจับตาต่อ",
+          "p": "- **วันประกาศงบไตรมาส 3** — บริษัทยังไม่ประกาศวันอย่างเป็นทางการ เว็บปฏิทินงบหลายแห่งคาดไว้ราว 9–10 พ.ย. ตามรอบเดียวกับปีที่แล้ว - **ดีลเงินทุนก้อนถัดไป** — ถ้าดอกเบี้ยของเงินกู้ที่มี GPU ค้ำต่ำกว่ายีลด์หุ้นกู้ไม่มีหลักประกันที่ราว 15% อย่างชัดเจน ตัวเลขของฝั่ง Goldman และ Morgan Stanley จะดูน่าเชื่อขึ้น แต่ถ้าบริษัทต้องหันไปออกหุ้นใหม่ ความเสี่ยงที่ผู้ถือหุ้นเดิมจะถูกลดสัดส่วนก็มีน้ำหนักมากขึ้น - **ท่าทีของ Nvidia** — คำอธิบายเพิ่มเติมจาก Nvidia ว่าข้อผูกพันที่มีต่อ neocloud ครอบคลุมแค่ไหน จะเป็นข้อมูลสำคัญสำหรับการประเมินความเสี่ยงของ CRWV"
+        }
+      ],
+      "quote": "สัปดาห์นี้ตลาดไม่ได้ข้อมูลใหม่เกี่ยวกับธุรกิจของ CoreWeave สิ่งที่เกิดขึ้นคือโบรกเกอร์หลายค่ายลดราคาที่ยอมจ่ายให้หุ้นตัวนี้ลงพร้อมกัน แม้แต่ฝั่งที่ยังแนะนำซื้อ และคำถามเริ่มขยายไปถึงความสามารถของ Nvidia ในการหนุนลูกค้า เรามองว่าตัวชี้ขาดไม่ใช่บทวิเคราะห์ใบถัดไป แต่เป็นต้นทุนของเงินกู้ก้อนถัดไปที่บริษัทหามาได้จริง",
+      "quoteBy": "— ทีมข่าว PixelVest",
+      "takeaway": "CRWV ปิด 23 ต.ค. ที่ 54.24 ดอลลาร์ ลดลงราว 2.4% และลงราว 13% ในหนึ่งสัปดาห์ หลัง Morgan Stanley ลดเป้าเหลือ 70 ดอลลาร์ (ประเมินว่าต้องกู้ใหม่ 24–37 พันล้านดอลลาร์) ส่วน UBS (105) และ Piper Sandler (124) ลดเป้าแต่คงคำแนะนำเชิงบวก ฝั่งบวกคือความต้องการที่ยังแรงและข้อผูกพันซื้อกำลังประมวลผล 6.3 พันล้านดอลลาร์จาก Nvidia ฝั่งลบคือ CDS ที่เกิน 11% แรงขายทั้งกลุ่ม neocloud และการที่ยังไม่มีดีลระดมทุนใหม่ให้เห็น",
+      "stats": [
+        {
+          "label": "ราคาปิด 22 ต.ค. 2569",
+          "value": "$55.60",
+          "change": "ต่ำสุดระหว่างวัน $53.50 (ต่ำสุดรอบ 52 สัปดาห์)"
+        },
+        {
+          "label": "ราคาปิด 23 ต.ค. 2569",
+          "value": "$54.24",
+          "change": "ราว -2.4%, ราว -13% ในหนึ่งสัปดาห์"
+        },
+        {
+          "label": "Morgan Stanley (23 ต.ค.)",
+          "value": "Equal Weight, เป้า $70",
+          "change": "จาก $99"
+        },
+        {
+          "label": "Morgan Stanley ประเมินเงินกู้ใหม่ที่ต้องหา",
+          "value": "$24–37 พันล้าน",
+          "change": "สำหรับกำลังการผลิตราว 3.3 GW ภายในปลายปี 2570 (TipRanks)"
+        },
+        {
+          "label": "UBS",
+          "value": "Buy, เป้า $105",
+          "change": "จาก $120"
+        },
+        {
+          "label": "MoffettNathanson",
+          "value": "Neutral, เป้า $89",
+          "change": "จาก $107"
+        },
+        {
+          "label": "Piper Sandler",
+          "value": "Overweight, เป้า $124",
+          "change": "จาก $153"
+        },
+        {
+          "label": "ช่วงราคาเป้าหมาย",
+          "value": "$51–250",
+          "change": "Bernstein ถึง Rosenblatt"
+        },
+        {
+          "label": "ข้อผูกพันซื้อกำลังประมวลผลของ Nvidia",
+          "value": "สูงสุด $6.3 พันล้าน",
+          "change": "หาก CoreWeave ขายให้ลูกค้ารายอื่นไม่ได้"
+        },
+        {
+          "label": "ส่วนต่าง CDS",
+          "value": "เกิน 11%",
+          "change": ""
+        },
+        {
+          "label": "Short interest",
+          "value": "~23.7% ของหุ้นหมุนเวียน",
+          "change": "TradingView"
+        }
+      ],
+      "sources": [
+        {
+          "text": "CoreWeave Is Down 13% in a Week. Here's the Price at Which I'd Buy — The Motley Fool",
+          "url": "https://www.fool.com/investing/2026/10/23/coreweave-is-down-xx-in-a-week-heres-the-price-at/"
+        },
+        {
+          "text": "Morgan Stanley cuts CoreWeave stock price target on financing concerns — Investing.com",
+          "url": "https://www.investing.com/news/analyst-ratings/morgan-stanley-cuts-coreweave-stock-price-target-on-financing-concerns-93CH-4968818"
+        },
+        {
+          "text": "Morgan Stanley Cuts CoreWeave Stock Price Target to $70 on Funding Risks — TipRanks",
+          "url": "https://www.tipranks.com/news/morgan-stanley-cuts-coreweave-stock-price-target-to-70-on-funding-risks"
+        },
+        {
+          "text": "Morgan Stanley Issues Pessimistic Forecast for CoreWeave Stock Price — MarketBeat",
+          "url": "https://www.marketbeat.com/instant-alerts/analyst-morgan-stanley-issues-pessimistic-forecast-for-coreweave-nasdaq-crwv-stock-price-2026-10-23/"
+        },
+        {
+          "text": "CoreWeave Stock Price Target Lowered at Morgan Stanley — Defense World",
+          "url": "https://www.defenseworld.net/2026/10/24/coreweave-nasdaqcrwv-stock-price-target-lowered-at-morgan-stanley.html"
+        },
+        {
+          "text": "CoreWeave Stock Falls 2.4% on Analyst Downgrade — Defense World",
+          "url": "https://defenseworld.net/2026/10/24/coreweave-nasdaqcrwv-stock-falls-2-4-on-analyst-downgrade.html"
+        },
+        {
+          "text": "COREWEAVE Aktie: Piper Sandler hält Finanzierungsängste für überzogen — goldesel.de",
+          "url": "https://goldesel.de/aktien/news/coreweave-aktie-piper-sandler-halt-finanzierungsangste-fur-uberzogen"
+        },
+        {
+          "text": "Piper Sandler Says Financing Concerns for CoreWeave Are Overblown. Not Everyone Is Convinced. — inkl",
+          "url": "https://www.inkl.com/news/piper-sandler-says-financing-concerns-for-coreweave-are-overblown-not-everyone-is-convinced"
+        },
+        {
+          "text": "Nvidia's role as AI financier faces first big test as neoclouds take market hit — CNBC",
+          "url": "https://www.cnbc.com/2026/10/24/nvidias-role-as-ai-financier-faces-first-big-test-as-neoclouds-take-market-hit.html"
+        },
+        {
+          "text": "Nvidia AI Financing Risks Rise as Neocloud Stocks Slide — albertpham.info",
+          "url": "https://www.albertpham.info/2026/10/24/nvidia-ai-financing-risks-rise-as-neocloud-stocks-slide/"
+        },
+        {
+          "text": "Nvidia's AI bankroll meets its first real market test — briefs.co",
+          "url": "https://www.briefs.co/news/nvidia-s-ai-bankroll-meets-its-first-real-market-test/"
+        },
+        {
+          "text": "CoreWeave's market confidence erodes as bond yields spike and stock sinks — CNBC",
+          "url": "https://www.cnbc.com/2026/10/21/coreweaves-market-confidence-erodes-as-bond-yields-spike-stock-sinks.html"
+        },
+        {
+          "text": "Coreweave Keeps Getting Crushed: This Analyst Says It's Going to Quadruple In Price — Yahoo Finance",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/coreweave-keeps-getting-crushed-analyst-124525387.html"
+        },
+        {
+          "text": "CRWV Stock Price and Chart — TradingView",
+          "url": "https://www.tradingview.com/symbols/NASDAQ-CRWV/"
+        },
+        {
+          "text": "CoreWeave closes $2.6 billion GPU-backed loan — Yahoo Finance",
+          "url": "https://finance.yahoo.com/technology/ai/articles/coreweave-closes-2-6-billion-132706704.html"
+        },
+        {
+          "text": "CoreWeave Next Earnings Date — Earnings Whispers",
+          "url": "https://beta.earningswhispers.com/go/x/CRWV"
+        }
+      ]
+    },
+    "tags": [
+      "คลาวด์เอไอ",
+      "CoreWeave",
+      "Morgan Stanley",
+      "UBS",
+      "Piper Sandler",
+      "Nvidia",
+      "หนี้",
+      "neocloud"
+    ],
+    "agent": "hanako"
   }
 ];
