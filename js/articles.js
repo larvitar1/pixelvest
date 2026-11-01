@@ -11016,5 +11016,123 @@ const ARTS = [
     "featured": true,
     "agent": "hanako",
     "image": "assets/images/92-market-2026-10-27.jpg"
+  },
+  {
+    "id": 93,
+    "cat": "ภาพรวมตลาด",
+    "title": "Nasdaq ปิดเดือนตุลาคมด้วยวันที่แย่ที่สุดนับตั้งแต่มิถุนายน หลัง Amazon และ Intel ซ้ำรอยกังวลเงินลงทุน AI ขณะเฟดคงดอกเบี้ยแต่มีเสียงแย้งขอขึ้น",
+    "excerpt": "ศุกร์ที่ 30 ต.ค. Nasdaq ร่วง 2.86% เหลือ 25,437 จุด S&P 500 ลง 1.82% จากงบ Amazon และ Intel ที่ตอกย้ำความกังวลต้นทุน AI ขณะที่เฟดคงดอกเบี้ย 3.75-4.00% ด้วยมติ 10-2 และ Alphabet ร่วงหนักหลังกระแสเงินสดอิสระติดลบ",
+    "author": "ทีมข่าว PixelVest",
+    "date": "1 พ.ย. 2026",
+    "iso": "2026-11-01",
+    "read": 17,
+    "syms": [
+      "AMZN",
+      "GOOGL",
+      "MSFT",
+      "NVDA"
+    ],
+    "rank": 93,
+    "body": {
+      "intro": "ตลาดหุ้นสหรัฐฯ ปิดสัปดาห์และปิดเดือนตุลาคม 2569 ด้วยการเทขายหนักในวันศุกร์ที่ 30 ตุลาคม Nasdaq Composite ร่วง 2.86% ปิดที่ 25,437.00 จุด S&P 500 ลง 1.82% ปิดที่ 7,580.07 จุด และดาวโจนส์ลง 1.09% ปิดที่ 51,770.31 จุด (Yahoo Finance, TheStreet) S&P 500 อยู่ต่ำกว่าสถิติสูงสุด 7,818.93 จุดที่ทำไว้เมื่อ 6 ตุลาคมราว 3.05% ส่วน Russell 2000 (ดัชนีหุ้นขนาดเล็ก) ลง 1.66% เหลือ 2,811.84 จุด ตลอดเดือน Nasdaq ลดลงราว 5.3% ขณะที่ดาวโจนส์ยังบวกราว 1.7% ซึ่งสะท้อนว่าแรงขายกระจุกอยู่ที่หุ้นเทคโนโลยีเป็นหลัก ตัวจุดชนวนคืองบที่ออกในสัปดาห์นี้ซึ่งทำให้ตลาดกลับมาตั้งคำถามเดิมว่า เงินลงทุน AI ก้อนมหาศาลจะคุ้มทุนหรือไม่ โดย CNN รายงานว่าแผนลงทุนของ Amazon และคำเตือนเรื่องการเผาเงินสดของ Intel เป็นสองตัวแปรหลักของวันศุกร์ - **Alphabet (GOOGL)** รายงานรายได้ไตรมาส 3 ที่ 127.6 พันล้านดอลลาร์ โต 25% Google Cloud โต 103% เป็น 30.7 พันล้านดอลลาร์ แต่งบลงทุน (capex) ไตรมาสนี้อยู่ที่ 51.4 พันล้านดอลลาร์ สูงกว่ากระแสเงินสดจากการดำเนินงาน ทำให้ free cash flow (เงินสดที่เหลือหลังหักงบลงทุน) ติดลบ 9.1 พันล้านดอลลาร์ และบริษัทส่งสัญญาณว่า capex ปี 2570 อาจเกิน 300 พันล้านดอลลาร์ (AI Weekly) หุ้นลดลงราว 8% ในช่วงหลังตลาดปิดคืนวันพุธ และ Kitco รายงานว่า Class A ปิดวันพฤหัสที่ 29 ต.ค. ลดลงราว 13.3% - **Microsoft (MSFT)** รายงานรายได้ 92.3 พันล้านดอลลาร์ โต 19% และ Azure โต 48% เป็น 33.2 พันล้านดอลลาร์ (AI Weekly, ซึ่งเป็นแหล่งเดียวที่ให้ตัวเลข Azure ตรงๆ ทีมข่าวจึงถือเป็นข้อมูลที่ควรตรวจซ้ำกับเอกสารบริษัท) หุ้นบวกราว 2–4% หลังตลาดปิดตามแหล่งข่าวที่ต่างกัน และ TheStreet พาดหัวว่าผลของ Alphabet กับ Microsoft \"ต่างทิศกัน\" - **Amazon (AMZN)** AWS โต 39% เป็น 45.98 พันล้านดอลลาร์ ซึ่งเร็วที่สุดในรอบเกือบห้าปีและสูงกว่าฉันทามติ 45.29 พันล้านดอลลาร์ แต่ capex ไตรมาส 3 อยู่ที่ 77.26 พันล้านดอลลาร์ เพิ่มขึ้น 120% จากปีก่อน และ EPS 1.89 ดอลลาร์ต่ำกว่าที่ตลาดคาด 1.97 ดอลลาร์ ผู้บริหารระบุว่าการลงทุนปี 2570 จะ \"มากขึ้นอย่างมีนัยสำคัญ\" โดยไม่ให้ตัวเลข หุ้นร่วงหลังตลาดปิดระหว่าง 6–10% ตามแต่ละแหล่งข่าว - **Intel** รายได้ไตรมาส 3 อยู่ที่ 16.5 พันล้านดอลลาร์ โต 21% แต่แนวโน้มไตรมาส 4 ที่ 15.0–16.0 พันล้านดอลลาร์และ EPS 0.25 ดอลลาร์ ทำให้หุ้นร่วงเกือบ 29% ในวันศุกร์ (SEC filing, CNBC) **มุมบวก:** ตัวเลขฝั่งอุปสงค์ยังแข็งแรงชัดเจน AWS เร่งตัวขึ้น Azure โตเกินที่บริษัทเคยแนะนำไว้ที่ราว 45% และ Google Cloud โตเท่าตัว สิ่งนี้ชี้ว่าลูกค้าองค์กรยังจ่ายเงินให้บริการ AI จริง ไม่ใช่แค่ความคาดหวัง **มุมลบ:** ตลาดกำลังลงโทษบริษัทที่ capex โตเร็วกว่าเงินสดที่หามาได้ Alphabet มี free cash flow ติดลบ Amazon มี free cash flow 12 เดือนย้อนหลังติดลบ 42.4 พันล้านดอลลาร์ และ Intel ไม่ได้รับการให้อภัยเพราะแนวโน้มอ่อน เรามองว่าเส้นแบ่งของตลาดรอบนี้ไม่ใช่ \"งบดีหรือไม่ดี\" แต่คือ \"ใครพิสูจน์ได้ว่าเงินลงทุนแปลงเป็นกระแสเงินสดได้เร็วพอ\" วันรุ่งขึ้น (29 ต.ค.) ตัวเลข PCE (ดัชนีราคาการใช้จ่ายส่วนบุคคล ซึ่งเป็นมาตรวัดเงินเฟ้อที่เฟดใช้) เดือนกันยายนเพิ่ม 0.5% จากเดือนก่อน คิดเป็น 3.6% จากปีก่อน ส่วน core PCE (ไม่รวมอาหารและพลังงาน) อยู่ที่ 0.3% และ 3.1% ตรงตามที่คาด พร้อม GDP ไตรมาส 3 ที่ 3.4% ต่อปี สูงกว่าที่คาด 3.1% (CNBC, Kitco) การประชุมครั้งถัดไปคือ 9 ธันวาคม พร้อมประมาณการเศรษฐกิจชุดใหม่ เรามองว่านี่คือภาพที่ซ้อนกันอย่างอึดอัด คือเศรษฐกิจแข็งแต่เงินเฟ้อสูง ทำให้เฟดมีเหตุผลให้ขึ้นดอกเบี้ยอีก ขณะเดียวกันหุ้นเทคกำลังสะดุดจากเรื่องต้นทุนเงินทุน หากเงินเฟ้อและดอกเบี้ยเดินทางเดียวกัน หุ้น valuation สูง (ราคาแพงเมื่อเทียบกับกำไร) อ่อนไหวเป็นพิเศษ เพราะมูลค่ากระแสเงินสดในอนาคตถูกคิดลดด้วยอัตราที่สูงขึ้น กลไกที่เชื่อมกันคือ ถ้าน้ำมันยืนสูงต่อ แรงกดดันเงินเฟ้อจะทำให้เฟดมีเหตุผลเข้มงวดต่อ ซึ่งกดดันยีลดทางหนึ่ง ขณะที่ความกังวลต่อหุ้นเทคดันเงินเข้าพันธบัตรอีกทางหนึ่ง ทำให้ยีลด์ 10 ปีอยู่ใกล้ 5% ได้ยาก ผลสุทธิจึงเป็นการดึงยีลด์ในสองทิศ หุ้นไทยในห่วงโซ่ดาต้าเซ็นเตอร์ เช่น Delta Electronics (Thailand) อ่อนไหวต่อทั้งยอดคำสั่งซื้อจาก Big Tech และเซนติเมนต์ capex AI ที่กำลังถูกตั้งคำถาม ผู้ถือกองทุนหุ้นเทคสหรัฐฯ ควรทราบว่า NAV ของกองทุนจะสะท้อนการร่วงวันศุกร์ในวันทำการถัดไป และความผันผวนช่วงเปิดตลาดวันจันทร์อาจสูงจากการปรับสถานะหลังสุดสัปดาห์ *หมายเหตุ: บทความนี้จัดทำเพื่อให้ข้อมูลและมุมมองเชิงบรรณาธิการเท่านั้น ไม่ใช่คำแนะนำการลงทุน โปรดประเมินความเสี่ยงก่อนตัดสินใจทุกครั้ง*",
+      "sections": [
+        {
+          "h": "งบ Big Tech ออกมาคนละทิศ แต่โจทย์เดียวกันคือ \"รายได้โตทันเงินลงทุนหรือยัง\"",
+          "p": "ผลของสามบริษัทไม่เหมือนกัน และนั่นคือจุดที่น่าสนใจกว่าพาดหัวรวม"
+        },
+        {
+          "h": "เฟดคงดอกเบี้ย แต่มีสองเสียงขอขึ้น และเงินเฟ้อยังไม่ยอมลง",
+          "p": "เฟดประกาศคงอัตราดอกเบี้ยที่ 3.75–4.00% เมื่อวันพุธที่ 28 ตุลาคม ด้วยมติ 10 ต่อ 2 โดย Lisa Cook และ Beth Hammack (ประธานเฟดสาขาคลีฟแลนด์) ลงมติให้ขึ้นดอกเบี้ย 0.25 จุด (Admiral Markets, XTB) นี่เป็นการคงดอกเบี้ยครั้งแรกหลังขึ้นดอกเบี้ยเมื่อเดือนกันยายน ประธานเฟด Kevin Warsh ระบุว่าเศรษฐกิจเติบโตแข็งแรงและเงินเฟ้อยังสูงเกินไป แต่ตามรายงานของ Forex.com ถ้อยแถลงไม่ใช่ \"hawkish hold\" (คงดอกเบี้ยแต่ส่งสัญญาณเข้มงวด) อย่างที่นักเทรดคาดไว้ก่อนประชุม ซึ่ง StoneX ระบุว่าตลาดให้โอกาสคงดอกเบี้ยราว 90% และให้โอกาสขึ้นดอกเบี้ยอย่างน้อยหนึ่งครั้งภายในสิ้นปีเกิน 80% ก่อนการประชุม"
+        },
+        {
+          "h": "ภาพ Cross-asset",
+          "p": "- **พันธบัตรสหรัฐฯ:** ยีลด์ 10 ปีปิดที่ 4.929% ลดลง 6 basis point (1 basis point เท่ากับ 0.01%) จาก 4.98% เมื่อคืนวันพฤหัส (CNBC, CBC) พันธบัตรได้แรงซื้อเป็นที่หลบภัยเมื่อหุ้นเทคร่วง คล้ายภาพของสัปดาห์ก่อนหน้าที่ยีลด์ลดลงตามหุ้นเทค - **น้ำมัน:** เบรนท์ปิดที่ระดับสูงสุดนับตั้งแต่เดือนเมษายนตามรายงานที่ค้นเจอ แต่ทีมข่าวยังไม่พบตัวเลขราคาปิดยืนยันของวันที่ 30 ต.ค. จึงไม่ระบุราคา - **ทองคำและคริปโต:** ทองคำและบิตคอยน์ปรับลดลงพร้อมหุ้นในวันศุกร์ ทองคำไม่ได้ทำหน้าที่ที่หลบภัยเช่นกันในสัปดาห์นี้ โดย Kitco รายงานว่าทองลดลงวันที่ 29 ต.ค. จาก GDP และเงินเฟ้อที่แรงซึ่งหนุนความคาดหวังเฟดเข้มงวด ยังไม่มีข้อมูลยืนยันราคาปิดของทั้งสองสินทรัพย์ - **ดอลลาร์:** XTB รายงานว่า EUR/USD อยู่ราว 1.1450 ระหว่างช่วงถามตอบของ Warsh วันที่ 28 ต.ค. ยังไม่มีข้อมูลยืนยันดัชนีดอลลาร์วันที่ 30 ต.ค."
+        },
+        {
+          "h": "สิ่งที่ต้องจับตาในสัปดาห์หน้า",
+          "p": "- **ความต่อเนื่องของแรงขายหุ้นเทค** — หาก Nasdaq ยังอ่อนต่อในวันจันทร์ที่ 2 พ.ย. แม้ไม่มีข่าวใหม่ แปลว่านักลงทุนกำลังปรับมุมมองเรื่อง capex AI ไม่ใช่แค่ตอบสนองต่องบรายตัว - **ยีลด์ 10 ปีเทียบระดับ 4.93%** — หากยีลด์ดีดกลับขึ้นแม้หุ้นอ่อน แปลว่าตลาดกลับมากังวลเงินเฟ้อมากกว่าความเสี่ยงเศรษฐกิจ ซึ่งเป็นสัญญาณเสี่ยงต่อหุ้น valuation สูง - **ราคาน้ำมันเบรนท์** — ระดับสูงสุดรอบ 6 เดือนเป็นตัวแปรที่ผลักความคาดหวังขึ้นดอกเบี้ยเดือนธันวาคม - **กระแสเงินสดของ Big Tech ในการเปิดเผยต่อไป** — ตลาดมีแนวโน้มให้ราคากับบริษัทที่ชี้แจงกำหนดการคืนทุนจาก capex ได้ชัดมากกว่าบริษัทที่ให้แค่ตัวเลขเติบโต"
+        },
+        {
+          "h": "มุมนักลงทุนไทย",
+          "p": "ยังไม่มีข้อมูลยืนยันค่าเงินบาทและดัชนี SET ณ วันศุกร์ที่ 30 ต.ค. แต่เส้นทางความเสี่ยงชัดเจนคือ หากเฟดยังเปิดทางขึ้นดอกเบี้ยเดือนธันวาคมและราคาน้ำมันยืนสูง ทั้งสองปัจจัยมักเป็นแรงกดดันต่อเงินทุนไหลเข้าตลาดเกิดใหม่รวมถึงไทย ซึ่งเป็นผู้นำเข้าน้ำมันสุทธิ ขณะที่ยีลด์สหรัฐฯ ที่ลดลงเล็กน้อยช่วยลดแรงกดดันได้บางส่วน"
+        }
+      ],
+      "quote": "ตลาดไม่ได้ถามว่าคลาวด์โตหรือไม่ เพราะคำตอบคือโตเร็วขึ้น แต่ถามว่าเงินที่ต้องใส่เพื่อให้โตแบบนั้นมากเกินกว่าที่บริษัทหาได้หรือเปล่า ขณะที่เฟดที่ยังเปิดทางขึ้นดอกเบี้ยทำให้ต้นทุนของคำถามนี้แพงขึ้น เรามองว่าผู้ชนะในรอบนี้คือผู้ที่อธิบายเส้นทางสู่กระแสเงินสดบวกได้ ไม่ใช่ผู้ที่โชว์ตัวเลขรายได้ที่สูงที่สุด",
+      "quoteBy": "— ทีมข่าว PixelVest",
+      "takeaway": "Nasdaq ปิดเดือนตุลาคมที่ 25,437 จุด ลงเดือนละราว 5.3% หลังงบ Amazon และ Intel ตอกย้ำความกังวลเงินลงทุน AI แม้ AWS, Azure และ Google Cloud จะโตเร็วขึ้น ขณะที่เฟดคงดอกเบี้ยด้วยมติ 10-2 และ PCE ที่ 3.6% ทำให้ความเสี่ยงขึ้นดอกเบี้ยเดือนธันวาคมยังอยู่ ตัวแปรที่ต้องดูต่อคือกระแสเงินสดของ Big Tech เทียบ capex และทิศทางน้ำมัน",
+      "sources": [
+        {
+          "text": "Stock market today: Nasdaq, Dow, S&P 500 clobbered as October closes with brutal sell-off — Yahoo Finance",
+          "url": "https://finance.yahoo.com/markets/live/stock-market-today-friday-october-30-dow-sp-500-nasdaq-amazon-intel-ai-sell-off-191429143.html"
+        },
+        {
+          "text": "Stock Market Today (Oct. 30, 2026): Intel, Reddit are latest tech earnings casualties as Nasdaq sinks nearly 3% — TheStreet",
+          "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-oct-30-2026"
+        },
+        {
+          "text": "Stock Market Today (Oct. 29, 2026): S&P 500 falls after Alphabet and Microsoft issue divergent earnings — TheStreet",
+          "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-oct-29-2026"
+        },
+        {
+          "text": "Treasury yields fall as bonds find safe-haven bid amid tech stock rout — CNBC",
+          "url": "https://cnbc.com/2026/10/30/us-treasury-yields-fed-interest-rates.html"
+        },
+        {
+          "text": "North American stocks sink with Wall Street suffering its worst day since June amid tech sell-off — CBC",
+          "url": "https://cbc.ca/news/business/tech-stocks-markets-oct-30-9.7403226"
+        },
+        {
+          "text": "PCE inflation report September 2026 — CNBC",
+          "url": "https://www.cnbc.com/2026/10/29/pce-inflation-report-september-2026-.html"
+        },
+        {
+          "text": "Gold, silver fall as strong U.S. GDP, inflation support Fed tightening bets — Kitco",
+          "url": "https://www.kitco.com/news/article/2026-10-29/gold-silver-fall-strong-us-gdp-inflation-support-fed-tightening-bets-kitco"
+        },
+        {
+          "text": "Warsh Press Conference: Fed Holds Rates at 3.75% to 4% as Cook and Hammack Vote for a Hike — Admiral Markets",
+          "url": "https://admiralmarkets.com/analytics/traders-blog/warsh-press-conference-october-2026"
+        },
+        {
+          "text": "Fed holds, EURUSD gains — XTB",
+          "url": "https://www.xtb.com/en/market-analysis/fed-holds-eurusd-gains"
+        },
+        {
+          "text": "FOMC Recap: Fed Holds, but Not Quite the Hawkish Hold Traders Expected — Forex.com",
+          "url": "https://www.forex.com/en/news-and-analysis/fomc-recap-fed-holds-but-not-quite-the-hawkish-hold-traders-expected/?amp=true"
+        },
+        {
+          "text": "FOMC meeting preview: Is Warsh even capable of delivering a hawkish hold — StoneX",
+          "url": "https://www.stonex.com/en-gb/news-and-analysis/fomc-meeting-preview-is-warsh-even-capable-of-delivering-a-hawkish-hold-2026-10-27/"
+        },
+        {
+          "text": "Alphabet Posts $127.6B Q3 With Google Cloud Up 103% to $30.7B as 2027 Capex Set to Top $300B — AI Weekly",
+          "url": "https://aiweekly.co/alerts/alphabet-posts-1276b-q3-with-google-cloud-up-103-to-307b-as-2027-capex-set-to"
+        },
+        {
+          "text": "Alphabet disappoints Wall Street despite record results — XTB",
+          "url": "https://www.xtb.com/en/market-analysis/news-and-research/alphabet-disappoints-wall-street-despite-record-results-shares-plunge-over-8-and-test-300"
+        },
+        {
+          "text": "Microsoft Q1 Revenue Hits $92.3B, Azure Up 48% as Capex Jumps — AI Weekly",
+          "url": "https://aiweekly.co/alerts/microsoft-q1-revenue-hits-923b-azure-up-48-as-capex-jumps-to-394b-with-175b"
+        },
+        {
+          "text": "Stock Market Today, Oct. 29: Amazon Falls on Q3 Earnings Report and Capex Concerns — Motley Fool",
+          "url": "https://www.fool.com/coverage/stock-market-today/2026/10/29/stock-market-today-oct-29-amazon-falls-on-q3-earnings-report-and-capex-concerns/"
+        },
+        {
+          "text": "Amazon's AWS Growth Hits 39% in Q3 as Capex Guide Jolts Stock — AI Weekly",
+          "url": "https://aiweekly.co/alerts/amazons-aws-growth-hits-39-in-q3-as-capex-guide-jolts-stock"
+        },
+        {
+          "text": "Intel Q3 2026 earnings release — SEC Form 8-K",
+          "url": "https://www.sec.gov/Archives/edgar/data/0000050863/000005086326000188/q326earningsrelease.htm"
+        }
+      ]
+    },
+    "featured": true,
+    "agent": "hanako",
+    "image": "assets/images/93-market-2026-11-01.jpg"
   }
 ];
