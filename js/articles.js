@@ -11134,5 +11134,410 @@ const ARTS = [
     "featured": true,
     "agent": "hanako",
     "image": "assets/images/93-market-2026-11-01.jpg"
+  },
+  {
+    "id": 94,
+    "cat": "ภาพรวมตลาด",
+    "title": "สัปดาห์ที่ตลาดต้องผ่านสามด่านซ้อน เลือกตั้งกลางเทอม งบ Apple-AMD และตัวเลขจ้างงาน ขณะที่ Binance ถูกแฮ็ก 6.3 พันล้าน และน้ำมันแกว่งตามความเสี่ยงอิหร่าน",
+    "excerpt": "หลังหุ้นเทคร่วงปิดเดือนตุลาคม สัปดาห์ 2-6 พ.ย. ตลาดสหรัฐฯ เจองบ Apple คืนนี้ เลือกตั้งกลางเทอมวันอังคาร งบ AMD และตัวเลขจ้างงานวันศุกร์ที่คาดเพียง 55,000 ตำแหน่ง ขณะที่สุดสัปดาห์มีทั้งเหตุแฮ็ก Binance ทองหลุด 4,000 ดอลลาร์ และน้ำมันที่อ่อนลงจากความหวังทางการทูตกับอิหร่าน",
+    "author": "ทีมข่าว PixelVest",
+    "date": "2 พ.ย. 2026",
+    "iso": "2026-11-02",
+    "read": 19,
+    "syms": [
+      "AAPL",
+      "AMD",
+      "NVDA",
+      "DELTA"
+    ],
+    "rank": 94,
+    "body": {
+      "intro": "เช้าวันจันทร์ที่ 2 พฤศจิกายน 2569 ตามเวลาไทย ตลาดหุ้นสหรัฐฯ ยังไม่เปิดทำการรอบแรกของเดือน หลังปิดเดือนตุลาคมด้วยวันศุกร์ที่ S&P 500 ลง 1.8% และ Nasdaq ลง 2.9% จากความกังวลเงินลงทุน AI (Reuters ผ่าน Kitco) สิ่งที่ตลาดต้องเผชิญต่อจากนี้ไม่ใช่ข่าวเดียว แต่เป็นสามด่านที่มาติดกันในห้าวันทำการ ได้แก่ งบ Apple และ AMD, การเลือกตั้งกลางเทอมสหรัฐฯ วันอังคารที่ 3 พ.ย. และรายงานการจ้างงานเดือนตุลาคมวันศุกร์ที่ 6 พ.ย. โดย CNBC รายงานว่าจะมีบริษัทใน S&P 500 ประกาศงบรวม 138 แห่งในสัปดาห์นี้ หมายเหตุเรื่องเวลา: สหรัฐฯ สิ้นสุดเวลาออมแสงแล้วเมื่อวันอาทิตย์ที่ 1 พ.ย. ตลาดหุ้นสหรัฐฯ จึงเปิดเวลา 21:30 น. ตามเวลาไทยตั้งแต่สัปดาห์นี้ (ทีมข่าวแปลงเวลาจากเวลาตะวันออกของสหรัฐฯ) ด้านทองคำ ราคาหลุดต่ำกว่า 4,000 ดอลลาร์ต่อออนซ์ระหว่างการเทขายหุ้นเทค และต่ำกว่าสถิติสูงสุดเหนือ 5,400 ดอลลาร์เมื่อเดือนมกราคมราว 29% (BeInCrypto) นักวิเคราะห์ของ Global X มองว่าเป็นการขายเพื่อหาสภาพคล่อง คือนักลงทุนที่ขาดทุนในหุ้นขายทองเพื่อนำเงินไปวางหลักประกัน แต่บางแหล่งชี้ว่ายังไม่มีหลักฐานยืนยันว่าเป็นการบังคับขายจริง ข้อสังเกตของเราคือ เมื่อทองและคริปโตลงพร้อมหุ้นเทค ขณะที่เงินไหลเข้าพันธบัตรแทน แปลว่าตลาดกำลังลดความเสี่ยงทุกด้านมากกว่าย้ายเงินจากสินทรัพย์หนึ่งไปอีกสินทรัพย์หนึ่ง ภาพนี้สอดคล้องกับข้อมูลของ Goldman Sachs ที่ระบุว่ากองทุนเฮดจ์ฟันด์ลดสัดส่วนหุ้นเทคเร็วที่สุดในรอบอย่างน้อยหนึ่งทศวรรษ และ net leverage (สัดส่วนสถานะซื้อสุทธิเทียบเงินทุน) ลดลงสู่ระดับต่ำสุดในรอบหนึ่งปีที่ 48.6% (Hedgeweek) ตัวแปรที่ซ้อนอยู่คืออิหร่าน The Week อ้างรายงานของ Wall Street Journal ว่าทรัมป์ส่งสัญญาณหลายครั้งว่ากำลังพิจารณาโจมตีอิหร่านรอบใหม่หลังการเลือกตั้ง ขณะเดียวกันรองประธานาธิบดี JD Vance ส่งจดหมายเพื่อฟื้นการเจรจาสันติภาพ Bloomberg รายงานเมื่อ 1 พ.ย. ว่าเบรนท์อ่อนลงต่ำกว่า 112 ดอลลาร์ต่อบาร์เรล และ WTI อยู่ราว 102 ดอลลาร์ แม้มีการโจมตีเรือรอบช่องแคบฮอร์มุซ เพราะ Marco Rubio รัฐมนตรีต่างประเทศระบุว่ายังไม่มีการตัดสินใจโจมตี และทรัมป์ต้องการทางออกทางการทูต ด้านกลุ่ม OPEC+ เจ็ดประเทศประชุมออนไลน์วันที่ 1 พ.ย. และมีมติคงระดับการผลิตเดือนธันวาคมไว้เท่ากับเดือนกันยายน (OPEC) **มุมบวก:** น้ำมันที่อ่อนลงจากความหวังทางการทูตช่วยลดแรงกดดันเงินเฟ้อ ซึ่งเป็นสิ่งที่เฟดกังวลอยู่ **มุมลบ:** เบรนท์ยังบวกเกือบ 14% ตลอดเดือนตุลาคม และหากการโจมตีกลับมาหลังเลือกตั้ง ความเสี่ยงด้านอุปทานจะกลับมากดดันพร้อมกับความคาดหวังขึ้นดอกเบี้ย **มุมบวก:** Reuters อ้างข้อมูล LSEG ว่ากำไรไตรมาส 3 ของ S&P 500 มีแนวโน้มโต 31.6% หลังบริษัทเกินครึ่งประกาศงบแล้ว พื้นฐานกำไรโดยรวมจึงยังแข็งแรง **มุมลบ:** สัปดาห์ก่อนแสดงให้เห็นว่างบดีอย่างเดียวไม่พอ ถ้าแนวโน้มหรือ capex ไม่ตอบโจทย์กระแสเงินสด และ CNBC รายงานว่านักวิเคราะห์เทคนิคของ BTIG เตือนอีกครั้งว่า S&P 500 เสี่ยงต่อแรงขาย กลไกที่เชื่อมกันคือ ตัวเลขจ้างงานวันศุกร์ FXStreet ระบุว่าโอกาสที่เฟดจะขยับดอกเบี้ยในเดือนธันวาคมยังสูงราว 80% หากการจ้างงานแข็งกว่าคาด ความคาดหวังขึ้นดอกเบี้ยมีแนวโน้มถูกตอกย้ำ ซึ่งเป็นตัวแปรที่กดดันทั้งหุ้นเทคและทอง ในทางกลับกัน หากตัวเลขอ่อนมาก ตลาดอาจลดเดิมพันขึ้นดอกเบี้ย แต่ก็จะเปิดคำถามเรื่องเศรษฐกิจชะลอตัวแทน ส่วนตลาดเอเชียเช้านี้ ข้อมูลช่วงเปิดตลาดจากหลายแหล่งยังขัดแย้งกัน ทั้ง Nikkei และ Kospi ถูกรายงานทั้งบวกและลบ ทีมข่าวจึงยังไม่ระบุตัวเลข และยังไม่มีข้อมูลยืนยันการเคลื่อนไหวของสัญญาฟิวเจอร์สหุ้นสหรัฐฯ คืนวันอาทิตย์ หุ้นไทยในห่วงโซ่ดาต้าเซ็นเตอร์อย่าง Delta Electronics (Thailand) อ่อนไหวต่อน้ำเสียงของ AMD เรื่องการส่งมอบชิป MI450 และต่อมุมมองของตลาดต่อการลงทุน AI ส่วนผู้ถือกองทุนหุ้นเทคสหรัฐฯ ควรทราบว่า NAV มักปรับตามช่วงเวลาที่มีข่าวใหญ่ติดกันหลายคืน *หมายเหตุ: บทความนี้จัดทำเพื่อให้ข้อมูลและมุมมองเชิงบรรณาธิการเท่านั้น ไม่ใช่คำแนะนำการลงทุน โปรดประเมินความเสี่ยงก่อนตัดสินใจทุกครั้ง*",
+      "sections": [
+        {
+          "h": "สุดสัปดาห์ที่ผ่านมา: แฮ็กคริปโตครั้งใหญ่สุดในประวัติศาสตร์ และทองที่ไม่ทำหน้าที่หลบภัย",
+          "p": "ข่าวที่ใหญ่ที่สุดนอกตลาดหุ้นคือ Binance ตลาดซื้อขายคริปโตรายใหญ่ที่สุดของโลก ยืนยันว่าสินทรัพย์ดิจิทัลราว 6.3 พันล้านดอลลาร์ถูกขโมยไปจากกระเป๋าเงินของบริษัท มากกว่าสถิติเดิมราวสี่เท่า (Al Jazeera) TRM Labs ระบุว่าเป็นฝีมือกลุ่มแฮ็กเกอร์จากเกาหลีเหนือ ผู้ออกเหรียญ stablecoin (เหรียญที่ผูกมูลค่ากับดอลลาร์) อายัดสินทรัพย์ที่เกี่ยวข้องได้ราว 2.7 พันล้านดอลลาร์ และ Binance ระบุว่ากันเงินของบริษัทราว 6.34 พันล้านดอลลาร์ไว้ชดเชยความเสียหาย บิตคอยน์ลดลงราว 5% หลังข่าว ลงไปต่ำกว่า 77,000 ดอลลาร์"
+        },
+        {
+          "h": "เลือกตั้งกลางเทอมกับอิหร่าน: สองตัวแปรการเมืองที่ผูกกันอยู่",
+          "p": "การเลือกตั้งกลางเทอมวันอังคารที่ 3 พ.ย. เป็นตัวแปรที่ Reuters ระบุว่าอาจกำหนดทิศทางการกำกับดูแล AI ในระยะถัดไป ตลาดคาดการณ์ (prediction markets) ให้โอกาสพรรคเดโมแครตชนะสภาผู้แทนฯ สูงราว 85–93% ตามแต่ละแหล่ง ขณะที่วุฒิสภายังสูสีและตัวเลขจากแต่ละแหล่งขัดแย้งกัน FXStreet ตั้งคำถามว่าตลาดจะตอบรับ \"สภาที่แบ่งขั้ว\" (สองสภาอยู่ในมือคนละพรรค) หรือไม่ ซึ่งในอดีตมักถูกมองว่าลดความเสี่ยงด้านนโยบายสุดโต่ง"
+        },
+        {
+          "h": "งบ Apple คืนนี้ และ AMD วันอังคาร: บททดสอบต่อจาก Big Tech",
+          "p": "- **Apple (AAPL)** ประกาศงบไตรมาส 4 ปีงบประมาณ 2569 หลังตลาดปิดวันจันทร์ ประชุมนักวิเคราะห์เวลา 17:00 น. ตามเวลาตะวันออก (ราว 05:00 น. เช้าวันอังคารตามเวลาไทย) นี่เป็นการแถลงงบครั้งแรกของ John Ternus ในฐานะซีอีโอ ฉันทามติรายได้อยู่ราว 113.3–113.6 พันล้านดอลลาร์ EPS ราว 1.99 ดอลลาร์ และรายได้ iPhone ราว 56.4 พันล้านดอลลาร์ ส่วนบริษัทแนะนำอัตรากำไรขั้นต้นไว้ที่ 47–48% (iThinkDiff, S&P Global) จุดที่น่าสนใจกว่าตัวเลขคือ ไตรมาสนี้มียอดขาย iPhone 18 Pro เพียงเก้าวัน และ iPhone Duo (รุ่นจอพับ ราคาเริ่มต้น 1,999 ดอลลาร์) เพิ่งวางขาย 23 ต.ค. ตลาดจึงมีแนวโน้มให้น้ำหนักกับแนวโน้มไตรมาสหน้าและต้นทุนหน่วยความจำมากกว่าผลไตรมาสนี้ - **AMD** ประกาศงบวันอังคารที่ 3 พ.ย. หลังตลาดปิด (Signalstack) ประเด็นหลักคือการเริ่มรับรู้รายได้ชิป MI450 ซึ่งผู้บริหารเคยระบุเมื่อกุมภาพันธ์ว่าจะเริ่มในไตรมาส 3 ปี 2569 และเร่งขึ้นในไตรมาส 4 (MarketBeat) ทีมข่าวยังไม่พบฉันทามติตัวเลขงบของปีนี้ที่ยืนยันได้ - **บริษัทอื่น:** Palantir มีกำหนดประกาศวันจันทร์ตามปฏิทินของ Stocktitan ส่วน Qualcomm, Arm, AppLovin, Uber, McDonald's, Amgen และ ConocoPhillips ประกาศภายในสัปดาห์นี้"
+        },
+        {
+          "h": "ภาพ Cross-asset ก่อนเปิดสัปดาห์",
+          "p": "- **ดอลลาร์และเยน:** ดัชนีดอลลาร์อยู่ราว 101.94 ทรงตัวรอผลเลือกตั้ง และ USD/JPY อยู่ราว 157.78 เยน (Tech Insider) BigGo Finance ประเมินว่าหากพรรคเดโมแครตได้เปรียบชัด ตลาดมีแนวโน้มขายดอลลาร์ซื้อเยนเร็วขึ้น - **พันธบัตร:** ยีลด์ 2 ปีล่าสุดที่ยืนยันได้คือ 4.67% เมื่อ 28 ต.ค. (MarketXLS อ้าง FRED) ยังไม่มีข้อมูลยืนยันระดับปิดวันศุกร์ - **ทองคำ:** ต่ำกว่า 4,000 ดอลลาร์ ลงพร้อมหุ้นแม้ยีลด์ลดลง ซึ่งผิดจากความสัมพันธ์ปกติ - **น้ำมัน:** เบรนท์ต่ำกว่า 112 ดอลลาร์ WTI ราว 102 ดอลลาร์ (Bloomberg) - **คริปโต:** บิตคอยน์ต่ำกว่า 77,000 ดอลลาร์หลังเหตุแฮ็ก Binance"
+        },
+        {
+          "h": "ปฏิทินที่ต้องจับตา (เวลาไทย แปลงโดยทีมข่าว)",
+          "p": "- **จันทร์ 2 พ.ย. 22:00 น.** — ISM ภาคการผลิตเดือนตุลาคม คาดราว 54.6 จาก 54.5 (CMC Markets) ดัชนีเหนือ 50 หมายถึงขยายตัว จุดที่ควรดูคือดัชนีราคาที่จ่าย (prices paid) ซึ่งอาจบอกทิศทาง CPI เดือนตุลาคม - **อังคาร 3 พ.ย.** — เลือกตั้งกลางเทอม ผลจะทยอยออกตั้งแต่เช้าวันพุธตามเวลาไทย พร้อม JOLTS (ตำแหน่งงานว่าง) และงบ AMD - **พุธ 4 พ.ย. 22:00 น.** — ISM ภาคบริการ คาดราว 54.8–54.9 - **พฤหัส 5 พ.ย. 19:00 น.** — ธนาคารกลางอังกฤษประกาศดอกเบี้ย (ปัจจุบัน 3.75%) โดย Goldman Sachs และ JPMorgan คาดว่าจะขึ้น 0.25% - **ศุกร์ 6 พ.ย. 20:30 น.** — การจ้างงานนอกภาคเกษตรเดือนตุลาคม CNBC อ้าง FactSet คาด 55,000 ตำแหน่ง อัตราว่างงานทรงตัวที่ 4.2% เทียบกับเดือนกันยายนที่ 29,000 ตำแหน่ง"
+        },
+        {
+          "h": "มุมนักลงทุนไทย",
+          "p": "ยังไม่มีข้อมูลยืนยันค่าเงินบาทเช้านี้ แต่ดัชนีดอลลาร์ที่ทรงตัวราว 102 และน้ำมันที่อ่อนลงช่วงสุดสัปดาห์เป็นปัจจัยที่ช่วยลดแรงกดดันต่อประเทศผู้นำเข้าน้ำมันอย่างไทยได้บางส่วน ความเสี่ยงที่ต้องระวังคือคืนวันพุธตามเวลาไทยที่ผลเลือกตั้งจะออก และคืนวันศุกร์ที่ตัวเลขจ้างงานจะชี้ว่าเฟดจะขึ้นดอกเบี้ยเดือนธันวาคมหรือไม่ ถ้าเฟดขึ้นดอกเบี้ย ดอลลาร์มักแข็งค่า ซึ่งมักดึงเงินทุนออกจากตลาดเกิดใหม่"
+        }
+      ],
+      "quote": "สัปดาห์นี้ตลาดไม่ได้รอคำตอบเดียว แต่รอสามคำตอบที่เชื่อมกัน การเมืองสหรัฐฯ จะกำหนดทั้งกฎเกณฑ์ AI และความเสี่ยงสงครามที่ส่งผลถึงราคาน้ำมัน ราคาน้ำมันส่งผลถึงเงินเฟ้อ และตัวเลขจ้างงานจะตัดสินว่าเฟดมีเหตุผลขึ้นดอกเบี้ยหรือไม่ เมื่อทองและคริปโตยังลงพร้อมหุ้น เรามองว่าตลาดกำลังลดความเสี่ยงทั้งระบบ มากกว่าจะเลือกหลบในสินทรัพย์ใดสินทรัพย์หนึ่ง",
+      "quoteBy": "— ทีมข่าว PixelVest",
+      "takeaway": "สัปดาห์ 2–6 พ.ย. ตลาดต้องผ่านงบ Apple (คืนนี้) และ AMD, เลือกตั้งกลางเทอมวันอังคาร และตัวเลขจ้างงานวันศุกร์ที่คาดเพียง 55,000 ตำแหน่ง หลังสุดสัปดาห์ที่มีเหตุแฮ็ก Binance 6.3 พันล้านดอลลาร์ ทองหลุด 4,000 ดอลลาร์ และน้ำมันอ่อนลงจากความหวังทางการทูต ตัวชี้ขาดคือการจ้างงานและท่าทีต่ออิหร่านหลังการเลือกตั้ง ซึ่งจะบอกว่าโอกาสเฟดขึ้นดอกเบี้ยเดือนธันวาคมราว 80% จะคงอยู่หรือไม่",
+      "sources": [
+        {
+          "text": "Wall St Week Ahead: Midterm elections, earnings, jobs data loom for AI-wary market — Reuters via Kitco",
+          "url": "https://www.kitco.com/news/off-the-wire/2026-10-30/wall-st-week-ahead-midterm-elections-earnings-jobs-data-loom-ai-wary"
+        },
+        {
+          "text": "Wall St Week Ahead-Midterm US elections, earnings, jobs data loom for AI-wary stock market — Devdiscourse",
+          "url": "https://www.devdiscourse.com/article/international/3999839-wall-st-week-ahead-midterm-us-elections-earnings-jobs-data-loom-for-ai-wary-stock-market"
+        },
+        {
+          "text": "Midterms, Apple earnings, jobs report. Wall Street faces a big week ahead just as investors dump tech — CNBC",
+          "url": "https://www.cnbc.com/2026/10/30/stock-market-next-week-outlook-for-nov-2-6-2026.html"
+        },
+        {
+          "text": "The Week Ahead: ISM PMI reports, US jobs report, Apple earnings — CMC Markets",
+          "url": "https://www.cmcmarkets.com/en-gb/news-and-analysis/the-week-ahead-ism-pmi-reports-us-jobs-report-apple-earnings"
+        },
+        {
+          "text": "The Week Ahead: AI Earnings, U.S. Midterms and Jobs Data Test U.S. Stocks — FXEmpire",
+          "url": "https://www.fxempire.com/forecasts/article/the-week-ahead-ai-earnings-u-s-midterms-and-jobs-data-test-u-s-stocks-1641771"
+        },
+        {
+          "text": "Global Stock Markets Enter a Packed Week as Tech Stocks Fall and Hedge Funds Cut Exposure — Blockonomi",
+          "url": "https://blockonomi.com/global-stock-markets-enter-a-packed-week-as-tech-stocks-fall-and-hedge-funds-cut-exposure"
+        },
+        {
+          "text": "Week ahead: Nonfarm payrolls and US midterm elections take center stage — FXStreet",
+          "url": "https://www.fxstreet.com/analysis/week-ahead-nonfarm-payrolls-and-us-midterm-elections-take-center-stage-202610301019"
+        },
+        {
+          "text": "Forecasting the upcoming week: US midterm elections, payrolls and the BoE in the spotlight — FXStreet",
+          "url": "https://www.fxstreet.com/news/forecasting-the-upcoming-week-us-midterm-elections-payrolls-and-the-boe-in-the-spotlight-202610301721"
+        },
+        {
+          "text": "Binance says $6.3bn stolen in biggest crypto heist in history: What we know — Al Jazeera",
+          "url": "https://aljazeera.com/news/2026/10/30/binance-says-6-3bn-stolen-in-biggest-crypto-heist-in-history-what-we-know"
+        },
+        {
+          "text": "Gold falls below $4,000 amid tech selloff — BeInCrypto",
+          "url": "https://beincrypto.com/gold-price-below-4000-tech-selloff/"
+        },
+        {
+          "text": "Gold Plunges in Sudden Selloff as Investors Scramble for Liquidity — Channelchek",
+          "url": "https://dashboard.channelchek.com/?p=100568"
+        },
+        {
+          "text": "Hedge funds slash tech exposure at fastest pace in a decade — Hedgeweek",
+          "url": "https://hedgeweek.com/news/hedge-funds-slash-tech-exposure-at-fastest-pace-in-a-decade"
+        },
+        {
+          "text": "Latest Oil Market News and Analysis for Nov. 2 — Bloomberg",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-01/latest-oil-market-news-and-analysis-for-nov-2"
+        },
+        {
+          "text": "Oil Falls Ahead of U.S. Midterms Despite Hormuz Tensions on Hopes for Diplomatic Solution — Bloomingbit",
+          "url": "https://en.bloomingbit.io/feed/news/123403"
+        },
+        {
+          "text": "OPEC+ press release, 1 November 2026 — OPEC",
+          "url": "https://www.opec.org/pr-detail/620-1-november-2026.html"
+        },
+        {
+          "text": "Vance's letter to Iran leader amid Trump's strike threats — The Week",
+          "url": "https://www.theweek.in/news/middle-east/2026/10/29/us-seeks-peace-talks-with-iran-vance-letter.amp.html"
+        },
+        {
+          "text": "Democrats 85% to Flip the House in 2026 Midterms, Senate Still a Toss-Up — DeFi Rate",
+          "url": "https://defirate.com/news/democrats-85-percent-to-flip-house-2026-midterms-senate-still-toss-up/"
+        },
+        {
+          "text": "US midterm elections 2026: What could the results mean for the dollar and Treasury yields? — Capital.com",
+          "url": "https://capital.com/en-int/analysis/us-midterm-elections-2026-what-could-the-results-mean-for-the-dollar-and-treasury-yields"
+        },
+        {
+          "text": "Dollar Flat at 101.94 as Bitcoin Reels From Heist — Tech Insider",
+          "url": "https://tech-insider.org/dollar-rangebound-us-midterms-bitcoin-binance-heist-2026/"
+        },
+        {
+          "text": "Dollar-yen: U.S. Midterm Elections the Biggest Wildcard — BigGo Finance",
+          "url": "https://finance.biggo.com/news/881b680e-3c43-482d-ac7c-b0bb94622e54"
+        },
+        {
+          "text": "2 Year Treasury Rate — MarketXLS (FRED data)",
+          "url": "https://marketxls.com/indicators/2-year-treasury-rate"
+        },
+        {
+          "text": "What to Expect from Apple's Q4 2026 Earnings on November 2 — iThinkDiff",
+          "url": "https://www.ithinkdiff.com/apple-q4-2026-earnings-what-to-expect/"
+        },
+        {
+          "text": "Apple earnings preview Q4 2026 — S&P Global Market Intelligence",
+          "url": "https://www.spglobal.com/market-intelligence/en/news-insights/research/2026/10/apple-earnings-preview-q4-2026"
+        },
+        {
+          "text": "Apple to Report Q4 2026 Earnings on November 2 — MacRumors",
+          "url": "https://macrumors.com/2026/10/06/apple-q4-2026-earnings-nov-2"
+        },
+        {
+          "text": "Q3 2026 Earnings Calendar: Big Tech, Bank and Chip Dates — Signalstack",
+          "url": "https://www.signalstack.news/earnings/q3-2026/"
+        },
+        {
+          "text": "Apple, AMD and Palantir Lead the Earnings Week of November 2 — Stocktitan",
+          "url": "https://www.stocktitan.net/articles/earnings-calendar-week-of-november-2-2026"
+        },
+        {
+          "text": "Advanced Micro Devices Q4 earnings call highlights (Feb 2026) — MarketBeat",
+          "url": "https://www.marketbeat.com/instant-alerts/advanced-micro-devices-q4-earnings-call-highlights-2026-02-03/?.tsrc=rss"
+        },
+        {
+          "text": "Bank of England Interest Rate Decision November 2026 — days.to",
+          "url": "https://days.to/when-is/bank-of-england-interest-rate-decision"
+        },
+        {
+          "text": "Goldman Sachs forecasts Bank of England rate hike in November — Traders Union",
+          "url": "https://tradersunion.com/news/financial-news/show/3327315-goldman-sachs-bank-of-england-rate-hike-forecast/"
+        },
+        {
+          "text": "Markets live: Westpac reports $6.8 billion profit, Wall Street sinks on AI fears, ASX on edge ahead of RBA meeting — ABC News",
+          "url": "https://abc.net.au/news/2026-11-02/asx-markets-business-live-news-nov-2/107334212"
+        }
+      ]
+    },
+    "featured": true,
+    "agent": "hanako",
+    "image": "assets/images/94-market-2026-11-02.jpg"
+  },
+  {
+    "id": 95,
+    "cat": "เทคโนโลยี",
+    "title": "นักวิเคราะห์หั่นเป้า Alphabet ยกแผงหลังหุ้นร่วงหนักสุดในวันเดียวนับแต่เข้าตลาด แต่เกือบทุกค่ายยังให้เรตติ้งเชิงบวก",
+    "excerpt": "หุ้น GOOGL ปิดวันศุกร์ที่ 30 ต.ค. ที่ 279.84 ดอลลาร์ หลังร่วง 12.64% ในวันพฤหัส ซึ่งเป็นการลดลงในวันเดียวที่หนักที่สุดนับตั้งแต่เข้าตลาดปี 2547 Morgan Stanley, JPMorgan, Cantor และอีกหลายค่ายลดเป้าลงพร้อมกัน แต่เกือบทุกค่ายยังคงเรตติ้งเชิงบวก ส่วนประเด็นที่ทำให้ตลาดกังวลนอกจาก capex คือรายได้ Search ที่ต่ำกว่าคาด",
+    "author": "ทีมข่าว PixelVest",
+    "date": "2 พ.ย. 2026",
+    "iso": "2026-11-02",
+    "read": 4,
+    "syms": [
+      "GOOGL"
+    ],
+    "rank": 95,
+    "body": {
+      "intro": "หุ้น Alphabet Inc. Class A (NASDAQ: GOOGL) ปิดวันศุกร์ที่ 30 ตุลาคม 2569 ที่ **279.84 ดอลลาร์** ลดลง 1.40% ตามข้อมูลของ Yahoo Finance และ StockAnalysis วันก่อนหน้า (พฤหัสที่ 29 ต.ค.) หุ้นร่วง **12.64%** ปิดที่ 283.82 ดอลลาร์ ถ้าคำนวณจากข้อมูลเดียวกัน หุ้นลดลงราว 14% ภายในสองวันทำการหลังประกาศงบไตรมาส 3 ในบทความภาพรวมตลาดวันที่ 1 พ.ย. เราได้สรุปตัวเลขหลักของงบไว้แล้ว ได้แก่ capex 51.4 พันล้านดอลลาร์ กระแสเงินสดอิสระติดลบ 9.1 พันล้านดอลลาร์ และ Google Cloud ที่โต 103% บทความนี้จะดูต่อว่าตลาดตอบสนองอย่างไร นักวิเคราะห์ปรับมุมมองแค่ไหน และมีประเด็นอะไรนอกเหนือจาก capex ที่ทำให้หุ้นลงแรงกว่าที่หลายคนคาด - **Search ต่ำกว่าคาด** ซึ่งเป็นธุรกิจที่หาเงินให้บริษัทมากที่สุด CNBC รายงานว่ารายได้ Search อยู่ที่ 63.3 พันล้านดอลลาร์ โต 12% ต่ำกว่าที่นักวิเคราะห์คาดไว้ 64.96 พันล้านดอลลาร์ ส่วนรายได้รวม 127.6 พันล้านดอลลาร์ก็ต่ำกว่าฉันทามติ 128.2 พันล้านดอลลาร์เล็กน้อย ผู้บริหารชี้ว่าจำนวนการค้นหาโตเร็วที่สุดในรอบห้าปีจากการใช้งาน AI แต่นักวิเคราะห์บางส่วนมองว่าการเติบโตที่ชะลอลงจากไตรมาส 2 มาจากอัตราแลกเปลี่ยนและปัจจัยฝั่งค้าปลีกและสื่อ - **กำไรต่อหุ้นพลาดเป้ามาก** EPS อยู่ที่ 2.12 ดอลลาร์ ขณะที่ตลาดคาดไว้ราว 2.94–3.02 ดอลลาร์ (แต่ละแหล่งใช้ฉันทามติต่างกัน) Investing.com คำนวณว่าพลาดเป้าราว 30% สาเหตุหลักคือรายการ \"รายได้และค่าใช้จ่ายอื่น\" ที่ติดลบราว 8.2 พันล้านดอลลาร์ ส่วนใหญ่มาจากมูลค่าเงินลงทุนใน SpaceX ที่ลดลง ตามที่บริษัทระบุในแบบ 10-Q (ตัวเลขจาก CNBC อยู่ที่ 8.66 พันล้านดอลลาร์) นอกจากนี้ยังมีค่าใช้จ่ายจากคำตัดสินของคณะกรรมาธิการยุโรปด้วย ตัวอย่างที่บอกว่าตลาดกังวลเรื่อง Search จริงจังแค่ไหนคือ วันศุกร์ที่ 30 ต.ค. หุ้น Reddit ร่วงราว 20–30% ตามแต่ละแหล่ง หลังบริษัทเตือนว่าการที่ Google ใช้ AI ในหน้าค้นหามากขึ้นกำลังลดทราฟฟิกที่ส่งต่อมายังเว็บของบริษัท (The Star อ้าง Reuters) เรื่องนี้ชี้ว่า Google กำลังเปลี่ยนวิธีการค้นหาไปอย่างมาก แต่รายได้ Search ของ Google เองไตรมาสนี้ก็ยังไม่ได้เร่งตัวขึ้นให้เห็น - **Morgan Stanley: Overweight เป้า 375 ดอลลาร์ (จาก 400)** Investing.com รายงานว่าลดประมาณการ EPS ปี 2570–2571 ลง 2% แต่แทบไม่แตะประมาณการรายได้ Finimize สรุปว่า Morgan Stanley มองว่าหุ้นจะกลับมาได้มูลค่าสูงขึ้นอีกครั้งก็ต่อเมื่อบริษัทพิสูจน์ได้ว่าผลิตภัณฑ์ AI มีฐานผู้ใช้ขนาดใหญ่และหารายได้นอกเหนือจาก Search แบบเดิมได้ - **JPMorgan: Overweight เป้า 375 ดอลลาร์ (จาก 425)** ลดลงราว 11.8% - **Cantor Fitzgerald: Overweight เป้า 350 ดอลลาร์ (จาก 420)** Deepak Mathivanan คงเรตติ้ง Benzinga พาดหัวว่าฝ่ายมองบวกยังยืนมุมเดิม โดยให้เหตุผลว่า Alphabet มีเทคโนโลยี AI ครบทุกชั้นตั้งแต่ชิปไปจนถึงตัวผลิตภัณฑ์ - **KeyBanc: Overweight เป้า 385 ดอลลาร์ (จาก 410)** - **Rosenblatt: Buy เป้า 380 ดอลลาร์ (จาก 410)** - **Scotiabank: Sector Outperform เป้า 375 ดอลลาร์ (จาก 450)** สำหรับหุ้น Class C (GOOG) - **Barclays: Overweight เป้า 405 ดอลลาร์** ให้เหตุผลเรื่องความกังวลต่อรายได้โฆษณา ทีมข่าวยังไม่พบตัวเลขเป้าเดิม - **Pivotal Research: Buy เป้า 475 ดอลลาร์ (คงเดิม)** TIKR รายงานว่า Pivotal มองว่ากระแสเงินสดอิสระที่ติดลบมากกว่าที่ตัวเองคาดไว้ (ราว -3 พันล้านดอลลาร์) มาจากจังหวะของเงินทุนหมุนเวียน ไม่ใช่ปัญหาเชิงโครงสร้าง *(ทีมข่าวพบการยืนยันการคงเป้าครั้งนี้จาก TIKR เพียงแหล่งเดียว)* เรามองว่าภาพนี้คล้ายกับที่เกิดกับ CoreWeave เมื่อสัปดาห์ก่อน คือนักวิเคราะห์ไม่ได้เปลี่ยนมุมมองต่อธุรกิจ แต่ลดราคาที่ยอมจ่ายลง เป้าที่ต่ำที่สุดในรายการข้างต้น (Cantor 350 ดอลลาร์) ยังสูงกว่าราคาปิดวันศุกร์ราว 25% แปลว่าในมุมนักวิเคราะห์ หุ้นลงไปลึกกว่าที่พื้นฐานเปลี่ยนไป ส่วนตัวเลขฉันทามติที่ MarketBeat แสดงไว้ราว 410 ดอลลาร์น่าจะยังไม่รวมการลดเป้ารอบนี้ทั้งหมด จึงยังไม่ควรใช้อ้างอิง *หมายเหตุ: บทความนี้จัดทำเพื่อให้ข้อมูลและมุมมองเชิงบรรณาธิการเท่านั้น ไม่ใช่คำแนะนำการลงทุน โปรดประเมินความเสี่ยงก่อนตัดสินใจทุกครั้ง*",
+      "sections": [
+        {
+          "h": "วันที่แย่ที่สุดของ Alphabet ในฐานะบริษัทจดทะเบียน",
+          "p": "Yahoo Finance รายงานว่าการร่วงวันที่ 29 ต.ค. เป็นวันที่หุ้นลดลงหนักที่สุดนับตั้งแต่ Alphabet (ตอนนั้นยังชื่อ Google) เข้าตลาดในปี 2547 มูลค่าตลาดหายไปราว 475–482 พันล้านดอลลาร์ ตัวเลขนี้ต่างกันเล็กน้อยตามวิธีคำนวณของแต่ละสำนัก ส่วน NBC News รายงานว่าช่วงที่ลงลึกที่สุดระหว่างวัน หุ้นลดลงถึง 15.8% และมูลค่าตลาดหายไปเกิน 550 พันล้านดอลลาร์ หลายแหล่งระบุว่านี่เป็นการสูญมูลค่าตลาดในวันเดียวที่มากที่สุดเป็นอันดับสองในประวัติศาสตร์หุ้นสหรัฐฯ รองจาก Nvidia ที่หายไป 589 พันล้านดอลลาร์ในเดือนมกราคม 2568"
+        },
+        {
+          "h": "สิ่งที่ตลาดลงโทษไม่ได้มีแค่ capex",
+          "p": "ข้อสังเกตของเราคือ ถ้าปัญหามีแค่ capex ที่สูง หุ้นอาจไม่ร่วงหนักขนาดนี้ เพราะตลาดรู้อยู่แล้วว่า Alphabet ลงทุนหนัก งบรอบนี้มีอีกสองเรื่องที่ทำให้ตลาดผิดหวัง"
+        },
+        {
+          "h": "นักวิเคราะห์ลดเป้าเกือบทั้งแถว แต่ไม่มีค่ายใหญ่ลดเรตติ้ง",
+          "p": "Yahoo Finance รายงานว่าหลังงบมีนักวิเคราะห์ราว 13 ราย ลดราคาเป้าหมาย ตัวอย่างที่ยืนยันได้:"
+        },
+        {
+          "h": "มุมบวก: ธุรกิจที่โตเร็วยังโตต่อ",
+          "p": "- **Backlog ของ Cloud สูงถึง 561 พันล้านดอลลาร์** บริษัทคาดว่าจะรับรู้เป็นรายได้ได้มากกว่า 55% ภายใน 24 เดือน (Yahoo Finance สรุปจากการประชุมนักวิเคราะห์) Backlog หมายถึงสัญญาที่ลูกค้าเซ็นแล้วแต่ยังไม่ได้รับรู้เป็นรายได้ ตัวเลขนี้ช่วยให้มองเห็นรายได้ล่วงหน้าได้ชัด - **แอป Gemini มีผู้ใช้ 1 พันล้านราย** ผู้บริหารระบุว่าเป็นผลิตภัณฑ์ที่โตเร็วที่สุดในประวัติศาสตร์ของ Google ตัวเลขนี้ตรงกับบททดสอบที่ Morgan Stanley ตั้งไว้ว่า AI ต้องมีฐานผู้ใช้ขนาดใหญ่ - **กำไรจากการดำเนินงานยังโต** กำไรจากการดำเนินงานเพิ่มขึ้น 30% เป็น 40.6 พันล้านดอลลาร์ ส่วนการขาดทุนจาก SpaceX เป็นผลขาดทุนทางบัญชีที่ยังไม่ได้ขายจริง ไม่ได้เกิดจากธุรกิจหลัก"
+        },
+        {
+          "h": "มุมลบ: คำถามเรื่องเงินสดและ Search ยังไม่มีคำตอบ",
+          "p": "- **capex ปี 2570 ยังไม่มีตัวเลข** บริษัทคงกรอบปี 2569 ไว้ที่ 195–205 พันล้านดอลลาร์ แต่บอกเพียงว่าปี 2570 จะ \"เพิ่มขึ้นอย่างมีนัยสำคัญ\" และจะให้รายละเอียดตอนประกาศงบไตรมาส 4 ตลาดจึงต้องรออีกราวสามเดือน - **อัตรากำไรของ Cloud มีแรงกดดันระยะสั้น** เพราะกำลังประมวลผลไม่พอ Google จึงเริ่มเช่ากำลังประมวลผลจากผู้ให้บริการภายนอกตั้งแต่ปลายไตรมาส 3 ซึ่งมีต้นทุนสูงกว่าใช้ของตัวเอง - **มีคดีความรออยู่** สำนักงานกฎหมายหลายแห่งออกประกาศเรื่องคดีฟ้องกลุ่มของผู้ถือหุ้น (securities class action) ที่ศาลแขวงแคลิฟอร์เนียตอนเหนือ ซึ่งยื่นฟ้องตั้งแต่ 2 ต.ค. เรื่องข้อมูลการพัฒนาโมเดล Gemini 3.5 Pro กำหนดยื่นขอเป็นโจทก์หลักคือ 30 พ.ย.–1 ธ.ค. (ข้อมูลส่วนใหญ่มาจากประกาศของสำนักงานกฎหมาย ไม่ใช่เอกสารศาล)"
+        },
+        {
+          "h": "สิ่งที่ต้องจับตาต่อ",
+          "p": "- **หุ้นจะยืนเหนือระดับปิดหลังวันที่ร่วงได้หรือไม่** หากหุ้นลงต่อต่ำกว่าราว 280 ดอลลาร์โดยไม่มีข่าวใหม่ อาจแปลว่าตลาดยังปรับมุมมองต่อ capex ของทั้งกลุ่ม ไม่ใช่แค่ตอบสนองต่องบของ Alphabet - **นักวิเคราะห์ลดเรตติ้งหรือไม่** ตอนนี้มีแค่การลดเป้า หากค่ายใหญ่เริ่มปรับเรตติ้งลงเป็น Neutral จะเป็นสัญญาณว่ามุมมองต่อธุรกิจเปลี่ยนจริง - **Search ในไตรมาส 4** ซึ่งเป็นฤดูกาลช้อปปิ้งและโฆษณาค้าปลีก ถ้าการเติบโตกลับมาเร่งตัว ข้อกังวลว่า AI กำลังกัดกิน Search ของตัวเองจะลดลง แต่ถ้ายังชะลอต่อ ข้อกังวลนี้มีแนวโน้มหนักขึ้น"
+        }
+      ],
+      "quote": "งบไตรมาสนี้ทำให้ตลาดต้องตอบสองคำถามพร้อมกัน คือเงินลงทุน AI จะคุ้มเมื่อไหร่ และธุรกิจ Search ยังโตได้หรือไม่ในวันที่ Google เองเป็นคนเปลี่ยนวิธีค้นหา Cloud กับ Gemini ตอบคำถามแรกได้บางส่วนแล้ว แต่คำถามที่สองยังไม่มีคำตอบ นักวิเคราะห์ลดเป้าโดยไม่ลดเรตติ้ง จึงเท่ากับยอมรับว่าธุรกิจยังดี แต่ไม่ควรให้ค่าหุ้นแพงเท่าเดิมจนกว่าคำถามที่สองจะชัดขึ้น",
+      "quoteBy": "— ทีมข่าว PixelVest",
+      "takeaway": "GOOGL ปิด 30 ต.ค. ที่ 279.84 ดอลลาร์ หลังร่วง 12.64% ในวันที่ 29 ต.ค. ซึ่งเป็นวันที่แย่ที่สุดนับตั้งแต่เข้าตลาด สาเหตุคือ Search ที่ต่ำกว่าคาด EPS ที่พลาดเป้าราว 30% จากผลขาดทุน SpaceX และกระแสเงินสดอิสระที่ติดลบ นักวิเคราะห์อย่างน้อย 7 ค่ายลดเป้าลงมาอยู่ที่ 350–405 ดอลลาร์ แต่ยังคงเรตติ้งเชิงบวก ฝั่งบวกคือ Cloud backlog 561 พันล้านดอลลาร์และผู้ใช้ Gemini 1 พันล้านราย ฝั่งลบคือ capex ปี 2570 ที่ยังไม่มีตัวเลขและแรงกดดันต่ออัตรากำไรของ Cloud",
+      "stats": [
+        {
+          "label": "ราคาปิด 29 ต.ค. 2569",
+          "value": "$283.82",
+          "change": "-12.64% (หนักที่สุดในวันเดียวนับแต่เข้าตลาด)"
+        },
+        {
+          "label": "ราคาปิด 30 ต.ค. 2569",
+          "value": "$279.84",
+          "change": "-1.40%"
+        },
+        {
+          "label": "มูลค่าตลาดที่หายไป 29 ต.ค.",
+          "value": "ราว $475–482 พันล้าน",
+          "change": "ระหว่างวันเกิน $550 พันล้าน (NBC News)"
+        },
+        {
+          "label": "รายได้ไตรมาส 3",
+          "value": "$127.6 พันล้าน",
+          "change": "ฉันทามติ $128.2 พันล้าน"
+        },
+        {
+          "label": "รายได้ Search",
+          "value": "$63.3 พันล้าน (+12%)",
+          "change": "ฉันทามติ $64.96 พันล้าน"
+        },
+        {
+          "label": "EPS",
+          "value": "$2.12",
+          "change": "ฉันทามติราว $2.94–3.02"
+        },
+        {
+          "label": "ผลขาดทุนจากรายได้/ค่าใช้จ่ายอื่น",
+          "value": "ราว $8.2 พันล้าน",
+          "change": "ส่วนใหญ่จากมูลค่า SpaceX"
+        },
+        {
+          "label": "Cloud backlog",
+          "value": "$561 พันล้าน",
+          "change": "รับรู้ >55% ใน 24 เดือน"
+        },
+        {
+          "label": "Capex ปี 2569",
+          "value": "$195–205 พันล้าน",
+          "change": "คงเดิม"
+        },
+        {
+          "label": "Morgan Stanley",
+          "value": "Overweight, เป้า $375",
+          "change": "จาก $400"
+        },
+        {
+          "label": "JPMorgan",
+          "value": "Overweight, เป้า $375",
+          "change": "จาก $425"
+        },
+        {
+          "label": "Cantor Fitzgerald",
+          "value": "Overweight, เป้า $350",
+          "change": "จาก $420"
+        },
+        {
+          "label": "KeyBanc",
+          "value": "Overweight, เป้า $385",
+          "change": "จาก $410"
+        },
+        {
+          "label": "Rosenblatt",
+          "value": "Buy, เป้า $380",
+          "change": "จาก $410"
+        },
+        {
+          "label": "Scotiabank (GOOG)",
+          "value": "Sector Outperform, เป้า $375",
+          "change": "จาก $450"
+        },
+        {
+          "label": "Barclays",
+          "value": "Overweight, เป้า $405",
+          "change": ""
+        },
+        {
+          "label": "Pivotal Research",
+          "value": "Buy, เป้า $475",
+          "change": "คงเดิม (TIKR)"
+        }
+      ],
+      "sources": [
+        {
+          "text": "Alphabet Inc. (GOOGL) Stock Historical Prices — Yahoo Finance",
+          "url": "https://finance.yahoo.com/quote/GOOGL/history/"
+        },
+        {
+          "text": "Alphabet (GOOGL) Stock Price History — StockAnalysis",
+          "url": "https://stockanalysis.com/stocks/googl/history/"
+        },
+        {
+          "text": "Alphabet loses $475 billion in market value, the biggest drop in its history — Yahoo Finance",
+          "url": "https://finance.yahoo.com/markets/article/alphabet-heads-for-a-500-billion-drop-in-market-value-the-biggest-in-its-history-134824763.html"
+        },
+        {
+          "text": "Alphabet loses $482 billion in market value, the biggest drop in its history — ARY News",
+          "url": "https://arynews.tv/alphabet-loses-482bn-in-market-value-biggest-drop-in-its-history"
+        },
+        {
+          "text": "Google's parent company suffers largest stock market wipeout ever — NBC Montana",
+          "url": "https://nbcmontana.com/news/nation-world/googles-parent-company-suffers-largest-stock-market-wipeout-ever-artificial-intelligence-shareholders"
+        },
+        {
+          "text": "Alphabet (GOOGL) earnings Q3 2026 — CNBC",
+          "url": "https://www.cnbc.com/2026/10/28/alphabet-googl-earnings-q3-2026.html"
+        },
+        {
+          "text": "Alphabet Inc. Form 10-Q Q3 2026 — SEC",
+          "url": "https://www.sec.gov/Archives/edgar/data/0001652044/000165204426000084/goog-20260930.htm"
+        },
+        {
+          "text": "Alphabet Inc. Q3 2026 earnings release (Exhibit 99.1) — SEC",
+          "url": "https://www.sec.gov/Archives/edgar/data/0001652044/000165204426000080/googexhibit991q32026.htm"
+        },
+        {
+          "text": "Earnings call transcript: Alphabet Q3 2026 profit miss sparks 10% after-hours drop — Investing.com",
+          "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-alphabet-q3-2026-profit-miss-sparks-10-afterhours-drop-93CH-4981037"
+        },
+        {
+          "text": "Alphabet (GOOG) Q3 2026 Earnings Results & Call Transcript — MarketBeat",
+          "url": "https://www.marketbeat.com/earnings/reports/2026-10-28-alphabet-inc-stock/"
+        },
+        {
+          "text": "Alphabet Q3 Earnings Call Highlights — Yahoo Finance",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/alphabet-q3-earnings-call-highlights-050416594.html"
+        },
+        {
+          "text": "Alphabet Q3 2026 Earnings Call: Cloud Revenue Doubles, $8.2B SpaceX Loss Drags EPS — BigGo Finance",
+          "url": "https://finance.biggo.com/news/US_GOOGL_2026-10-28"
+        },
+        {
+          "text": "Morgan Stanley cuts Alphabet stock price target on growth concerns — Investing.com",
+          "url": "https://www.investing.com/news/analyst-ratings/morgan-stanley-cuts-alphabet-stock-price-target-on-growth-concerns-93CH-4981845"
+        },
+        {
+          "text": "Morgan Stanley Cut Alphabet's Target, Keeping One Big Test — Finimize",
+          "url": "https://finimize.com/content/morgan-stanley-cut-alphabets-target-keeping-one-big-test"
+        },
+        {
+          "text": "What Are Wall Street Analysts' Target Price for Alphabet Stock? — Yahoo Finance",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/wall-street-analysts-target-price-152156277.html"
+        },
+        {
+          "text": "Alphabet Bulls Dig in After Messy Q3: 'AI Stack Keeps Us Bullish' Cantor Says — Benzinga",
+          "url": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/10/62705724/alphabet-bulls-dig-in-after-messy-q3-ai-stack-keeps-us-bullish-cantor-says"
+        },
+        {
+          "text": "Could Alphabet Actually Climb 67%? Or Is Pivotal Research Totally Wrong? — TIKR",
+          "url": "https://www.tikr.com/blog/could-alphabet-actually-climb-67-or-is-pivotal-research-totally-wrong"
+        },
+        {
+          "text": "Alphabet (GOOGL) Stock Forecast and Price Target — MarketBeat",
+          "url": "https://www.marketbeat.com/stocks/NASDAQ/GOOGL/forecast/"
+        },
+        {
+          "text": "Reddit plunges as Google AI search squeezes traffic — The Star",
+          "url": "https://www.thestar.com.my/tech/tech-news/2026/10/30/reddit-pinterest-shares-tumble-on-weak-user-and-revenue-growth"
+        },
+        {
+          "text": "Reddit Stock Plunges 30% as Google's AI Search Hits Traffic and User Growth — Decrypt",
+          "url": "https://decrypt.co/382276/reddit-stock-plunges-30-googles-ai-search?amp=1"
+        },
+        {
+          "text": "Alphabet Investors Sue Over Gemini 3.5 Pro Launch Statements — OpenClassActions",
+          "url": "https://openclassactions.com/lawsuits/alphabet-gemini-securities-class-action.php"
+        }
+      ]
+    },
+    "tags": [
+      "Alphabet",
+      "Google",
+      "ราคาเป้าหมาย",
+      "Morgan Stanley",
+      "JPMorgan",
+      "Cantor Fitzgerald",
+      "Search",
+      "SpaceX",
+      "Google Cloud"
+    ],
+    "agent": "hanako"
   }
 ];
