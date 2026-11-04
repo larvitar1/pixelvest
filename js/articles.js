@@ -11539,5 +11539,550 @@ const ARTS = [
       "Google Cloud"
     ],
     "agent": "hanako"
+  },
+  {
+    "id": 96,
+    "cat": "ภาพรวมตลาด",
+    "title": "เดโมแครตกวาดทั้งสองสภา ตลาดกังวลกฎคุมดาต้าเซ็นเตอร์ ขณะที่ AMD งบเกินคาดชนกับ Apple ที่ส่งสัญญาณมาร์จิ้นหด",
+    "excerpt": "S&P 500 ตัดสถิติลงสามวันติด ปิดบวก 0.36% วันเลือกตั้ง ก่อนผลออกมาว่าเดโมแครตคุมทั้งสภาผู้แทนฯ และวุฒิสภา ฟิวเจอร์สร่วงแรงช่วงแรกจากความกังวลกฎคุมดาต้าเซ็นเตอร์ ขณะที่ AMD แนะนำรายได้ไตรมาสหน้าราว 17 พันล้านดอลลาร์ สวนทางกับ Apple ที่คาดมาร์จิ้นลดลงจากต้นทุนหน่วยความจำ",
+    "author": "ทีมข่าว PixelVest",
+    "date": "4 พ.ย. 2026",
+    "iso": "2026-11-04",
+    "read": 20,
+    "syms": [
+      "AMD",
+      "AAPL",
+      "NVDA",
+      "CRWV",
+      "DELTA"
+    ],
+    "rank": 96,
+    "body": {
+      "intro": "เช้าวันพุธที่ 4 พฤศจิกายน 2569 ตามเวลาไทย ตลาดหุ้นสหรัฐฯ ต้องตีความสองเรื่องที่ชี้คนละทาง ในเซสชันวันอังคารที่ 3 พ.ย. (วันเลือกตั้งกลางเทอม) S&P 500 ปิดบวก 0.36% ที่ราว 7,569 จุด ตัดสถิติลงสามวันติด Nasdaq บวก 0.83% ที่ราว 25,372 จุดจากหุ้นชิปที่ฟื้นตัว ส่วน Dow Jones ลง 0.38% หรือราว 197 จุด มาอยู่ที่ราว 51,787 จุด เพราะ Apple ลงหลังประกาศงบ (The Motley Fool, CappNotes) หลังตลาดปิด AMD ประกาศงบเกินคาด แต่ข่าวที่ใหญ่กว่ามาตอนกลางคืน เมื่อ Fox News Decision Desk คาดการณ์ว่าพรรคเดโมแครตจะได้ครองทั้งสภาผู้แทนฯ และวุฒิสภา หมายเหตุเรื่องตัวเลข: ตัวเลขปิดตลาดจากบางแหล่ง (เช่นสรุปข่าวของ Zacks บน Yahoo Finance) ไม่ตรงกับแหล่งส่วนใหญ่ ทีมข่าวจึงใช้ตัวเลขที่หลายแหล่งรายงานตรงกัน ส่วนการนับคะแนนบางเขตยังไม่จบ ผลเลือกตั้งจึงยังเป็นการคาดการณ์ของสื่อ ไม่ใช่ผลรับรองอย่างเป็นทางการ ปฏิกิริยาช่วงแรกจึงรุนแรง Fox Business รายงานว่าฟิวเจอร์ส S&P 500 ลง 1.3% และฟิวเจอร์ส Nasdaq-100 ลง 2.2% CNBC รายงานว่า CoreWeave (บริษัทคลาวด์ AI ที่กู้เงินมาสร้างดาต้าเซ็นเตอร์) ลงราว 7% ในการซื้อขายนอกเวลาบน Robinhood แต่ต่อมาตลาดฟื้นตัว ข้อมูลจาก Yahoo Finance เวลา 05:00 น. ตามเวลาตะวันออก (17:00 น. ตามเวลาไทย) ระบุว่าฟิวเจอร์ส Dow บวก 0.6% S&P 500 บวก 0.2% และ Nasdaq-100 ทรงตัวเหนือศูนย์เล็กน้อย ตัวเลขทั้งหมดนี้มาจากตลาดล่วงหน้า ตลาดหลักยังไม่เปิด **มุมลบ:** ถ้าข้อจำกัดระดับรัฐเกิดขึ้นจริงในรัฐที่มีโครงการมากอย่างเท็กซัส ห่วงโซ่ AI ทั้งผู้ให้เช่าดาต้าเซ็นเตอร์และผู้ผลิตชิปอาจได้รับคำสั่งซื้อช้าลง ซึ่งตลาดเพิ่งกังวลเรื่องผลตอบแทนจากเงินลงทุน AI มาตลอดเดือนตุลาคม **มุมบวก:** นักวิเคราะห์บางรายที่ CNBC อ้างถึงมองว่า ชัยชนะของเดโมแครตระดับรัฐอาจทำให้การก่อสร้างยากขึ้น แต่ระดับรัฐบาลกลางอาจเป็นผลดีต่ออุตสาหกรรม ส่วนสถิติของ Ned Davis Research ระบุว่า ตั้งแต่ปี 1930 เมื่อพรรคของประธานาธิบดีเสียสภาผู้แทนฯ S&P 500 ปรับขึ้นจนถึงสิ้นปีห้าในแปดครั้ง (Fox Business) แต่สถิติในอดีตไม่ได้รับประกันผลรอบนี้ **Apple** ประกาศงบไตรมาส 4 ปีงบประมาณ 2569 เมื่อ 2 พ.ย. ซึ่งเป็นงบแรกของ John Ternus ในฐานะซีอีโอ รายได้อยู่ที่ 114.5 พันล้านดอลลาร์ โต 12% รายได้ iPhone อยู่ที่ 57.6 พันล้านดอลลาร์ โต 17% แม้มียอดขาย iPhone 18 Pro เพียงแปดวัน อัตรากำไรขั้นต้นอยู่ที่ 47.9% แต่ในจำนวนนี้มีผลบวกราว 1 จุดจากเงินคืนภาษีนำเข้า ถ้าไม่นับส่วนนี้จะต่ำกว่าคาดการณ์ของ LSEG ที่ 47.5% ประเด็นที่ทำให้หุ้นลงคือแนวโน้มไตรมาสหน้า ซึ่ง Apple คาดอัตรากำไรขั้นต้นไว้ที่ 45–46% ต่ำกว่าค่าเฉลี่ยนักวิเคราะห์ที่ 46.3% โดยระบุว่าส่วนใหญ่มาจากต้นทุนหน่วยความจำ แม้จะคาดว่าไตรมาสนี้จะมีรายได้สูงสุดในประวัติศาสตร์บริษัท (CNBC, MacRumors, Yahoo Finance) หุ้นลงราว 3% หลังตลาดปิดวันจันทร์ และกดดัน Dow ต่อในวันอังคาร ด้าน Bank of America ยังคงคำแนะนำ \"ซื้อ\" ราคาเป้าหมาย 370 ดอลลาร์ ตามรายงานหลังการประกาศงบ ข้อสังเกตของเราคือ ต้นทุนหน่วยความจำที่สูงขึ้นจากความต้องการชิป AI เป็นรายได้ของฝั่งผู้ขายชิป แต่เป็นต้นทุนของฝั่งผู้ผลิตอุปกรณ์อย่าง Apple งบสองบริษัทนี้จึงแสดงให้เห็นว่ากระแส AI ไม่ได้ส่งผลกับหุ้นเทคทุกตัวไปในทางเดียวกัน ตัวแปรเหล่านี้เชื่อมกันผ่านเงินเฟ้อ น้ำมันที่ลงจากระดับเหนือ 110 ดอลลาร์ช่วยลดแรงกดดันด้านราคา ยีลด์และดอลลาร์จึงอ่อนลงตาม ซึ่งเป็นปัจจัยบวกต่อหุ้นที่ราคาสูงเทียบกำไร (valuation สูง) แต่เรื่องนี้ยังไม่ได้เปลี่ยนเดิมพันเรื่องเฟด รายงานที่อ้าง CME FedWatch หลังการประชุม 28 ต.ค. ระบุว่าโอกาสเฟดขึ้นดอกเบี้ย 0.25% ในการประชุม 9 ธ.ค. สูงราว 85% (Norada) ส่วนตัวเลขตำแหน่งงานว่าง JOLTS ที่มีกำหนดออกวันอังคาร ทีมข่าวยังไม่มีข้อมูลยืนยัน Delta Electronics (Thailand) อยู่ตรงจุดที่ข่าวสองเรื่องชนกัน มุมบวกคือแนวโน้มของ AMD ยืนยันว่าความต้องการชิป AI ในดาต้าเซ็นเตอร์ยังเร่งตัว ซึ่งเกี่ยวข้องกับอุปกรณ์จ่ายไฟและระบบระบายความร้อน มุมลบคือความเสี่ยงที่การสร้างดาต้าเซ็นเตอร์ในสหรัฐฯ จะช้าลงจากกฎระดับรัฐ ผู้ถือกองทุนหุ้นเทคสหรัฐฯ ควรทราบว่าช่วง 30 นาทีแรกหลังเปิดตลาดคืนนี้มีแนวโน้มผันผวนสูง เพราะตลาดต้องปรับราคาจากทั้งผลเลือกตั้งและงบในคืนเดียว *หมายเหตุ: บทความนี้จัดทำเพื่อให้ข้อมูลและมุมมองเชิงบรรณาธิการเท่านั้น ไม่ใช่คำแนะนำการลงทุน โปรดประเมินความเสี่ยงก่อนตัดสินใจทุกครั้ง*",
+      "sections": [
+        {
+          "h": "ผลเลือกตั้งที่ตลาดกลัว ไม่ใช่เรื่องภาษี แต่เป็นเรื่องดาต้าเซ็นเตอร์",
+          "p": "ปกติตลาดมักมองว่าสภาที่แบ่งขั้วกับประธานาธิบดีช่วยลดความเสี่ยงด้านนโยบาย แต่รอบนี้ตลาดกังวลอีกเรื่องหนึ่ง Yahoo Finance รายงานว่าตลาดรีบปรับราคาเพื่อสะท้อนการที่เดโมแครตกวาดทั้งสองสภา รวมถึงโอกาสที่มาตรการลงประชามติและนักการเมืองที่เพิ่งได้รับเลือกจะจำกัดการสร้างดาต้าเซ็นเตอร์ ประเด็นที่ตลาดจับตาที่สุดคือ Gina Hinojosa จากพรรคเดโมแครตชนะการเลือกตั้งผู้ว่าการรัฐเท็กซัส หลังหาเสียงว่าจะคุมเข้มการสร้างดาต้าเซ็นเตอร์ CNBC อ้างการประเมินของ Wells Fargo ว่ากำลังไฟฟ้าของดาต้าเซ็นเตอร์ที่วางแผนไว้ทั่วสหรัฐฯ ราว 27% อยู่ในรัฐเท็กซัส"
+        },
+        {
+          "h": "AMD กับ Apple: สองงบที่แสดงว่าใครได้และใครเสียจากต้นทุน AI",
+          "p": "**AMD** รายงานรายได้ไตรมาส 3 ที่ 13.38 พันล้านดอลลาร์ โต 45% จากปีก่อน สูงกว่าคาดการณ์ของ LSEG ที่ 13.09 พันล้านดอลลาร์ EPS ปรับปรุง (กำไรต่อหุ้นที่ตัดรายการพิเศษ) อยู่ที่ 2.09 ดอลลาร์ เทียบคาดราว 1.95 ดอลลาร์ รายได้ดาต้าเซ็นเตอร์ทำสถิติที่ 8.5 พันล้านดอลลาร์ โต 97% จากชิปเซิร์ฟเวอร์ EPYC และ GPU รุ่น MI450 บริษัทแนะนำรายได้ไตรมาส 4 ราว 17 พันล้านดอลลาร์ (บวกลบ 3%) สูงกว่าฉันทามติราว 16.2–16.3 พันล้านดอลลาร์ CFO ระบุว่ารายได้ AI ในดาต้าเซ็นเตอร์มีแนวโน้มแซงธุรกิจซีพียูเซิร์ฟเวอร์ในไตรมาส 4 (Investing.com, investingLive) หุ้นปิดตลาดปกติที่ 483.90 ดอลลาร์ บวก 3.65% และบวกเพิ่มราว 6–7% หลังตลาดปิด ก่อนที่ข่าวเลือกตั้งจะกดดันหุ้นชิปทั้งกลุ่ม จุดอ่อนอยู่ที่ธุรกิจพีซีและเกม ซึ่ง Sci-Tech Today รายงานว่ารายได้ลดลง 8% เหลือ 3.7 พันล้านดอลลาร์ และยังมีความเสี่ยงเรื่องหน่วยความจำ HBM (หน่วยความจำความเร็วสูงที่ใช้คู่ชิป AI) ขาดแคลน"
+        },
+        {
+          "h": "ภาพ Cross-asset: น้ำมันลงแรงจากร่างสันติภาพ ดอลลาร์อ่อนตามผลเลือกตั้ง",
+          "p": "- **น้ำมัน:** ตัวแปรที่เปลี่ยนมากที่สุดตั้งแต่บทความก่อน วันจันทร์ที่ 2 พ.ย. เบรนท์ลงราว 7.6% มาที่ 104.77 ดอลลาร์ต่อบาร์เรล หลังมีร่างข้อเสนอยุติสงครามสหรัฐฯ-อิหร่านเผยแพร่ออกมา วันอังคารเบรนท์ร่วงเร็วจาก 107.24 ลงไปถึง 100.80 ดอลลาร์ ก่อนกลับมาราว 104 ดอลลาร์ หลังเจ้าหน้าที่ปฏิเสธว่ายังไม่มีข้อตกลง (OilPrice.com) ด้าน WTI อยู่ราว 94.98 ดอลลาร์ช่วงเช้า (Schwab) ING มองว่ายังต้องรอดูว่าร่างนี้จะนำไปสู่ข้อตกลงจริงหรือไม่ และฝ่ายอิหร่านยังยืนยันว่าสหรัฐฯ ต้องยุติการปิดล้อมทางทะเลก่อนเปิดช่องแคบฮอร์มุซ - **พันธบัตร:** ยีลด์ 10 ปีอยู่ที่ 4.91% ในวันอังคาร ต่ำสุดในรอบราวแปดสัปดาห์ (Schwab) และเช้านี้ลงอีก 6 basis point (1 basis point = 0.01%) มาที่ 4.906% (Fox Business) - **ดอลลาร์และเยน:** ดัชนีดอลลาร์ลง 0.5% มาที่ 101.34 ในช่วงตลาดเอเชีย ใกล้ระดับต่ำสุดของเดือนที่ 101.25 (Reuters ผ่าน Investing.com) USD/JPY ลงไปต่ำสุดราว 157.39 เยน ก่อนกลับขึ้นเหนือ 158 (FXStreet) - **ทองคำ:** อยู่ราว 3,973 ดอลลาร์ต่อออนซ์ช่วงเช้าวันอังคาร (Schwab) และ Fortraders รายงานว่าปิดวันบวกราว 1.4% แต่แหล่งข่าวรายงานตัวเลขไม่ตรงกัน - **คริปโต:** บิตคอยน์อยู่ราว 77,530 ดอลลาร์ช่วงเช้า ก่อนปิดวันลงราว 2% (Schwab, Fortraders) ตลาดคริปโตยังไม่ฟื้นจากเหตุแฮ็ก Binance"
+        },
+        {
+          "h": "สิ่งที่ต้องจับตา (เวลาไทย แปลงโดยทีมข่าว)",
+          "p": "- **คืนนี้ 21:30 น.** — ตลาดหลักเปิด ดูว่าหุ้นในห่วงโซ่ดาต้าเซ็นเตอร์ (NVDA, CRWV) จะลงตามฟิวเจอร์สช่วงแรก หรือฟื้นตามฟิวเจอร์สช่วงหลัง และ AMD จะรักษาส่วนที่บวกหลังตลาดปิดได้หรือไม่ - **คืนนี้ 22:00 น.** — ISM ภาคบริการเดือนตุลาคม คาดราว 54.8–54.9 (CMC Markets) - **พฤหัสฯ 5 พ.ย. 19:00 น.** — ธนาคารกลางอังกฤษประกาศดอกเบี้ย Goldman Sachs และ JPMorgan คาดว่าจะขึ้น 0.25% จาก 3.75% - **ศุกร์ 6 พ.ย. 20:30 น.** — การจ้างงานนอกภาคเกษตรเดือนตุลาคม CNBC อ้าง FactSet คาด 55,000 ตำแหน่ง อัตราว่างงาน 4.2% - **ร่างสันติภาพสหรัฐฯ-อิหร่าน** — ถ้าคืบหน้า น้ำมันมีแนวโน้มอ่อนลงต่อ ถ้าล้ม ความเสี่ยงด้านอุปทานอาจกลับมาเร็ว เพราะก่อนเลือกตั้งตลาดเคยกังวลว่าจะมีการโจมตีรอบใหม่หลังเลือกตั้ง"
+        },
+        {
+          "h": "มุมนักลงทุนไทย",
+          "p": "ดอลลาร์ที่อ่อนลงและน้ำมันที่ลงจากระดับสูงเป็นปัจจัยที่มักช่วยค่าเงินในตลาดเกิดใหม่และลดต้นทุนนำเข้าพลังงานของไทย ทีมข่าวยังไม่มีข้อมูลยืนยันค่าเงินบาทและดัชนีหุ้นเอเชียเช้านี้ ส่วนหุ้นพลังงานไทยอ่อนไหวต่อราคาน้ำมันที่ลงแรงสองวันติด"
+        }
+      ],
+      "quote": "ตลาดได้คำตอบเรื่องการเมืองเร็วกว่าที่คิด แต่สิ่งที่น่ากังวลไม่ใช่การที่สภาแบ่งขั้ว ประเด็นจริงคือคำถามว่าการสร้างดาต้าเซ็นเตอร์จะเจออุปสรรคทางการเมืองระดับรัฐหรือไม่ เรามองว่าความเสี่ยงนี้วัดเป็นตัวเลขได้ยากกว่างบ AMD ที่แข็งแรงมาก ตลาดจึงมีแนวโน้มแกว่งระหว่างพื้นฐานกำไรที่ยังดีกับความไม่แน่นอนด้านกฎหมายไปอีกระยะ ขณะที่น้ำมันซึ่งลงแรงจากความหวังทางการทูตเป็นตัวช่วยเพียงตัวเดียวที่ยังเปราะบาง",
+      "quoteBy": "— ทีมข่าว PixelVest",
+      "takeaway": "S&P 500 ปิดบวก 0.36% วันเลือกตั้ง ก่อนเดโมแครตถูกคาดว่าคุมทั้งสองสภาและชนะผู้ว่าการรัฐเท็กซัส ทำให้ฟิวเจอร์ส Nasdaq-100 ลงไปถึง 2.2% ก่อนฟื้น AMD แนะนำรายได้ไตรมาสหน้าราว 17 พันล้านดอลลาร์ เกินคาด ส่วน Apple คาดอัตรากำไรขั้นต้นลดลงเหลือ 45–46% จากต้นทุนหน่วยความจำ เบรนท์ลงมาราว 104 ดอลลาร์จากร่างสันติภาพสหรัฐฯ-อิหร่าน และยีลด์ 10 ปีลงมาที่ราว 4.91% ตัวชี้ขาดต่อจากนี้คือรายละเอียดนโยบายดาต้าเซ็นเตอร์ระดับรัฐ และตัวเลขจ้างงานวันศุกร์",
+      "sources": [
+        {
+          "text": "Stock Market Today, Nov. 3: Markets Edge Higher as Semiconductor Stocks Rebound — The Motley Fool",
+          "url": "https://www.fool.com/coverage/stock-market-today/2026/11/03/stock-market-today-nov-3-markets-edge-higher-as-semiconductor-stocks-rebound/"
+        },
+        {
+          "text": "Closing Look — Tuesday, November 3, 2026 — CappNotes",
+          "url": "https://cappnotes.substack.com/p/closing-look-tuesday-november-3-2026"
+        },
+        {
+          "text": "The Stock Market Today, November 3, 2026, Ended Mixed — Stocktitan",
+          "url": "https://www.stocktitan.net/articles/stock-market-today-live-november-3-2026"
+        },
+        {
+          "text": "Stock Market News for Nov 3, 2026 — Yahoo Finance",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-news-nov-3-132100899.html"
+        },
+        {
+          "text": "S&P 500 snaps 3-day skid on Election Day as chip stocks rebound — CNBC",
+          "url": "https://www.cnbc.com/2026/11/02/stock-market-today-live-updates.html"
+        },
+        {
+          "text": "Stock futures rise as Democrats win big in midterms, traders bet they will slow data center buildout — CNBC",
+          "url": "https://www.cnbc.com/2026/11/03/stock-market-today-live-updates.html"
+        },
+        {
+          "text": "AI stocks slide as Texas governor result raises data center risks — CNBC",
+          "url": "https://www.cnbc.com/2026/11/04/ai-stocks-texas-governor-data-centers.html"
+        },
+        {
+          "text": "Midterm Election Day recap: Democrats flip Senate and House — CNBC",
+          "url": "https://www.cnbc.com/2026/11/03/midterm-elections-2026-live-updates.html"
+        },
+        {
+          "text": "US stock futures fall amid key Democratic midterm election wins — Fox Business",
+          "url": "https://www.foxbusiness.com/markets/us-stock-futures-tumble-democrats-score-key-midterm-election-wins"
+        },
+        {
+          "text": "Stock market today: Dow, S&P 500, Nasdaq futures fall after Democrats take control of House, Senate — Yahoo Finance",
+          "url": "https://ca.finance.yahoo.com/news/live/stock-market-today-dow-sp-500-nasdaq-midterm-elections-091834396.html"
+        },
+        {
+          "text": "US midterm election results live: Democrats win control of House and Senate — Al Jazeera",
+          "url": "https://www.aljazeera.com/amp/news/liveblog/2026/11/3/us-midterm-election-results-live-polls-to-start-closing-in-some-states"
+        },
+        {
+          "text": "US futures slide as Democrats lead midterm count, AI data centre fears hit tech — investingLive",
+          "url": "https://investinglive.com/stock-market-update/us-futures-slide-as-democrats-lead-midterm-count-ai-data-centre-fears-hit-tech/"
+        },
+        {
+          "text": "AMD stock jumps after hours as quarterly results, revenue guidance beat estimates — Investing.com",
+          "url": "https://www.investing.com/news/earnings/amd-stock-jumps-after-hours-as-quarterly-results-revenue-guidance-beat-estimates-4996344"
+        },
+        {
+          "text": "Earnings call transcript: AMD tops Q3 2026 estimates as stock jumps after hours — Investing.com",
+          "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-amd-tops-q3-2026-estimates-as-stock-jumps-after-hours-93CH-4996894"
+        },
+        {
+          "text": "AMD shares rise after hours as Q4 revenue outlook of $17bn tops forecasts on AI ramp — investingLive",
+          "url": "https://investinglive.com/stocks/amd-shares-rise-after-hours-as-q4-revenue-outlook-of-17bn-tops-forecasts-on-ai-ramp/"
+        },
+        {
+          "text": "AMD Q3 2026 Earnings Beat Expectations Significantly — Sci-Tech Today",
+          "url": "https://www.sci-tech-today.com/news/amd-q3-2026-earnings/"
+        },
+        {
+          "text": "Apple's stock drops on weak margin forecast in Ternus' first earnings report — CNBC",
+          "url": "https://www.cnbc.com/2026/11/02/apple-aapl-q4-2026-earnings-live-updates.html"
+        },
+        {
+          "text": "Apple Reports 4Q 2026 Results: $30.7B Profit on $114.5B Revenue — MacRumors",
+          "url": "https://www.macrumors.com/2026/11/02/apple-4q-2026-earnings/"
+        },
+        {
+          "text": "Apple reports fourth quarter results — Apple Newsroom",
+          "url": "https://www.apple.com/newsroom/2026/11/apple-reports-fourth-quarter-results/"
+        },
+        {
+          "text": "Apple Q4 Earnings Call Highlights — Yahoo Finance",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/apple-q4-earnings-call-highlights-011406508.html"
+        },
+        {
+          "text": "Oil Prices Plunge as Draft Proposal to End U.S.-Iran War is Circulated — OilPrice.com",
+          "url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Plunge-as-Draft-Proposal-to-End-US-Iran-War-is-Circulated.html"
+        },
+        {
+          "text": "Brent Flash Crashes $6 Before Rebounding Towards $104 — OilPrice.com",
+          "url": "https://oilprice.com/Latest-Energy-News/World-News/Brent-Flash-Crashes-6-Before-Rebounding-Towards-104.html"
+        },
+        {
+          "text": "Tech Up Early Despite Apple's Drop on Election Day — Charles Schwab",
+          "url": "https://www.schwab.com/learn/story/stock-market-update-open"
+        },
+        {
+          "text": "Markets: oil drops, bitcoin slips, dollar falls — Fortraders",
+          "url": "https://fortraders.org/analytics/economic-news/markets-oil-drops-bitcoin-slips-dollar-falls.html"
+        },
+        {
+          "text": "Dollar dips with US midterm results in focus — Reuters via Investing.com",
+          "url": "https://www.investing.com/news/economy-news/dollar-dips-with-us-midterm-results-in-focus-4997104"
+        },
+        {
+          "text": "Japanese Yen trims gains as US Dollar recover from the post-election reversal — FXStreet",
+          "url": "https://www.fxstreet.com/news/japanese-yen-trims-gains-as-us-dollar-recover-from-the-post-election-reversal-202611040738"
+        },
+        {
+          "text": "Interest rates hike odds December 2026 jump to 85% after Fed's recent decision — Norada Real Estate",
+          "url": "https://www.noradarealestate.com/blog/interest-rates-hike-odds-december-2026-jump-85-after-feds-recent-decision/"
+        },
+        {
+          "text": "The Week Ahead: ISM PMI reports, US jobs report, Apple earnings — CMC Markets",
+          "url": "https://www.cmcmarkets.com/en-gb/news-and-analysis/the-week-ahead-ism-pmi-reports-us-jobs-report-apple-earnings"
+        },
+        {
+          "text": "Midterms, Apple earnings, jobs report. Wall Street faces a big week ahead — CNBC",
+          "url": "https://www.cnbc.com/2026/10/30/stock-market-next-week-outlook-for-nov-2-6-2026.html"
+        },
+        {
+          "text": "Goldman Sachs forecasts Bank of England rate hike in November — Traders Union",
+          "url": "https://tradersunion.com/news/financial-news/show/3327315-goldman-sachs-bank-of-england-rate-hike-forecast/"
+        }
+      ]
+    },
+    "featured": true,
+    "agent": "hanako",
+    "image": "assets/images/96-market-2026-11-04.jpg"
+  },
+  {
+    "id": 97,
+    "cat": "ควอนตัม",
+    "title": "B. Riley ลดเป้า IonQ จาก 100 เหลือ 75 ดอลลาร์ก่อนประกาศงบ หุ้นร่วงแล้วฟื้น 6.5% ในวันถัดมา งบไตรมาส 3 คืนวันที่ 5 พ.ย. เป็นรอบแรกที่รวม SkyWater",
+    "excerpt": "B. Riley ลดเป้าราคา IonQ จาก 100 เหลือ 75 ดอลลาร์เมื่อ 2 พ.ย. แต่ยังให้ Buy หุ้นลงราว 6.5% แล้วฟื้นกลับ 6.46% ไปปิดที่ 29.99 ดอลลาร์ในวันถัดมา ทั้งที่ไม่มีข่าวจากบริษัท ตลาดรองบไตรมาส 3 ที่จะประกาศ 5 พ.ย. หลังตลาดปิด (เช้ามืด 6 พ.ย. เวลาไทย) ซึ่งเป็นงบไตรมาสแรกที่รวม SkyWater",
+    "author": "ทีมข่าว PixelVest",
+    "date": "4 พ.ย. 2026",
+    "iso": "2026-11-04",
+    "read": 4,
+    "syms": [
+      "IONQ"
+    ],
+    "rank": 97,
+    "body": {
+      "intro": "สัปดาห์ของการประกาศงบไตรมาส 3 เริ่มต้นได้ไม่ดีนักสำหรับ IonQ (IONQ) เมื่อวันจันทร์ที่ 2 พ.ย. 2569 B. Riley Securities ลดเป้าราคาหุ้นลงจาก 100 ดอลลาร์เหลือ 75 ดอลลาร์ แต่ยังคงคำแนะนำ \"Buy\" ไว้ หุ้นลดลงราว 6.5% ในวันนั้น แล้วกลับขึ้น 6.46% ไปปิดที่ 29.99 ดอลลาร์ในวันอังคารที่ 3 พ.ย. ทั้งที่ไม่มีข่าวใหม่จากบริษัท ตอนนี้ตลาดกำลังรอดูงบไตรมาส 3 ที่ IonQ จะประกาศหลังตลาดปิดวันพฤหัสบดีที่ 5 พ.ย. งบรอบนี้เป็นไตรมาสแรกที่รวมผลของ SkyWater Technology ซึ่งเป็นโรงงานผลิตชิปที่ IonQ ซื้อกิจการไว้ ตัวเลขที่จะออกมาจึงเปรียบเทียบตรง ๆ กับไตรมาสก่อนได้ยาก ตัวเลขการปรับลงของราคาในวันนั้นต่างกันไปตามแหล่ง GuruFocus รายงานว่า IonQ ลดลงราว 6% และ D-Wave กับ Rigetti ลดลงตัวละราว 4% ขณะที่ Foreign Policy Journal รายงานว่า IonQ ลดลง 8% และคู่แข่งลดลงตัวละ 7% โดยมองว่าแรงขายหุ้นเทคโนโลยีหลังงบของบริษัทใหญ่เป็นตัวลากหุ้นกลุ่มนี้ลง และมองว่าตลาดใช้หุ้นควอนตัมแทนการถือหุ้น AI ไปแล้ว ทีมข่าวยังหาแหล่งข่าวการเงินหลักที่ยืนยันว่าสาเหตุมาจากงบ Big Tech ไม่ได้ จึงถือเป็นมุมมองของสื่อเพียงแหล่งเดียว ข้อสังเกตของเราคือ ในวันเดียวกัน IonQ ยังมีข่าวว่าห้องปฏิบัติการวิจัยกองทัพอากาศสหรัฐฯ (AFRL) จ่ายเงิน 7.5 ล้านดอลลาร์ให้กับโครงการขั้นถัดไป แต่สื่อการเงินเยอรมันอย่าง Börse Global และ Kapitalmarktexperten ระบุว่าเงินก้อนนี้เป็นส่วนหนึ่งของสัญญาเครือข่ายควอนตัมมูลค่า 21.1 ล้านดอลลาร์ที่ประกาศไปตั้งแต่เดือน ม.ค. 2568 ไม่ใช่สัญญาใหม่ จึงไม่ได้เพิ่มมูลค่างานในมือ ตลาดไม่ได้ให้น้ำหนักกับข่าวนี้มากนัก ซึ่งเรามองว่าเหมาะสมแล้ว ถ้าเทียบกับตัวเลขที่เราติดตามมาตั้งแต่บทความก่อน ราคาราว 30 ดอลลาร์ยังต่ำกว่าพื้น collar ของดีล Elisity ที่ 33.07 ดอลลาร์ราว 9% และต่ำกว่าราคา 40 ดอลลาร์ที่ Heights Capital จ่ายในดีลเพิ่มทุนราว 25% (ทีมข่าวคำนวณ) แปลว่าในช่วงสองสัปดาห์ที่ผ่านมา ราคาหุ้นยังไม่กลับขึ้นไปเหนือพื้น collar ได้เลย ตัวเลขฉันทามติ (consensus หรือค่าเฉลี่ยประมาณการของนักวิเคราะห์) ของไตรมาสนี้ต่างกันมากจนต้องระวังก่อนนำไปใช้ - **TipRanks:** รายได้ 145.3 ล้านดอลลาร์ เพิ่มขึ้น 264.4% จากปีก่อน ขาดทุน 0.30 ดอลลาร์ต่อหุ้น - **MarketBeat:** รายได้ 141.2 ล้านดอลลาร์ ขาดทุนราว 0.34 ดอลลาร์ต่อหุ้น - **FXEmpire:** รายได้ 144.46 ล้านดอลลาร์ ขาดทุน 0.38 ดอลลาร์ต่อหุ้น จากนักวิเคราะห์ 14 ราย - **Benzinga / Earnings Whispers:** รายได้ราว 67-68 ล้านดอลลาร์ ขาดทุน 0.50-0.56 ดอลลาร์ต่อหุ้น เรามองว่าตัวเลขสองกลุ่มต่างกันเกือบเท่าตัว น่าจะเป็นเพราะแต่ละแหล่งนับรายได้ของ SkyWater ไม่เหมือนกัน (ยังไม่มีข้อมูลยืนยันจากผู้รวบรวมข้อมูลแต่ละราย) IonQ ปิดดีลซื้อ SkyWater เมื่อ 31 ก.ค. 2569 และวันที่ 8 ก.ย. ได้ปรับเป้ารายได้ทั้งปี 2569 ขึ้นเป็น 450-460 ล้านดอลลาร์ ตัวเลขนี้รวมรายได้ของ SkyWater ตั้งแต่ 31 ก.ค. ถึง 31 ธ.ค. และหักรายได้ที่ซื้อขายกันเองระหว่างสองบริษัทออกแล้ว ก่อนหน้านั้นเป้าอยู่ที่ 280-290 ล้านดอลลาร์ ซึ่งยังไม่รวม SkyWater ผลไตรมาส 2 ที่ใช้เป็นฐานคือรายได้ 80.1 ล้านดอลลาร์ (เพิ่มขึ้น 287% จากปีก่อน) ขาดทุน EBITDA ที่ปรับปรุงแล้ว (adjusted EBITDA) 120.3 ล้านดอลลาร์ และค่าใช้จ่ายวิจัยและพัฒนา 160.6 ล้านดอลลาร์ **ข้อแก้ไขจากทีมข่าว:** บทความวันที่ 21 ต.ค. ของเราคำนวณว่าหุ้นซื้อขายที่ราว 47 เท่าของรายได้ โดยใช้เป้าเดิม 280-290 ล้านดอลลาร์ ซึ่งยังไม่ได้รวมการปรับเป้าหลังซื้อ SkyWater ถ้าใช้ค่ากลางของเป้าใหม่ 455 ล้านดอลลาร์ ฐานหุ้นราว 429.4 ล้านหุ้น และราคา 29.99 ดอลลาร์ มูลค่าตลาดจะอยู่ที่ราว 1.29 หมื่นล้านดอลลาร์ หรือราว 28 เท่าของรายได้ทั้งปี (ทีมข่าวคำนวณ ฐานหุ้นอาจคลาดเคลื่อน) ข้อควรระวังคือรายได้ส่วนที่เพิ่มมาเป็นธุรกิจโรงงานผลิตชิป ซึ่งมีอัตรากำไรขั้นต้นต่ำกว่าธุรกิจควอนตัมตามปกติ จึงไม่ควรเอาอัตราส่วนนี้ไปเทียบตรง ๆ กับช่วงก่อนซื้อ SkyWater **ฝั่งที่ต้องระวัง:** ถึงคำแนะนำจะยังเป็น Buy แต่การลดเป้าก่อนประกาศงบไม่กี่วันก็บอกว่านักวิเคราะห์ที่เคยมองบวกที่สุดรายหนึ่งเริ่มระมัดระวังขึ้น และเหตุผลที่ GuruFocus รายงานคือเรื่องหุ้นเจือจาง ซึ่งเป็นปัญหาที่ยังไม่หายไป งบรอบนี้ยังเทียบกับไตรมาสก่อนได้ยาก เพราะการเติบโตส่วนใหญ่อาจมาจากการรวมงบ SkyWater ไม่ใช่จากธุรกิจควอนตัมที่โตขึ้นจริง และตัวเลขฉันทามติที่ต่างกันเกือบเท่าตัวก็ทำให้สื่อและอัลกอริทึมเทรดอาจตีความว่า \"ดีกว่าคาด\" หรือ \"แย่กว่าคาด\" ต่างกันได้ ทั้งกลุ่มควอนตัมยังอ่อนตัว ราคาหุ้นยังต่ำกว่าพื้น collar ของ Elisity ข่าว AFRL ก็ไม่ใช่งานใหม่ และ TIKR ประเมินว่ากระแสเงินสดอิสระทั้งปี 2569 จะติดลบราว 515 ล้านดอลลาร์ *หมายเหตุ: บทความนี้จัดทำเพื่อให้ข้อมูลและมุมมองเชิงบรรณาธิการเท่านั้น ไม่ใช่คำแนะนำการลงทุน โปรดประเมินความเสี่ยงก่อนตัดสินใจทุกครั้ง*",
+      "sections": [
+        {
+          "h": "B. Riley ลดเป้าทั้งกลุ่มควอนตัม แต่ไม่ได้ลดคำแนะนำ",
+          "p": "ตามรายงานของ GuruFocus (เผยแพร่ซ้ำผ่าน Yahoo Finance) Craig Ellis นักวิเคราะห์ของ B. Riley ลดเป้าราคาหุ้นควอนตัม 4 ตัวลง 25-32.5% ได้แก่ IonQ, D-Wave, Rigetti และ Infleqtion โดยยังให้ Buy ทุกตัว เป้าของ IonQ ลดจาก 100 เป็น 75 ดอลลาร์ (ลดลง 25%) ส่วนเป้าของ D-Wave ลดจาก 40 เป็น 27 ดอลลาร์ แต่ละแหล่งให้เหตุผลต่างกัน TipRanks บอกว่า B. Riley มองมูลค่าหุ้น (valuation) อย่างระมัดระวังขึ้น เพราะทั้งกลุ่มอ่อนตัวก่อนประกาศงบ ส่วน GuruFocus บอกว่านักวิเคราะห์ห่วงเรื่องเงินทุนและหุ้นเจือจาง (dilution) จากการเพิ่มทุน 2 พันล้านดอลลาร์และแผนซื้อกิจการของ IonQ"
+        },
+        {
+          "h": "ราคาหุ้นกลับมาอยู่แถว 30 ดอลลาร์ ลดลงราว 32% ในหนึ่งเดือน",
+          "p": "ข้อมูลของ Gotrade ระบุว่าหุ้นปิดวันที่ 3 พ.ย. ที่ 29.99 ดอลลาร์ เพิ่มขึ้น 1.82 ดอลลาร์ (6.46%) โดยไม่มีข่าวจากบริษัท ทีมข่าวคำนวณย้อนกลับได้ว่าราคาปิดวันที่ 2 พ.ย. อยู่ที่ราว 28.17 ดอลลาร์ 24/7 Wall St. รายงานว่าหุ้นลดลงราว 32% ในรอบหนึ่งเดือน และ TipRanks ระบุว่าหุ้นลดลง 37.22% นับตั้งแต่ต้นปี (ในช่วงเดียวกัน Rigetti ลดลง 51.83%)"
+        },
+        {
+          "h": "งบคืนวันที่ 5 พ.ย. ตัวเลขฉันทามติต่างกันมากเพราะเรื่อง SkyWater",
+          "p": "IonQ ประกาศว่าจะรายงานงบไตรมาส 3 ปี 2569 หลังตลาดปิดวันที่ 5 พ.ย. และจัดประชุมนักวิเคราะห์ (conference call) เวลา 16:30 น. ตามเวลาฝั่งตะวันออกของสหรัฐฯ ซึ่งตรงกับ 04:30 น. วันที่ 6 พ.ย. ตามเวลาไทย (สหรัฐฯ ออกจากเวลาออมแสงตั้งแต่ 1 พ.ย. แล้ว) บทความก่อนหน้าของเราเขียนไว้ตอนที่บริษัทยังไม่ได้ยืนยันวันประกาศ ตอนนี้ยืนยันแล้ว"
+        },
+        {
+          "h": "มุมบวก และมุมที่ต้องระวัง",
+          "p": "**ฝั่งที่มองบวก:** B. Riley ลดเป้าแต่ไม่ลดคำแนะนำ เป้า 75 ดอลลาร์ยังสูงกว่าราคาปิดราว 150% (ทีมข่าวคำนวณ) MarketBeat แสดงฉันทามติ \"Moderate Buy\" เป้าเฉลี่ย 64.23 ดอลลาร์ ส่วน Northland ซึ่งเริ่มให้ Outperform ด้วยเป้า 55 ดอลลาร์เมื่อเดือน เม.ย. ได้ปรับเป้าขึ้นเป็น 70 ดอลลาร์ไปแล้วตั้งแต่เดือน มิ.ย. การที่หุ้นฟื้นกลับ 6.46% ในวันถัดมาทั้งที่ไม่มีข่าว อาจบอกว่ามีแรงซื้อรอรับแถว 28 ดอลลาร์ก่อนประกาศงบ เป้ารายได้ทั้งปีที่ปรับขึ้นเมื่อ ก.ย. ยังไม่ถูกปรับลด และบริษัทมีประวัติรายงานรายได้สูงกว่าค่ากลางของเป้าติดต่อกันหลายไตรมาส โดยไตรมาส 2 สูงกว่าค่ากลางราว 20%"
+        },
+        {
+          "h": "สิ่งที่ต้องจับตาในงบคืนวันที่ 5 พ.ย.",
+          "p": "- **รายได้แยกส่วนควอนตัมกับ SkyWater:** ถ้าบริษัทแยกตัวเลขสองส่วนให้เห็น ตลาดจะประเมินการเติบโตของธุรกิจหลักได้ชัดขึ้น ถ้าไม่แยก ความไม่แน่นอนเรื่องคุณภาพของรายได้อาจยังค้างอยู่ - **เป้ารายได้ทั้งปี 450-460 ล้านดอลลาร์:** ถ้ายืนยันหรือปรับขึ้น จะช่วยยืนยันความน่าเชื่อถือของผู้บริหาร ถ้าปรับลง ตลาดในอดีตมักลงโทษหุ้นที่มีมูลค่าสูงแบบนี้แรงกว่าปกติ - **แผนใช้เงินจากการเพิ่มทุนและความคืบหน้าดีล Elisity:** เป็นประเด็นเดียวกับที่ B. Riley ห่วง คำอธิบายของผู้บริหารจะบอกว่าความกังวลเรื่องหุ้นเจือจางมีเหตุผลแค่ไหน - **อัตราการใช้เงินสด:** ขาดทุน adjusted EBITDA ไตรมาส 2 อยู่ที่ 120.3 ล้านดอลลาร์ ถ้าขาดทุนเพิ่มเร็วกว่ารายได้ จะเป็นแรงกดดันต่อมูลค่าหุ้นในระยะกลาง"
+        }
+      ],
+      "quote": "รอบนี้ B. Riley ลดเป้าเพราะมองมูลค่าหุ้นและความเสี่ยงหุ้นเจือจางใหม่ ไม่ใช่เพราะเลิกเชื่อในตัวธุรกิจ ทีมข่าวมองว่าโจทย์ของงบคืนวันที่ 5 พ.ย. ไม่ใช่แค่ว่ารายได้ชนะตัวเลขฉันทามติหรือไม่ เพราะตัวเลขฉันทามติเองก็ยังต่างกันมาก โจทย์จริงคือผู้บริหารจะแยกให้เห็นได้หรือไม่ว่า เมื่อหักส่วนของโรงงานชิปที่ซื้อมาออกแล้ว ธุรกิจควอนตัมยังโตเร็วพอกับมูลค่าที่ตลาดให้อยู่",
+      "quoteBy": "— ทีมข่าว PixelVest",
+      "takeaway": "B. Riley ลดเป้า IonQ จาก 100 เหลือ 75 ดอลลาร์เมื่อ 2 พ.ย. แต่ยังให้ Buy หุ้นลงราว 6.5% แล้วฟื้นกลับ 6.46% ไปปิดที่ 29.99 ดอลลาร์ ยังต่ำกว่าพื้น collar ของ Elisity ข่าวเงิน 7.5 ล้านดอลลาร์จาก AFRL เป็นงานในสัญญาเดิม ตัวชี้ขาดถัดไปคืองบไตรมาส 3 ในวันที่ 5 พ.ย. หลังตลาดปิด (04:30 น. วันที่ 6 พ.ย. เวลาไทย) ซึ่งเป็นงบรอบแรกที่รวม SkyWater และตัวเลขฉันทามติของแต่ละแหล่งยังต่างกันตั้งแต่ราว 67 ถึง 145 ล้านดอลลาร์",
+      "stats": [
+        {
+          "label": "เป้าราคา B. Riley (2 พ.ย.)",
+          "value": "100 เป็น 75 ดอลลาร์",
+          "change": "คงคำแนะนำ Buy"
+        },
+        {
+          "label": "เป้าราคา D-Wave ของ B. Riley",
+          "value": "40 เป็น 27 ดอลลาร์",
+          "change": ""
+        },
+        {
+          "label": "ราคาปิด 2 พ.ย. (ทีมข่าวคำนวณย้อนจากตัวเลขของ Gotrade)",
+          "value": "ราว 28.17 ดอลลาร์",
+          "change": "ราว -6.5%"
+        },
+        {
+          "label": "ราคาปิด 3 พ.ย. (Gotrade)",
+          "value": "29.99 ดอลลาร์",
+          "change": "+6.46%"
+        },
+        {
+          "label": "ผลตอบแทน 1 เดือน (24/7 Wall St.)",
+          "value": "ราว -32%",
+          "change": ""
+        },
+        {
+          "label": "ผลตอบแทนตั้งแต่ต้นปี (TipRanks)",
+          "value": "-37.22%",
+          "change": ""
+        },
+        {
+          "label": "เทียบพื้น collar Elisity 33.07 ดอลลาร์",
+          "value": "ราว -9%",
+          "change": ""
+        },
+        {
+          "label": "เป้ารายได้ปี 2569 (รวม SkyWater)",
+          "value": "450-460 ล้านดอลลาร์",
+          "change": "ราว 28 เท่าของมูลค่าตลาด (ทีมข่าวคำนวณ)"
+        },
+        {
+          "label": "ฉันทามติรายได้ไตรมาส 3",
+          "value": "67-145 ล้านดอลลาร์ ตามแต่ละแหล่ง",
+          "change": ""
+        },
+        {
+          "label": "ฉันทามติเป้าราคา (MarketBeat)",
+          "value": "64.23 ดอลลาร์",
+          "change": "Moderate Buy"
+        },
+        {
+          "label": "เงิน AFRL",
+          "value": "7.5 ล้านดอลลาร์",
+          "change": "อยู่ในสัญญาเดิม 21.1 ล้านดอลลาร์"
+        },
+        {
+          "label": "วันประกาศงบ",
+          "value": "5 พ.ย. 16:30 น. ET",
+          "change": "04:30 น. วันที่ 6 พ.ย. เวลาไทย"
+        }
+      ],
+      "sources": [
+        {
+          "text": "Quantum Stocks Tumble as Wall Street Bank Slashes Price Targets by Up to 32% — GuruFocus via Yahoo Finance",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/quantum-stocks-tumble-wall-street-170248369.html"
+        },
+        {
+          "text": "Quantum Stocks Tumble as Wall Street Bank Slashes Price Targets by Up to 32% — GuruFocus",
+          "url": "https://www.gurufocus.com/news/9165748/quantum-stocks-tumble-as-wall-street-bank-slashes-price-targets-by-up-to-32"
+        },
+        {
+          "text": "IonQ (NYSE:IONQ) Stock Price Target Lowered at B. Riley Financial — MarketBeat",
+          "url": "https://www.marketbeat.com/instant-alerts/analyst-ionq-nyse-ionq-stock-price-target-lowered-at-b-riley-financial-2026-11-02/"
+        },
+        {
+          "text": "B. Riley Slashes IONQ, QBTS, RGTI and INFQ Price Targets Ahead of Earnings — TipRanks",
+          "url": "https://www.tipranks.com/news/b-riley-slashes-ionq-qbts-rgti-and-infq-price-targets-ahead-of-earnings"
+        },
+        {
+          "text": "B. Riley cuts IonQ target price to $75 from $100 — Rallies.ai",
+          "url": "https://rallies.ai/news/b-riley-cuts-ionq-target-price-to-75-from-100-8ff4099c590c4d81"
+        },
+        {
+          "text": "IonQ's 6.5% Drop: A Cut Price Target, a Choppy Tech Tape, and a $7.5 Million Check — ad-hoc-news",
+          "url": "https://www.ad-hoc-news.de/boerse/news/unternehmensnachrichten/ionq-s-6-5-prozent-drop-a-cut-price-target-a-choppy-tech-tape-and-a-7-5-million-check-that-was/70448837"
+        },
+        {
+          "text": "Could IonQ Actually Climb 162%? Or Is B. Riley Totally Wrong? — TIKR",
+          "url": "https://www.tikr.com/blog/could-ionq-actually-climb-162-or-is-b-riley-totally-wrong"
+        },
+        {
+          "text": "IonQ Stock Rises 6.5% Ahead of Q3 Earnings (Nov 3) — Gotrade",
+          "url": "https://www.heygotrade.com/en/news/ionq-ionq-stock-news-november-4-2026/"
+        },
+        {
+          "text": "IonQ Just Dropped 32% In a Month — 24/7 Wall St.",
+          "url": "https://247wallst.com/investing/2026/11/03/ionq-just-dropped-32-in-a-month-is-ionq-stock-hopeless-or-ready-for-a-rebound/"
+        },
+        {
+          "text": "IONQ vs. RGTI: Which Quantum Computing Stock Has More Upside — TipRanks",
+          "url": "https://www.tipranks.com/news/article/4042303-2"
+        },
+        {
+          "text": "Quantum Computing Stocks Treated As AI Proxies As IonQ, D-Wave, And Rigetti Tumble On Big Tech Earnings — Foreign Policy Journal",
+          "url": "https://www.foreignpolicyjournal.com/2026/11/03/quantum-computing-stocks-treated-as-ai-proxies-as-ionq-nyse-ionq-d-wave-nyse-qbts-and-rigetti-nasdaq-rgti-tumble-on-big-tech-earnings/"
+        },
+        {
+          "text": "IonQ Aktie: Air-Force-Geld, aber wofür? — Börse Global",
+          "url": "https://www.boerse-global.de/ionq-aktie-air-force-geld-aber-wofuer/837063"
+        },
+        {
+          "text": "IonQ Aktie: Quanten-Netzwerk im Freiland? — Kapitalmarktexperten",
+          "url": "https://www.kapitalmarktexperten.de/ionq-aktie-quanten-netzwerk-im-freiland/"
+        },
+        {
+          "text": "IonQ Awarded $21.1M Quantum Networking Project — Photonics.com",
+          "url": "https://www.photonics.com/Articles/IonQ-Awarded-211M-Quantum-Networking-Project/a70660"
+        },
+        {
+          "text": "IonQ sets Nov. 5 date for Q3 2026 earnings — StockTitan",
+          "url": "https://www.stocktitan.net/news/IONQ/ion-q-to-report-third-quarter-2026-financial-results-on-november-5-vwy51orwf1yu.html"
+        },
+        {
+          "text": "IonQ to Report Third Quarter 2026 Financial Results on November 5, 2026 — MarketScreener",
+          "url": "https://www.marketscreener.com/news/ionq-to-report-third-quarter-2026-financial-results-on-november-5-2026-ce785cdedf8cff21"
+        },
+        {
+          "text": "IonQ (IONQ) Q3 Earnings Preview: Wall Street Sees Revenue Surge — TipRanks",
+          "url": "https://www.tipranks.com/news/ionq-ionq-q3-earnings-preview-wall-street-sees-254-revenue-surge"
+        },
+        {
+          "text": "IonQ (IONQ) Q3 2026 Earnings Date, Time & Estimates — MarketBeat",
+          "url": "https://www.marketbeat.com/earnings/reports/2026-11-5-ionq-inc-stock/"
+        },
+        {
+          "text": "IonQ Earnings — FXEmpire",
+          "url": "https://www.fxempire.com/stocks/ionq/earnings"
+        },
+        {
+          "text": "IonQ Earnings Forecasts — Benzinga",
+          "url": "https://www.benzinga.com/quote/IONQ/earnings-forecasts"
+        },
+        {
+          "text": "IonQ Announces Increased Full-Year 2026 Financial Outlook Following SkyWater Acquisition — IonQ",
+          "url": "https://investors.ionq.com/news/news-details/2026/IonQ-Announces-Increased-Full-Year-2026-Financial-Outlook-Following-SkyWater-Acquisition/default.aspx"
+        },
+        {
+          "text": "IonQ Raises 2026 Revenue Outlook After Record Quarter — The Quantum Insider",
+          "url": "https://thequantuminsider.com/2026/08/05/ionq-raises-2026-revenue-outlook-after-record-quarter-fueled-by-commercial-growth-skywater-acquisition/"
+        },
+        {
+          "text": "Northland Crowns IonQ Best-in-Class Quantum Stock With a $55 Target — 24/7 Wall St.",
+          "url": "https://247wallst.com/investing/2026/04/20/northland-crowns-ionq-best-in-class-quantum-stock-with-a-55-target-is-the-supercycle-here/"
+        },
+        {
+          "text": "IonQ Aktie: Northland hebt Kursziel auf 70 Dollar — Finanztrends",
+          "url": "https://www.finanztrends.de/news/ionq-aktie-northland-hebt-kursziel-auf-70-dollar/"
+        }
+      ]
+    },
+    "tags": [
+      "ควอนตัม",
+      "B. Riley",
+      "เป้าราคา",
+      "งบไตรมาส 3",
+      "SkyWater",
+      "AFRL",
+      "D-Wave",
+      "Rigetti",
+      "หุ้นเจือจาง"
+    ],
+    "agent": "hanako"
+  },
+  {
+    "id": 98,
+    "cat": "อวกาศ",
+    "title": "Electron ปล่อยสำเร็จเที่ยวที่ 99 นับถอยหลังสู่เที่ยวที่ 100 วันที่ 14 พ.ย. ขณะที่ CFO ขายหุ้น 7.4 ล้านดอลลาร์ ก่อนงบไตรมาส 3 วันที่ 9 พ.ย.",
+    "excerpt": "Rocket Lab ส่งดาวเทียมเรดาร์ของ iQPS ขึ้นวงโคจรสำเร็จในเที่ยวที่ 99 และตั้งเป้าเที่ยวที่ 100 ไม่เร็วกว่า 14 พ.ย. หุ้นปิดบวก 4.5% ที่ราว 54.43 ดอลลาร์ วันที่ 3 พ.ย. แต่ในวันก่อนหน้า CFO Adam Spice ขายหุ้น 140,157 หุ้น มูลค่าราว 7.4 ล้านดอลลาร์ ผ่านแผนซื้อขายที่ตั้งไว้ล่วงหน้า หนึ่งสัปดาห์ก่อนบริษัทประกาศงบไตรมาส 3",
+    "author": "ทีมข่าว PixelVest",
+    "date": "4 พ.ย. 2026",
+    "iso": "2026-11-04",
+    "read": 4,
+    "syms": [
+      "RKLB"
+    ],
+    "rank": 98,
+    "body": {
+      "intro": "Rocket Lab (RKLB) ปล่อยจรวด Electron ภารกิจ **\"The Sea God Surveys\"** สำเร็จเมื่อเวลา 05.41 น. ตามเวลานิวซีแลนด์ของวันที่ 3 พฤศจิกายน 2569 (ตรงกับวันที่ 2 พ.ย. ตามเวลาสหรัฐฯ) จากฐานปล่อย Launch Complex 1 ที่คาบสมุทรมาเฮีย ประเทศนิวซีแลนด์ ภารกิจนี้นำดาวเทียมเรดาร์ **WADATSUMI-II** ของบริษัท iQPS จากญี่ปุ่นขึ้นสู่วงโคจรต่ำที่ความสูง 575 กม. นับเป็นการปล่อยครั้งที่ **99** ของ Rocket Lab ในวันเดียวกันตามเวลาสหรัฐฯ Adam Spice ประธานเจ้าหน้าที่ฝ่ายการเงิน (CFO) ขายหุ้น RKLB มูลค่าราว **7.4 ล้านดอลลาร์** ข่าวสองเรื่องนี้ออกมาราวหนึ่งสัปดาห์ก่อนวันประกาศงบไตรมาส 3 ในวันที่ 9 พ.ย. *เรื่องวันประกาศงบและกรอบรายได้ที่บริษัทให้ไว้อ่านได้ในข่าวลำดับที่ 88 ข่าวนี้เน้นสิ่งที่เกิดขึ้นตั้งแต่ปลายเดือนตุลาคม* ส่วนภารกิจที่ 99 มีรายละเอียดตามที่ Rocket Lab และ Space.com รายงานดังนี้ - **นับเป็นเที่ยวบินที่ 90 ของ Electron แบบขึ้นสู่วงโคจร** ตัวเลข 99 รวมเที่ยวบิน HASTE ไว้ด้วย (HASTE คือ Electron รุ่นที่บินแบบใต้วงโคจร หรือ suborbital ใช้ทดสอบเทคโนโลยีความเร็วเหนือเสียงให้ลูกค้ากลาโหม) - **เป็นการปล่อยให้ iQPS ครั้งที่ 10** และทุกครั้งสำเร็จ iQPS ยังจองการปล่อยแบบเหมาลำไว้อีก **8 ครั้ง** เพื่อสร้างกลุ่มดาวเทียมเรดาร์ (constellation) ให้ครบภายในปี 2030 - **เที่ยวที่ 100** ชื่อภารกิจ **\"The Mountain God Rises\"** จะส่งดาวเทียม QPS-SAR ของ iQPS อีกดวง กำหนดไว้ **ไม่เร็วกว่า 14 พ.ย. 2569** หรือหลังวันประกาศงบห้าวัน ข้อสังเกตคือภารกิจที่ 100 ไม่ได้ทำให้รายได้ต่างจากภารกิจปกติ แต่เป็นตัวเลขที่บริษัทใช้สื่อสารกับตลาดได้ดี และถ้าปล่อยได้ตามกำหนดก็ช่วยตอบคำถามเรื่องความสามารถในการทำตามแผน ซึ่งเป็นประเด็นที่ตลาดกังวลมาตั้งแต่ Neutron เลื่อน - **วันที่ 2 พ.ย.:** Spice ขายหุ้น **140,157 หุ้น** ที่ราคาเฉลี่ย **52.79 ดอลลาร์** รวมราว **7.4 ล้านดอลลาร์** หลังขายยังถือหุ้นอยู่ **1,155,967 หุ้น** ซึ่งเท่ากับลดสัดส่วนการถือลง **10.81%** - **ขายผ่านแผน Rule 10b5-1:** แผนนี้คือการกำหนดตารางซื้อขายหุ้นไว้ล่วงหน้าตั้งแต่ช่วงที่ผู้บริหารยังไม่มีข้อมูลภายใน กฎของ SEC อนุญาตให้ทำได้เพื่อป้องกันข้อครหาเรื่องการใช้ข้อมูลภายใน - **ไม่ใช่การขายครั้งแรก:** Spice ขายหุ้นจำนวนเท่ากันคือ 140,157 หุ้นเมื่อวันที่ 1 ต.ค. มูลค่าราว 9.9 ล้านดอลลาร์ ที่ราคา 69.53–72.39 ดอลลาร์ หลังใช้สิทธิ์ซื้อหุ้นจากออปชันพนักงาน และก่อนหน้านั้นวันที่ 2 ก.ย. ก็ขายจำนวนเท่ากันที่ราคา 62.63 ดอลลาร์ รวมราว 8.8 ล้านดอลลาร์ - **ตามรายงาน 10-Q ไตรมาส 1/2569:** Spice ตั้งแผน 10b5-1 ไว้เมื่อ 27 มี.ค. 2569 ครอบคลุมหุ้นได้สูงสุด 840,942 หุ้น และแผนหมดอายุ 30 มิ.ย. 2570 จำนวนหุ้นที่เท่ากันทุกเดือนชี้ว่าน่าจะเป็นการขายตามตารางเดิม แต่ทีมข่าว PixelVest *ยังไม่มีข้อมูลยืนยัน* ว่าการขายรอบ พ.ย. อยู่ภายใต้แผนเดียวกับรอบก่อนหรือไม่ สิ่งที่เห็นจากตัวเลขคือราคาขาย ซึ่งขึ้นจากราว 63 ดอลลาร์ใน ก.ย. เป็นราว 70 ดอลลาร์ใน ต.ค. แล้วลงมาที่ 52.79 ดอลลาร์ใน พ.ย. สะท้อนว่าหุ้นลงหนักหลังข่าวเลื่อน Neutron ช่วงกลาง ต.ค. ส่วนมูลค่าขายรอบนี้ต่ำกว่ารอบก่อนเพราะราคาหุ้นที่ต่ำลง ไม่ใช่เพราะขายจำนวนน้อยลง แหล่งข้อมูลรายงานผลตอบแทนรายสัปดาห์ไม่ตรงกัน Investing.com บอกว่าหุ้นลง 7% ในหนึ่งสัปดาห์ ส่วน 24/7 Wall St. บอกว่าขึ้น 12.8% ซึ่งน่าจะเป็นเพราะใช้ช่วงเวลาต่างกัน ทีมข่าว PixelVest จึงไม่ใช้ตัวเลขนี้ **มุมลบ:** การปล่อย Electron สำเร็จคือสิ่งที่ตลาดคาดไว้อยู่แล้ว ปมหลักของหุ้นยังอยู่ที่ Neutron ซึ่งยังไม่มีวันปล่อยใหม่ ส่วนการขายหุ้นของ CFO ต่อเนื่องสามเดือนในช่วงที่ราคาลงอาจกดความเชื่อมั่นของนักลงทุนรายย่อย แม้จะเป็นแผนที่วางไว้ล่วงหน้าก็ตาม ขณะที่ราคายังห่างจุดสูงสุดของรอบปีมาก ถ้างบวันที่ 9 พ.ย. ออกมาโดยรายได้ต่ำกว่ากรอบ หรือขาดทุน EBITDA มากกว่าที่บริษัทให้ไว้ การเด้ง 4.5% ครั้งนี้ก็มีแนวโน้มจะถูกมองว่าเป็นแค่แรงซื้อระยะสั้นก่อนงบ ราคาเป้าหมายข้างต้นเป็นตัวเลขของโบรกเกอร์และผู้รวบรวมข้อมูลตามที่อ้างอิง ทีมข่าว PixelVest ไม่ได้ประเมินราคาเป้าหมายเอง *หมายเหตุ: บทความนี้จัดทำเพื่อให้ข้อมูลและมุมมองเชิงบรรณาธิการเท่านั้น ไม่ใช่คำแนะนำการลงทุน โปรดประเมินความเสี่ยงก่อนตัดสินใจทุกครั้ง*",
+      "sections": [
+        {
+          "h": "Electron ปล่อยสำเร็จสองเที่ยวติดหลังเจอเรื่องเลื่อน",
+          "p": "ข่าวลำดับที่ 88 รายงานไว้ว่าภารกิจที่ 98 ของ HawkEye 360 ต้องเลื่อนออกไปเพราะข้อมูลเทเลเมทรีผิดปกติ ตอนนี้มีคำตอบแล้ว Rocket Lab ประกาศว่าภารกิจ **\"We're Not Hawking Around\"** ปล่อยสำเร็จ โดยวันที่ในประกาศของบริษัทคือ 23 ต.ค. ส่วนบางแหล่งระบุว่า 21 ต.ค. ตามเวลานิวซีแลนด์ ภารกิจนี้ส่งดาวเทียม 3 ดวงขึ้นสู่วงโคจรความสูง 520 กม. และเป็นการปล่อยครั้งที่ 19 ของปีนี้ การเลื่อนครั้งนั้นจึงกินเวลาแค่ไม่กี่วันอย่างที่มักเกิดในธุรกิจจรวด"
+        },
+        {
+          "h": "CFO ขายหุ้น 140,157 หุ้น ผ่านแผน 10b5-1",
+          "p": "ตามข้อมูลที่ MarketBeat และ Investing.com รายงานจากเอกสารที่ยื่นต่อ ก.ล.ต. สหรัฐฯ (SEC)"
+        },
+        {
+          "h": "ราคาหุ้นและมุมมองนักวิเคราะห์ก่อนงบ",
+          "p": "- **3 พ.ย.:** StockAnalysis รายงานว่า RKLB ปิดที่ราว **54.43 ดอลลาร์ บวก 4.5%** หลังข่าวปล่อยจรวดสำเร็จ ราคานี้ยังสูงกว่าแนวรับ 49.25 ดอลลาร์ที่กล่าวถึงในข่าวลำดับที่ 88 Investing.com ประเมินมูลค่าตลาดไว้ราว **32.6 พันล้านดอลลาร์** - **ช่วงราคา 52 สัปดาห์:** 37.57–151.00 ดอลลาร์ ราคาตอนนี้ยังต่ำกว่าจุดสูงสุดมากกว่า 60% - **ความเห็นนักวิเคราะห์:** StockAnalysis รวบรวมนักวิเคราะห์ 22 ราย ได้ราคาเป้าหมายเฉลี่ยราว **102 ดอลลาร์** ส่วน Investing.com ระบุว่า Cantor Fitzgerald ยังให้เรตติ้ง Buy เป้า 122 ดอลลาร์ เมื่อวันที่ 26 ต.ค. - **ตัวเลขที่ตลาดคาดในงบไตรมาส 3:** ค่าเฉลี่ยที่ MarketBeat และ TradingView รวบรวมคือรายได้ราว **257.2 ล้านดอลลาร์** และขาดทุนต่อหุ้นราว **0.07 ดอลลาร์** บริษัทให้กรอบรายได้ไว้ 250–265 ล้านดอลลาร์ อัตรากำไรขั้นต้นแบบ GAAP 29–31% และ EBITDA ปรับปรุงติดลบ 17–23 ล้านดอลลาร์ (EBITDA คือกำไรก่อนหักดอกเบี้ย ภาษี และค่าเสื่อม ใช้ดูว่าธุรกิจหลักทำเงินได้แค่ไหน)"
+        },
+        {
+          "h": "สองด้านของข่าวนี้",
+          "p": "**มุมบวก:** Electron ปล่อยสำเร็จสองเที่ยวติดหลังเรื่องเลื่อนช่วงปลาย ต.ค. iQPS ซึ่งเป็นลูกค้าประจำยังมีงานจองอีก 8 เที่ยว ทำให้มองเห็นรายได้ฝั่งปล่อยจรวดล่วงหน้าได้หลายปี ภารกิจที่ 100 ช่วงกลางเดือนเป็นข่าวที่บริษัทนำไปสื่อสารได้ต่อจากงบ การขายหุ้นของ CFO ทำผ่านแผน 10b5-1 ที่ตั้งไว้ล่วงหน้าและจำนวนเท่ากับรอบก่อน จึงตีความว่าเป็นสัญญาณลบต่อพื้นฐานบริษัทได้ยาก และหลังขายเขายังถือหุ้นอยู่มากกว่า 1.15 ล้านหุ้น"
+        }
+      ],
+      "quote": "การปล่อยจรวดสำเร็จช่วยเรียกความเชื่อมั่นเรื่องการทำตามแผนกลับมาได้บางส่วน แต่ตลาดยังรอคำตอบเรื่องเงินสดและวันปล่อย Neutron จากงบวันที่ 9 พ.ย. ส่วนการขายหุ้นของ CFO ควรดูเป็นตารางขายตามแผน มากกว่าจะเป็นสัญญาณจากข้อมูลภายใน",
+      "quoteBy": "— ทีมข่าว PixelVest",
+      "takeaway": "Rocket Lab ปล่อย Electron สำเร็จเที่ยวที่ 98 (HawkEye 360) และเที่ยวที่ 99 (iQPS) ติดกัน และตั้งเป้าเที่ยวที่ 100 ไม่เร็วกว่าวันที่ 14 พ.ย. หุ้นปิดบวก 4.5% ที่ราว 54.43 ดอลลาร์ วันที่ 3 พ.ย. ขณะที่ CFO ขายหุ้น 140,157 หุ้น มูลค่าราว 7.4 ล้านดอลลาร์ ผ่านแผน 10b5-1 เป็นเดือนที่สามติดกัน ตัวชี้ขาดถัดไปคืองบไตรมาส 3 หลังตลาดสหรัฐฯ ปิดวันที่ 9 พ.ย. (ราว 05.00 น. วันที่ 10 พ.ย. เวลาไทย) ซึ่งตลาดคาดรายได้ราว 257 ล้านดอลลาร์",
+      "stats": [
+        {
+          "label": "ภารกิจที่ 99 \"The Sea God Surveys\"",
+          "value": "สำเร็จ 05.41 น. 3 พ.ย. (เวลานิวซีแลนด์)",
+          "change": "ดาวเทียม WADATSUMI-II วงโคจร 575 กม."
+        },
+        {
+          "label": "ภารกิจที่ 98 \"We're Not Hawking Around\"",
+          "value": "สำเร็จ",
+          "change": "ดาวเทียม HawkEye 360 จำนวน 3 ดวง ครั้งที่ 19 ของปี"
+        },
+        {
+          "label": "ภารกิจที่ 100 \"The Mountain God Rises\"",
+          "value": "ไม่เร็วกว่า 14 พ.ย. 2569",
+          "change": "ลูกค้า iQPS"
+        },
+        {
+          "label": "iQPS",
+          "value": "ปล่อยแล้ว 10 ครั้ง สำเร็จทุกครั้ง",
+          "change": "จองเพิ่มอีก 8 ครั้งถึงปี 2030"
+        },
+        {
+          "label": "CFO ขายหุ้น 2 พ.ย.",
+          "value": "140,157 หุ้น @ 52.79 ดอลลาร์",
+          "change": "ราว 7.4 ล้านดอลลาร์ ถือเหลือ 1,155,967 หุ้น"
+        },
+        {
+          "label": "ราคาปิด 3 พ.ย.",
+          "value": "ราว 54.43 ดอลลาร์",
+          "change": "+4.5%"
+        },
+        {
+          "label": "ช่วงราคา 52 สัปดาห์",
+          "value": "37.57–151.00 ดอลลาร์",
+          "change": "ต่ำกว่าจุดสูงสุดมากกว่า 60%"
+        },
+        {
+          "label": "ประมาณการงบไตรมาส 3 (ค่าเฉลี่ยนักวิเคราะห์)",
+          "value": "รายได้ราว 257.2 ล้านดอลลาร์",
+          "change": "ขาดทุนต่อหุ้นราว 0.07 ดอลลาร์"
+        },
+        {
+          "label": "ราคาเป้าหมายเฉลี่ย (StockAnalysis, 22 ราย)",
+          "value": "ราว 102 ดอลลาร์",
+          "change": "Cantor Fitzgerald Buy เป้า 122 ดอลลาร์ (26 ต.ค.)"
+        }
+      ],
+      "sources": [
+        {
+          "text": "MISSION SUCCESS: Rocket Lab Launches 99th Electron Mission — Rocket Lab Investor Relations",
+          "url": "https://investors.rocketlabcorp.com/news-releases/news-release-details/mission-success-rocket-lab-launches-99th-electron-mission"
+        },
+        {
+          "text": "Rocket Lab launches Japanese Earth-observing satellite on 99th mission to date — Space.com",
+          "url": "https://www.space.com/space-exploration/launches-spacecraft/rocket-lab-electron-launch-sea-god-surveys-iqps-radar-satellite"
+        },
+        {
+          "text": "Rocket Lab launches 99th Electron mission for iQPS — StockTitan",
+          "url": "https://www.stocktitan.net/news/RKLB/mission-success-rocket-lab-launches-99th-electron-pskns08xpkca.html"
+        },
+        {
+          "text": "Rocket Lab Targets 100th Electron Launch After iQPS Radar Mission Monday — Tech Times",
+          "url": "https://www.techtimes.com/articles/329833/20261101/rocket-lab-targets-100th-electron-launch-after-iqps-radar-mission-monday.htm"
+        },
+        {
+          "text": "Rocket Lab completes 99th Electron launch, deploying Japanese SAR satellite — Telecompaper",
+          "url": "https://www.telecompaper.com/news/rocket-lab-completes-99th-electron-launch-deploying-japanese-sar-satellite--1587578"
+        },
+        {
+          "text": "MISSION SUCCESS: Rocket Lab Launches 98th Electron Mission — Rocket Lab",
+          "url": "https://rocketlabcorp.com/updates/mission-success-rocket-lab-launches-98th-electron-mission/"
+        },
+        {
+          "text": "Rocket Lab launches 3 'Hawk' satellites to orbit — Space.com",
+          "url": "https://space.com/space-exploration/launches-spacecraft/rocket-lab-launches-3-hawk-satellites-to-orbit-to-gather-signals-intelligence"
+        },
+        {
+          "text": "Rocket Lab CFO Adam Spice sells $7.4M in company stock — Investing.com",
+          "url": "https://www.investing.com/news/insider-trading-news/rocket-lab-cfo-adam-spice-sells-74m-in-company-stock-93CH-4997100"
+        },
+        {
+          "text": "Rocket Lab CFO Adam Spice Sells 140,157 Shares of Company Stock — MarketBeat",
+          "url": "https://www.marketbeat.com/instant-alerts/insider-rocket-lab-nasdaq-rklb-cfo-adam-spice-sells-140157-shares-of-company-stock-2026-11-03/"
+        },
+        {
+          "text": "Rocket Lab CFO Adam Spice sells $9.9m in shares, exercises options — Investing.com",
+          "url": "https://www.investing.com/news/insider-trading-news/rocket-lab-cfo-adam-spice-sells-99m-in-shares-exercises-options-93CH-4945447"
+        },
+        {
+          "text": "Rocket Lab CFO Dumps Over 140,000 Company Shares Worth $8.8 Million — Webull",
+          "url": "https://www.webull.com/news/15529828747437056"
+        },
+        {
+          "text": "Rocket Lab Corp Form 10-Q (Q1 2026) — SEC",
+          "url": "https://www.sec.gov/Archives/edgar/data/0001819994/000181999426000028/rklb-20260331.htm"
+        },
+        {
+          "text": "Rocket Lab (RKLB) Stock Price & Overview — StockAnalysis",
+          "url": "https://stockanalysis.com/stocks/rklb/"
+        },
+        {
+          "text": "Rocket Lab (RKLB) Stock Forecast & Price Target — Investing.com",
+          "url": "https://www.investing.com/equities/vector-acquisition-consensus-estimates"
+        },
+        {
+          "text": "Rocket Lab (RKLB) Q3 2026 Earnings Date, Time & Estimates — MarketBeat",
+          "url": "https://www.marketbeat.com/earnings/reports/2026-11-9-rocketlab-stock/"
+        },
+        {
+          "text": "RKLB Q3'26 Earnings: revenue estimate is 257.19M USD — TradingView",
+          "url": "https://www.tradingview.com/news/tradingview:bf98c127b9b12:0-rklb-q3-26-earnings-revenue-estimate-is-257-19m-usd/"
+        }
+      ]
+    },
+    "tags": [
+      "อวกาศ",
+      "Electron",
+      "iQPS",
+      "การซื้อขายของผู้บริหาร",
+      "งบการเงิน",
+      "Rocket Lab"
+    ],
+    "agent": "hanako"
   }
 ];
