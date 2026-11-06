@@ -12258,5 +12258,880 @@ const ARTS = [
       "Buyout"
     ],
     "agent": "hanako"
+  },
+  {
+    "id": 100,
+    "cat": "ภาพรวมตลาด",
+    "title": "วอลล์สตรีทกลับทิศในวันเดียว ดาวโจนส์ลบ 1,833 จุด หลังพุ่ง 1,569 จุด Nasdaq ร่วง 5.5% เข้าเขตปรับฐาน ก่อนตัวเลขจ้างงานคืนนี้",
+    "excerpt": "หลังดาวโจนส์ทำวันดีที่สุดนับตั้งแต่เม.ย. 2568 ในวันพุธ ตลาดกลับทิศในวันพฤหัสฯ Nasdaq ร่วง 5.52% เข้าเขตปรับฐาน Nvidia ลงราว 9% และ Qualcomm-Arm ถูกเทขายหลังให้แนวโน้มอ่อน ตลาดรอตัวเลขจ้างงานเดือนตุลาคมคืนนี้ 20:30 น. เวลาไทย",
+    "author": "ทีมข่าว PixelVest",
+    "date": "6 พ.ย. 2026",
+    "iso": "2026-11-06",
+    "read": 17,
+    "syms": [
+      "NVDA",
+      "AMD",
+      "AAPL",
+      "DELTA"
+    ],
+    "rank": 100,
+    "body": {
+      "intro": "ในสองวันหลังเลือกตั้งกลางเทอม ตลาดหุ้นสหรัฐฯ เคลื่อนแรงทั้งสองทาง วันพุธที่ 4 พ.ย. Dow Jones พุ่ง 1,569.40 จุด หรือ 3.03% ปิดที่ 53,356.12 จุด ซึ่งเป็นวันดีที่สุดนับตั้งแต่เมษายน 2568 และกลับขึ้นเหนือ 53,000 จุดครั้งแรกนับตั้งแต่ 8 ก.ย. ส่วน S&P 500 บวก 1.58% ที่ 7,688.62 จุด ปัจจัยหนุนคือผลเลือกตั้งที่เดโมแครตชนะชัดเจนและราคาน้ำมันที่ลดลง (CNBC, Stocktitan) แต่วันพฤหัสฯ ที่ 5 พ.ย. ส่วนที่บวกมาหายไปหมด Dow ลง 1,833.06 จุด หรือ 3.44% ปิดที่ 51,523.06 จุด S&P 500 ลง 4.36% ที่ 7,353.73 จุด และ Nasdaq Composite ร่วง 5.52% ที่ 24,315.0 จุด (CNBC, JournalArta) ตอนนี้ Nasdaq อยู่ในเขตปรับฐาน (correction หมายถึงดัชนีลงเกิน 10% จากจุดสูงสุด) โดยต่ำกว่าสถิติปิดสูงสุดเมื่อ 6 ต.ค. มากกว่า 10% นี่เป็นวันที่ลงหนักที่สุดในรอบ 19 เดือน ส่วน Nasdaq-100 ลง 6.36% ซึ่งหนักที่สุดนับตั้งแต่มีนาคม 2563 (investingLive) CNN ประเมินว่ามูลค่าตลาดหายไปราว 2.5 ล้านล้านดอลลาร์ในวันเดียว แม้ลงแรงขนาดนี้ S&P 500 ยังบวก 7.42% นับตั้งแต่ต้นปี หมายเหตุเรื่องตัวเลข: แต่ละแหล่งรายงานตัวเลขปิดไม่ตรงกัน เช่น Investing.com รายงานว่า S&P 500 ลง 4.29% และ Nasdaq ลง 5.42% ทีมข่าวจึงใช้ตัวเลขที่ CNBC กับ JournalArta รายงานตรงกันหลังตลาดปิด ตัวเร่งเรื่องงบมาจากผู้ผลิตชิปสมาร์ตโฟน **Qualcomm** ลงราว 9% ปิดที่ราว 157.82 ดอลลาร์ และบางช่วงลงเกิน 11% เพราะคาดการณ์ EPS (กำไรต่อหุ้น) ไตรมาส 1 ปีงบ 2570 ต่ำกว่าฉันทามติ ผู้บริหารระบุว่าเป็นผลจากต้นทุนหน่วยความจำและการเสียรายได้โมเด็มจาก Apple **Arm Holdings** ลงราว 5–11% แล้วแต่แหล่งข่าวและช่วงเวลา จากแนวโน้มรายได้ไตรมาสหน้าและตลาดสมาร์ตโฟนที่ซบเซา (24/7 Wall St., mlq.ai, Yahoo Finance) ดัชนีเซมิคอนดักเตอร์ฟิลาเดลเฟีย (SOX) ลงราว 9% หลังบางช่วงลงเกิน 11% (Grafa) **Nvidia** ปิดที่ 181.60 ดอลลาร์ ลง 9.26% ด้วยปริมาณซื้อขายราว 300 ล้านหุ้น ส่วนที่บวกมาทั้งปี 2569 หายไปหมด (FourWeekMBA) FX Leaders ระบุว่าหุ้นลงโดยไม่มีข่าวเฉพาะของบริษัท ซึ่งสะท้อนการขายหุ้นทั้งกลุ่ม AI ออกมา Nvidia มีกำหนดประกาศงบวันที่ 17 พ.ย. ส่วนการเคลื่อนไหวรายตัวของ AMD ในวันพฤหัสฯ ทีมข่าวยังไม่มีข้อมูลยืนยัน ข้อสังเกตของเราคือ ต้นทุนหน่วยความจำกดดันทั้ง Apple ในงบเมื่อต้นสัปดาห์และ Qualcomm ในรอบนี้ ความต้องการชิป AI ที่สูงจึงดูดชิ้นส่วนไปจากฝั่งสมาร์ตโฟน ตลาดเริ่มเห็นแล้วว่ากระแส AI สร้างทั้งผู้ได้และผู้เสียในอุตสาหกรรมเดียวกัน **มุมบวก:** การลงครั้งนี้มาหลังวันพุธที่ตลาดบวกแรงมาก ส่วนหนึ่งจึงเป็นการขายทำกำไร Dow ลงน้อยกว่า Nasdaq ชัดเจน แปลว่ากลุ่มที่ไม่ใช่เทคยังมีแรงซื้อรับอยู่บ้าง สิ่งที่สำคัญกว่าคือ Kitco รายงานว่าหลังหุ้นลงแรง ตลาดลดการเดิมพันว่าเฟดจะขึ้นดอกเบี้ยในเดือนธันวาคม ถ้าแนวโน้มนี้ยังอยู่ ต้นทุนการเงินที่ลดลงจะเป็นปัจจัยที่ช่วยพยุงมูลค่าหุ้นเติบโตในระยะกลาง ทองที่ขึ้นพร้อมกับยีลด์ที่ลงแสดงว่าเงินกำลังไหลเข้าสินทรัพย์ปลอดภัย ไม่ใช่การกลัวเงินเฟ้อ ส่วนน้ำมันเป็นตัวแปรที่ทำงานสวนทาง ถ้าความเสี่ยงที่ฮอร์มุซกลับมา เงินเฟ้ออาจถูกดันขึ้นอีกครั้ง ซึ่งจะทำให้ความหวังว่าเฟดจะผ่อนคลายลงอ่อนแรงลง Delta Electronics (Thailand) อ่อนไหวต่อเรื่องนี้โดยตรง เพราะอุปกรณ์จ่ายไฟและระบบระบายความร้อนผูกกับการสร้างดาต้าเซ็นเตอร์ ผู้ถือกองทุนหุ้นเทคหรือกองทุนเซมิคอนดักเตอร์สหรัฐฯ ควรทราบว่าคืนนี้ทั้งตัวเลขจ้างงานและการเปิดตลาดออกมาห่างกันเพียงหนึ่งชั่วโมง ความผันผวนช่วงแรกจึงมีแนวโน้มสูงเป็นพิเศษ *หมายเหตุ: บทความนี้จัดทำเพื่อให้ข้อมูลและมุมมองเชิงบรรณาธิการเท่านั้น ไม่ใช่คำแนะนำการลงทุน โปรดประเมินความเสี่ยงก่อนตัดสินใจทุกครั้ง*",
+      "sections": [
+        {
+          "h": "ทำไมตลาดถึงกลับทิศ: ความเสี่ยงการเมืองบวกกับแนวโน้มที่อ่อนของผู้ผลิตชิป",
+          "p": "ความกังวลเรื่องกฎคุมดาต้าเซ็นเตอร์ระดับรัฐ ซึ่งเราเขียนไว้ในภาพรวมวันที่ 4 พ.ย. ถูกกลบไปหนึ่งวันด้วยการรีบาวด์ แล้วกลับมาในวันพฤหัสฯ โดยมีตัวเร่งใหม่จากงบบริษัท Quartz และ Yahoo Finance รายงานว่านักลงทุนกังวลว่าสมาชิกสภาคองเกรสและผู้ว่าการรัฐที่เพิ่งได้รับเลือกบางรายต้องการชะลอการสร้างโครงสร้างพื้นฐาน AI โดยเฉพาะในรัฐที่มีโครงการดาต้าเซ็นเตอร์ตามแผนอยู่มาก"
+        },
+        {
+          "h": "ภาพสองด้าน: ขายเพราะกลัว หรือเพราะพื้นฐานเปลี่ยน",
+          "p": "**มุมลบ:** การลงแรงกระจายไปหลายตลาด CNBC รายงานว่าดัชนี Nikkei 225 ของญี่ปุ่นลง 5.9% ในวันเดียว และเข้าสู่ตลาดหมี (bear market หมายถึงลงเกิน 20% จากจุดสูงสุด) โดยต่ำกว่าจุดสูงสุดเมื่อเดือนมิถุนายนเกิน 20% ABC News รายงานว่าตลาดหุ้นออสเตรเลียลงแรงตาม CNBC ระบุว่าฟิวเจอร์ส S&P 500 และ Nasdaq-100 ช่วงค่ำวันพฤหัสฯ ตามเวลาสหรัฐฯ ลงราว 0.4% หลังลดช่วงติดลบลงจาก 0.6% และ 0.8% ตัวเลขนี้มาจากตลาดล่วงหน้า ตลาดหลักยังไม่เปิด ถ้านักลงทุนยังตั้งคำถามว่าเงินลงทุนโครงสร้างพื้นฐาน AI จะได้ผลตอบแทนคุ้มหรือไม่ หุ้นที่ราคาสูงเทียบกำไรมีแนวโน้มถูกกดดันต่อ จนกว่างบ Nvidia จะช่วยยืนยันภาพความต้องการ"
+        },
+        {
+          "h": "ภาพ Cross-asset: เงินไหลเข้าพันธบัตรและทอง น้ำมันกลับขึ้นจากข่าวฮอร์มุซ",
+          "p": "- **พันธบัตร:** ยีลด์ลดลงทุกช่วงอายุ ยีลด์ 2 ปีอยู่ราว 4.47% และยีลด์ 10 ปีราว 4.84% (investingLive) ต่ำกว่าระดับราว 4.91% เมื่อต้นสัปดาห์ เมื่อตลาดหุ้นลงแรง เงินมักย้ายไปพันธบัตรเพื่อหลบความเสี่ยง และตลาดก็ลดการคาดว่าเฟดจะขึ้นดอกเบี้ย - **ดอลลาร์:** ดัชนีดอลลาร์อยู่ราว 101 ใกล้ระดับต่ำสุดในรอบห้าสัปดาห์ ยีลด์ที่ลดลงทำให้ผลตอบแทนจากการถือดอลลาร์น้อยลง - **ทองคำ:** บวก 0.68% มาที่ราว 4,088 ดอลลาร์ต่อออนซ์ สูงสุดในรอบกว่าสองสัปดาห์ เพราะยีลด์และดอลลาร์อ่อนลง (Kitco) แต่ Goldman Sachs ลดเป้าราคาทองสิ้นปี 2569 เหลือ 4,150 ดอลลาร์ จาก 4,650 ดอลลาร์ (ABC News) - **น้ำมัน:** ร่วงแรงในวันพุธ ซึ่งเป็นปัจจัยหนุนการรีบาวด์ของหุ้น แต่วันพฤหัสฯ กลับขึ้นหลังมีการโจมตีเรือพาณิชย์ใกล้ช่องแคบฮอร์มุซอีกครั้ง เบรนท์อยู่ราว 99.32 ดอลลาร์ต่อบาร์เรล (ABC News, investingLive) ต่ำกว่าระดับราว 104 ดอลลาร์เมื่อต้นสัปดาห์ - **คริปโต:** บิตคอยน์ลงตามบรรยากาศปิดรับความเสี่ยง แต่ตัวเลขแต่ละแหล่งไม่ตรงกัน ABC รายงานราว 75,873 ดอลลาร์ ส่วน Schwab รายงานราว 80,030 ดอลลาร์"
+        },
+        {
+          "h": "สิ่งที่ต้องจับตา (เวลาไทย แปลงโดยทีมข่าว)",
+          "p": "- **คืนนี้ 20:30 น. ตัวเลขจ้างงานนอกภาคเกษตรเดือนตุลาคม** — ฉันทามติ Dow Jones คาด 59,000 ตำแหน่ง FactSet คาด 65,000 ตำแหน่ง อัตราว่างงานคาดคงที่ 4.2% ส่วน Vanguard คาดสูงถึง 120,000 ตำแหน่ง ADP รายงานการจ้างงานภาคเอกชน 86,000 ตำแหน่ง สูงกว่าที่คาดไว้ราว 69,000 (CNBC) ถ้าตัวเลขออกมาสูงกว่าคาดมาก ตลาดอาจกลับมาเดิมพันว่าเฟดจะขึ้นดอกเบี้ยในวันที่ 9 ธ.ค. ยีลด์จะมีแนวโน้มขึ้นและกดดันหุ้นเทคต่อ ถ้าออกมาต่ำกว่าคาดชัดเจน ยีลด์อาจลงต่อและช่วยเรื่องมูลค่าหุ้น แต่ก็อาจทำให้กังวลเรื่องเศรษฐกิจชะลอตัวมากขึ้น - **คืนนี้ 21:30 น. ตลาดเปิด** — ดูว่า Nasdaq จะทรงตัวในเขตปรับฐานได้หรือไม่ หลังฟิวเจอร์สลดช่วงติดลบลง - **17 พ.ย. งบ Nvidia** — เป็นตัววัดสำคัญว่าความต้องการชิป AI ยังแข็งแรงพอจะลดความกังวลด้านการเมืองและต้นทุนได้หรือไม่ - **ช่องแคบฮอร์มุซ** — ถ้าการโจมตีเรือขยายวง ราคาน้ำมันอาจกลับขึ้นเหนือ 100 ดอลลาร์และกดดันภาพเงินเฟ้อ ส่วนผลประชุมธนาคารกลางอังกฤษเมื่อวาน ทีมข่าวยังไม่มีข้อมูลยืนยัน"
+        },
+        {
+          "h": "มุมนักลงทุนไทย",
+          "p": "การที่ Nikkei เข้าตลาดหมีและตลาดเอเชียลงตามแสดงว่าตลาดทั่วภูมิภาคกำลังขายหุ้นเทคออกมา หุ้นไทยในห่วงโซ่อิเล็กทรอนิกส์และดาต้าเซ็นเตอร์มีแนวโน้มถูกกดดันตามไปด้วย ทีมข่าวยังไม่มีข้อมูลยืนยันค่าเงินบาทและดัชนี SET วันนี้ ส่วนดอลลาร์ที่อ่อนใกล้ระดับต่ำสุดในรอบห้าสัปดาห์มักช่วยค่าเงินในตลาดเกิดใหม่ แต่ถ้านักลงทุนต่างชาติเลี่ยงความเสี่ยงหนักขึ้น ผลบวกนี้อาจถูกหักล้าง"
+        }
+      ],
+      "quote": "ภายในสองวัน ตลาดเปลี่ยนจากการฉลองผลเลือกตั้งไปเป็นการขายหุ้น AI อย่างหนัก เรามองว่าการลงครั้งนี้ไม่ได้มาจากข่าวร้ายเรื่องเดียว แต่มาจากหลายความเสี่ยงที่เกิดพร้อมกัน ได้แก่ การเมืองระดับรัฐที่อาจชะลอการสร้างดาต้าเซ็นเตอร์ ต้นทุนหน่วยความจำที่กินมาร์จิ้นฝั่งผู้ผลิตชิปสมาร์ตโฟน และมูลค่าหุ้นที่สูงจนตลาดไม่ยอมรับความผิดพลาด ตัวช่วยที่ยังมีอยู่คือยีลด์ที่ลดลงและการเดิมพันว่าเฟดจะขึ้นดอกเบี้ยที่ลดลง ซึ่งตัวเลขจ้างงานคืนนี้จะยืนยันหรือหักล้างได้",
+      "quoteBy": "— ทีมข่าว PixelVest",
+      "takeaway": "Dow พุ่ง 3.03% ในวันพุธก่อนลง 3.44% ในวันพฤหัสฯ Nasdaq ร่วง 5.52% เข้าเขตปรับฐาน Nvidia ลงราว 9% และ Qualcomm ลงราว 9% จากแนวโน้มที่อ่อน ยีลด์ 10 ปีลงมาราว 4.84% ทองขึ้นไปราว 4,088 ดอลลาร์ ขณะที่เบรนท์อยู่ราว 99 ดอลลาร์จากความเสี่ยงที่ฮอร์มุซ ตัวชี้ขาดระยะสั้นคือตัวเลขจ้างงานคืนนี้ (คาด 59,000–65,000 ตำแหน่ง) และงบ Nvidia วันที่ 17 พ.ย.",
+      "sources": [
+        {
+          "text": "Dow drops 1,800 points; Nasdaq tumbles into correction territory on AI tech wreck: Live updates — CNBC",
+          "url": "https://www.cnbc.com/2026/11/04/stock-market-today-live-updates.html"
+        },
+        {
+          "text": "Dow soars 1,500 points for best day since April 2025 on clear-cut Democratic win, falling oil: Live updates — CNBC",
+          "url": "https://www.cnbc.com/amp/2026/11/03/stock-market-today-live-updates.html"
+        },
+        {
+          "text": "Stock futures fall after Nasdaq correction; Japan's Nikkei 225 enters bear market: Live updates — CNBC",
+          "url": "https://www.cnbc.com/2026/11/05/stock-market-today-live-updates.html"
+        },
+        {
+          "text": "The Dow Soared in the Stock Market Today, November 4, 2026 — Stocktitan",
+          "url": "https://www.stocktitan.net/articles/stock-market-today-live-november-4-2026"
+        },
+        {
+          "text": "The Dow Just Jumped 1,569 Points for Its Best Post-Midterm Day in 44 Years — AOL",
+          "url": "https://www.aol.com/articles/dow-just-jumped-1-569-125758000.html"
+        },
+        {
+          "text": "Stock Market Today: Nasdaq Falls 5.52%, S&P 500 Drops 4.36% — JournalArta Global",
+          "url": "https://journalarta.com/en/2026/11/06/wall-street-close-nasdaq-sinks-5-52-and-sp-500-falls-4-36-as-ai-stocks-slide/"
+        },
+        {
+          "text": "U.S. stocks lower at close of trade; Dow Jones Industrial Average down 3.45% — Investing.com",
+          "url": "https://investing.com/news/stock-market-news/us-stocks-lower-at-close-of-trade-dow-jones-industrial-average-down-345-5005517"
+        },
+        {
+          "text": "Stock market today: Dow plunges 1,800 points, Nasdaq enters correction in AI trade meltdown — Yahoo Finance",
+          "url": "https://finance.yahoo.com/markets/live/stock-market-today-thursday-november-5-dow-sp-500-nasdaq-plunge-chip-stocks-melt-down-193726491.html"
+        },
+        {
+          "text": "Massive tech sell-off wipes $2.5 trillion from the stock market — CNN",
+          "url": "https://www.cnn.com/2026/11/05/investing/tech-heavy-nasdaq-plunges"
+        },
+        {
+          "text": "Nasdaq plunges 4%, on pace for correction, as AI and chip stocks sell off — Quartz",
+          "url": "https://qz.com/nasdaq-correction-ai-chip-stocks-midterms-selloff-110526"
+        },
+        {
+          "text": "12 AI Stocks Lose $1.44T at Close as Nvidia Falls 8.9% — FourWeekMBA",
+          "url": "https://fourweekmba.com/ai-12-ai-stocks-lose-1-44t-at-close-as-nvidia-falls-8-9/"
+        },
+        {
+          "text": "Nvidia (NVDA) Stock Plunges Nearly 8% as Broad AI and Chip Sell-Off Erases Over 1,000 Nasdaq Points — FX Leaders",
+          "url": "https://www.fxleaders.com/news/2026/11/05/nvidia-nvda-stock-plunges-nearly-8-as-broad-ai-and-chip-sell-off-erases-over-1000-nasdaq-points/"
+        },
+        {
+          "text": "Qualcomm Sinks 11% as Soft Profit Guidance and Handset Slump Overshadow Beat; Arm Holdings Drops 7% — 24/7 Wall St.",
+          "url": "https://247wallst.com/investing/2026/11/05/qualcomm-sinks-11-as-soft-profit-guidance-and-handset-slump-overshadow-beat-arm-holdings-drops-7-skyworks-slides-2/"
+        },
+        {
+          "text": "Qualcomm shares fall 9% as Apple exit and memory costs weigh on outlook — mlq.ai",
+          "url": "https://mlq.ai/news/qualcomm-shares-fall-9-as-apple-exit-and-memory-costs-weigh-on-outlook/"
+        },
+        {
+          "text": "Asian chip stocks slide as disappointing Qualcomm, Arm earnings weigh — Yahoo Finance",
+          "url": "https://finance.yahoo.com/technology/articles/asian-chip-stocks-slide-disappointing-045137047.html"
+        },
+        {
+          "text": "US Chip Stocks Fall 9% as AI Trade Unwinds — Grafa",
+          "url": "https://grafa.com/en/news/united-states/us-semiconductor-stocks-selloff-ai-trade-unwind-november-2026"
+        },
+        {
+          "text": "investingLive Americas FX news wrap 5 Nov: Nasdaq 100 plunges 6.36% as AI selloff spreads — investingLive",
+          "url": "https://investinglive.com/news/investinglive-americas-fx-news-wrap-5-nov-nasdaq-100-plunges-6-36-as-ai-selloff-spreads"
+        },
+        {
+          "text": "Gold holds gains, silver slips as Wall Street plunges, Fed hike bets ease — Kitco",
+          "url": "https://www.kitco.com/news/article/2026-11-05/gold-holds-gains-silver-slips-wall-street-plunges-fed-hike-bets-ease-kitco"
+        },
+        {
+          "text": "Markets live: ASX falls sharply as US tech stocks plunge on predictions of AI pullback — ABC News",
+          "url": "https://abc.net.au/news/2026-11-06/asx-markets-business-live-news/107353758"
+        },
+        {
+          "text": "Tech Pressure Persists but Broader Market Climbs — Charles Schwab",
+          "url": "https://www.schwab.com/learn/story/stock-market-update-open"
+        },
+        {
+          "text": "Democratic takeover sends Gold above $4,128, Bitcoin holds $80,300 — FXStreet",
+          "url": "https://www.fxstreet.com/analysis/democratic-takeover-sends-gold-above-4-128-bitcoin-holds-80-300-202611050833"
+        },
+        {
+          "text": "The October jobs report is out Friday. Here's everything to expect — CNBC",
+          "url": "https://www.cnbc.com/2026/11/05/october-jobs-report-preview.html"
+        },
+        {
+          "text": "October Jobs Report Seen Showing Resilient Labor Market — Morningstar",
+          "url": "https://www.morningstar.com/economy/october-jobs-report-seen-showing-resilient-labor-market"
+        }
+      ]
+    },
+    "featured": true,
+    "agent": "hanako",
+    "image": "assets/images/100-market-2026-11-06.jpg"
+  },
+  {
+    "id": 101,
+    "cat": "คลาวด์เอไอ",
+    "title": "CoreWeave หลุด 50 ดอลลาร์ ทำจุดต่ำสุดรอบ 52 สัปดาห์ หลังผลเลือกตั้งเท็กซัสจุดกังวลกฎคุมดาต้าเซ็นเตอร์ และ Citi หั่นเป้าเหลือ 128 ดอลลาร์ ก่อนงบ 10 พ.ย.",
+    "excerpt": "หุ้น CoreWeave (CRWV) ปิดวันที่ 4 พ.ย. ที่ 48.42 ดอลลาร์ ลดลงเกือบ 10% และทำจุดต่ำสุดรอบ 52 สัปดาห์ หลังพรรคเดโมแครตชนะเลือกตั้งผู้ว่าฯ เท็กซัส ซึ่งหาเสียงว่าจะระงับโครงการดาต้าเซ็นเตอร์ใหม่ วันเดียวกัน Citi ลดเป้าจาก 159 เหลือ 128 ดอลลาร์แต่ยังแนะนำซื้อ วันที่ 5 พ.ย. หุ้นลงต่อไปแตะ 42.79 ดอลลาร์ระหว่างวัน ตอนนี้ตลาดรองบไตรมาส 3 วันที่ 10 พ.ย.",
+    "author": "ทีมข่าว PixelVest",
+    "date": "6 พ.ย. 2026",
+    "iso": "2026-11-06",
+    "read": 4,
+    "syms": [
+      "CRWV"
+    ],
+    "rank": 101,
+    "body": {
+      "intro": "หุ้น CoreWeave, Inc. (NASDAQ: CRWV) ร่วงหนักต่อในสัปดาห์เลือกตั้งกลางเทอมของสหรัฐฯ วันพุธที่ 4 พฤศจิกายน 2569 หุ้นปิดที่ **48.42 ดอลลาร์** ลดลง 5.32 ดอลลาร์ หรือเกือบ 10% ตามรายงานของ GuruFocus ระหว่างวันลงไปต่ำสุดที่ 48.02 ดอลลาร์ ซึ่งเป็นจุดต่ำสุดรอบ 52 สัปดาห์ เทียบกับจุดสูงสุดรอบ 52 สัปดาห์ที่ 138.25 ดอลลาร์ วันรุ่งขึ้น (5 พ.ย.) แรงขายยังไม่หยุด Investing.com รายงานว่าหุ้นลง 11.6% ในช่วงเช้าไปแตะ **42.79 ดอลลาร์** ส่วน MarketBeat รายงานว่าหุ้นลง 9.8% ไปที่ 43.66 ดอลลาร์ (*ทีมข่าวยังไม่พบราคาปิดวันที่ 5 พ.ย. ที่ยืนยันได้*) Benzinga ระบุว่ารวมแล้วหุ้นลงราว 44% ในหนึ่งเดือน ในข่าววันที่ 25 ต.ค. เราเขียนถึงโบรกเกอร์หลายค่ายที่ลดเป้า CoreWeave เพราะความกังวลเรื่องเงินทุน สัปดาห์นี้มีความเสี่ยงอีกชั้นเพิ่มเข้ามา คือความเสี่ยงด้านกฎระเบียบหลังการเลือกตั้ง ซึ่งไปกระทบตรงที่ว่าบริษัทจะสร้างกำลังการผลิตได้ที่ไหนและเร็วแค่ไหน ข้อสังเกตของเราคือ ราคาเป้าหมายเฉลี่ยกับราคาหุ้นห่างกันเกือบสามเท่า แปลว่านักวิเคราะห์ยังปรับโมเดลตามราคาไม่ทัน หรือไม่ก็ตลาดกำลังให้ราคาความเสี่ยงที่โมเดลส่วนใหญ่ยังไม่ได้ใส่ไว้ ทั้งเรื่องต้นทุนเงินทุนและเรื่องกฎระเบียบ ที่เห็นได้คือเป้าของ HSBC ที่ 39 ดอลลาร์ต่ำกว่าราคาระหว่างวันของวันที่ 5 พ.ย. แล้ว *หมายเหตุ: บทความนี้จัดทำเพื่อให้ข้อมูลและมุมมองเชิงบรรณาธิการเท่านั้น ไม่ใช่คำแนะนำการลงทุน โปรดประเมินความเสี่ยงก่อนตัดสินใจทุกครั้ง*",
+      "sections": [
+        {
+          "h": "ทำไมผลเลือกตั้งเท็กซัสถึงกดหุ้น CoreWeave",
+          "p": "- **ผู้ว่าฯ คนใหม่หาเสียงว่าจะระงับดาต้าเซ็นเตอร์ใหม่** — StreetInsider รายงานว่า Gina Hinojosa ผู้ว่าการรัฐเท็กซัสคนใหม่ ซึ่งเป็นผู้สมัครจากพรรคเดโมแครตคนแรกที่ชนะตำแหน่งนี้ในรอบกว่า 30 ปี หาเสียงไว้ว่าจะระงับโครงการดาต้าเซ็นเตอร์ใหม่ ช่วงหาเสียงเธอเรียกร้องให้ผู้ว่าฯ Greg Abbott ออกคำสั่งระงับดาต้าเซ็นเตอร์ใหม่ไว้ก่อนจนกว่าสภารัฐจะออกกฎกำกับ (KFOX14) เท็กซัสเป็นตลาดเติบโตหลักแห่งหนึ่งของ CoreWeave แต่บริษัทยังไม่เคยเปิดเผยว่ากำลังการผลิตกี่เปอร์เซ็นต์อยู่ในเท็กซัส - **ทั้งกลุ่ม neocloud ลงพร้อมกัน** — neocloud คือผู้ให้เช่ากำลังประมวลผล GPU ที่ไม่ใช่ยักษ์คลาวด์อย่าง AWS หรือ Azure ตามรายงานของ Invezz ในวันเดียวกัน Nebius ลงราว 15% และ IREN ลงเกือบ 17% เพราะตลาดกังวลว่าจะเกิดกระแสต่อต้านอุตสาหกรรมนี้ในหลายรัฐหลังผลเลือกตั้ง ก่อนตลาดเปิด CNBC รายงานว่า CRWV ลงไปแล้วถึงราว 6% - **ระดับประเทศก็มีแรงกดดัน** — ส.ส. เดโมแครตบางส่วนเคยเสนอให้หยุดก่อสร้างดาต้าเซ็นเตอร์ใหม่ชั่วคราวจนกว่ารัฐสภาจะออกกฎ แต่นักวิเคราะห์ที่ StreetInsider อ้างถึงมองว่าการที่รัฐสภาเข้ามากำกับมากขึ้นไม่ได้แปลว่าการก่อสร้างจะหยุด ผลที่น่าจะเห็นก่อนคือการไต่สวนเพิ่ม ความไม่แน่นอนด้านกฎ และการตัดสินใจลงทุนที่ช้าลง"
+        },
+        {
+          "h": "Citi ลดเป้าแต่ยังแนะนำซื้อ",
+          "p": "วันที่ 4 พ.ย. Tyler Radke นักวิเคราะห์ของ Citi ลดราคาเป้าหมายจาก **159 เหลือ 128 ดอลลาร์** และคงคำแนะนำ Buy (TradingView, MarketBeat) ก่อนบริษัทประกาศงบไตรมาส 3 วันที่ 10 พ.ย. เป้าใหม่ยังสูงกว่าราคาปิด 48.42 ดอลลาร์ราว 164% MarketBeat ระบุว่าความเห็นรวมของนักวิเคราะห์อยู่ที่ \"Moderate Buy\" ราคาเป้าหมายเฉลี่ย 129.41 ดอลลาร์ ช่วงราคาเป้าหมายกว้างมาก ต่ำสุดคือ HSBC ที่ 39 ดอลลาร์ (Reduce) สูงสุดคือ Rosenblatt ที่ 250 ดอลลาร์ (Buy)"
+        },
+        {
+          "h": "มุมบวก: ความต้องการยังไม่หาย และฝั่ง Buy ยังไม่ถอย",
+          "p": "- **Backlog ยังสูงมาก** — ณ สิ้นไตรมาส 2 บริษัทมีรายได้ตามสัญญาที่ยังไม่รับรู้ (backlog) **104.2 พันล้านดอลลาร์** ตามการวิเคราะห์ของ MarketBeat ส่วนตัวเลข 129–130 พันล้านดอลลาร์ที่บางสำนักใช้เป็นนิยามที่กว้างกว่า ก่อนหน้านี้ Investing.com รายงานว่ามีช่วงที่หุ้นเด้ง 6.3% ระหว่างวันไปที่ 53.30 ดอลลาร์ เพราะนักลงทุนบางส่วนมองว่าแรงขายมากเกินไปเมื่อเทียบกับ backlog ระดับนี้ - **ผู้บริหารมองว่ากฎย้ายแค่ที่ตั้ง ไม่ได้ลดความต้องการ** — Michael Intrator ซีอีโอ เคยพูดถึงมาตรการระงับดาต้าเซ็นเตอร์ในภาพกว้าง (ไม่ได้พูดถึงเท็กซัสโดยตรง) ว่ามาตรการแบบนี้ไม่กระทบความต้องการโครงสร้างพื้นฐาน AI แต่จะกระทบว่าโครงสร้างพื้นฐานไปสร้างที่ไหน - **งบรอบก่อนเกินคาด** — ข้อมูลจาก Benzinga ระบุว่าไตรมาส 2 บริษัทมีรายได้ 2.58 พันล้านดอลลาร์ สูงกว่าที่คาดไว้ 2.55 พันล้าน และตัวเลขคาดการณ์รายได้ไตรมาส 3 อยู่ที่ราว 3.54 พันล้านดอลลาร์ (*หน้าข้อมูลไม่ได้ระบุวันที่อัปเดต*) - **โบรกเกอร์ฝั่งบวกลดเป้าแต่ไม่ลดเรตติ้ง** — Citi ยังแนะนำซื้อเหมือน UBS และ Piper Sandler ที่ลดเป้าไปเมื่อปลายเดือน ต.ค."
+        },
+        {
+          "h": "มุมลบ: กฎระเบียบซ้อนเงินทุน และผู้บริหารยังขายหุ้น",
+          "p": "- **ตลาดหุ้นกู้ยังตึงมาก** — StreetInsider รายงานว่าหุ้นกู้ไม่มีหลักประกันของบริษัทที่ครบกำหนดปี 2574 มีราคาซื้อขายต่ำสุดที่ 79.5 เซนต์ต่อมูลค่า 1 ดอลลาร์ ส่วนหุ้นกู้ที่ครบกำหนดปี 2575 ให้ยีลด์ราว 15% (Barchart) สูงขึ้นมากจากต้นปี - **ต้องพึ่งเงินกู้ก้อนใหญ่** — Barchart ระบุว่าผู้บริหารคาดว่างบลงทุนปีนี้จะเกิน 39 พันล้านดอลลาร์ และส่วนใหญ่ใช้เงินกู้ ถ้ากฎระเบียบทำให้โครงการเปิดใช้ช้าลง รายได้ที่จะใช้ชำระหนี้ก็มาช้าลงด้วย ความเสี่ยงสองเรื่องนี้จึงขยายผลกันเอง - **ผู้บริหารขายหุ้นต่อเนื่อง** — Defense World รายงานว่าใน 90 วันที่ผ่านมาผู้บริหารและผู้ถือหุ้นภายในขายหุ้นรวม **4,211,804 หุ้น** มูลค่าราว **382.3 ล้านดอลลาร์** รายการล่าสุดคือ Jeff Baker ขาย 6,670 หุ้น มูลค่าราว 407,937 ดอลลาร์ เพื่อจ่ายภาษีจากหุ้นที่ได้รับเป็นค่าตอบแทน (รายการนี้เป็นการขายตามกลไกภาษี ไม่ได้สะท้อนมุมมองต่อหุ้นโดยตรง) - **ทำจุดต่ำใหม่ติดกันหลายรอบ** — MarketBeat รายงานว่าหุ้นทำจุดต่ำสุดรอบ 1 ปีตั้งแต่วันที่ 2 พ.ย. แล้วก็ทำจุดต่ำใหม่อีกในวันที่ 4 และ 5 พ.ย. (*Benzinga ใช้คำว่า \"ต่ำสุดตลอดกาล\" แต่แหล่งอื่นส่วนใหญ่ใช้คำว่าต่ำสุดรอบ 52 สัปดาห์ ทีมข่าวใช้อย่างหลัง*)"
+        },
+        {
+          "h": "สิ่งที่ต้องจับตาต่อ",
+          "p": "- **งบไตรมาส 3 วันที่ 10 พ.ย. (หลังตลาดปิด ตรงกับเช้าวันที่ 11 พ.ย. เวลาไทย)** — ถ้าผู้บริหารบอกได้ว่ากำลังการผลิตกี่เปอร์เซ็นต์อยู่ในเท็กซัส และมีแผนย้ายไปรัฐอื่นหรือไม่ ความไม่แน่นอนเรื่องกฎน่าจะลดลง แต่ถ้าบริษัทลดเป้ากำลังการผลิตหรืองบลงทุน ตลาดอาจตีความว่าความเสี่ยงด้านกฎและเงินทุนเริ่มกระทบธุรกิจจริงแล้ว - **นโยบายจริงของผู้ว่าฯ เท็กซัสคนใหม่** — ต้องรอดูว่าจะออกเป็นคำสั่งระงับทันที หรือรอสภารัฐออกกฎ ซึ่งมีผลต่อเวลาเปิดใช้โครงการต่างกันมาก - **ราคาหุ้นกู้** — ถ้าราคาหุ้นกู้ปี 2574 ยังต่ำกว่า 80 เซนต์ ต้นทุนเงินกู้ก้อนถัดไปจะสูงขึ้น"
+        }
+      ],
+      "quote": "สัปดาห์นี้ CoreWeave เจอแรงกดดันใหม่ซ้อนกับปัญหาเรื่องเงินทุนที่มีอยู่แล้ว คือความเสี่ยงที่จะสร้างดาต้าเซ็นเตอร์ไม่ได้ในที่ที่วางแผนไว้ เรามองว่าตลาดไม่ได้กังวลว่าความต้องการ AI จะหายไป แต่กังวลว่าความล่าช้าจะทำให้บริษัทต้องแบกหนี้นานขึ้นก่อนจะมีรายได้เข้ามา งบวันที่ 10 พ.ย. จะเป็นครั้งแรกที่ผู้บริหารต้องตอบเรื่องนี้ด้วยตัวเลข",
+      "quoteBy": "— ทีมข่าว PixelVest",
+      "takeaway": "CRWV ปิดวันที่ 4 พ.ย. ที่ 48.42 ดอลลาร์ (-เกือบ 10%) ทำจุดต่ำสุดรอบ 52 สัปดาห์ และลงต่อไปแตะ 42.79 ดอลลาร์ระหว่างวันที่ 5 พ.ย. หลังผลเลือกตั้งเท็กซัสทำให้ตลาดกังวลว่าดาต้าเซ็นเตอร์ใหม่จะถูกระงับ ส่วน Citi ลดเป้าจาก 159 เหลือ 128 ดอลลาร์แต่ยังแนะนำซื้อ ฝั่งบวกคือ backlog 104.2 พันล้านดอลลาร์และความเห็นรวมของนักวิเคราะห์ที่ยังเป็นบวก ฝั่งลบคือหุ้นกู้ที่ซื้อขายต่ำกว่า 80 เซนต์ งบลงทุนที่เกิน 39 พันล้านดอลลาร์ซึ่งใช้เงินกู้เป็นหลัก และการขายหุ้นของผู้บริหารรวม 382 ล้านดอลลาร์ใน 90 วัน",
+      "stats": [
+        {
+          "label": "ราคาปิด 4 พ.ย. 2569",
+          "value": "$48.42",
+          "change": "-$5.32 (เกือบ -10%), ต่ำสุดระหว่างวัน $48.02"
+        },
+        {
+          "label": "ราคาระหว่างวัน 5 พ.ย. 2569",
+          "value": "$42.79",
+          "change": "-11.6% ช่วงเช้า (Investing.com)"
+        },
+        {
+          "label": "ช่วงราคา 52 สัปดาห์ (ก่อน 5 พ.ย.)",
+          "value": "$48.02–138.25",
+          "change": ""
+        },
+        {
+          "label": "ผลตอบแทน 1 เดือน",
+          "value": "ราว -44%",
+          "change": "Benzinga"
+        },
+        {
+          "label": "Citi (4 พ.ย.)",
+          "value": "Buy, เป้า $128",
+          "change": "จาก $159"
+        },
+        {
+          "label": "ความเห็นรวมของนักวิเคราะห์",
+          "value": "Moderate Buy, เป้าเฉลี่ย $129.41",
+          "change": "MarketBeat"
+        },
+        {
+          "label": "ช่วงราคาเป้าหมาย",
+          "value": "$39–250",
+          "change": "HSBC ถึง Rosenblatt"
+        },
+        {
+          "label": "Backlog สิ้นไตรมาส 2",
+          "value": "$104.2 พันล้าน",
+          "change": ""
+        },
+        {
+          "label": "หุ้นกู้ไม่มีหลักประกันปี 2574",
+          "value": "ต่ำสุด 79.5 เซนต์/ดอลลาร์",
+          "change": ""
+        },
+        {
+          "label": "ยีลด์หุ้นกู้ปี 2575",
+          "value": "ราว 15%",
+          "change": ""
+        },
+        {
+          "label": "งบลงทุนปีนี้ (คาด)",
+          "value": "เกิน $39 พันล้าน",
+          "change": ""
+        },
+        {
+          "label": "ผู้บริหารขายหุ้น 90 วัน",
+          "value": "4,211,804 หุ้น / ~$382.3 ล้าน",
+          "change": ""
+        },
+        {
+          "label": "Nebius / IREN (4 พ.ย.)",
+          "value": "ราว -15% / เกือบ -17%",
+          "change": ""
+        },
+        {
+          "label": "วันประกาศงบไตรมาส 3",
+          "value": "10 พ.ย. 2569 หลังตลาดปิด",
+          "change": ""
+        }
+      ],
+      "sources": [
+        {
+          "text": "CoreWeave (CRWV) Shares Drop Nearly 10% Amid Texas Data Center Permitting Concerns — GuruFocus",
+          "url": "https://www.gurufocus.com/news/9171481/coreweave-crwv-shares-drop-nearly-10-amid-texas-data-center-permitting-concerns"
+        },
+        {
+          "text": "CoreWeave hits new 52-week low on regulatory concerns, broad selloff — StreetInsider",
+          "url": "https://www.streetinsider.com/Investing/CoreWeave+hits+new+52-week+low+on+regulatory+concerns,+broad+selloff/27297432.html"
+        },
+        {
+          "text": "CoreWeave slumps 10% to touch new 52-week low — Seeking Alpha",
+          "url": "https://seekingalpha.com/news/4665609-coreweave-slumps-10-to-touch-new-52-week-low"
+        },
+        {
+          "text": "CoreWeave, IREN and Nebius crash: why Democrats' victory could hurt neoclouds — Invezz",
+          "url": "https://invezz.com/ca/news/2026/11/04/coreweave-iren-and-nebius-crash-why-democrats-victory-could-hurt-neoclouds/"
+        },
+        {
+          "text": "CoreWeave IREN and Nebius Stocks Sink as Election Results Spark AI Data Center Fears — Yahoo Finance",
+          "url": "https://sg.finance.yahoo.com/news/coreweave-iren-nebius-stocks-sink-120751139.html"
+        },
+        {
+          "text": "Stocks making the biggest moves premarket: Trump Media, Tesla, CoreWeave, Novo Nordisk and more — CNBC",
+          "url": "https://www.cnbc.com/2026/11/04/stocks-making-the-biggest-moves-premarket-djt-tsla-crwv-nvo.html"
+        },
+        {
+          "text": "Citigroup maintains CoreWeave at Buy, lowers price target to $128 from $159 — TradingView News",
+          "url": "https://www.tradingview.com/news/tradingview:723cc54281a02:0-citigroup-maintains-coreweave-at-buy-lowers-price-target-to-128-from-159/"
+        },
+        {
+          "text": "CoreWeave Stock Gets Price Target Cut from Citigroup — MarketBeat",
+          "url": "https://www.marketbeat.com/instant-alerts/analyst-coreweave-nasdaq-crwv-stock-gets-price-target-cut-from-citigroup-2026-11-04/"
+        },
+        {
+          "text": "CoreWeave Stock Falls 9.9% After Analyst Downgrade — Defense World",
+          "url": "https://www.defenseworld.net/2026/11/05/coreweave-nasdaqcrwv-stock-falls-9-9-after-analyst-downgrade.html"
+        },
+        {
+          "text": "CoreWeave Shares Down 9.8% on Analyst Downgrade — MarketBeat",
+          "url": "https://www.marketbeat.com/instant-alerts/price-coreweave-nasdaq-crwv-shares-down-98-on-analyst-downgrade-2026-11-05/"
+        },
+        {
+          "text": "Why is CoreWeave stock sliding today? — Investing.com",
+          "url": "https://investing.com/news/stock-market-news/why-is-coreweave-stock-sliding-today-93CH-4998006"
+        },
+        {
+          "text": "Why is CoreWeave stock rallying today? — Investing.com",
+          "url": "https://www.investing.com/news/stock-market-news/why-is-coreweave-stock-rallying-today-93CH-4995781"
+        },
+        {
+          "text": "CoreWeave Stock Hits All-Time Low as Losses Extend to 44% Over the Past Month — Benzinga",
+          "url": "https://www.benzinga.com/trading-ideas/movers/26/11/62795864/coreweave-stock-hits-new-all-time-low"
+        },
+        {
+          "text": "CoreWeave Hits New 1-Year Low Following Insider Selling — MarketBeat",
+          "url": "https://www.marketbeat.com/instant-alerts/price-coreweave-nasdaq-crwv-hits-new-1-year-low-following-insider-selling-2026-11-02/"
+        },
+        {
+          "text": "CoreWeave Reaches New 12-Month Low Following Insider Selling — Defense World",
+          "url": "https://www.defenseworld.net/2026/11/03/coreweave-nasdaqcrwv-reaches-new-12-month-low-following-insider-selling.html"
+        },
+        {
+          "text": "Insiders Keep Selling CoreWeave Stock. Should You? — Barchart",
+          "url": "https://www.barchart.com/story/news/34630814/insiders-keep-selling-coreweave-stock-should-you"
+        },
+        {
+          "text": "CoreWeave's $129 Billion AI Backlog Changes the Bull Case — MarketBeat",
+          "url": "https://www.marketbeat.com/articles/coreweaves-129-billion-ai-backlog-changes-the-bull-case/"
+        },
+        {
+          "text": "CoreWeave Shifts Data Center Sites Amid Moratoriums — Blockspace",
+          "url": "https://blockspace.media/insight/coreweave-shifts-data-center-sites-amid-moratoriums/"
+        },
+        {
+          "text": "Hinojosa urges Gov. Abbott to halt new Texas data centers until lawmakers set rules — KFOX14",
+          "url": "https://kfoxtv.com/news/local/hinojosa-urges-gov-abbott-to-halt-new-texas-data-centers-until-lawmakers-set-rules"
+        },
+        {
+          "text": "CoreWeave Earnings Forecasts — Benzinga",
+          "url": "https://www.benzinga.com/quote/CRWV/earnings-forecasts"
+        },
+        {
+          "text": "CoreWeave Next Earnings Date — Earnings Whispers",
+          "url": "https://beta.earningswhispers.com/go/x/CRWV"
+        }
+      ]
+    },
+    "tags": [
+      "คลาวด์เอไอ",
+      "CoreWeave",
+      "Citi",
+      "เท็กซัส",
+      "เลือกตั้งกลางเทอม",
+      "ดาต้าเซ็นเตอร์",
+      "neocloud",
+      "หุ้นกู้"
+    ],
+    "agent": "hanako"
+  },
+  {
+    "id": 102,
+    "cat": "เซมิคอนดักเตอร์",
+    "title": "Astera Labs รายได้ไตรมาส 3 ทำสถิติ 584.9 ล้านดอลลาร์ เป้าไตรมาส 4 สูงกว่าคาดราว 13% แต่หุ้นยังลง 4.4% นักวิเคราะห์หลายรายลดเป้าราคาเพราะกังวลมูลค่าหุ้น",
+    "excerpt": "Astera Labs รายงานรายได้ไตรมาส 3 ปี 2569 ที่ 584.9 ล้านดอลลาร์ เพิ่มขึ้น 154% จากปีก่อน และให้เป้าไตรมาส 4 ที่ 730-750 ล้านดอลลาร์ สูงกว่าที่ตลาดคาดไว้ราว 656 ล้านดอลลาร์ แต่หุ้นปิดวันที่ 4 พ.ย. ลดลง 4.4% ที่ 223.27 ดอลลาร์ Needham และ Evercore ISI ลดเป้าราคาลงเพราะมูลค่าหุ้นทั้งกลุ่ม AI ถูกปรับลง มีเพียง Northland ที่ปรับคำแนะนำขึ้น",
+    "author": "ทีมข่าว PixelVest",
+    "date": "6 พ.ย. 2026",
+    "iso": "2026-11-06",
+    "read": 4,
+    "syms": [
+      "ALAB"
+    ],
+    "rank": 102,
+    "body": {
+      "intro": "Astera Labs (ALAB) บริษัทออกแบบชิปเชื่อมต่อข้อมูลในเซิร์ฟเวอร์ AI ประกาศงบไตรมาส 3 ปี 2569 หลังตลาดปิดวันที่ 3 พ.ย. (เช้ามืดวันที่ 4 พ.ย. เวลาไทย) ตัวเลขชนะตลาดทุกบรรทัด รายได้ทำสถิติที่ 584.9 ล้านดอลลาร์ เพิ่มขึ้น 49% จากไตรมาสก่อนและ 154% จากปีก่อน กำไรต่อหุ้นแบบ non-GAAP (ตัวเลขที่ตัดรายการพิเศษ เช่น ค่าตอบแทนเป็นหุ้น ออกไปแล้ว) อยู่ที่ 1.32 ดอลลาร์ ขณะที่ตลาดคาดไว้ที่รายได้ 550.8 ล้านดอลลาร์และกำไร 1.19 ดอลลาร์ต่อหุ้น ถึงอย่างนั้น หุ้นก็เปิดตลาดวันที่ 4 พ.ย. ด้วยการลงทันที แล้วปิดที่ 223.27 ดอลลาร์ ลดลง 4.4% จากราคาปิดวันก่อนที่ 233.62 ดอลลาร์ - **อัตรากำไรขั้นต้น non-GAAP** อยู่ที่ 72.4% ส่วน **อัตรากำไรจากการดำเนินงาน non-GAAP** อยู่ที่ 44.7% เพิ่มขึ้น 560 basis point (5.6 จุดเปอร์เซ็นต์) จากไตรมาสก่อน - **กระแสเงินสดจากการดำเนินงาน** ทำสถิติที่ 179.2 ล้านดอลลาร์ และมีเงินสดรวมหลักทรัพย์ในความต้องการของตลาด 1.38 พันล้านดอลลาร์ ณ สิ้นไตรมาส - **Scorpio** ซึ่งเป็นชิปสวิตช์ (switch หรืออุปกรณ์ที่ส่งข้อมูลระหว่าง GPU และชิปในแร็กเซิร์ฟเวอร์) กลายเป็นกลุ่มสินค้าที่ใหญ่ที่สุดของบริษัท ถ้าคิดเป็นอัตรารายปี (annualized) รายได้รวมเกิน 1 พันล้านดอลลาร์ และรุ่น X-Series สำหรับการเชื่อมต่อ GPU จำนวนมากเข้าเป็นระบบเดียว (scale-up) มีรายได้แซงรุ่น P-Series ไปแล้ว สำหรับไตรมาส 4 บริษัทให้เป้ารายได้ 730-750 ล้านดอลลาร์ ค่ากลางเพิ่มขึ้นราว 27% จากไตรมาส 3 และสูงกว่าตัวเลขที่ตลาดคาดไว้ 655.81 ล้านดอลลาร์ (ตามที่ Benzinga อ้าง) ราว 13% (ทีมข่าวคำนวณ) เป้ากำไรต่อหุ้น non-GAAP อยู่ที่ 1.62-1.66 ดอลลาร์ และอัตรากำไรขั้นต้นอยู่ที่ราว 72% **1. มูลค่าหุ้นสูงอยู่แล้ว** Yahoo Finance ระบุว่าหุ้นซื้อขายที่ราว 84 เท่าของกำไร (P/E) ซึ่งสะท้อนความคาดหวังในอนาคตไว้มากแล้ว ส่วน Needham บอกว่าเหตุผลที่ลดเป้าคือ multiple compression หรือการที่ตลาดยอมจ่ายให้หุ้นกลุ่ม AI ในอัตราส่วนต่อกำไรที่ต่ำลง ไม่ได้มาจากธุรกิจของบริษัทเอง และ Needham ยังปรับประมาณการกำไรขึ้นด้วย **2. คำถามว่า Scorpio X จะโตต่อได้หรือไม่** ตามที่ TIKR สรุปจากการประชุมนักวิเคราะห์ เมื่อ Joseph Moore จาก Morgan Stanley ถามว่ายอดขาย Scorpio X จะเริ่มทรงตัวหรือไม่ CFO Desmond Lynch ตอบว่าแพลตฟอร์มลูกค้ากลุ่มแรกติดตั้งไปมากแล้ว แต่ยังคาดว่า Scorpio X จะโตต่อได้ถึงปี 2570 และมีคำสั่งซื้อค้างส่ง (backlog) จากลูกค้าใหม่หลายรายในไตรมาส 4 ข้อควรระวังคือ ในไตรมาส 3 Scorpio X ส่งให้ลูกค้าเพียง 2 ราย และตามบทสรุปคำพูดของ COO Sanjay Gajendra ลูกค้าใหม่จะผ่านการทดสอบรับรอง (qualification) ในครึ่งแรกของปี 2570 ช่วงเวลาที่รายได้จากลูกค้าใหม่จะเริ่มเข้ามาจริงจึงยังไม่ชัด **3. อัตรากำไรมีโอกาสลดลง** มีแหล่งข่าวตั้งข้อสังเกตว่าโซลูชันระดับแร็ก Orion ซึ่งรวมฮาร์ดแวร์และซอฟต์แวร์ที่มีอัตรากำไรต่ำกว่า อาจดึงอัตรากำไรขั้นต้นลง ขณะที่ค่าใช้จ่ายดำเนินงาน non-GAAP ไตรมาส 4 ถูกตั้งไว้ที่ 194-200 ล้านดอลลาร์ ซึ่งสูงขึ้นจากไตรมาสก่อน ก่อนประกาศงบหุ้นก็อ่อนตัวมาแล้ว MarketBeat รายงานว่าวันที่ 30 ต.ค. หุ้นลดลง 11.7% ในวันเดียว - **Needham** (N. Quinn Bolton) ยังให้ Buy แต่ลดเป้าจาก 425 เหลือ 300 ดอลลาร์ ยังสูงกว่าราคาปิดราว 34% - **Evercore ISI** (Mark Lipacis) ยังให้ Outperform แต่ลดเป้าจาก 452 เหลือ 311 ดอลลาร์ ยังสูงกว่าราคาปิดราว 39% - **Northland Securities** ปรับคำแนะนำขึ้นจาก Market Perform เป็น Outperform เป้า 315 ดอลลาร์ หลังจากเพิ่งลดคำแนะนำไปเมื่อ 9 ต.ค. เพราะเรื่องมูลค่าหุ้น - **UBS** ลดเป้าเหลือ 290 ดอลลาร์ ให้ Neutral และ **Susquehanna** ลดเป้าเหลือ 258 ดอลลาร์ ตัวเลขบางส่วนยังขัดกันเอง MarketBeat ระบุว่า Susquehanna ลดเป้าจาก 310 เป็น 258 ดอลลาร์ แต่ Defense World ซึ่งใช้ราคาเปิดและราคาปิดชุดเดียวกัน ระบุว่าคนที่ลดเป้าคือ TD Cowen จาก 300 เหลือ 225 ดอลลาร์ และให้ Hold ทีมข่าวยังหาแหล่งต้นทางยืนยันไม่ได้ว่าแหล่งใดถูกต้อง **ฝั่งที่ต้องระวัง:** ตลาดลงโทษหุ้นนี้หลังงบดีเป็นรอบที่สอง ในเดือน ก.พ. 2569 หุ้นเคยลงกว่า 20% หลังงบที่ชนะตลาดเหมือนกัน รายได้ของ Scorpio X ยังมาจากลูกค้าแค่ 2 ราย คำพูดของ CFO ที่ว่าแพลตฟอร์มกลุ่มแรก \"ติดตั้งไปมากแล้ว\" ทำให้มีคำถามว่าการเติบโตในปี 2570 จะขึ้นกับลูกค้าใหม่ที่ยังไม่ผ่านการรับรอง ค่าใช้จ่ายกำลังเพิ่มขึ้น และอัตรากำไรมีโอกาสลดลงจากสินค้าระดับแร็ก ถ้าตลาดยังลดมูลค่าหุ้น AI ลงต่อ หุ้นที่ P/E ราว 84 เท่ามักได้รับผลกระทบแรงกว่าหุ้นทั่วไป *หมายเหตุ: บทความนี้จัดทำเพื่อให้ข้อมูลและมุมมองเชิงบรรณาธิการเท่านั้น ไม่ใช่คำแนะนำการลงทุน โปรดประเมินความเสี่ยงก่อนตัดสินใจทุกครั้ง*",
+      "sections": [
+        {
+          "h": "งบดีทุกด้าน และเป้าไตรมาส 4 ก็สูงกว่าคาด",
+          "p": "ตามเอกสารที่บริษัทยื่นต่อ ก.ล.ต. สหรัฐฯ (SEC) และบทสรุปการประชุมนักวิเคราะห์ ตัวเลขสำคัญของไตรมาสนี้มีดังนี้"
+        },
+        {
+          "h": "ทำไมหุ้นถึงลงทั้งที่งบดี",
+          "p": "ตลาดไม่ได้กังวลกับตัวเลขของไตรมาสนี้ แต่กังวลว่ามูลค่าหุ้นจะไปต่อได้อีกแค่ไหน และการเติบโตจะยั่งยืนหรือไม่ ทีมข่าวพบประเด็นหลัก 3 ข้อ"
+        },
+        {
+          "h": "นักวิเคราะห์: หลายรายลดเป้า แต่เกือบทั้งหมดยังมองบวก",
+          "p": "ตามรายงานของ Benzinga, MarketBeat และ Investing.com ในวันที่ 4 พ.ย. (ตัวเลข upside เทียบกับราคาปิด 223.27 ดอลลาร์ ทีมข่าวคำนวณ)"
+        },
+        {
+          "h": "มุมบวก และมุมที่ต้องระวัง",
+          "p": "**ฝั่งที่มองบวก:** งบรอบนี้ดีขึ้นทั้งรายได้ อัตรากำไร และกระแสเงินสดพร้อมกัน เป้าไตรมาส 4 สูงกว่าที่ตลาดคาดราว 13% อัตรากำไรจากการดำเนินงานขยายตัว 5.6 จุดในไตรมาสเดียว แปลว่ารายได้ที่เพิ่มขึ้นกลายเป็นกำไรได้มาก นักวิเคราะห์ที่ลดเป้าส่วนใหญ่ยังให้คำแนะนำเชิงบวก และเป้าใหม่ยังสูงกว่าราคาปัจจุบัน 30-40% Northland ยังปรับคำแนะนำขึ้นหลังเห็นงบ เงินสด 1.38 พันล้านดอลลาร์ก็ทำให้บริษัทไม่ต้องพึ่งเงินทุนจากภายนอก"
+        }
+      ],
+      "quote": "เรามองว่ารอบนี้ตลาดไม่ได้ตั้งคำถามกับงบไตรมาส 3 แต่ตั้งคำถามว่าหลังลูกค้ากลุ่มแรกติดตั้ง Scorpio X ครบแล้ว Astera Labs จะหาการเติบโตครั้งถัดไปจากไหน คำตอบน่าจะเริ่มเห็นในงบไตรมาส 4 และในช่วงที่ลูกค้าใหม่ผ่านการรับรองในครึ่งแรกของปี 2570 ไม่ใช่จากตัวเลขที่ชนะตลาดในรอบนี้",
+      "quoteBy": "— ทีมข่าว PixelVest",
+      "takeaway": "Astera Labs มีรายได้ไตรมาส 3 ทำสถิติที่ 584.9 ล้านดอลลาร์ (+154% จากปีก่อน) และให้เป้าไตรมาส 4 ที่ 730-750 ล้านดอลลาร์ สูงกว่าที่ตลาดคาด แต่หุ้นปิดลง 4.4% ที่ 223.27 ดอลลาร์ เพราะกังวลเรื่องมูลค่าหุ้นและการเติบโตของ Scorpio X หลังลูกค้ากลุ่มแรก Needham และ Evercore ISI ลดเป้าเหลือราว 300 ดอลลาร์แต่ยังมองบวก ส่วน Northland ปรับคำแนะนำขึ้น งบไตรมาส 4 คาดว่าจะประกาศราววันที่ 9 ก.พ. 2570",
+      "stats": [
+        {
+          "label": "รายได้ไตรมาส 3 ปี 2569",
+          "value": "584.9 ล้านดอลลาร์",
+          "change": "+49% จากไตรมาสก่อน, +154% จากปีก่อน"
+        },
+        {
+          "label": "กำไรต่อหุ้น non-GAAP",
+          "value": "1.32 ดอลลาร์",
+          "change": "คาด 1.19 ดอลลาร์"
+        },
+        {
+          "label": "อัตรากำไรขั้นต้น / จากการดำเนินงาน (non-GAAP)",
+          "value": "72.4% / 44.7% (+560 bps จากไตรมาสก่อน)",
+          "change": ""
+        },
+        {
+          "label": "กระแสเงินสดจากการดำเนินงาน",
+          "value": "179.2 ล้านดอลลาร์",
+          "change": "เงินสดและหลักทรัพย์ 1.38 พันล้านดอลลาร์"
+        },
+        {
+          "label": "Scorpio รายได้คิดเป็นอัตรารายปี",
+          "value": "เกิน 1 พันล้านดอลลาร์",
+          "change": ""
+        },
+        {
+          "label": "เป้ารายได้ไตรมาส 4",
+          "value": "730-750 ล้านดอลลาร์",
+          "change": "คาด 655.81 ล้านดอลลาร์"
+        },
+        {
+          "label": "เป้ากำไรต่อหุ้นไตรมาส 4",
+          "value": "1.62-1.66 ดอลลาร์",
+          "change": "อัตรากำไรขั้นต้นราว 72%"
+        },
+        {
+          "label": "ราคาปิด 3 พ.ย. / ราคาเปิด 4 พ.ย. / ราคาปิด 4 พ.ย.",
+          "value": "233.62 / 217.97 / 223.27 ดอลลาร์ (-4.4%)",
+          "change": ""
+        },
+        {
+          "label": "Needham",
+          "value": "425 เป็น 300 ดอลลาร์",
+          "change": "Buy"
+        },
+        {
+          "label": "Evercore ISI",
+          "value": "452 เป็น 311 ดอลลาร์",
+          "change": "Outperform"
+        },
+        {
+          "label": "Northland",
+          "value": "ปรับขึ้นเป็น Outperform",
+          "change": "เป้า 315 ดอลลาร์"
+        },
+        {
+          "label": "UBS / Susquehanna",
+          "value": "290 (Neutral) / 258 ดอลลาร์",
+          "change": ""
+        }
+      ],
+      "sources": [
+        {
+          "text": "Astera Labs, Inc. — Form 8-K Exhibit 99.1 (Q3 2026) — SEC",
+          "url": "https://www.sec.gov/Archives/edgar/data/0001736297/000173629726000044/q326exhibit991.htm"
+        },
+        {
+          "text": "Astera Labs (ALAB) Q3 2026 Earnings Call Transcript — The Motley Fool",
+          "url": "https://www.fool.com/earnings/call-transcripts/2026/11/04/astera-labs-alab-q3-2026-earnings-call-transcript/"
+        },
+        {
+          "text": "Earnings call transcript: Astera Labs tops Q3 2026 estimates on record revenue — Investing.com",
+          "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-astera-labs-tops-q3-2026-estimates-on-record-revenue-93CH-4996810"
+        },
+        {
+          "text": "Astera Labs Inc (ALAB) Q3 2026 Earnings Call Highlights — GuruFocus",
+          "url": "https://www.gurufocus.com/news/9168783/astera-labs-inc-alab-q3-2026-earnings-call-highlights-record-revenue-surge-and-scorpios-1-billion-milestone"
+        },
+        {
+          "text": "Astera Labs Posts Record $584.9M Revenue, Guides Q4 to $730-750M — BigGo Finance",
+          "url": "https://finance.biggo.com/news/US_ALAB_2026-11-03"
+        },
+        {
+          "text": "Astera Labs (ALAB) Stock Drops After Q3 Results Spotlight Rich Valuation — Yahoo Finance",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/astera-labs-alab-stock-drops-021148878.html"
+        },
+        {
+          "text": "Astera Labs Analysts Cut Their Forecasts After Q3 Results — Benzinga",
+          "url": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/11/62863395/astera-labs-analysts-cut-their-forecasts-after-q3-results"
+        },
+        {
+          "text": "Astera Labs ticks up even as Q3 results, guidance top estimates — Seeking Alpha",
+          "url": "https://seekingalpha.com/news/4663598-astera-labs-slides-even-as-q3-results-guidance-top-estimates"
+        },
+        {
+          "text": "Astera Labs: Needham cuts target price to $300 from $425 — Rallies.ai",
+          "url": "https://rallies.ai/news/astera-labs-needham-cuts-target-price-to-300-from-425-9240b7adbf7ae5dc"
+        },
+        {
+          "text": "ALAB Maintained by Evercore ISI Group — Price Target Lowered to $311 — GuruFocus",
+          "url": "https://www.gurufocus.com/news/9169882/alab-maintained-by-evercore-isi-group-price-target-lowered-to-311"
+        },
+        {
+          "text": "Northland upgrades Astera Labs stock rating on strong quarter — Investing.com",
+          "url": "https://za.investing.com/news/stock-market-news/northland-upgrades-astera-labs-stock-rating-on-strong-quarter-93CH-4549451"
+        },
+        {
+          "text": "Astera Labs (NASDAQ:ALAB) Shares Gap Down Following Analyst Downgrade — MarketBeat",
+          "url": "https://www.marketbeat.com/instant-alerts/price-astera-labs-nasdaq-alab-shares-gap-down-following-analyst-downgrade-2026-11-04/"
+        },
+        {
+          "text": "Astera Labs (NASDAQ:ALAB) Shares Gap Down Following Analyst Downgrade — Defense World",
+          "url": "https://www.defenseworld.net/2026/11/05/astera-labs-nasdaqalab-shares-gap-down-following-analyst-downgrade.html"
+        },
+        {
+          "text": "Astera Labs (NASDAQ:ALAB) Shares Down 11.7% — MarketBeat",
+          "url": "https://www.marketbeat.com/instant-alerts/price-astera-labs-nasdaq-alab-shares-down-117-heres-what-happened-2026-10-30/"
+        },
+        {
+          "text": "Astera Labs Has Slumped Since June: Why J.P. Morgan Still Sees 157% Upside — TIKR",
+          "url": "https://www.tikr.com/blog/astera-labs-has-slumped-since-june-why-j-p-morgan-still-sees-157-upside"
+        },
+        {
+          "text": "Astera Labs Stock Pulls Back By 20% After a Strong Run — TIKR",
+          "url": "https://www.tikr.com/blog/astera-labs-stock-pulls-back-by-20-after-a-strong-run-can-analysts-202-target-hold"
+        }
+      ]
+    },
+    "tags": [
+      "เซมิคอนดักเตอร์",
+      "Astera Labs",
+      "งบไตรมาส 3",
+      "Scorpio",
+      "AI connectivity",
+      "เป้าราคา",
+      "Needham",
+      "Evercore ISI",
+      "Northland"
+    ],
+    "agent": "hanako"
+  },
+  {
+    "id": 103,
+    "cat": "อวกาศ",
+    "title": "Rocket Lab ร่วง 12.2% ปิด 45.99 ดอลลาร์ ในวันเทขายหุ้นเทคหลังเลือกตั้ง ขณะที่ Globalstar ขอ FCC ตรวจดีล Iridium ละเอียดขึ้น ก่อนวันชี้ขาด 9 พ.ย.",
+    "excerpt": "หุ้น RKLB ลง 12.2% ปิดที่ 45.99 ดอลลาร์ วันที่ 5 พ.ย. ตามแรงเทขายหุ้นเทคหลังเดโมแครตชนะเลือกตั้งกลางเทอม ทั้งที่ไม่ได้ทำธุรกิจ AI โดยตรง ส่วนดีลซื้อ Iridium ราว 8 พันล้านดอลลาร์มีบริษัทดาวเทียมรายที่สามคือ Globalstar ยื่นความเห็นต่อ FCC ขอให้ตรวจละเอียดขึ้น วันที่ 9 พ.ย. จึงเป็นทั้งวันประกาศงบไตรมาส 3 และวันครบกำหนดยื่นคำชี้แจงรอบสุดท้ายต่อ FCC",
+    "author": "ทีมข่าว PixelVest",
+    "date": "6 พ.ย. 2026",
+    "iso": "2026-11-06",
+    "read": 4,
+    "syms": [
+      "RKLB"
+    ],
+    "rank": 103,
+    "body": {
+      "intro": "หุ้น Rocket Lab (RKLB) ลง **12.2%** ปิดที่ **45.99 ดอลลาร์** ในวันพฤหัสบดีที่ 5 พฤศจิกายน 2569 ตามที่ The Motley Fool รายงาน หุ้นถูกขายไปพร้อมกับหุ้นเทคโนโลยีทั้งตลาด แม้บริษัทจะไม่ได้ขายสินค้า AI โดยตรง ในช่วงเดียวกันดีลซื้อกิจการ Iridium ก็มีบริษัทดาวเทียมรายที่สามคือ **Globalstar** ยื่นความเห็นต่อคณะกรรมการกำกับกิจการสื่อสารสหรัฐฯ (FCC) ขอให้ตรวจสอบดีลให้ละเอียดขึ้น ทั้งสองเรื่องมาถึงจุดเดียวกันในวันจันทร์ที่ **9 พ.ย.** วันนั้นบริษัทจะประกาศงบไตรมาส 3 หลังตลาดปิด และยังเป็นวันครบกำหนดยื่นคำชี้แจงรอบสุดท้าย (replies) ในกระบวนการพิจารณาของ FCC ด้วย *เรื่อง Electron เที่ยวที่ 99 และการขายหุ้นของ CFO อ่านได้ในข่าวลำดับที่ 98 ข่าวนี้เน้นสิ่งที่เกิดขึ้นหลังวันที่ 3 พ.ย.* - **4 พ.ย.:** Yahoo Finance และ TIKR รายงานว่า RKLB ลงราว **4%** วันเดียวกับที่ SpaceX ลงราว 4% บทวิเคราะห์ชิ้นนั้นมองว่าหลังเดโมแครตชนะทั้งสองสภา ตลาดมองว่า Elon Musk เสียประโยชน์มากที่สุด แรงขายจึงลามไปทั้งกลุ่มอวกาศ - **5 พ.ย.:** The Motley Fool รายงานว่าหุ้นลง **12.2%** ปิดที่ **45.99 ดอลลาร์** เหตุผลที่ระบุคือนักลงทุนกังวลว่าหลังผลเลือกตั้ง การสร้างดาต้าเซ็นเตอร์อาจถูกตรวจสอบเข้มขึ้น หรือถึงขั้นถูกสั่งพักการก่อสร้าง (moratorium) จนเกิดแรงขายหุ้นเติบโตสูงเป็นวงกว้าง The Globe and Mail รายงานว่าวันนั้น S&P 500 ลง 4.4% และ Nasdaq Composite ลง 5.6% - **ระยะยาว:** TipRanks ระบุว่าราคาหุ้นต่ำกว่าจุดสูงสุดเมื่อเดือนพฤษภาคมมากกว่าสองในสาม ส่วน 24/7 Wall St. ระบุว่าก่อนการลงรอบนี้ หุ้นติดลบราว 13.7% นับตั้งแต่ต้นปี ข้อสังเกตคือการลงครั้งนี้ไม่ได้มาจากข่าวของบริษัทเอง แต่มาจากการที่ตลาดจัด RKLB อยู่ในกลุ่มหุ้นเติบโตสูงที่มี valuation แพง (valuation คือระดับราคาหุ้นเทียบกับรายได้หรือกำไร) เมื่อนักลงทุนลดความเสี่ยงพร้อมกันทั้งตลาด หุ้นกลุ่มนี้จึงมักลงแรงกว่าดัชนี ไม่ว่าจะทำธุรกิจอะไร ความคืบหน้าในรอบนี้ ตามที่ Via Satellite, NewSpace Economy และ Stocktwits รายงาน มีดังนี้ - **Globalstar ยื่นความเห็นวันที่ 2 พ.ย.:** Globalstar ไม่ได้คัดค้านดีล แต่ขอให้ FCC พิจารณาแรงจูงใจที่จะเกิดขึ้นจากดีลนี้ เพราะปัจจุบัน Rocket Lab เป็นซัพพลายเออร์ให้ Globalstar อยู่ Globalstar กังวลว่าหลังปิดดีล Rocket Lab อาจให้ประโยชน์กับ Iridium ก่อน Globalstar ยังยกประวัติที่ Iridium เคยยื่นคำร้องขอใช้คลื่นความถี่ของ Globalstar หลายครั้ง รวมถึงประเด็นคลื่นรบกวนงานดาราศาสตร์วิทยุ - **ไม่ใช่รายแรก:** ช่วงปลาย ส.ค. SpaceX ยื่นขอให้ FCC ตรวจสอบพฤติกรรมของ Iridium ต่อคู่แข่ง โดยระบุว่า Iridium ยื่นคำร้องคัดค้านคู่แข่งมากกว่า 50 ฉบับในเวลา 8 เดือน แต่ SpaceX ก็ไม่ได้คัดค้านตัวดีล ส่วน Ligado ยื่นในทำนองเดียวกัน โดยอ้างถึงบริการที่วางแผนทำร่วมกับ AST SpaceMobile - **Rocket Lab และ Iridium ตอบกลับแล้ว:** วันที่ 30 ต.ค. ทั้งสองบริษัทยื่นคำชี้แจงร่วมกัน ระบุว่าประเด็นของ SpaceX และ Ligado มีมาก่อนดีลนี้ จึงควรแยกไปพิจารณาในกระบวนการอื่น และอ้างกรณีที่ FCC เพิ่งอนุมัติดีลที่ Amazon ซื้อ Globalstar เป็นแนวทาง Stocktwits รายงานว่า Rocket Lab ต้องการให้ FCC อนุมัติโดยเร็ว - **ไทม์ไลน์ FCC:** กำหนดยื่นความเห็นคือ 15 ต.ค. ยื่นคำตอบหรือคัดค้านคือ 30 ต.ค. และยื่นคำชี้แจงรอบสุดท้ายคือ **9 พ.ย.** ทีมข่าว PixelVest *ยังไม่มีข้อมูลยืนยัน* ว่า Rocket Lab ตอบความเห็นของ Globalstar โดยตรงแล้ว **มุมลบ:** ราคาหุ้นที่ 45.99 ดอลลาร์ต่ำกว่าราคาที่ CFO ขายเมื่อ 2 พ.ย. (52.79 ดอลลาร์) แล้ว และห่างจุดสูงสุดเดือน พ.ค. มากกว่าสองในสาม ทั้งที่ตัวบริษัทไม่มีข่าวลบ สะท้อนว่าหุ้นอ่อนไหวต่อบรรยากาศตลาดมาก หากแรงขายหุ้นเติบโตสูงยังไม่จบ งบที่ออกมาดีก็อาจพยุงราคาได้ไม่นาน ส่วนดีล Iridium มีบริษัทยื่นความเห็นเพิ่มเป็นรายที่สาม จึงเป็นตัวแปรที่อาจทำให้ FCC ใช้เวลาพิจารณานานขึ้นหรือตั้งเงื่อนไขเพิ่ม และดีลนี้ยังต้องรออีกราวครึ่งปีกว่าจะปิด ระหว่างนี้หุ้นยังต้องพึ่งข่าว Neutron ซึ่งเลื่อนไปปี 2570 ราคาเป้าหมายข้างต้นเป็นตัวเลขของโบรกเกอร์และผู้รวบรวมข้อมูลตามที่อ้างอิง ทีมข่าว PixelVest ไม่ได้ประเมินราคาเป้าหมายเอง *หมายเหตุ: บทความนี้จัดทำเพื่อให้ข้อมูลและมุมมองเชิงบรรณาธิการเท่านั้น ไม่ใช่คำแนะนำการลงทุน โปรดประเมินความเสี่ยงก่อนตัดสินใจทุกครั้ง*",
+      "sections": [
+        {
+          "h": "หุ้นอวกาศโดนขายตามหุ้น AI หลังผลเลือกตั้ง",
+          "p": "ราคาหุ้นกลับทิศภายในไม่กี่วัน ข่าวลำดับที่ 98 รายงานว่า RKLB ปิดบวก 4.5% ที่ราว 54.43 ดอลลาร์ในวันที่ 3 พ.ย. หลังจากนั้นเป็นแบบนี้"
+        },
+        {
+          "h": "ดีล Iridium: ตอนนี้มีสามบริษัทยื่นความเห็นต่อ FCC",
+          "p": "Rocket Lab ตกลงซื้อ Iridium ผู้ให้บริการสื่อสารผ่านดาวเทียม ในดีลมูลค่าราว 8 พันล้านดอลลาร์ ผู้ถือหุ้น Iridium อนุมัติไปแล้วเมื่อ 24 ก.ย. และระยะเวลารอตามกฎหมายป้องกันการผูกขาด (HSR) หมดไปตั้งแต่ 12 ส.ค. สิ่งที่ยังเหลือคือ FCC ต้องอนุมัติการโอนใบอนุญาตคลื่นความถี่ บริษัทคาดว่าจะปิดดีลได้ราว **กลางปี 2570**"
+        },
+        {
+          "h": "สองด้านของข่าวนี้",
+          "p": "**มุมบวก:** การลง 12.2% มาจากแรงขายทั้งตลาด ไม่ได้มาจากข่าวลบของบริษัท ส่วนพื้นฐานที่รายงานไว้ล่าสุดยังเหมือนเดิม คือรายได้ไตรมาส 2 ทำสถิติที่ 234 ล้านดอลลาร์ เติบโต 62% และงานในมือ (backlog) 2.36 พันล้านดอลลาร์ ทั้งสามบริษัทที่ยื่นความเห็นต่อ FCC ระบุชัดว่าไม่คัดค้านดีล บริษัทแจ้งว่าระดมทุนผ่านการขายหุ้นแบบทยอยขาย (At-The-Market offering) ได้ครบ 1.944 พันล้านดอลลาร์แล้ว ส่วนราคาเป้าหมายเฉลี่ยจากนักวิเคราะห์ราว 20 ราย ที่ Investing.com รวบรวมคือราว 102 ดอลลาร์ และวันที่ 2 พ.ย. Citizens ยังให้เรตติ้ง Buy เป้า 90 ดอลลาร์"
+        },
+        {
+          "h": "สิ่งที่ต้องดูวันที่ 9 พ.ย.",
+          "p": "- **งบไตรมาส 3 (หลังตลาดปิด ราว 05.00 น. วันที่ 10 พ.ย. เวลาไทย):** บริษัทให้กรอบรายได้ไว้ 250–265 ล้านดอลลาร์ ค่าเฉลี่ยที่นักวิเคราะห์คาดอยู่ราว 256.5–257.2 ล้านดอลลาร์ ถ้ารายได้ออกมาเกินกรอบบน ตลาดมีแนวโน้มมองว่าธุรกิจหลักไม่ได้รับผลจากบรรยากาศตลาด แต่ถ้าออกมาต่ำกว่ากรอบล่าง ก็จะซ้ำเติมแรงขายที่มีอยู่แล้ว - **คำชี้แจงรอบสุดท้ายต่อ FCC:** ดูว่า Rocket Lab ตอบประเด็นซัพพลายเออร์ของ Globalstar อย่างไร และมีบริษัทอื่นยื่นความเห็นเพิ่มหรือไม่ - **Neutron และกระแสเงินสด:** TipRanks รายงานว่านักวิเคราะห์บางรายจะดูความคืบหน้าของ Neutron และอัตราการใช้เงินสดเป็นหลัก"
+        }
+      ],
+      "quote": "การลงรอบนี้เกิดจากการลดความเสี่ยงทั้งตลาดมากกว่าข่าวของบริษัท แต่ก็ทำให้เห็นว่าหุ้น RKLB อ่อนไหวต่อบรรยากาศตลาดแค่ไหน วันที่ 9 พ.ย. จะได้เห็นทั้งตัวเลขธุรกิจและความคืบหน้าของดีล Iridium พร้อมกัน ตลาดจึงมีโอกาสแยกได้ว่าการลงครั้งนี้มาจากพื้นฐานหรือมาจากบรรยากาศตลาด",
+      "quoteBy": "— ทีมข่าว PixelVest",
+      "takeaway": "RKLB ลงราว 4% วันที่ 4 พ.ย. และลงอีก 12.2% วันที่ 5 พ.ย. ไปปิดที่ 45.99 ดอลลาร์ ตามแรงเทขายหุ้นเทคและหุ้นเติบโตสูงหลังผลเลือกตั้งกลางเทอม ส่วนดีลซื้อ Iridium ราว 8 พันล้านดอลลาร์มี Globalstar ยื่นความเห็นต่อ FCC เป็นรายที่สามต่อจาก SpaceX และ Ligado โดยทุกรายไม่ได้คัดค้านดีล วันที่ 9 พ.ย. จะมีทั้งงบไตรมาส 3 และคำชี้แจงรอบสุดท้ายต่อ FCC",
+      "stats": [
+        {
+          "label": "ราคาปิด 5 พ.ย.",
+          "value": "45.99 ดอลลาร์",
+          "change": "-12.2% (The Motley Fool)"
+        },
+        {
+          "label": "4 พ.ย.",
+          "value": "ลงราว 4%",
+          "change": "วันเดียวกับที่ SpaceX ลงราว 4%"
+        },
+        {
+          "label": "ดัชนี 5 พ.ย. (The Globe and Mail)",
+          "value": "S&P 500 -4.4%",
+          "change": "Nasdaq Composite -5.6%"
+        },
+        {
+          "label": "ดีล Iridium",
+          "value": "ราว 8 พันล้านดอลลาร์",
+          "change": "คาดปิดดีลกลางปี 2570"
+        },
+        {
+          "label": "ไทม์ไลน์ FCC",
+          "value": "ความเห็น 15 ต.ค. / ตอบ 30 ต.ค. / ชี้แจงรอบสุดท้าย 9 พ.ย.",
+          "change": ""
+        },
+        {
+          "label": "บริษัทที่ยื่นความเห็นต่อ FCC",
+          "value": "SpaceX, Ligado, Globalstar (2 พ.ย.)",
+          "change": "ไม่มีรายใดคัดค้านดีล"
+        },
+        {
+          "label": "ระดมทุน ATM",
+          "value": "1.944 พันล้านดอลลาร์",
+          "change": "ครบแล้ว"
+        },
+        {
+          "label": "ไตรมาส 2/2569",
+          "value": "รายได้ 234 ล้านดอลลาร์ (+62%)",
+          "change": "backlog 2.36 พันล้านดอลลาร์"
+        },
+        {
+          "label": "กรอบรายได้ไตรมาส 3",
+          "value": "250–265 ล้านดอลลาร์",
+          "change": "ค่าเฉลี่ยนักวิเคราะห์ราว 256.5–257.2 ล้านดอลลาร์"
+        },
+        {
+          "label": "ราคาเป้าหมายเฉลี่ย (Investing.com)",
+          "value": "ราว 102 ดอลลาร์",
+          "change": "Citizens Buy เป้า 90 ดอลลาร์ (2 พ.ย.)"
+        }
+      ],
+      "sources": [
+        {
+          "text": "Why Rocket Lab Stock Dropped Today — The Motley Fool",
+          "url": "https://www.fool.com/investing/2026/11/05/why-rocket-lab-stock-dropped-today/"
+        },
+        {
+          "text": "Why Rocket Lab Stock Dropped Today — The Globe and Mail",
+          "url": "https://www.theglobeandmail.com/investing/markets/stocks/NVDA-Q/pressreleases/8686972/why-rocket-lab-stock-dropped-today/"
+        },
+        {
+          "text": "Rocket Lab Falls 4%, SpaceX Down 4% as Midterms Make Musk the \"Biggest Loser\" — Yahoo Finance",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/rocket-lab-falls-4-spacex-211113496.html"
+        },
+        {
+          "text": "Rocket Lab Falls 4%, SpaceX Down 4% as Midterms Make Musk the \"Biggest Loser\" — TIKR",
+          "url": "https://www.tikr.com/blog/rocket-lab-falls-4-spacex-down-4-as-midterms-make-musk-the-biggest-loser"
+        },
+        {
+          "text": "'Take Flight,' Says Investor About Rocket Lab Stock — TipRanks",
+          "url": "https://www.tipranks.com/news/article/take-flight-says-investor-about-rocket-lab-stock"
+        },
+        {
+          "text": "Prediction: Rocket Lab Could Be Building the Space Company of the Future — 24/7 Wall St.",
+          "url": "https://247wallst.com/investing/2026/11/04/prediction-rocket-lab-could-be-building-the-space-company-of-the-future/"
+        },
+        {
+          "text": "Globalstar Questions Supplier Relationship With Rocket Lab When Iridium Acquisition Closes — Via Satellite",
+          "url": "https://www.satellitetoday.com/connectivity/2026/11/03/globalstar-questions-supplier-relationship-with-rocket-lab-when-iridium-acquisition-closes/"
+        },
+        {
+          "text": "Globalstar Raises Supplier Concerns in Rocket Lab–Iridium Merger Review — NewSpace Economy",
+          "url": "https://newspaceeconomy.ca/2026/11/04/globalstar-raises-supplier-concerns-in-rocket-lab-iridium-merger-review/"
+        },
+        {
+          "text": "RKLB's Iridium Deal Draws Heat As Globalstar Echoes SpaceX Concerns — Stocktwits",
+          "url": "https://stocktwits.com/news-articles/markets/equity/rklb-iridium-deal-globalstar-spacex-concerns-rocketlab-fast-fcc-approval/cNGQHAcR957"
+        },
+        {
+          "text": "FCC Public Notice DA 26-985 — Federal Communications Commission",
+          "url": "https://docs.fcc.gov/public/attachments/DA-26-985A1.pdf"
+        },
+        {
+          "text": "Rocket Lab Corp Form 425 (Iridium transaction update) — SEC",
+          "url": "https://www.sec.gov/Archives/edgar/data/0001819994/000175392626001771/g085951_ex99-1.htm"
+        },
+        {
+          "text": "Rocket Lab Q2 2026 results, Form 8-K Ex. 99.1 — SEC",
+          "url": "https://www.sec.gov/Archives/edgar/data/0001819994/000181999426000061/rklb-08102026ex991.htm"
+        },
+        {
+          "text": "Rocket Lab (RKLB) Q3 2026 Earnings Date, Time & Estimates — MarketBeat",
+          "url": "https://www.marketbeat.com/earnings/reports/2026-11-9-rocketlab-stock/"
+        },
+        {
+          "text": "Rocket Lab Corporation (RKLB) Q3 Earnings on the Horizon — Yahoo Finance / Zacks",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/rocket-lab-corporation-rklb-q3-131505061.html"
+        },
+        {
+          "text": "Rocket Lab (RKLB) Stock Forecast & Price Target — Investing.com",
+          "url": "https://www.investing.com/equities/vector-acquisition-consensus-estimates"
+        }
+      ]
+    },
+    "tags": [
+      "อวกาศ",
+      "Iridium",
+      "FCC",
+      "Globalstar",
+      "SpaceX",
+      "งบการเงิน",
+      "Rocket Lab"
+    ],
+    "agent": "hanako"
+  },
+  {
+    "id": 104,
+    "cat": "ควอนตัม",
+    "title": "IonQ งบไตรมาส 3 รายได้ 173.8 ล้านดอลลาร์ ชนะคาด ปรับเป้าทั้งปีขึ้นเป็น 505-515 ล้าน แต่ราว 48% ของรายได้มาจาก SkyWater หุ้นขยับขึ้นหลังปิดตลาดหลังร่วงไป 10.5% ในวันเดียวกัน",
+    "excerpt": "IonQ รายงานรายได้ไตรมาส 3 ปี 2569 ที่ 173.8 ล้านดอลลาร์ เพิ่มขึ้น 336% จากปีก่อน และปรับเป้ารายได้ทั้งปีขึ้นเป็น 505-515 ล้านดอลลาร์ หุ้นขยับขึ้นราว 2-5% หลังตลาดปิด หลังจากร่วงไป 10.5% ในช่วงตลาดเปิด แต่รายได้ราวครึ่งหนึ่งมาจาก SkyWater และ adjusted EBITDA ยังขาดทุน 133.6 ล้านดอลลาร์",
+    "author": "ทีมข่าว PixelVest",
+    "date": "6 พ.ย. 2026",
+    "iso": "2026-11-06",
+    "read": 4,
+    "syms": [
+      "IONQ"
+    ],
+    "rank": 104,
+    "body": {
+      "intro": "IonQ (IONQ) ประกาศงบไตรมาส 3 ปี 2569 หลังตลาดปิดวันพฤหัสบดีที่ 5 พ.ย. (ตรงกับเช้ามืดวันที่ 6 พ.ย. เวลาไทย) รายได้รวมอยู่ที่ 173.8 ล้านดอลลาร์ เพิ่มขึ้น 336% จากช่วงเดียวกันของปีก่อน สูงกว่าตัวเลขฉันทามติทุกแหล่งที่เราติดตามไว้ในบทความก่อนหน้า บริษัทยังปรับเป้ารายได้ทั้งปี 2569 ขึ้นจาก 450-460 ล้านดอลลาร์เป็น 505-515 ล้านดอลลาร์ หุ้นขยับขึ้นในการซื้อขายหลังตลาดปิด หลังจากที่ร่วงไปราว 10.5% ในช่วงตลาดเปิดวันเดียวกัน งบรอบนี้เป็นไตรมาสแรกที่รวมผลของ SkyWater Technology โรงงานผลิตชิปที่ IonQ ซื้อกิจการเมื่อ 31 ก.ค. คำถามสำคัญจึงไม่ได้อยู่ที่ว่าชนะตัวเลขคาดการณ์หรือไม่ แต่อยู่ที่ว่ารายได้ส่วนไหนมาจากธุรกิจควอนตัมจริง ๆ - **รายได้รวม:** 173.8 ล้านดอลลาร์ เพิ่มขึ้น 336% จากปีก่อน (ไตรมาส 3 ปี 2568 อยู่ที่ 39.9 ล้านดอลลาร์) ส่วนตัวเลขฉันทามติแต่ละแหล่งยังต่างกันอยู่มาก StockStory ใช้ 141.71 ล้านดอลลาร์ Zacks ใช้ 145.3 ล้านดอลลาร์ ขณะที่ GuruFocus ใช้ 169.77 ล้านดอลลาร์ ไม่ว่าจะใช้ตัวเลขไหน รายได้ก็ยังสูงกว่าคาด - **รายได้ส่วนควอนตัม (IonQ segment):** 90.3 ล้านดอลลาร์ เพิ่มขึ้นราว 127% จากปีก่อน โดยมีแรงหนุนจากการติดตั้งเครื่อง Tempo (คอมพิวเตอร์ควอนตัมรุ่นที่ 5 ของบริษัท) ให้ลูกค้าทั่วโลก - **รายได้ส่วน SkyWater:** สื่อที่อ้างอิงข่าวประกาศงบระบุว่าอยู่ที่ราว 83.5 ล้านดอลลาร์ FourWeekMBA คำนวณว่าคิดเป็นราว 48% ของรายได้รวม ส่วนรายงาน 10-Q (รายงานการเงินรายไตรมาสที่ยื่นต่อ ก.ล.ต. สหรัฐฯ) แสดงรายได้ของ SkyWater Foundry Services ไว้ที่ 100.3 ล้านดอลลาร์ ซึ่งรวมรายได้ที่ซื้อขายกันเองระหว่างสองบริษัท 16.7 ล้านดอลลาร์ที่ต้องตัดออกตอนรวมงบ ตัวเลขสองแหล่งนี้จึงน่าจะต่างกันเพราะวิธีนับ ไม่ได้ขัดแย้งกัน - **กำไรต่อหุ้นแบบ GAAP:** บวก 1.42 ดอลลาร์ ขณะที่นักวิเคราะห์คาดว่าจะขาดทุน 0.77 ดอลลาร์ แต่ตัวเลขนี้มาจากรายการทางบัญชีเป็นหลัก รายงาน 10-Q แสดงกำไรจากการปรับมูลค่ายุติธรรมของ warrant (ใบสำคัญแสดงสิทธิซื้อหุ้นที่บันทึกเป็นหนี้สิน เมื่อราคาหุ้นลดลง มูลค่าหนี้สินส่วนนี้ก็ลดลงและบันทึกเป็นกำไร) ราว 896 ล้านดอลลาร์ และผลประโยชน์ทางภาษีอีก 141.7 ล้านดอลลาร์ ถ้าดูแบบไม่รวมรายการพิเศษ สื่อรายงานว่ายังขาดทุนราว 0.29 ดอลลาร์ต่อหุ้น - **Adjusted EBITDA (กำไรก่อนดอกเบี้ย ภาษี ค่าเสื่อม หลังตัดรายการพิเศษ):** ขาดทุน 133.6 ล้านดอลลาร์ เพิ่มขึ้นจากที่ขาดทุน 120.3 ล้านดอลลาร์ในไตรมาส 2 ผู้บริหารอธิบายว่าเป็นเพราะค่าใช้จ่ายในการรวมกิจการมากระจุกตัวอยู่ในไตรมาสนี้ ข้อสังเกตของเราคือ ในบทความเมื่อ 4 พ.ย. เราเขียนไว้ว่าโจทย์ของงบรอบนี้คือบริษัทจะแยกรายได้ส่วนควอนตัมออกจากส่วนโรงงานชิปให้เห็นได้หรือไม่ คำตอบคือแยกให้เห็นแล้ว ตลาดจึงประเมินธุรกิจหลักได้ชัดเจนกว่าที่กังวลกันไว้ ถ้านำรายได้ 3 ไตรมาสแรก (64.7 + 80.1 + 173.8 = 318.6 ล้านดอลลาร์) ไปหักจากค่ากลางของเป้าทั้งปี เป้าใหม่จะบอกว่ารายได้ไตรมาส 4 ควรอยู่ที่ราว 191 ล้านดอลลาร์ (ทีมข่าวคำนวณ) ตัวเลขนี้สูงกว่าไตรมาส 3 อยู่ส่วนหนึ่ง เพราะไตรมาส 4 จะรวม SkyWater ครบทั้ง 3 เดือน ขณะที่ไตรมาส 3 รวมได้แค่ 2 เดือน (31 ก.ค. ถึง 30 ก.ย.) ตัวเลขที่เรามองว่าสำคัญกว่ารายได้คือ RPO (remaining performance obligations หรือมูลค่าสัญญาที่เซ็นแล้วแต่ยังไม่ได้รับรู้เป็นรายได้) RPO ของทั้งกลุ่มบริษัทอยู่ที่ 1.2 พันล้านดอลลาร์ เฉพาะส่วนควอนตัมเพิ่มจาก 485 ล้านดอลลาร์เป็น 689 ล้านดอลลาร์ภายในไตรมาสเดียว หลังเซ็นสัญญาใหม่ได้ราว 290 ล้านดอลลาร์ ถ้าเทียบกับรายได้ส่วนควอนตัม 90.3 ล้านดอลลาร์ในไตรมาสนี้ สัญญาใหม่ที่เซ็นได้สูงกว่ารายได้ที่รับรู้ราว 3 เท่า (ทีมข่าวคำนวณ) ด้านเงินสด บริษัทมีเงินสด 1.7 พันล้านดอลลาร์ ณ 30 ก.ย. และราว 3.7 พันล้านดอลลาร์ถ้านับรวมเงินเพิ่มทุน 2 พันล้านดอลลาร์ที่ปิดดีลไปเมื่อ 16 ต.ค. ข้อควรระวังคือ ณ เวลาที่เขียน ตัวเลขเหล่านี้ยังเป็นราคาหลังตลาดปิด ซึ่งสภาพคล่องต่ำและเปลี่ยนแปลงได้มากเมื่อตลาดเปิดคืนวันที่ 6 พ.ย. (เวลาไทย) ถึงจะบวกขึ้นมา ราคาแถว 27 ดอลลาร์ก็ยังต่ำกว่าพื้น collar ของดีล Elisity ที่ 33.07 ดอลลาร์ราว 18% และต่ำกว่าราคาปิด 29.99 ดอลลาร์ของวันที่ 3 พ.ย. (ทีมข่าวคำนวณ) ถ้าใช้ฐานหุ้นราว 429.4 ล้านหุ้นตามที่เราใช้ในบทความก่อน มูลค่าตลาดที่ราคา 27.16 ดอลลาร์จะอยู่ที่ราว 1.17 หมื่นล้านดอลลาร์ หรือราว 23 เท่าของค่ากลางเป้ารายได้ใหม่ ลดลงจากราว 28 เท่าเมื่อ 4 พ.ย. (ทีมข่าวคำนวณ ฐานหุ้นอาจคลาดเคลื่อน เพราะยังไม่ได้รวมหุ้นที่ออกจากดีลเพิ่มทุนและ Elisity ทั้งหมด) **ฝั่งที่ต้องระวัง:** รายได้เกือบครึ่งมาจากธุรกิจโรงงานผลิตชิป ซึ่งมีอัตรากำไรต่ำกว่าธุรกิจควอนตัม และตัวเลขการเติบโต 336% ก็สูงเกินจริงถ้าเทียบกับการเติบโตของธุรกิจเดิม กำไรแบบ GAAP 1.42 ดอลลาร์ต่อหุ้นมาจากกำไรทางบัญชีของ warrant เกือบทั้งหมด ไม่ได้มาจากการดำเนินงาน และจะกลับเป็นขาดทุนได้ถ้าราคาหุ้นฟื้นขึ้น เพราะมูลค่าหนี้สินของ warrant จะเพิ่มขึ้นตาม ส่วน adjusted EBITDA ก็ยังขาดทุนมากขึ้นเป็น 133.6 ล้านดอลลาร์ การที่ราคาหุ้นหลังตลาดปิดขึ้นได้แค่ 2-5% ทั้งที่งบดีกว่าคาดชัดเจน และขึ้นมายังไม่ถึงครึ่งของที่ร่วงไปในช่วงตลาดเปิด สะท้อนว่าตลาดยังให้น้ำหนักกับบรรยากาศของกลุ่มชิปและ AI หลังการเลือกตั้งมากกว่าตัวงบ นอกจากนี้ TIKR เคยประเมินไว้ว่ากระแสเงินสดอิสระทั้งปี 2569 จะติดลบราว 515 ล้านดอลลาร์ *หมายเหตุ: บทความนี้จัดทำเพื่อให้ข้อมูลและมุมมองเชิงบรรณาธิการเท่านั้น ไม่ใช่คำแนะนำการลงทุน โปรดประเมินความเสี่ยงก่อนตัดสินใจทุกครั้ง*",
+      "sections": [
+        {
+          "h": "ตัวเลขหลัก: ชนะคาดชัดเจน และบริษัทแยกส่วนรายได้ให้ดู",
+          "p": "ตามรายงานของ GuruFocus และ StockStory ตัวเลขสำคัญของไตรมาสนี้มีดังนี้"
+        },
+        {
+          "h": "เป้าทั้งปีเพิ่มขึ้น 55 ล้านดอลลาร์ และงานในมือโตเร็วกว่ารายได้",
+          "p": "ค่ากลางของเป้าใหม่อยู่ที่ 510 ล้านดอลลาร์ สูงกว่าตัวเลขฉันทามติ 455.11 ล้านดอลลาร์ที่ StockStory อ้างอิง และสูงกว่าค่ากลางของเป้าเดิมราว 55 ล้านดอลลาร์ บริษัทคาดว่ารายได้ส่วนควอนตัมทั้งปีจะโตราว 110% จากปีก่อน"
+        },
+        {
+          "h": "ราคาหุ้น: ร่วง 10.5% ก่อนประกาศงบ แล้วขยับขึ้นหลังตลาดปิด",
+          "p": "The Motley Fool รายงานว่าหุ้น IonQ ลดลงราว 10.5% ในช่วงตลาดเปิดวันที่ 5 พ.ย. ก่อนงบจะออก ท่ามกลางแรงขายหุ้นชิปและหุ้น AI หลังการเลือกตั้งกลางเทอม หลังประกาศงบ ตัวเลขการขยับของราคาหลังตลาดปิดต่างกันตามแหล่ง StockStory รายงานว่าหุ้นขึ้น 2.3% ไปที่ 27.16 ดอลลาร์ทันทีหลังงบออก Investing.com รายงานว่าขึ้นราว 3% ส่วน GuruFocus และ Seeking Alpha รายงานว่าขึ้นราว 5.5% ทีมข่าวคำนวณย้อนจากตัวเลขของ StockStory ได้ว่าราคาปิดช่วงตลาดเปิดอยู่ที่ราว 26.55 ดอลลาร์"
+        },
+        {
+          "h": "มุมบวก และมุมที่ต้องระวัง",
+          "p": "**ฝั่งที่มองบวก:** รายได้ชนะตัวเลขฉันทามติทุกแหล่ง แม้แต่แหล่งที่ตั้งตัวเลขไว้สูงสุดที่ 169.77 ล้านดอลลาร์ ส่วนควอนตัมอย่างเดียวก็โตถึง 127% จากปีก่อน และยังโตจากรายได้รวมไตรมาส 2 ที่ 80.1 ล้านดอลลาร์ (ซึ่งยังไม่มี SkyWater) ขึ้นมาเป็น 90.3 ล้านดอลลาร์ หรือราว 13% จากไตรมาสก่อน (ทีมข่าวคำนวณ) การปรับเป้าขึ้นเป็นรอบที่สองภายในสองเดือนช่วยตอบความกังวลเรื่องความน่าเชื่อถือของผู้บริหาร RPO ส่วนควอนตัมที่เพิ่มขึ้นราว 42% ในไตรมาสเดียวบอกว่าความต้องการของลูกค้ายังมีจริง และเงินสดราว 3.7 พันล้านดอลลาร์ (นับรวมเงินเพิ่มทุน) ก็ทำให้ความเสี่ยงว่าจะต้องเพิ่มทุนอีกในระยะสั้นลดลง"
+        },
+        {
+          "h": "สิ่งที่ต้องจับตาต่อจากนี้",
+          "p": "- **ราคาเปิดตลาดคืนวันที่ 6 พ.ย. (เวลาไทย):** ถ้าราคาที่ขึ้นหลังตลาดปิดยืนได้ในช่วงตลาดเปิด แปลว่าตลาดยอมรับงบ ถ้าราคาย่อลงต่ำกว่าราคาปิดราว 26.55 ดอลลาร์ แปลว่าแรงขายจากบรรยากาศของทั้งกลุ่มยังมีน้ำหนักมากกว่า - **นักวิเคราะห์ปรับเป้าหลังงบ:** ณ เวลาที่เขียน ทีมข่าวยังหาข่าวการปรับเป้าหลังงบรอบนี้ไม่พบ (ยังไม่มีข้อมูลยืนยัน) สิ่งที่ต้องดูคือ B. Riley ที่เพิ่งลดเป้าเหลือ 75 ดอลลาร์เมื่อ 2 พ.ย. จะเปลี่ยนท่าทีหรือไม่ - **อัตรากำไรขั้นต้นของแต่ละส่วนในไตรมาส 4:** เมื่อ SkyWater ถูกรวมครบทั้งไตรมาส อัตรากำไรรวมของบริษัทมีแนวโน้มลดลงตามสัดส่วนธุรกิจโรงงานชิปที่เพิ่มขึ้น - **การรวม Elisity:** ดีลนี้ปิดก่อนประกาศงบ จึงจะเริ่มเข้ามาในงบไตรมาส 4 และเป็นอีกปัจจัยที่ทำให้การเทียบงบกับไตรมาสก่อนทำได้ยาก"
+        }
+      ],
+      "quote": "งบรอบนี้ดีกว่าที่ตลาดกังวลไว้ บริษัทแยกส่วนควอนตัมออกมาให้เห็นแล้ว และส่วนนั้นก็ยังโตเกินเท่าตัว ทีมข่าวมองว่าตัวเลขที่ควรดูมากที่สุดคือสัญญาใหม่ราว 290 ล้านดอลลาร์ ไม่ใช่การเติบโต 336% หรือกำไร GAAP ที่มาจาก warrant แต่การที่หุ้นตอบสนองแค่ไม่กี่เปอร์เซ็นต์หลังร่วงไป 10.5% ก็บอกว่าตอนนี้ราคาหุ้น IonQ ขึ้นลงตามบรรยากาศของกลุ่มชิปและ AI มากกว่าตามผลประกอบการของบริษัทเอง",
+      "quoteBy": "— ทีมข่าว PixelVest",
+      "takeaway": "IonQ รายงานรายได้ไตรมาส 3 ที่ 173.8 ล้านดอลลาร์ (+336%) ชนะคาด ส่วนควอนตัมอยู่ที่ 90.3 ล้านดอลลาร์ (+127%) ปรับเป้าทั้งปีขึ้นเป็น 505-515 ล้านดอลลาร์ RPO รวมอยู่ที่ 1.2 พันล้านดอลลาร์ แต่รายได้ราว 48% มาจาก SkyWater กำไร GAAP มาจากรายการทางบัญชีของ warrant และ adjusted EBITDA ยังขาดทุน 133.6 ล้านดอลลาร์ หุ้นขยับขึ้น 2-5% หลังตลาดปิดหลังร่วง 10.5% ในวันเดียวกัน ตัวชี้ขาดถัดไปคือราคาจะยืนได้หรือไม่เมื่อตลาดเปิด และนักวิเคราะห์จะปรับเป้าอย่างไร",
+      "stats": [
+        {
+          "label": "รายได้ไตรมาส 3 ปี 2569",
+          "value": "173.8 ล้านดอลลาร์",
+          "change": "+336% จากปีก่อน"
+        },
+        {
+          "label": "ฉันทามติรายได้",
+          "value": "141.71 (StockStory) / 145.3 (Zacks) / 169.77 (GuruFocus) ล้านดอลลาร์",
+          "change": ""
+        },
+        {
+          "label": "รายได้ส่วนควอนตัม",
+          "value": "90.3 ล้านดอลลาร์",
+          "change": "+127% จากปีก่อน"
+        },
+        {
+          "label": "รายได้ส่วน SkyWater",
+          "value": "ราว 83.5 ล้านดอลลาร์หลังตัดรายการระหว่างกัน",
+          "change": "ราว 48% ของรายได้รวม"
+        },
+        {
+          "label": "กำไรต่อหุ้น GAAP",
+          "value": "+1.42 ดอลลาร์",
+          "change": "คาดไว้ -0.77 ดอลลาร์ (หลัก ๆ มาจากกำไร warrant ราว 896 ล้านดอลลาร์)"
+        },
+        {
+          "label": "ขาดทุนต่อหุ้นแบบ non-GAAP (สื่อรายงาน)",
+          "value": "ราว -0.29 ดอลลาร์",
+          "change": ""
+        },
+        {
+          "label": "Adjusted EBITDA",
+          "value": "-133.6 ล้านดอลลาร์",
+          "change": "ไตรมาส 2: -120.3 ล้านดอลลาร์"
+        },
+        {
+          "label": "เป้ารายได้ทั้งปี 2569",
+          "value": "505-515 ล้านดอลลาร์",
+          "change": "เดิม 450-460 ล้านดอลลาร์"
+        },
+        {
+          "label": "RPO รวม",
+          "value": "1.2 พันล้านดอลลาร์",
+          "change": "ส่วนควอนตัม 485 เป็น 689 ล้านดอลลาร์"
+        },
+        {
+          "label": "เงินสด ณ 30 ก.ย.",
+          "value": "1.7 พันล้านดอลลาร์",
+          "change": "ราว 3.7 พันล้านดอลลาร์รวมเงินเพิ่มทุน"
+        },
+        {
+          "label": "ราคาช่วงตลาดเปิด 5 พ.ย. (Motley Fool)",
+          "value": "ราว -10.5%",
+          "change": ""
+        },
+        {
+          "label": "ราคาหลังตลาดปิด (StockStory)",
+          "value": "27.16 ดอลลาร์",
+          "change": "+2.3% (แหล่งอื่นรายงาน +3% ถึง +5.5%)"
+        }
+      ],
+      "sources": [
+        {
+          "text": "IonQ Announces Record 3Q26 Revenues and Raises FY2026 Guidance to $505 - $515 Million as Backlog Grows to $1.2 Billion — IonQ",
+          "url": "https://ionq.com/news/ionq-announces-record-3q26-revenues-and-raises-fy2026-guidance-to-505---515-million-as-backlog-grows-to-1-2-billion"
+        },
+        {
+          "text": "IonQ, Inc. Form 10-Q for the quarter ended September 30, 2026 — SEC",
+          "url": "https://www.sec.gov/Archives/edgar/data/0001824920/000119312526449829/ionq-20260930.htm"
+        },
+        {
+          "text": "IonQ Reports Q3 Revenue of $173.8 Million, Beating Estimates and Achieving GAAP EPS of $1.42 — GuruFocus",
+          "url": "https://www.gurufocus.com/news/9176330/ionq-reports-q3-revenue-of-1738-million-beating-estimates-and-achieving-gaap-eps-of-142"
+        },
+        {
+          "text": "IonQ (IONQ) Shares Rise 5.5% After Q3 Earnings Beat and Raised Revenue Guidance — GuruFocus",
+          "url": "https://www.gurufocus.com/news/9176851/ionq-ionq-shares-rise-55-after-q3-earnings-beat-and-raised-revenue-guidance"
+        },
+        {
+          "text": "IonQ (NYSE:IONQ) beats expectations in strong Q3 2026, guides for strong full-year sales — StockStory",
+          "url": "https://stockstory.org/us/stocks/nyse/ionq/news/earnings/ionq-nyseionq-beats-expectations-in-strong-q3-2026-guides-for-strong-full-year-sales"
+        },
+        {
+          "text": "IonQ climbs 3% on earnings beat and raised guidance — Investing.com",
+          "url": "https://www.investing.com/news/earnings/ionq-climbs-3-on-earnings-beat-and-raised-guidance-5006062"
+        },
+        {
+          "text": "IonQ perks up as it boosts full-year guidance — Seeking Alpha",
+          "url": "https://seekingalpha.com/news/4666963-ionq-perks-up-as-it-boosts-full-year-guidance"
+        },
+        {
+          "text": "Why IonQ Stock Just Fell 10.5% Today — The Motley Fool",
+          "url": "https://www.fool.com/investing/2026/11/05/why-ionq-stock-just-fell-10-5-today/"
+        },
+        {
+          "text": "IonQ Revenue Up 336% to $173.8M; 48% Came From SkyWater — FourWeekMBA",
+          "url": "https://fourweekmba.com/ai-ionq-revenue-up-336-to-173-8m-48-came-from-skywater/"
+        },
+        {
+          "text": "IonQ posts $173.8 million Q3 revenue and raises 2026 guidance to $505M-$515M — Crypto Briefing",
+          "url": "https://cryptobriefing.com/ionq-q3-revenue-raises-2026-guidance/"
+        },
+        {
+          "text": "IonQ Q3 2026 Earnings Call Transcript — Benzinga",
+          "url": "https://www.benzinga.com/news/26/11/62960929/ionq-q3-2026-earnings-call-transcript"
+        },
+        {
+          "text": "IonQ Q3 2026 Earnings Tomorrow: Time to Buy Stock, Wait or Sell? — Zacks via Yahoo Finance",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/ionq-q3-2026-earnings-tomorrow-190000168.html"
+        },
+        {
+          "text": "IonQ (IONQ) Q3 2026 Earnings Date, Time & Estimates — MarketBeat",
+          "url": "https://www.marketbeat.com/earnings/reports/2026-11-5-ionq-inc-stock/"
+        },
+        {
+          "text": "IonQ Stock: $29 Before Tonight's Q3 Results, With Elisity Closed and a $2 Billion Raise Banked — FinanceFeeds",
+          "url": "https://financefeeds.com/ionq-stock-29-before-q3-results-tonight-5-november-bull-34-bear-26/"
+        },
+        {
+          "text": "IonQ (IONQ) Expands Quantum Reach, Closes $1.15B Deal Ahead of Earnings — TipRanks",
+          "url": "https://tipranks.com/news/ionq-ionq-expands-quantum-reach-closes-1-15b-deal-ahead-of-earnings"
+        },
+        {
+          "text": "IonQ, Inc. Form 8-K (Q2 2026 results) — SEC",
+          "url": "https://www.sec.gov/Archives/edgar/data/0001824920/000119312526335040/ionq-ex99_1.htm"
+        }
+      ]
+    },
+    "tags": [
+      "ควอนตัม",
+      "งบไตรมาส 3",
+      "SkyWater",
+      "เป้ารายได้",
+      "งานในมือ",
+      "RPO",
+      "warrant",
+      "เพิ่มทุน",
+      "Elisity"
+    ],
+    "agent": "hanako"
   }
 ];

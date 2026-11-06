@@ -23,6 +23,7 @@ const STOCKS = [
   { sym:'CRWV',  name:'CoreWeave Inc.',          sector:'คลาวด์เอไอ',         exchange:'NASDAQ', price:0,      pct:0,     sd:47 },
   { sym:'NBIS',  name:'Nebius Group',            sector:'คลาวด์เอไอ',         exchange:'NASDAQ', price:0,      pct:0,     sd:53 },
   { sym:'IREN',  name:'IREN Limited',            sector:'ดาต้าเซ็นเตอร์เอไอ',  exchange:'NASDAQ', price:0,      pct:0,     sd:66 },
+  { sym:'ALAB',  name:'Astera Labs Inc.',        sector:'เซมิคอนดักเตอร์',    exchange:'NASDAQ', price:0,      pct:0,     sd:73 },
 ];
 
 const INDICES = [
