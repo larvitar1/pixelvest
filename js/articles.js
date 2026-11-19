@@ -13133,5 +13133,332 @@ const ARTS = [
       "Elisity"
     ],
     "agent": "hanako"
+  },
+  {
+    "id": 105,
+    "cat": "ภาพรวมตลาด",
+    "title": "งบ Nvidia แรงแต่สู้รายงานเฟดไม่ไหว S&P 500 ลง 5 วันติดหลุดเส้น 200 วัน ดาวโจนส์ลบ 561 จุด ตลาดรอ Anthropic เข้าเทรดคืนนี้",
+    "excerpt": "รายงานการประชุมเฟดชี้ว่ากรรมการเกือบทั้งหมดเห็นควรขึ้นดอกเบี้ยต่อ S&P 500 ลงวันที่ห้าติดต่อกันและหลุดเส้นค่าเฉลี่ย 200 วัน Nvidia กลับมาลง 2.9% แม้งบชนะคาด ส่วนฟิวเจอร์สช่วงค่ำบวกก่อน Anthropic เข้าซื้อขายวันแรกคืนนี้",
+    "author": "ทีมข่าว PixelVest",
+    "date": "19 พ.ย. 2026",
+    "iso": "2026-11-19",
+    "read": 20,
+    "syms": [
+      "NVDA",
+      "AMZN",
+      "GOOGL",
+      "DELTA"
+    ],
+    "rank": 105,
+    "body": {
+      "intro": "ตลาดหุ้นสหรัฐฯ ปิดวันพุธที่ 18 พ.ย. แบบผสม **Dow Jones** ลง 561.25 จุด หรือ 1.11% ปิดที่ 50,198.17 จุด เป็นการลงวันที่สามติดต่อกัน **S&P 500** ลง 0.23% ที่ 7,323.63 จุด เป็นการลงวันที่ห้าติดต่อกัน และนานที่สุดนับตั้งแต่มิถุนายน ส่วน **Nasdaq Composite** บวก 0.42% ที่ 24,429.89 จุด (Stocktitan, BigGo Finance, fnnews) Motley Fool รายงานว่า S&P 500 หลุดลงมาต่ำกว่าเส้นค่าเฉลี่ยเคลื่อนที่ 200 วัน (ราคาเฉลี่ยย้อนหลังราว 10 เดือน ซึ่งนักลงทุนจำนวนมากใช้แยกขาขึ้นกับขาลงระยะยาว) แรงกดดันหลักมาจากรายงานการประชุมเฟด (FOMC minutes) รอบ 27–28 ต.ค. ที่เผยแพร่ช่วงบ่าย และหุ้น UnitedHealth ที่ร่วงแรงจนกด Dow ลง ส่วนข้อดีที่ตลาดได้มาคือฟิวเจอร์สช่วงค่ำที่บวก ก่อน Anthropic เริ่มซื้อขายวันแรก หมายเหตุเรื่องตัวเลข: บางแหล่งรายงานไม่ตรงกัน เช่น Business Upturn ให้ Dow ปิดที่ 50,222.91 จุด และ Nasdaq ที่ 24,455.60 จุด ทีมข่าวใช้ชุดตัวเลขที่หลายแหล่งรายงานตรงกัน ในวันเดียวกัน ผู้ว่าการเฟด Christopher Waller ให้สัมภาษณ์ CNBC ว่าเฟดอาจต้องขึ้นดอกเบี้ย 0.50% ในเดือนธันวาคมเพื่อ \"สร้างแรงกระแทก\" ให้ตลาดรับรู้ แต่ถ้าขึ้น 0.25% แล้วส่งสัญญาณชัดว่าจะขึ้นอีกในเดือนมกราคม ก็อาจไม่ต้องขึ้นถึง 0.50% หลังคำพูดนี้ Fed funds futures (สัญญาล่วงหน้าที่สะท้อนการคาดการณ์ดอกเบี้ย) ให้โอกาสขึ้น 0.25% ในการประชุม 8–9 ธ.ค. ที่ 92.7% ลดลงจาก 96.9% ส่วนโอกาสขึ้น 0.50% เพิ่มเป็น 7.3% จาก 3.1% (CNBC, mlq.ai) ตัวเลขที่ทำให้เฟดคุมเข้มคือ CPI เดือนตุลาคมที่ประกาศเมื่อ 10 พ.ย. ราคาทั่วไปขึ้น 0.4% ต่อเดือน และเงินเฟ้อพื้นฐาน (ไม่รวมอาหารและพลังงาน) ขึ้น 0.3% ซึ่งเป็นเดือนที่สามติดต่อกัน รอบนี้ไม่มีอัตราเทียบปีอย่างเป็นทางการ เพราะเมื่อปี 2568 ตอนรัฐบาลปิดทำการ สำนักงานสถิติแรงงานไม่ได้เก็บข้อมูลเดือนตุลาคม Bank of America ประเมินเองว่าเงินเฟ้อทั่วไปเทียบปีอยู่ราว 3.8% และเงินเฟ้อพื้นฐานราว 2.7% (Stocktitan, Kiplinger, KPMG) หุ้นบวกราว 3–4% หลังตลาดปิด แต่ระหว่างวันพุธกลับมาลง 2.9% เป็นการลงวันที่ห้าติดต่อกัน (Benzinga, Proactive Investors) เรามองว่าตลาดไม่ได้กังวลเรื่องยอดขาย แต่กังวลมาร์จิ้นที่จะลดลง การเปลี่ยนผู้นำ และดอกเบี้ยที่สูงขึ้น ซึ่งทำให้กำไรในอนาคตมีมูลค่าปัจจุบันลดลง ฝั่ง Dow ตัวฉุดหลักคือ **UnitedHealth** ที่ร่วง 10.21% ปิดที่ 349.91 ดอลลาร์ หลังมีกฎตรวจสอบ Medicare ฉบับใหม่ ทำให้หุ้นประกันสุขภาพถูกขายเป็นวันที่สอง หุ้นตัวนี้มีน้ำหนักใน Dow ราว 4.3% ส่วนกลุ่มค้าปลีก TJX บวก 8.08% และ Target บวก 4.01% หลังยอดขายสาขาเดิมเพิ่มขึ้น (techflowpost, BigGo) ตามเอกสารยื่นต่อ ก.ล.ต.สหรัฐฯ หลัง IPO **Amazon** จะถือหุ้น Anthropic 14.7% และ **Alphabet** ถือ 13.7% รวม 28.4% ทั้งสองบริษัทถือหุ้นประเภทที่ไม่มีสิทธิออกเสียง (StockAnalysis, Motley Fool) ถ้าราคาซื้อขายวันแรกแตกต่างจากราคา IPO มาก มูลค่าเงินลงทุนในงบดุลของทั้งสองบริษัทก็มีแนวโน้มเปลี่ยนตาม ซึ่งเป็นปัจจัยที่ส่งผลได้ทั้งสองทาง ราคาเปิดและราคาปิดวันแรก ทีมข่าวยังไม่มีข้อมูลยืนยัน **มุมบวก:** CNBC รายงานว่าฟิวเจอร์สช่วงค่ำวันพุธตามเวลาสหรัฐฯ บวก Dow +0.3% S&P 500 +0.5% และ Nasdaq-100 +1% ตัวเลขนี้มาจากตลาดล่วงหน้า ตลาดหลักยังไม่เปิด ถ้าความต้องการซื้อหุ้น Anthropic สูง ก็อาจช่วยฟื้นความเชื่อมั่นในหุ้นกลุ่ม AI ที่ลงมานาน **มุมลบ:** IPO ขนาดนี้ดึงเงินจำนวนมากจากตลาด และอาจทำให้กองทุนขายหุ้น AI ตัวอื่นเพื่อนำเงินมาซื้อ ขณะเดียวกันเฟดก็เพิ่งระบุว่าหนี้ที่ใช้ลงทุน AI เป็นความเสี่ยงต่อระบบ ถ้าดอกเบี้ยยังขึ้นต่อ ต้นทุนการเงินของการสร้างดาต้าเซ็นเตอร์ก็มีแนวโน้มสูงขึ้นตาม ทั้งทองและบิตคอยน์ลงพร้อมกัน ขณะที่ดอลลาร์แข็งขึ้น แสดงว่าตลาดไม่ได้กำลังหาที่หลบภัย แต่กำลังลดสินทรัพย์ที่ไม่ให้ผลตอบแทนเป็นดอกเบี้ย ส่วนน้ำมันที่อ่อนลงช่วยลดแรงกดดันด้านเงินเฟ้อได้บ้าง ถ้าแนวโน้มนี้ต่อเนื่อง ข้อโต้แย้งว่าเฟดต้องขึ้นดอกเบี้ย 0.50% ก็อาจอ่อนลง ผู้ถือกองทุนหุ้นเทคสหรัฐฯ ควรทราบว่าคืนนี้มีทั้งตัวเลขแรงงาน งบ Walmart และวันแรกของ IPO ที่ใหญ่ที่สุดเป็นประวัติการณ์ ในช่วงชั่วโมงครึ่ง ความผันผวนช่วงเปิดตลาดจึงมีแนวโน้มสูงกว่าปกติ ส่วนผู้ถือกองทุนทองคำควรทราบว่า ตราบที่ตลาดยังคาดว่าเฟดจะขึ้นดอกเบี้ย ทองก็ยังเป็นสินทรัพย์ที่อ่อนไหวต่อทิศทางยีลด์และดอลลาร์ *หมายเหตุ: บทความนี้จัดทำเพื่อให้ข้อมูลและมุมมองเชิงบรรณาธิการเท่านั้น ไม่ใช่คำแนะนำการลงทุน โปรดประเมินความเสี่ยงก่อนตัดสินใจทุกครั้ง*",
+      "sections": [
+        {
+          "h": "เฟดส่งสัญญาณขึ้นดอกเบี้ยต่อ และกังวลหนี้ที่ใช้ลงทุน AI",
+          "p": "รายงานการประชุมระบุว่ากรรมการ \"เกือบทั้งหมด\" มองว่าการขึ้นดอกเบี้ยเพิ่มน่าจะเหมาะสม เพื่อดึงเงินเฟ้อกลับสู่เป้าหมาย ในการประชุมรอบนั้นเฟดคงดอกเบี้ยนโยบายไว้ที่ 3.75–4.00% ด้วยมติ 10-2 โดย Lisa Cook และ Beth Hammack โหวตแย้งเพราะต้องการขึ้น 0.25% รายงานยังระบุว่าหนี้ที่บริษัทกู้มาลงทุน AI เป็นความเสี่ยงต่อเสถียรภาพการเงิน (Bloomberg, Benzinga, FXStreet)"
+        },
+        {
+          "h": "Nvidia งบชนะคาดแต่หุ้นลงวันที่ห้า UnitedHealth ฉุด Dow",
+          "p": "**Nvidia** ประกาศงบไตรมาส 3 ปีงบ 2570 หลังตลาดปิดเมื่อ 17 พ.ย. รายได้ราว 115.8 พันล้านดอลลาร์ โต 103% จากปีก่อน EPS ปรับปรุงอยู่ที่ 2.68 ดอลลาร์ สูงกว่าคาดที่ราว 2.47 ดอลลาร์ บริษัทให้เป้ารายได้ไตรมาส 4 ราว 130 พันล้านดอลลาร์ แต่คาดว่าอัตรากำไรขั้นต้นจะลดลงมาราว 71–72% จากราว 75% ในไตรมาสนี้ (TradingKey, Kiplinger, BigGo) งบรอบนี้เป็นรอบแรกหลัง Jensen Huang ลาออกจากตำแหน่ง CEO โดยมี Colette Kress เป็น CEO รักษาการ ก่อนประกาศงบ หุ้นลงมาราว 24% ในหนึ่งเดือนและลงหกสัปดาห์ติด ซึ่งนานที่สุดนับตั้งแต่ปี 2555 (CNBC)"
+        },
+        {
+          "h": "Anthropic เตรียมเข้าเทรด หุ้น Amazon และ Alphabet ได้รับผลโดยตรง",
+          "p": "Anthropic กำหนดราคา IPO ที่ 83 ดอลลาร์ต่อหุ้น สูงกว่าช่วงที่เสนอขาย 70–78 ดอลลาร์ ระดมทุนได้ราว 81.31 พันล้านดอลลาร์ ซึ่งมีรายงานว่าจะกลายเป็น IPO ใหญ่ที่สุดเป็นประวัติการณ์ แซงสถิติ 75 พันล้านดอลลาร์ของ SpaceX มูลค่าบริษัทอยู่ราว 1.5 ล้านล้านดอลลาร์ ถ้านับหุ้นที่อาจออกเพิ่มจากออปชันและหุ้นตอบแทนพนักงาน (fully diluted) หรือราว 1.1 ล้านล้านดอลลาร์ถ้าไม่นับ บริษัทจะเริ่มซื้อขายใน Nasdaq วันพฤหัสฯ ด้วยชื่อย่อ ANT (CNN, Yahoo Finance, NTD)"
+        },
+        {
+          "h": "ภาพ Cross-asset: ดอลลาร์แข็ง ทองและบิตคอยน์ถูกขายหนัก",
+          "p": "- **พันธบัตร:** ยีลด์ 2 ปีขึ้น 1.3 basis point (1 bp = 0.01%) มาที่ราว 4.80% หลังรายงานการประชุมเฟด (rallies.ai) แต่ยีลด์ 10 ปีลง 3 bp มาที่ราว 5.07% (Forbes) ยีลด์ 10 ปีอยู่เหนือ 5% ติดต่อกันหลายวัน จนเท่ากับช่วงที่ยืนเหนือ 5% นานที่สุดเมื่อปี 2550 แต่ยังต่ำกว่าจุดสูงสุดของปีที่ 5.31% เมื่อ 5 ต.ค. (24/7 Wall St.) ยีลด์ระยะสั้นขึ้นขณะที่ยีลด์ระยะยาวลง ทำให้ส่วนต่างระหว่างสองช่วงอายุแคบลง (yield curve flattening) แปลว่าตลาดเชื่อว่าเฟดจะขึ้นดอกเบี้ย และเริ่มประเมินว่าการขึ้นดอกเบี้ยจะทำให้เศรษฐกิจชะลอในระยะต่อไป - **ดอลลาร์:** แข็งค่าสูงสุดในรอบ 19 เดือน (Benzinga) ระดับล่าสุดที่ทีมข่าวยืนยันได้คือดัชนีดอลลาร์ราว 103.17 เมื่อ 12 พ.ย. ช่วงเดียวกันเงินเยนอ่อนไปใกล้ 160 เยนต่อดอลลาร์ (Devdiscourse) - **ทองคำ:** ลงราว 2–3% มาอยู่ในช่วงราว 3,720–3,765 ดอลลาร์ต่อออนซ์ ซึ่งเป็นระดับต่ำสุดในรอบ 14 เดือน (Mitrade, CryptoTicker) ทองไม่ให้ดอกเบี้ย เมื่อดอกเบี้ยและดอลลาร์สูงขึ้น ต้นทุนการถือทองจึงเพิ่มขึ้น - **น้ำมัน:** Fortune รายงานเบรนท์ราว 94.21 ดอลลาร์ต่อบาร์เรลช่วงเช้าตามเวลาสหรัฐฯ ลดลง 73 เซนต์ แหล่งอื่นที่รายงานช่วงหลังให้ตัวเลขต่ำกว่านั้น ราคาปิดทีมข่าวยังไม่มีข้อมูลยืนยัน - **คริปโต:** บิตคอยน์หลุด 63,000 ดอลลาร์ และดัชนีความกลัวของตลาดคริปโตลงไปอยู่ระดับต่ำสุด (BigGo)"
+        },
+        {
+          "h": "สิ่งที่ต้องจับตา (เวลาไทย แปลงโดยทีมข่าว)",
+          "p": "- **คืนนี้ 20:00 น. ประชุมนักวิเคราะห์หลังงบ Walmart** — นักวิเคราะห์คาด EPS 64 เซนต์ และรายได้ 187.18 พันล้านดอลลาร์ ราคาออปชันสะท้อนว่าหุ้นอาจเคลื่อนไหวราว 6% ทั้งสองทาง (Benzinga) ผลรอบนี้จะเป็นตัววัดกำลังซื้อผู้บริโภคต่อจาก TJX และ Target - **คืนนี้ 20:30 น. ตัวเลขผู้ขอรับสวัสดิการว่างงานรายสัปดาห์** — ถ้าออกมาต่ำ แปลว่าตลาดแรงงานยังแข็ง ซึ่งจะสนับสนุนฝั่งที่อยากให้เฟดขึ้นดอกเบี้ยแรง ถ้าออกมาสูง ความกังวลเรื่องขึ้น 0.50% อาจลดลง - **คืนนี้ ตลาดเปิด 21:30 น. Anthropic เข้าซื้อขายวันแรก** — ดูว่าราคายืนเหนือ 83 ดอลลาร์ได้หรือไม่ และหุ้น AI ตัวอื่นถูกขายเพื่อนำเงินมาซื้อหรือเปล่า - **10 ธ.ค. ราว 02:00 น. ผลประชุมเฟด** — เดิมพันหลักคือขึ้น 0.25% หรือ 0.50% CPI เดือนพฤศจิกายนที่มีอัตราเทียบปีกลับมาประกาศวันเดียวกันนั้น"
+        },
+        {
+          "h": "มุมนักลงทุนไทย",
+          "p": "ดอลลาร์ที่แข็งที่สุดในรอบ 19 เดือนบวกกับการคาดว่าเฟดจะขึ้นดอกเบี้ย มักกดดันค่าเงินในตลาดเกิดใหม่ และทำให้เงินทุนต่างชาติไหลออก ค่าเงินบาทและดัชนี SET วันนี้ ทีมข่าวยังไม่มีข้อมูลยืนยัน Delta Electronics (Thailand) อยู่ระหว่างสองแรง ฝั่งหนึ่งคือ Nvidia ให้เป้ารายได้ราว 130 พันล้านดอลลาร์ ซึ่งบอกว่าความต้องการดาต้าเซ็นเตอร์ยังสูง อีกฝั่งคือต้นทุนการเงินของการสร้างดาต้าเซ็นเตอร์ที่สูงขึ้น และเฟดเองก็เพิ่งยกเรื่องหนี้ AI ขึ้นมาเป็นความเสี่ยง"
+        }
+      ],
+      "quote": "ตลาดตอนนี้ได้ข่าวดีจากฝั่ง AI แต่ไม่ได้ให้น้ำหนักกับข่าวดีนั้นมากนัก งบ Nvidia ที่โตกว่า 100% ไม่สามารถหยุดหุ้นจากการลงวันที่ห้า เพราะสิ่งที่กำหนดมูลค่าหุ้นในช่วงนี้คือดอกเบี้ย ไม่ใช่ยอดขาย เรามองว่า IPO ของ Anthropic คืนนี้จะทดสอบว่านักลงทุนยังพร้อมจ่ายราคาสูงให้ AI ในสภาวะที่เฟดกำลังขึ้นดอกเบี้ยหรือไม่ และผลประชุมวันที่ 9 ธ.ค. จะบอกว่าแรงกดดันนี้หนักแค่ไหน",
+      "quoteBy": "— ทีมข่าว PixelVest",
+      "takeaway": "Dow ลง 1.11% ที่ 50,198 จุด S&P 500 ลงวันที่ห้าติดต่อกันและหลุดเส้น 200 วัน ส่วน Nasdaq บวก 0.42% รายงานการประชุมเฟดและ Waller ทำให้โอกาสขึ้น 0.50% ในเดือนธันวาคมเพิ่มเป็น 7.3% ดอลลาร์แข็งสูงสุดในรอบ 19 เดือน ทองต่ำสุดในรอบ 14 เดือน และบิตคอยน์หลุด 63,000 ดอลลาร์ ตัวชี้ขาดระยะสั้นคือการซื้อขายวันแรกของ Anthropic คืนนี้ และผลประชุมเฟด 8–9 ธ.ค.",
+      "sources": [
+        {
+          "text": "Stock Market Today, November 18, 2026: The Dow Closes Lower — Stocktitan",
+          "url": "https://www.stocktitan.net/articles/stock-market-today-live-november-18-2026"
+        },
+        {
+          "text": "Stock Market Today, Nov. 18: S&P 500 Breaks Key Support as Fed Minutes Signal More Rate Hikes Ahead — Motley Fool",
+          "url": "https://www.fool.com/coverage/stock-market-today/2026/11/18/stock-market-today-nov-18-s-and-p-500-breaks-key-support-as-fed-minutes-signal-more-rate-hikes-ahead/"
+        },
+        {
+          "text": "Dow Drops, Nvidia Slips, Dollar Hits 19-Month High: Stock Market Today — Benzinga",
+          "url": "https://www.benzinga.com/markets/equities/26/11/63404681/stock-market-today-dow-jones-nvidia-earnings-dollar-19-month-high-november-18"
+        },
+        {
+          "text": "US Stocks Mixed at Close as Dow Falls While Nasdaq Rises — Business Upturn",
+          "url": "https://businessupturn.com/usa/money/us-markets/us-stocks-mixed-at-close-as-dow-falls-while-nasdaq-rises/"
+        },
+        {
+          "text": "Dow Falls for Third Straight Session, Down 561 Points to 50,198; Nvidia Drops for Fifth Consecutive Trading Day — BigGo Finance",
+          "url": "https://finance.biggo.com/news/0edd3b48-b3e4-46ca-b16b-8bc91f933083"
+        },
+        {
+          "text": "[[New York Stocks] S&P 500 Falls for Five Straight Days, Nasdaq Composite Rebounds — fnnews](https://en.fnnews.com/news/202611190621290509)",
+          "url": ""
+        },
+        {
+          "text": "US Stock Trends (November 19): Healthcare Stocks Plunge, Dragging the Dow Jones Down 561 Points — TechFlow",
+          "url": "https://www.techflowpost.com/en-US/article/35499"
+        },
+        {
+          "text": "MARKETS LIVE: Wall Street closes mixed as Dow extends losing streak, Fed minutes fuel rate concerns — Proactive Investors",
+          "url": "https://www.proactiveinvestors.com/companies/news/1101978/markets-live-dow-extends-losses-as-nvidia-gives-up-opening-gains-1101978.html"
+        },
+        {
+          "text": "Fed Officials Signal More Rate Hikes Likely After October Meeting Minutes — Bloomberg",
+          "url": "https://bloomberg.com/news/articles/2026-11-18/fed-minutes-show-almost-all-officials-expect-more-rate-hikes"
+        },
+        {
+          "text": "Fed Minutes: Almost All Officials See More Rate Hikes — Benzinga",
+          "url": "https://www.benzinga.com/markets/economic-data/26/11/63409950/fed-minutes-almost-all-officials-more-hikes-ai-debt"
+        },
+        {
+          "text": "Breaking: Fed Minutes keep further rate hikes firmly on the table — FXStreet",
+          "url": "https://www.fxstreet.com/news/fed-minutes-set-to-provide-further-clues-on-the-central-banks-hiking-pace-202611181500"
+        },
+        {
+          "text": "US two-year yields edge up after Fed minutes, official comments — rallies.ai",
+          "url": "https://rallies.ai/news/us-two-year-yields-edge-up-after-fed-minutes-official-comments-da18ec787914d618"
+        },
+        {
+          "text": "Fed's Waller: Central bank may need to 'shock people' with half-point rate hike — CNBC",
+          "url": "https://www.cnbc.com/video/2026/11/18/feds-waller-central-bank-may-need-to-shock-people-with-half-point-rate-hike.html"
+        },
+        {
+          "text": "Fed's Waller says the Fed may need to 'shock people' with a half-point rate hike in December — mlq.ai",
+          "url": "https://mlq.ai/news/feds-waller-says-the-fed-may-need-to-shock-people-with-a-half-point-rate-hike-in-december/"
+        },
+        {
+          "text": "CPI Report Shows Core Prices Up 0.3% Again, Hitting Waller's Line for Weighing a Half Point Hike — Stocktitan",
+          "url": "https://www.stocktitan.net/articles/october-2026-cpi-inflation-report"
+        },
+        {
+          "text": "October CPI Report Clears the Way for a December Rate Hike — Kiplinger",
+          "url": "https://www.kiplinger.com/investing/economy/october-2026-cpi-report-what-to-expect"
+        },
+        {
+          "text": "October inflation cinches December rate hike — KPMG",
+          "url": "https://kpmg.com/us/en/articles/2026/october-2026-cpi.html"
+        },
+        {
+          "text": "Nvidia (NVDA) Q3 2027 earnings report — CNBC",
+          "url": "https://www.cnbc.com/2026/11/17/nvidia-nvda-earnings-report-q3-2027.html"
+        },
+        {
+          "text": "Nvidia Earnings: Updates and Commentary November 2026 — Kiplinger",
+          "url": "https://www.kiplinger.com/news/live/nvidia-earnings-live-updates-and-commentary-november-2026"
+        },
+        {
+          "text": "Nvidia Q3 Revenue Surges 103%, Next-Quarter Revenue Guidance Reaches $130 Billion — TradingKey",
+          "url": "https://www.tradingkey.com/analysis/stocks/us-stocks/262309793-nvidia-earnings-report-q3-rubin-ramp-data-center-growth-revenue-guidance-gross-margin-tradingkey"
+        },
+        {
+          "text": "Nvidia's Q3 Revenue Tops $100 Billion, Premarket Shares Rise Over 3% — BigGo Finance",
+          "url": "https://finance.biggo.com/news/ca825acb-9878-417c-a2f5-28f7cffc6c7c"
+        },
+        {
+          "text": "Anthropic's $83 IPO price puts it on track for a record-breaking debut on Wall Street — CNN",
+          "url": "https://www.cnn.com/2026/11/18/investing/anthropic-ipo-price-stock"
+        },
+        {
+          "text": "Anthropic prices its IPO at $83 per share, valuing the AI giant at $1.5 trillion — Yahoo Finance",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/anthropic-prices-ipo-83-per-222443646.html"
+        },
+        {
+          "text": "Anthropic Clinches Biggest IPO Ever With $81 Billion Offering — NTD",
+          "url": "https://www.ntd.com/anthropic-clinches-biggest-ipo-ever-with-81-billion-offering_1186133.html"
+        },
+        {
+          "text": "Amazon and Google will own 28.4% of Anthropic after its IPO — StockAnalysis",
+          "url": "https://stockanalysis.com/news/amazon-google-own-28-percent-anthropic-ipo/"
+        },
+        {
+          "text": "Amazon and Alphabet Will Own Over 28% of Anthropic After Its IPO — Motley Fool",
+          "url": "https://www.fool.com/investing/2026/11/18/amazon-and-alphabet-will-own-28-percent-of-anthropic-after-ipo/"
+        },
+        {
+          "text": "Stock market today: Live updates — CNBC",
+          "url": "https://www.cnbc.com/2026/11/18/stock-market-today-live-updates.html"
+        },
+        {
+          "text": "What's Going On With Walmart Stock — Benzinga",
+          "url": "https://www.benzinga.com/trading-ideas/movers/26/11/63281214/whats-going-on-with-walmart-stock-monday-2"
+        },
+        {
+          "text": "Treasury Rates Today — Forbes",
+          "url": "https://www.forbes.com/advisor/investing/treasury-rates/"
+        },
+        {
+          "text": "Two More Days Above 5% and Treasury Yields Tie 2007's Run — 24/7 Wall St.",
+          "url": "https://247wallst.com/investing/2026/11/18/two-more-days-above-5-and-treasury-yields-tie-2007s-run/"
+        },
+        {
+          "text": "FOREX-Dollar reaches 19-month high as rate expectations dominate — Devdiscourse",
+          "url": "https://www.devdiscourse.com/article/international/4006116-forex-dollar-reaches-19-month-high-asrate-expectations-dominate"
+        },
+        {
+          "text": "Gold falls to 14-month low below $3,750 on hawkish Fed rhetoric — Mitrade",
+          "url": "https://www.mitrade.com/au/insights/news/live-news/article-2-2263659-20261119"
+        },
+        {
+          "text": "Crypto news: Gold drops 3%, bitcoin below $63,000 — CryptoTicker",
+          "url": "https://cryptoticker.io/en/crypto-news-gold-price-drops-3-percent-bitcoin/"
+        },
+        {
+          "text": "Fed's Hawkish Signals Weigh on Markets as Bitcoin Falls Below $63,000 — BigGo Finance",
+          "url": "https://finance.biggo.com/news/97b4c60b-acf2-4cf8-b193-4c4a8a70eb9d"
+        },
+        {
+          "text": "Current price of oil as of Nov. 18, 2026 — Fortune",
+          "url": "https://fortune.com/article/price-of-oil-11-18-2026"
+        }
+      ]
+    },
+    "featured": true,
+    "agent": "hanako",
+    "image": "assets/images/105-market-2026-11-19.jpg"
+  },
+  {
+    "id": 106,
+    "cat": "ผลประกอบการ",
+    "title": "NVDA งบ Q3 ทุบสถิติ 1.158 แสนล้าน แต่หุ้นยังร่วงต่อ เมื่อตลาดกังวลยุคหลัง Jensen Huang",
+    "excerpt": "NVIDIA รายงานรายได้ไตรมาส 3 ปีงบ 2027 ที่ 115.8 พันล้านดอลลาร์ โต 103% และให้ guidance ไตรมาส 4 ราว 130 พันล้าน สูงกว่าที่ตลาดคาด แต่หุ้นปิดลบ 2.89% เป็นวันที่ 5 ติดต่อกัน เพราะนักลงทุนห่วงเรื่องผู้นำหลัง Jensen Huang ลาออก บอร์ดยืนยันว่าจะไม่ดึงเขากลับมา",
+    "author": "ทีมข่าว PixelVest",
+    "date": "19 พ.ย. 2026",
+    "iso": "2026-11-19",
+    "read": 12,
+    "syms": [
+      "NVDA"
+    ],
+    "rank": 106,
+    "body": {
+      "intro": "NVIDIA (NVDA) รายงานผลประกอบการไตรมาส 3 ของปีงบประมาณ 2027 (สิ้นสุด 25 ต.ค. 2026) เมื่อวันที่ 17 พ.ย. รายได้ทำสถิติใหม่ที่ 115.8 พันล้านดอลลาร์ และ guidance ไตรมาสถัดไปก็สูงกว่าที่ตลาดคาด แต่หุ้นยังปรับตัวลง วันที่ 18 พ.ย. ปิดที่ 150.96 ดอลลาร์ ลดลง 2.89% และเป็นการปรับลงวันที่ 5 ติดต่อกัน นี่เป็นงบไตรมาสแรกหลัง Jensen Huang ผู้ร่วมก่อตั้ง พ้นตำแหน่ง CEO เมื่อ 12 พ.ย. จุดที่น่าสนใจกว่าตัวเลขคือ งบรอบนี้แสดงว่าธุรกิจยังแข็งแรง แต่ยังไม่ได้ตอบคำถามที่นักลงทุนกังวลที่สุดตอนนี้ คือใครจะนำบริษัทต่อ และความเสี่ยงด้านการเมืองกับจีนจะลากยาวแค่ไหน กำไรต่อหุ้นปรับลดแบบ GAAP อยู่ที่ 2.70 ดอลลาร์ และแบบ non-GAAP อยู่ที่ 2.68 ดอลลาร์ สูงกว่าที่นักวิเคราะห์คาดไว้ที่ 2.48 ดอลลาร์ ส่วนรายได้สูงกว่าค่าเฉลี่ยที่ LSEG รวบรวมไว้ราว 109.1 พันล้านดอลลาร์ มากกว่า 6 พันล้านดอลลาร์ สำหรับไตรมาส 4 บริษัทให้ guidance รายได้ราว 130 พันล้านดอลลาร์ (ช่วงประมาณ 127.4–132.6 พันล้าน) สูงกว่าที่ตลาดคาดไว้ราว 125 พันล้าน และตัวเลขนี้ยังไม่ได้รวมรายได้ Data Center compute จากจีนเลย ด้านผลตอบแทนผู้ถือหุ้น ไตรมาสนี้ NVIDIA จ่ายคืนผู้ถือหุ้น 28.1 พันล้านดอลลาร์ หลังบอร์ดอนุมัติวงเงินซื้อหุ้นคืนเพิ่ม 150 พันล้านดอลลาร์เมื่อเดือน ก.ย. และจะจ่ายเงินปันผล 0.25 ดอลลาร์ต่อหุ้นวันที่ 23 ธ.ค. ช่วงก่อนประกาศงบ Huang บอกว่าจะรู้สึกเป็นเกียรติหากได้รับเชิญกลับมา ประธานาธิบดี Trump บอกว่าไม่ขัดข้องถ้าเขากลับมา และมีแคมเปญเรียกร้องให้เขากลับมาซึ่งมีผู้ลงชื่อราว 178,000–180,000 คน ตัวเลขต่างกันตามสำนักข่าว แต่บนเวทีแถลงงบ Jones ยืนยันว่าบอร์ดมีมติเอกฉันท์รับการลาออก และไม่มีแผนแต่งตั้ง Huang กลับเป็น CEO หุ้นจึงขึ้นได้เพียงช่วงสั้น ๆ หลังตลาดปิด แล้วกลับมาติดลบในวันถัดมา Yahoo Finance รายงานว่าหุ้นลดลงราว 24% ในเดือนนี้ และติดลบเป็นสัปดาห์ที่ 6 ติดต่อกัน ซึ่งเป็นช่วงลงยาวที่สุดนับตั้งแต่ปี 2012 Motley Fool ประเมินว่านักลงทุนยังลังเลเพราะยังไม่รู้ว่าการให้ข้อมูลต่อสภาคองเกรสของ Huang และ Kress จะออกมาอย่างไร บวกกับความเสี่ยงจากมาตรการคุมการส่งออกชุดใหม่ ด้าน CNBC รายงานว่าแรงขายลามไปถึงกลุ่ม neocloud (ผู้ให้บริการคลาวด์ GPU เฉพาะทาง) อย่าง CoreWeave และ Iren *หมายเหตุ: บทความนี้จัดทำเพื่อให้ข้อมูลและมุมมองเชิงบรรณาธิการเท่านั้น ไม่ใช่คำแนะนำการลงทุน โปรดประเมินความเสี่ยงก่อนตัดสินใจทุกครั้ง*",
+      "sections": [
+        {
+          "h": "ตัวเลขชนะคาดทุกบรรทัด และ guidance ไตรมาส 4 สูงกว่าคาด",
+          "p": "ตามเอกสารที่ NVIDIA ยื่นต่อ SEC รายได้รวมอยู่ที่ 115.8 พันล้านดอลลาร์ เพิ่มขึ้น 103% จากปีก่อน และ 20% จากไตรมาสก่อน ธุรกิจ Data Center (ชิปและระบบสำหรับศูนย์ข้อมูล AI) ทำได้ 107.6 พันล้านดอลลาร์ เพิ่มขึ้น 110% จากปีก่อน คิดเป็นราว 93% ของรายได้ทั้งหมด อัตรากำไรขั้นต้นแบบ GAAP อยู่ที่ 74.8% และแบบ non-GAAP (ตัดรายการพิเศษ เช่น ค่าตอบแทนเป็นหุ้น ออกไป) อยู่ที่ 74.9%"
+        },
+        {
+          "h": "ทำไมหุ้นไม่ขึ้น: ความไม่แน่นอนเรื่องผู้นำบดบังตัวเลข",
+          "p": "NVIDIA ประกาศเมื่อ 12 พ.ย. ว่า Huang ลาออกจากตำแหน่งประธานบริษัท CEO และกรรมการ มีผลทันที CNBC รายงานโดยอ้างแหล่งข่าวว่าบอร์ดเป็นฝ่ายตัดสินใจให้เขาออก ส่วน AP รายงานว่าเหตุมาจากการเปิดเผยว่าเขามีความสัมพันธ์นอกสมรส รวมถึงกับนักธุรกิจหญิงชาวจีนที่ถูกสงสัยว่าอาจเป็นสายข่าวให้ปักกิ่ง Colette Kress ซึ่งเป็น CFO รับตำแหน่ง CEO ชั่วคราว Harvey C. Jones เป็นประธานบอร์ดคนแรกของบริษัท และบอร์ดเริ่มสรรหา CEO ถาวรทั้งจากคนในและคนนอก"
+        },
+        {
+          "h": "มุมบวก: ดีมานด์ยังแข็ง และนักวิเคราะห์ส่วนใหญ่ยังเชียร์",
+          "p": "- **ธุรกิจหลักยังโตเร็ว** — Data Center โตเกิน 100% YoY ทั้งที่ฐานรายได้ใหญ่ระดับแสนล้านดอลลาร์ต่อไตรมาส ฝ่ายบริหารบอกว่าลูกค้ายังอยู่กับบริษัท และงานยังเดินตามปกติ - **Guidance ไม่ได้พึ่งจีน** — ตัวเลข 130 พันล้านไม่ได้รวมรายได้ compute จากจีน ถ้านโยบายส่งออกผ่อนคลายในอนาคต ส่วนนี้คือรายได้ที่ยังไม่อยู่ในประมาณการ - **นักวิเคราะห์บางรายปรับเป้าขึ้น** — Wedbush ปรับราคาเป้าหมายจาก 275 เป็น 293 ดอลลาร์ คงคำแนะนำ Outperform, JPMorgan ปรับจาก 215 เป็น 230 ดอลลาร์ และ Bank of America ยืนยันคำแนะนำ Buy เป้า 280 ดอลลาร์ โดยมองว่าการประชุมนักวิเคราะห์ช่วยลดความกังวลได้มาก (ทุกรายการลงวันที่ 18 พ.ย.) - **เงินคืนผู้ถือหุ้นก้อนใหญ่** — วงเงินซื้อหุ้นคืนเพิ่ม 150 พันล้านดอลลาร์ช่วยรองรับราคาในระยะยาวได้บางส่วน"
+        },
+        {
+          "h": "มุมลบ: ความเสี่ยงที่ตัวเลขงบวัดไม่ได้",
+          "p": "- **ยังไม่มี CEO ถาวร** — บริษัทที่ผู้ก่อตั้งเป็นศูนย์กลางมานานกว่า 30 ปีต้องเปลี่ยนผู้นำกลางคัน ยังไม่มีกรอบเวลาสรรหา และสื่อรายงานว่ามีความกังวลว่าพนักงานจะลาออกตาม - **การสอบสวนยังไม่จบ** — บอร์ดว่าจ้าง Wachtell Lipton สอบสวนอิสระว่ามีผลต่อความมั่นคงหรือความลับบริษัทหรือไม่ ขณะที่สภาคองเกรสก็กำลังตรวจสอบประเด็นนี้ - **นักวิเคราะห์อีกหลายรายหั่นเป้า** — Jefferies ลดจาก 300 เป็น 250 ดอลลาร์ (คง Buy), Piper Sandler ลดจาก 300 เป็น 230 ดอลลาร์ (คง Overweight), UBS ลดจาก 240 เป็น 220 ดอลลาร์ และ Morgan Stanley ลดจาก 267 เป็น 260 ดอลลาร์ (18 พ.ย.) ผู้จัดการกองทุนบางรายถึงขั้นมองว่าหุ้นนี้ยังลงทุนไม่ได้ในตอนนี้ - **หุ้นมักลงหลังงบ** — ตามรายงานของ Techi หุ้นปิดต่ำกว่าราคาเปิดในวันหลังประกาศงบ 9 จาก 10 ครั้งล่าสุด ตลาดจึงตั้งความหวังไว้สูงมากก่อนงบทุกรอบ"
+        }
+      ],
+      "quote": "งบไตรมาสนี้แสดงว่าดีมานด์ชิป AI ยังไม่แผ่ว แต่ราคาหุ้นตอนนี้สะท้อนความกังวลเรื่องความต่อเนื่องของผู้นำ การสอบสวน และความเสี่ยงจากจีนมากกว่าผลประกอบการ ตราบใดที่ยังไม่มี CEO ถาวรและการสอบสวนยังไม่ได้ข้อสรุป ตัวเลขที่ดีอาจยังไม่พอจะเปลี่ยนบรรยากาศ",
+      "quoteBy": "— ทีมข่าว PixelVest",
+      "takeaway": "NVIDIA ทำรายได้ 115.8 พันล้านดอลลาร์ (+103% YoY) และให้ guidance ไตรมาส 4 ราว 130 พันล้าน ซึ่งชนะคาดทั้งคู่ แต่หุ้นยังติดลบ 6 สัปดาห์ติดต่อกัน เรามองว่าสิ่งที่ตลาดรอดูต่อจากนี้ไม่ใช่ตัวเลขยอดขาย แต่เป็นความชัดเจนเรื่อง CEO คนใหม่ ผลการสอบสวน และท่าทีของสภาคองเกรส",
+      "stats": [
+        {
+          "label": "รายได้ Q3 FY27",
+          "value": "115.8B",
+          "change": "+103% YoY"
+        },
+        {
+          "label": "รายได้ Data Center",
+          "value": "107.6B",
+          "change": "+110% YoY"
+        },
+        {
+          "label": "EPS (non-GAAP)",
+          "value": "2.68",
+          "change": "คาด 2.48"
+        },
+        {
+          "label": "อัตรากำไรขั้นต้น (non-GAAP)",
+          "value": "74.9%",
+          "change": ""
+        },
+        {
+          "label": "Guidance รายได้ Q4",
+          "value": "~130B",
+          "change": "คาด ~125B"
+        },
+        {
+          "label": "ราคาปิด 18 พ.ย.",
+          "value": "150.96",
+          "change": "-2.89%"
+        }
+      ],
+      "sources": [
+        {
+          "text": "NVIDIA Announces Financial Results for Third Quarter Fiscal 2027 (Form 8-K) — SEC EDGAR",
+          "url": "https://www.sec.gov/Archives/edgar/data/0001045810/000104581026000088/q3fy27pr.htm"
+        },
+        {
+          "text": "NVIDIA (NVDA) Q3 2027 Earnings Results — MarketBeat",
+          "url": "https://www.marketbeat.com/earnings/reports/2026-11-17-nvidia-co-stock/"
+        },
+        {
+          "text": "NVIDIA Announces CEO Transition — NVIDIA Newsroom",
+          "url": "https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition"
+        },
+        {
+          "text": "Nvidia CEO Jensen Huang resigns: Live updates — CNBC",
+          "url": "https://www.cnbc.com/2026/11/12/nvidia-jensen-huang-ceo-live-updates.html"
+        },
+        {
+          "text": "Nvidia chairman says board does not intend to reinstate Jensen Huang as CEO — AP / Durango Herald",
+          "url": "https://www.durangoherald.com/articles/associated-press/ousted-nvidia-ceo-huang-agrees-to-questioning-by-us-lawmakers/"
+        },
+        {
+          "text": "Nvidia rules out Jensen Huang's return as CEO — CNN",
+          "url": "https://www.cnn.com/2026/11/17/tech/nvidia-earnings-jensen-huang-exit"
+        },
+        {
+          "text": "Trump backs campaign to reinstate Nvidia CEO — AJC",
+          "url": "https://www.ajc.com/news/2026/11/trump-backs-campaign-to-reinstate-nvidia-ceo-despite-allegations-he-had-an-affair-with-a-chinese-spy/"
+        },
+        {
+          "text": "Nvidia Kress tells CNBC's Jim Cramer that customers continue to be with us — CNBC",
+          "url": "https://www.cnbc.com/2026/11/17/nvidia-nvda-earnings-report-q3-2027.html"
+        },
+        {
+          "text": "Nvidia sinks after earnings, dragging down neoclouds CoreWeave, Iren — CNBC",
+          "url": "https://www.cnbc.com/2026/11/18/nvidia-stock-earnings.html"
+        },
+        {
+          "text": "Stock Market Today, Nov. 18: Nvidia Slips on Strong Results as Succession and China Business Risks Weigh — Motley Fool",
+          "url": "https://www.fool.com/coverage/stock-market-today/2026/11/18/stock-market-today-nov-18-nvidia-slips-on-strong-results-as-succession-and-china-business-risks-weigh/"
+        },
+        {
+          "text": "Nvidia shares fall despite bumper earnings — Semafor",
+          "url": "https://www.semafor.com/article/11/18/2026/nvidia-shares-fall-despite-bumper-earnings"
+        },
+        {
+          "text": "Nvidia stock erases earnings pop as investors face life after Jensen Huang — Yahoo Finance",
+          "url": "https://finance.yahoo.com/markets/stocks/article/nvidia-stock-erases-earnings-pop-as-investors-face-life-after-jensen-huang-173547783.html"
+        },
+        {
+          "text": "Nvidia falls 2.9% after record results — Techi",
+          "url": "https://www.techi.com/nvidia-stock-falls-day-after-earnings-ten-report-record/"
+        },
+        {
+          "text": "NVIDIA To $230? Here Are 10 Top Analyst Forecasts For Wednesday — Benzinga",
+          "url": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/11/63382204/nvidia-to-230-here-are-10-top-analyst-forecasts-for-wednesday"
+        },
+        {
+          "text": "NVIDIA Stock Price Expected to Rise, Wedbush Analyst Says — MarketBeat",
+          "url": "https://www.marketbeat.com/instant-alerts/analyst-nvidia-nasdaq-nvda-stock-price-expected-to-rise-wedbush-analyst-says-2026-11-18/"
+        }
+      ]
+    },
+    "agent": "hanako"
   }
 ];
