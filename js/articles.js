@@ -13460,5 +13460,888 @@ const ARTS = [
       ]
     },
     "agent": "hanako"
+  },
+  {
+    "id": 107,
+    "cat": "ภาพรวมตลาด",
+    "title": "หุ้นชิปถล่ม Nvidia ดิ่ง 14% S&P 500 และ Dow เข้าเขตปรับฐาน Nasdaq ลบ 5.3% กลับมาติดลบทั้งปี Anthropic หยุดแรงขายไม่ได้",
+    "excerpt": "S&P 500 ร่วง 3.7% ลงวันที่เจ็ดติดต่อกันและเข้าเขตปรับฐาน Nasdaq ลบ 5.28% จนติดลบทั้งปี หลังมีรายงานว่า ก.ล.ต.สหรัฐฯ ตรวจสอบบัญชี Nvidia ฉุดหุ้นลง 14% ยีลด์ 10 ปีลงแรงกลับต่ำกว่า 5% ทองและบิตคอยน์ถูกขายต่อ",
+    "author": "ทีมข่าว PixelVest",
+    "date": "21 พ.ย. 2026",
+    "iso": "2026-11-21",
+    "read": 17,
+    "syms": [
+      "NVDA",
+      "AMD",
+      "GOOGL",
+      "AMZN",
+      "DELTA"
+    ],
+    "rank": 107,
+    "body": {
+      "intro": "ตลาดหุ้นสหรัฐฯ ปิดวันศุกร์ที่ 20 พ.ย. ด้วยแรงขายหนักที่สุดในเดือนนี้ **S&P 500** ร่วง 3.7% ปิดที่ 6,910.39 จุด เป็นการลงวันที่เจ็ดติดต่อกัน และต่ำกว่าจุดสูงสุดเมื่อ 6 ต.ค. เกิน 10% จึงเข้าเขตปรับฐาน (correction คือการลงเกิน 10% จากจุดสูงสุด) **Dow Jones** ลบ 949.73 จุด หรือ 1.9% ปิดที่ 48,147.33 จุด หลังกลับทิศจากที่บวกช่วงเช้า และเข้าเขตปรับฐานเช่นกัน **Nasdaq Composite** ร่วง 5.28% ที่ 22,617.73 จุด ทำให้ผลตอบแทนตั้งแต่ต้นปี 2569 ติดลบ ส่วน **Nasdaq-100** ลบ 5.61% ที่ 25,028.98 จุด และระหว่างวันลงไปแตะเขตตลาดหมี (bear market คือการลงเกิน 20% จากจุดสูงสุด) (StockInvest.us, FinChannel, CNBC, WSVN) ทั้งสัปดาห์ S&P 500 ลง 8.6% Dow ลง 8% และ Nasdaq ลง 10% ตัวเร่งหลักของวันศุกร์คือหุ้นชิปและหุ้น AI หลัง Reuters รายงานว่า ก.ล.ต.สหรัฐฯ (SEC) กำลังตรวจสอบการลงบัญชีของ Nvidia ส่วนหุ้น Anthropic ที่เพิ่งเข้าตลาดเมื่อวันพฤหัสฯ ไม่ได้ช่วยพยุงตลาด และถูกขายตามไปด้วย (Axios, Yahoo Finance) หมายเหตุเรื่องตัวเลข: แต่ละแหล่งรายงานไม่ตรงกันเล็กน้อย บางแหล่งให้ S&P 500 ลง 3.6% และ Nasdaq ลง 5.1% ทีมข่าวใช้ชุดตัวเลขที่หลายแหล่งรายงานตรงกัน แรงขายลามไปทั้งกลุ่ม **AMD** ลงราว 13% และ Broadcom ลง 12.26% โดยส่วนหนึ่งมาจากรายงานที่ยังไม่ได้รับการยืนยันว่า Google จะลดคำสั่งซื้อชิปปีหน้า (Yahoo Finance, Beinsure) ทีมข่าวยังหาแหล่งยืนยันรายงานเรื่อง Google ไม่ได้ ผู้อ่านจึงควรมองเป็นข่าวลือที่ตลาดตอบสนอง ไม่ใช่ข้อเท็จจริง ข้อสังเกตคือ งบไตรมาส 3 ของ Nvidia ที่ประกาศเมื่อ 17 พ.ย. ยังโตกว่า 100% และให้เป้ารายได้ไตรมาสถัดไปราว 130 พันล้านดอลลาร์ แต่ในสัปดาห์เดียวกันหุ้นกลับลงหนัก เรามองว่าตลาดไม่ได้กำลังตั้งคำถามกับความต้องการชิป แต่กำลังตั้งคำถามกับความน่าเชื่อถือของตัวเลข การเปลี่ยนผู้นำหลัง Jensen Huang ลาออก และความยั่งยืนของงบลงทุน AI ทั้งระบบ หลัง IPO **Amazon** ถือหุ้น Anthropic ราว 14.7% และ **Alphabet** ราว 13.7% ราคาหุ้น Anthropic จึงส่งผลต่อมูลค่าเงินลงทุนในงบของทั้งสองบริษัท ทั้งในทางบวกและทางลบ Alphabet ยังถูกกดดันเพิ่มจากข่าวลือเรื่องลดคำสั่งซื้อชิปที่กล่าวข้างต้น **มุมลบ:** การที่ IPO ใหญ่ที่สุดเป็นประวัติการณ์ไม่สามารถฟื้นความเชื่อมั่นได้ บอกว่านักลงทุนกำลังลดน้ำหนักหุ้น AI ทั้งกลุ่ม ไม่ใช่แค่ขายตัวใดตัวหนึ่ง และเฟดเองก็เพิ่งระบุในรายงานการประชุมว่าหนี้ที่ใช้ลงทุน AI เป็นความเสี่ยงต่อระบบการเงิน **มุมบวก:** ราคาหุ้นที่ลดลงมากทำให้ valuation (มูลค่าหุ้นเทียบกับกำไร) ของหลายบริษัทต่ำลง ขณะที่ตัวเลขยอดขายจริงอย่างงบ Nvidia ยังโตสูง ถ้าการตรวจสอบของ SEC ไม่พบปัญหาร้ายแรง หรือข่าวลือเรื่องลดคำสั่งซื้อชิปไม่เป็นจริง แรงกดดันส่วนนี้ก็มีแนวโน้มคลายลง อีกปัจจัยคือยีลด์ที่ลงแรง ซึ่งช่วยลดแรงกดดันด้านต้นทุนการเงิน ความเชื่อมโยงที่น่าสนใจคือ ยีลด์ 2 ปีลงแรงพอ ๆ กับ 10 ปี ยีลด์ 2 ปีอ่อนไหวต่อการคาดการณ์ดอกเบี้ยเฟดมากที่สุด จึงอาจสะท้อนว่าตลาดเริ่มคิดว่าเฟดอาจไม่ขึ้นดอกเบี้ยแรงอย่างที่กลัว เมื่อตลาดหุ้นอ่อนแอขนาดนี้ ก่อนหน้านี้ตลาดล่วงหน้าให้โอกาสขึ้น 0.25% ในการประชุม 8–9 ธ.ค. เกิน 90% (Trading Economics, 17 พ.ย.) ตัวเลขล่าสุดหลังแรงขายวันศุกร์ทีมข่าวยังไม่มีข้อมูลยืนยัน ส่วนทองและบิตคอยน์ที่ลงพร้อมหุ้น บอกว่านักลงทุนกำลังขายสินทรัพย์ที่มีกำไรหรือมีสภาพคล่องเพื่อลดความเสี่ยงและหาเงินสด มากกว่าจะย้ายไปหลบภัยในสินทรัพย์เหล่านี้ ผู้ถือกองทุนหุ้นเทคสหรัฐฯ และกองทุน Nasdaq-100 ควรทราบว่าดัชนีลงไปแตะเขตตลาดหมีระหว่างวันแล้ว ความผันผวนช่วงนี้มีแนวโน้มสูงต่อไปจนกว่าจะมีความชัดเจนเรื่อง Nvidia และเฟด ส่วนกองทุนพันธบัตรสหรัฐฯ ได้ประโยชน์จากยีลด์ที่ลง ขณะที่กองทุนทองคำยังเจอแรงกดดันแม้ตลาดหุ้นจะผันผวน ซึ่งต่างจากภาพทองเป็นที่หลบภัยที่หลายคนคุ้นเคย *หมายเหตุ: บทความนี้จัดทำเพื่อให้ข้อมูลและมุมมองเชิงบรรณาธิการเท่านั้น ไม่ใช่คำแนะนำการลงทุน โปรดประเมินความเสี่ยงก่อนตัดสินใจทุกครั้ง*",
+      "sections": [
+        {
+          "h": "Nvidia ลงหนักสุดนับแต่ช่วง DeepSeek หุ้นชิปทั้งกลุ่มถูกขาย",
+          "p": "**Nvidia** ลง 14.01% ซึ่งมีรายงานว่าเป็นวันที่แย่ที่สุดนับตั้งแต่แรงขายช่วง DeepSeek เมื่อต้นปี 2568 ก่อนหน้านี้ Wall Street Journal รายงานตั้งแต่ราว 17 พ.ย. ว่า SEC เปิดการสอบสวนทางแพ่งว่าการเปิดเผยข้อมูลของ Nvidia ทำให้นักลงทุนเข้าใจผิดหรือไม่ และมีรายงานว่าอัยการสูงสุดรัฐแคลิฟอร์เนียกำลังพิจารณาดำเนินการด้วย (InvestmentNews, TweakTown) รายงานรอบใหม่ของ Reuters ว่า SEC ตรวจสอบเรื่อง \"บัญชี\" ทำให้ความกังวลหนักขึ้น เพราะเป็นคำถามต่อคุณภาพของตัวเลขกำไร ไม่ใช่แค่เรื่องการสื่อสาร ทั้งนี้ Nvidia ยังไม่ถูกตั้งข้อกล่าวหาใด ๆ และผลการตรวจสอบทีมข่าวยังไม่มีข้อมูลยืนยัน"
+        },
+        {
+          "h": "Anthropic วันแรกบวก 17% แต่วันที่สองถูกขายตาม",
+          "p": "**Anthropic** (ANT) เริ่มซื้อขายวันพฤหัสฯ ที่ 19 พ.ย. ราคาเปิด 111.50 ดอลลาร์ ขึ้นไปสูงสุด 115.10 ดอลลาร์ แล้วปิดที่ 97.17 ดอลลาร์ สูงกว่าราคา IPO 83 ดอลลาร์ราว 17% แต่คืนกำไรช่วงเช้าไปมาก (TechRepublic, FourWeekMBA, ValueAddVC) วันศุกร์หุ้นลงต่อ แหล่งข่าวรายงานไม่ตรงกัน บางแหล่งให้ลงราว 8.5% บางแหล่งระบุว่าคืนกำไรจาก IPO เกือบทั้งหมด ราคาปิดที่แน่ชัดทีมข่าวยังไม่มีข้อมูลยืนยัน"
+        },
+        {
+          "h": "ภาพ Cross-asset: เงินไหลเข้าพันธบัตร แต่ทองและบิตคอยน์ไม่ใช่ที่หลบภัย",
+          "p": "- **พันธบัตร:** ยีลด์ 2 ปีลง 12 basis point (1 bp = 0.01%) มาที่ 4.65% ยีลด์ 10 ปีลงราว 10–12 bp มาที่ราว 4.92–4.94% ซึ่งเป็นการลงแรงสุดนับตั้งแต่ 22 ต.ค. และกลับมาต่ำกว่า 5% หลังยืนเหนือระดับนี้ติดต่อกันหลายวัน ส่วนยีลด์ 30 ปีลง 7 bp ที่ 5.33% (รายงานสรุปตลาดวันที่ 20 พ.ย.) - **ทองคำ:** ฟิวเจอร์สลง 4.63% มาที่ราว 3,515 ดอลลาร์ต่อออนซ์ ต่ำสุดในรอบราว 14.5 เดือน ต่อจากที่ลงมาอยู่แถว 3,735 ดอลลาร์เมื่อ 19 พ.ย. (FXStreet) - **คริปโต:** บิตคอยน์ลง 4.72% มาที่ราว 58,994 ดอลลาร์ หลุด 60,000 ดอลลาร์ครั้งแรกนับตั้งแต่กรกฎาคม CoinDesk รายงานว่ามาตรวัดความผันผวนของทั้งหุ้น ทอง และคริปโตพุ่งขึ้นพร้อมกัน - **น้ำมันและดอลลาร์:** รายงานเรื่องน้ำมันขัดกัน บางแหล่งบอกว่าความเสี่ยงสหรัฐฯ–อิหร่านรอบใหม่หนุนราคา บางแหล่งบอกว่าน้ำมันกำลังลงเป็นสัปดาห์ที่สาม ราคาปิดของน้ำมันและดัชนีดอลลาร์ ทีมข่าวยังไม่มีข้อมูลยืนยัน"
+        },
+        {
+          "h": "สิ่งที่ต้องจับตาสัปดาห์หน้า",
+          "p": "- **ความคืบหน้าของ SEC กับ Nvidia** — ถ้ามีการยืนยันหรือปฏิเสธรายละเอียดจากบริษัทหรือหน่วยงาน หุ้นชิปทั้งกลุ่มมีแนวโน้มตอบสนองแรงทั้งสองทาง - **ราคาหุ้น Anthropic เทียบกับราคา IPO 83 ดอลลาร์** — ถ้าหลุดต่ำกว่าราคา IPO จะเป็นสัญญาณว่าความต้องการหุ้น AI อ่อนลงอีก - **การคาดการณ์ดอกเบี้ยเฟด** — ดูว่าโอกาสขึ้นดอกเบี้ยเดือนธันวาคมลดลงตามยีลด์ 2 ปีหรือไม่ ผลประชุมจะออกราว 02:00 น. วันที่ 10 ธ.ค. เวลาไทย - **ยืนยันข่าวลือ Google ลดคำสั่งซื้อชิป** — ถ้าเป็นจริงจะกระทบภาพงบลงทุนดาต้าเซ็นเตอร์ปีหน้า ถ้าไม่จริง หุ้น Broadcom และ Alphabet ส่วนที่ลงเพราะข่าวนี้อาจฟื้นกลับ"
+        },
+        {
+          "h": "มุมนักลงทุนไทย",
+          "p": "**Delta Electronics (Thailand)** อ่อนไหวต่อภาพงบลงทุนดาต้าเซ็นเตอร์โดยตรง เพราะผลิตระบบจ่ายไฟและระบายความร้อนให้กลุ่มนี้ แรงขายหุ้นชิปและข่าวลือเรื่องลดคำสั่งซื้อชิปเป็นปัจจัยกดดันด้าน sentiment แต่ถ้าความต้องการดาต้าเซ็นเตอร์จริงยังสูงตามที่งบ Nvidia สะท้อน ผลกระทบต่อยอดขายอาจน้อยกว่าที่ราคาหุ้นสะท้อน ราคาหุ้น DELTA ค่าเงินบาท และดัชนี SET วันนี้ ทีมข่าวยังไม่มีข้อมูลยืนยัน"
+        }
+      ],
+      "quote": "สัปดาห์นี้ตลาดได้เห็นทั้งงบ Nvidia ที่โตกว่า 100% และ IPO ที่ใหญ่ที่สุดเป็นประวัติการณ์ แต่ทั้งสองเรื่องไม่หยุดแรงขาย เพราะคำถามได้เปลี่ยนจากเรื่องว่า AI จะโตแค่ไหน มาเป็นเรื่องว่าตัวเลขเชื่อถือได้แค่ไหน และใครจะจ่ายค่าลงทุนต่อในยุคที่ดอกเบี้ยสูง เรามองว่ายีลด์ที่ลงแรงเป็นสัญญาณแรกที่ตลาดเริ่มคิดว่าเฟดอาจต้องคำนึงถึงตลาดหุ้นมากขึ้น แต่เรื่องนี้ยังต้องรอดูตัวเลขจริง",
+      "quoteBy": "— ทีมข่าว PixelVest",
+      "takeaway": "S&P 500 ลง 3.7% เป็นวันที่เจ็ดติดต่อกันและเข้าเขตปรับฐานพร้อม Dow ส่วน Nasdaq ลบ 5.28% จนติดลบทั้งปี Nvidia ลง 14% จากรายงานการตรวจสอบบัญชีของ SEC และ Anthropic ถูกขายในวันที่สอง ยีลด์ 10 ปีกลับต่ำกว่า 5% ขณะที่ทองต่ำสุดในรอบ 14.5 เดือนและบิตคอยน์หลุด 60,000 ดอลลาร์ ตัวชี้ขาดระยะสั้นคือความคืบหน้าเรื่อง SEC กับ Nvidia และท่าทีเฟดก่อนประชุม 8–9 ธ.ค.",
+      "sources": [
+        {
+          "text": "S&P 500 Enters Correction and Nasdaq Falls 5.3% as Chip Stocks Slide — StockInvest.us",
+          "url": "https://stockinvest.us/digest/digest-us-market-close-2026-11-20"
+        },
+        {
+          "text": "Nasdaq falls 5.3% as S&P 500 and Dow enter corrections — FinChannel",
+          "url": "https://finchannel.com/nasdaq-falls-5-3-as-sp-500-and-dow-enter-corrections/142573/american-business-trends/stock-prices/2026/11/"
+        },
+        {
+          "text": "S&P 500 and Dow close in correction; Nasdaq erases 2026 gain as AI rout picks up steam — CNBC",
+          "url": "https://www.cnbc.com/2026/11/19/stock-market-today-live-updates.html"
+        },
+        {
+          "text": "S&P 500 sinks 3.7% and Nasdaq composite goes negative for the year as tech sell-off worsens — WSVN 7News",
+          "url": "https://wsvn.com/news/us-world/ai-stocks-selloff-sp500-down/"
+        },
+        {
+          "text": "U.S. stocks tumble, and the S&P 500 drops as the sell-off for AI stocks accelerates — Washington Times",
+          "url": "https://www.washingtontimes.com/news/2026/nov/20/us-stocks-tumble-sp-500-falls-sell-ai-stocks-accelerates/"
+        },
+        {
+          "text": "Why is the stock market crashing? S&P 500 and Dow close in a correction — Nacionale",
+          "url": "https://www.nacionale.com/en/articles/why-is-the-stock-market-crashing-sp-500-dow-correction-close-november-20"
+        },
+        {
+          "text": "Is the stock market down for the year? — Nacionale",
+          "url": "https://www.nacionale.com/en/articles/is-the-stock-market-down-for-the-year-2026-sp-500-dow-nasdaq-year-to-date-november-20"
+        },
+        {
+          "text": "Nvidia shares plunge as Anthropic can't stop the AI selloff — Axios",
+          "url": "https://www.axios.com/2026/11/20/anthropic-ipo-nvidia-ai-tech-selloff"
+        },
+        {
+          "text": "Stock Market Today, Nov. 20: Stocks Plunge as AI Trade Unwinds — Yahoo Finance",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-today-nov-20-223513707.html"
+        },
+        {
+          "text": "US Stock Market Today: Dow Jones, S&P 500, Nasdaq 100 sink on AI selloff after Anthropic IPO — Beinsure",
+          "url": "https://beinsure.com/news/us-stock-market-today-dow-jones-sp-500-nasdaq-100-plunge-on-ai-selloff/"
+        },
+        {
+          "text": "Closing Look — Friday, November 20, 2026 — Capp Notes",
+          "url": "https://cappnotes.substack.com/p/closing-look-friday-november-20-2026"
+        },
+        {
+          "text": "Chips crash and every index enters correction. Anthropic didn't stop it. — CNT Trading",
+          "url": "https://cnttrading.substack.com/p/daily-market-2026-11-20"
+        },
+        {
+          "text": "investingLive Americas FX news wrap 20 Nov: Stocks get hammered as Nasdaq plunges 5.28% — investingLive",
+          "url": "https://investinglive.com/news/investinglive-americas-fx-news-wrap-20-nov-stocks-get-hammered-as-nasdaq-plunges-5-28/"
+        },
+        {
+          "text": "Tech Carnage Continues, with Anthropic Now Falling — Charles Schwab",
+          "url": "https://www.schwab.com/learn/story/stock-market-update-open"
+        },
+        {
+          "text": "Bitcoin, stocks and gold traders getting nervous, and volatility gauges are surging — CoinDesk",
+          "url": "https://www.coindesk.com/daybook-us/2026/11/20/bitcoin-stocks-and-gold-traders-getting-nervous-and-volatility-gauges-are-surging"
+        },
+        {
+          "text": "The snowballing selloff in global markets — BOE Report",
+          "url": "https://boereport.com/2026/11/20/the-snowballing-selloff-in-global-markets/"
+        },
+        {
+          "text": "Embattled Nvidia faces SEC probe as California attorney general mulls action — InvestmentNews",
+          "url": "https://www.investmentnews.com/equities/embattled-nvidia-faces-sec-probe-as-california-attorney-general-mulls-action/269054"
+        },
+        {
+          "text": "SEC opens investigation into Nvidia over whether investors were misled — TweakTown",
+          "url": "https://www.tweaktown.com/news/114760/sec-opens-investigation-into-nvidia-over-whether-investors-were-misled-to-boost-earnings/index.html"
+        },
+        {
+          "text": "Anthropic IPO: Claude Maker Opens at $111.50 in Record Nasdaq Debut — TechRepublic",
+          "url": "https://www.techrepublic.com/article/news-anthropic-ipo-nasdaq-trading-debut/"
+        },
+        {
+          "text": "Anthropic Closes Day One at $97.17, Up 17% From $83 IPO — FourWeekMBA",
+          "url": "https://fourweekmba.com/ai-anthropic-closes-day-one-at-97-17-up-17-from-83-ipo/"
+        },
+        {
+          "text": "Anthropic Closes Day One At $97.17, Up 17% | Fades From $115.10 High — ValueAddVC",
+          "url": "https://valueaddvc.com/pulse/anthropic-ipo-first-day-close-97-17-up-17-percent-2026"
+        },
+        {
+          "text": "Anthropic starts trading in the US after blockbuster IPO — Al Jazeera",
+          "url": "https://www.aljazeera.com/economy/2026/11/19/anthropic-starts-trading-in-the-us-after-blockbuster-ipo"
+        },
+        {
+          "text": "Yields hit 5.07%, gold holds $3,735 and bitcoin eyes $60K — FXStreet",
+          "url": "https://fxstreet.com/analysis/yields-hit-507-gold-holds-3-735-and-bitcoin-eyes-60k-202611190854"
+        },
+        {
+          "text": "US Fed implied rates — Trading Economics",
+          "url": "https://tradingeconomics.com/united-states/implied-rates/news/602003"
+        }
+      ]
+    },
+    "featured": true,
+    "agent": "hanako",
+    "image": "assets/images/107-market-2026-11-21.jpg"
+  },
+  {
+    "id": 108,
+    "cat": "กฎระเบียบ",
+    "title": "NVDA ร่วง 14% ในวันเดียว หลัง Reuters รายงานว่า SEC สอบบัญชี ปิดสัปดาห์แย่สุดนับแต่ปี 2008",
+    "excerpt": "Reuters รายงานเมื่อ 20 พ.ย. ว่า ก.ล.ต.สหรัฐฯ (SEC) กำลังตรวจสอบประเด็นทางบัญชีของ NVIDIA หุ้นปิดที่ 125.53 ดอลลาร์ ลดลงราว 14% ในวันเดียว ทั้งสัปดาห์ลดลงราว 23% เป็นสัปดาห์ที่แย่ที่สุดนับตั้งแต่วิกฤตการเงินปี 2008 และติดลบ 7 สัปดาห์ติดต่อกัน",
+    "author": "ทีมข่าว PixelVest",
+    "date": "21 พ.ย. 2026",
+    "iso": "2026-11-21",
+    "read": 12,
+    "syms": [
+      "NVDA"
+    ],
+    "rank": 108,
+    "body": {
+      "intro": "NVIDIA (NVDA) เจอข่าวร้ายเพิ่มอีกเรื่องในสัปดาห์ที่วุ่นวายอยู่แล้ว วันศุกร์ที่ 20 พ.ย. Reuters รายงานโดยอ้างแหล่งข่าว 2 รายที่ได้รับข้อมูลว่า เจ้าหน้าที่ฝ่ายบังคับใช้กฎหมายของ ก.ล.ต.สหรัฐฯ (SEC) กำลังตรวจสอบ \"ประเด็นทางบัญชีที่อาจมีปัญหา\" ของบริษัท หุ้นปิดที่ 125.53 ดอลลาร์ ลดลง 20.45 ดอลลาร์ หรือราว 14% และระหว่างวันลงไปทำจุดต่ำสุดใหม่ในรอบ 52 สัปดาห์ ทั้งสัปดาห์หุ้นลดลงราว 23% Investing.com ระบุว่าเป็นสัปดาห์ที่แย่ที่สุดนับตั้งแต่วิกฤตการเงินปี 2008 และเป็นการติดลบรายสัปดาห์ 7 สัปดาห์ติดต่อกัน ข้อสังเกตคือ ข่าวนี้มาถึงเพียง 3 วันหลังบริษัทประกาศงบไตรมาส 3 ที่ทำสถิติ ซึ่งเราได้รายงานไปแล้วในข่าวก่อนหน้า สิ่งที่เปลี่ยนในวันศุกร์คือ Reuters ระบุว่าการสอบสวนเน้นเรื่อง **บัญชี** ซึ่งตลาดมองว่าร้ายแรงกว่าคำถามเรื่องการเปิดเผยข้อมูลทั่วไป เพราะกระทบความน่าเชื่อถือของตัวเลขงบโดยตรง อย่างไรก็ตาม Reuters ยังไม่รู้ว่า SEC เริ่มสอบเมื่อไหร่ และสอบรายการบัญชีใด SEC ไม่แสดงความเห็น และ NVIDIA ยังไม่ได้ตอบ Reuters ในทันที สื่อเกาหลีและสื่อการเงินหลายแห่งตั้งข้อสังเกตว่าประเด็นอาจเกี่ยวกับการรายงานรายได้แยกตามภูมิภาค NVIDIA เปลี่ยนวิธีรายงานจากที่อยู่ออกใบแจ้งหนี้ (billing address) เป็นที่ตั้งสำนักงานใหญ่ของลูกค้า ทำให้สิงคโปร์ซึ่งเคยเป็นสัดส่วนรายได้ก้อนใหญ่หายไปจากตารางแยกภูมิภาค **แต่ยังไม่มีแหล่งข่าวใดยืนยันว่าเรื่องนี้อยู่ในขอบเขตการสอบสวนของ SEC** จึงควรมองเป็นการคาดการณ์ของตลาด ยังไม่ใช่ข้อเท็จจริง - **ยังไม่มี CEO ถาวร** — Colette Kress ซึ่งเป็น CFO ยังรักษาการ CEO หลัง Jensen Huang ลาออกเมื่อ 12 พ.ย. และบอร์ดยังไม่ได้ให้กรอบเวลาสรรหา จุดที่ตลาดอาจมองข้ามคือ คนที่ดูแลงบการเงินมาตลอดตอนนี้กำลังนั่งตำแหน่งสูงสุดในช่วงที่ SEC มาตรวจบัญชีพอดี - **กฎส่งออกชุดใหม่** — วันที่ 16 พ.ย. สำนักงานอุตสาหกรรมและความมั่นคง (BIS) ของกระทรวงพาณิชย์สหรัฐฯ ออกกฎปิดช่องโหว่ที่บริษัทจีนใช้ชิป AI ผ่านดาต้าเซ็นเตอร์ในต่างประเทศ ดาต้าเซ็นเตอร์ที่ให้บริการกำลังประมวลผลเกิน 12 ล้าน TPP (Total Processing Performance หน่วยวัดกำลังประมวลผลที่ใช้ในการคุมส่งออก) แก่บริษัทที่มีสำนักงานใหญ่ในจีนต้องขอใบอนุญาต และต้องขอใบอนุญาตเพิ่มเมื่อส่งชิปขั้นสูงไปอินโดนีเซีย มาเลเซีย สิงคโปร์ ไทย และบราซิล วันนั้นหุ้นลดลง 3.51% ในช่วงก่อนตลาดเปิด - **การตรวจสอบด้านการผูกขาด** — Reuters รายงานว่ากระทรวงยุติธรรมสหรัฐฯ (DOJ) กำลังตั้งคำถามเกี่ยวกับดีลซื้อ Hugging Face มูลค่า 12.93 พันล้านดอลลาร์ ซึ่งคาดว่าจะปิดดีลในครึ่งแรกของปี 2027 แต่ยังไม่มีการยื่นฟ้องคัดค้านอย่างเป็นทางการ - **ตลาดทั้งตลาดก็อ่อนแอ** — สัปดาห์นี้ Nasdaq 100 ลดลง 10.4% และ S&P 500 ลดลง 8.6% เข้าเขตปรับฐานทางเทคนิค (ลดลงเกิน 10% จากจุดสูงสุด) ตามรายงานของ FX Leaders มูลค่าตลาด NVDA ที่หายไปใน 5 วันทำการ สื่อแต่ละแห่งประเมินไว้ระหว่างราว 900 พันล้านถึง 1 ล้านล้านดอลลาร์ *หมายเหตุ: บทความนี้จัดทำเพื่อให้ข้อมูลและมุมมองเชิงบรรณาธิการเท่านั้น ไม่ใช่คำแนะนำการลงทุน โปรดประเมินความเสี่ยงก่อนตัดสินใจทุกครั้ง*",
+      "sections": [
+        {
+          "h": "จาก \"SEC สอบสวน\" เฉย ๆ กลายเป็น \"SEC สอบบัญชี\"",
+          "p": "ข่าวการสอบสวนออกมาก่อนแล้วตั้งแต่วันที่ 17 พ.ย. ตอนนั้น Wall Street Journal รายงานว่า SEC เปิดการสอบสวนทางแพ่งว่าการเปิดเผยข้อมูลของ NVIDIA ทำให้นักลงทุนเข้าใจภาพธุรกิจถูกต้องหรือไม่ แต่ไม่ได้บอกว่าสอบเรื่องอะไรแน่ หุ้นวันนั้นแทบไม่ตอบสนอง และ HeyGoTrade รายงานว่าหุ้นยังขึ้นได้ในวันนั้น"
+        },
+        {
+          "h": "ทำไมตลาดตอบสนองแรงขนาดนี้: ความเสี่ยงหลายชั้นมาพร้อมกัน",
+          "p": "เรามองว่าตัวข่าว SEC อย่างเดียวคงไม่ทำให้หุ้นลง 14% ในวันเดียว ที่ลงแรงเพราะมันมาซ้อนกับความเสี่ยงที่ค้างอยู่แล้วหลายเรื่อง"
+        },
+        {
+          "h": "มุมบวก: การสอบสวนยังไม่ใช่ความผิด และธุรกิจยังโต",
+          "p": "- **การสอบสวนไม่ได้แปลว่ามีความผิด** — Motley Fool และสื่ออื่นชี้ว่าการสอบสวนของ SEC หลายกรณีปิดไปโดยไม่มีการดำเนินคดี และตอนนี้ยังไม่มีแถลงการณ์ทางการจาก SEC หรือ NVIDIA - **เคยมีกรณีคล้ายกันมาแล้ว** — ช่วงปี 2002–2003 NVIDIA เคยถูก SEC สอบเรื่องบัญชี เรื่องจบด้วยคำสั่งให้ระงับการกระทำ (cease and desist) โดยไม่มีค่าปรับ และในปี 2022 บริษัทยอมจ่าย 5.5 ล้านดอลลาร์เพื่อยุติคดีเรื่องการเปิดเผยข้อมูลรายได้จากการขุดคริปโต ซึ่งเป็นเงินน้อยมากเมื่อเทียบกับขนาดบริษัท - **ตัวเลขธุรกิจยังแข็งแรง** — เพิ่งรายงานรายได้ไตรมาส 3 ที่ 115.8 พันล้านดอลลาร์ และให้ guidance ไตรมาส 4 ราว 130 พันล้านดอลลาร์ ซึ่งสูงกว่าที่ตลาดคาด"
+        },
+        {
+          "h": "มุมลบ: ความไม่แน่นอนที่ยังวัดขนาดไม่ได้",
+          "p": "- **ขอบเขตการสอบสวนยังไม่ชัด** — ถ้าภายหลังพบว่าเกี่ยวกับการรับรู้รายได้หรือการเปิดเผยข้อมูลลูกค้ารายใหญ่ ความน่าเชื่อถือของตัวเลขเติบโตที่ตลาดใช้ประเมินมูลค่าจะถูกตั้งคำถาม สื่อบางแห่งรายงานว่าบริษัทถูกวิจารณ์มาก่อนแล้วเรื่องการลงทุนในลูกค้า AI ที่กลับมาซื้อชิปของตัวเอง - **นักวิเคราะห์ถอยออกมาก่อนข่าวนี้แล้ว** — ก่อนข่าว SEC หลายสำนักลดคำแนะนำหลัง Huang ลาออก เช่น Baird ปรับลงเป็น Neutral และลดเป้าจาก 500 เป็น 200 ดอลลาร์ (11 พ.ย.), Evercore ISI ปรับลงเป็น In Line เป้า 186 ดอลลาร์ (จาก 465) และ HSBC ปรับลงเป็น Hold เป้า 170 ดอลลาร์ ยังไม่พบรายงานการปรับเป้าที่อ้างถึงข่าว SEC โดยตรง (ยังไม่มีข้อมูลยืนยัน) - **ข่าวเชิงกฎหมายมาหลายทาง** — SEC, DOJ, สภาคองเกรส (ซึ่งเตรียมสอบถาม Huang และ Kress) และการสอบสวนอิสระของบอร์ด ทุกเรื่องยังไม่มีวันจบที่ชัดเจน"
+        }
+      ],
+      "quote": "ข่าวนี้ไม่ได้เปลี่ยนตัวเลขยอดขายชิป AI ของ NVIDIA แต่กระทบสิ่งที่ตลาดใช้ตีมูลค่า คือความเชื่อมั่นว่าตัวเลขเหล่านั้นสะท้อนธุรกิจจริง เมื่อยังไม่มีผู้นำถาวร และมีหน่วยงานรัฐหลายแห่งตรวจสอบอยู่พร้อมกัน นักลงทุนจึงให้น้ำหนักกับความเสี่ยงด้านธรรมาภิบาลมากกว่าผลประกอบการ",
+      "quoteBy": "— ทีมข่าว PixelVest",
+      "takeaway": "หุ้น NVDA ลดลงราว 14% ในวันเดียวและราว 23% ทั้งสัปดาห์ หลัง Reuters รายงานว่า SEC สอบประเด็นบัญชี เรามองว่าตัวชี้ขาดต่อจากนี้คือ (1) NVIDIA หรือ SEC จะเปิดเผยขอบเขตการสอบสวนเมื่อไหร่ (2) บอร์ดจะได้ CEO ถาวรเมื่อไหร่ และ (3) การให้ข้อมูลต่อสภาคองเกรสจะออกมาอย่างไร ระหว่างนี้หุ้นมีแนวโน้มจะอ่อนไหวต่อข่าวด้านกฎหมายมากกว่าข่าวธุรกิจ",
+      "stats": [
+        {
+          "label": "ราคาปิด 20 พ.ย.",
+          "value": "125.53",
+          "change": "-14%"
+        },
+        {
+          "label": "ราคาปิด 19 พ.ย.",
+          "value": "145.98",
+          "change": "-3.30%"
+        },
+        {
+          "label": "ผลตอบแทนทั้งสัปดาห์",
+          "value": "ราว -23%",
+          "change": "แย่สุดตั้งแต่ปี 2008"
+        },
+        {
+          "label": "ติดลบรายสัปดาห์",
+          "value": "7 สัปดาห์ติด",
+          "change": ""
+        },
+        {
+          "label": "Nasdaq 100 ทั้งสัปดาห์",
+          "value": "-10.4%",
+          "change": ""
+        },
+        {
+          "label": "ดีล Hugging Face",
+          "value": "12.93B",
+          "change": "DOJ กำลังตรวจสอบ"
+        }
+      ],
+      "sources": [
+        {
+          "text": "Exclusive: Nvidia's accounting is a focus of US SEC investigation, sources say — Reuters via Investing.com",
+          "url": "https://www.investing.com/news/economy-news/exclusiveus-secs-nvidia-probe-is-examining-potential-accounting-issues-sources-say-5042460"
+        },
+        {
+          "text": "Wall Street Regulator Probes Nvidia Accounting, Reuters Says — Bloomberg",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-20/wall-street-regulator-probing-nvidia-s-accounting-reuters-says"
+        },
+        {
+          "text": "Nvidia suffers worst week since 2008, as SEC probe report fuels post-Huang turmoil — Investing.com",
+          "url": "https://au.investing.com/news/stock-market-news/nvidia-shares-fall-115-as-report-of-sec-accounting-probe-adds-to-pressure-4787315"
+        },
+        {
+          "text": "Nvidia Shares Sink to 52-Week Low After Report SEC Is Probing Accounting — Yahoo Finance",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/nvidia-shares-sink-52-week-203654330.html"
+        },
+        {
+          "text": "NVDA Stock Clocks Worst Week In 18 Years As SEC Reportedly Probes Its Accounting Practices — Stocktwits / Yahoo Finance",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/nvda-stock-clocks-worst-week-233812270.html"
+        },
+        {
+          "text": "Nasdaq 100 Suffers Worst Week Since 2020 as Nvidia Plunges 14% on Regulatory Probe — FX Leaders",
+          "url": "https://www.fxleaders.com/news/2026/11/21/nasdaq-100-suffers-worst-week-since-2020-as-nvidia-plunges-14-on-regulatory-probe/"
+        },
+        {
+          "text": "Nvidia Shares Fall 14% After Reuters Reports SEC Accounting Probe — Archyde",
+          "url": "https://www.archyde.com/nvidia-shares-fall-14-after-reuters-reports-sec-accounting-probe-24-7-wall-st-says-900b-erased-in-worst-week-since-2008/"
+        },
+        {
+          "text": "After Its Worst Week in 18 Years, Nvidia Now Faces an SEC Investigation — Motley Fool",
+          "url": "https://www.fool.com/investing/2026/11/21/after-its-worst-week-in-18-years-nvidia-now-faces-an-sec-investigation-what-it-means-for-investors/"
+        },
+        {
+          "text": "Nvidia's accounting is focus of US SEC investigation, sources say — The Korea Times",
+          "url": "https://www.koreatimes.co.kr/world/20261121/nvidias-accounting-is-focus-of-us-sec-investigation-sources-say"
+        },
+        {
+          "text": "U.S. SEC Opens Accounting Probe Into Nvidia — Seoul Economic Daily",
+          "url": "https://en.sedaily.com/world/2026/11/21/sec-probes-nvidia-accounting-may-eye-omitted-singapore-sales"
+        },
+        {
+          "text": "SEC Said to Probe Nvidia Disclosures; 2022 Case Cost $5.5M — FourWeekMBA",
+          "url": "https://fourweekmba.com/ai-sec-said-to-probe-nvidia-disclosures-2022-case-cost-5-5m/"
+        },
+        {
+          "text": "Huang pitches Nvidia comeback, WSJ reports SEC probing the chipmaker — Korea JoongAng Daily",
+          "url": "https://www.koreajoongangdaily.com/business/huang-pitches-nvidia-comeback-wsj-reports-sec-probing-the-chipmaker/12978169"
+        },
+        {
+          "text": "Nvidia Stock (NVDA) Falls 3.3% on CEO Transition Concerns (Nov 19) — HeyGoTrade",
+          "url": "https://www.heygotrade.com/en/news/nvidia-nvda-stock-news-november-20-2026/"
+        },
+        {
+          "text": "U.S. Commerce Department closes AI chip remote-access loophole for Chinese firms — StockAnalysis",
+          "url": "https://stockanalysis.com/news/commerce-closes-remote-access-chip-loophole-china/"
+        },
+        {
+          "text": "US curbs China's remote access to AI chips through overseas data centres — The Next Web",
+          "url": "https://thenextweb.com/news/us-remote-access-ai-chips-rule-china-singapore-malaysia"
+        },
+        {
+          "text": "Nvidia's $12.9B Hugging Face Deal Faces DOJ Antitrust Scrutiny — Channel Insider",
+          "url": "https://www.channelinsider.com/ai/news-nvidia-hugging-face-acquisition-doj-antitrust-scrutiny/"
+        },
+        {
+          "text": "Baird / Evercore / HSBC downgrades — Webull (Nvidia Gets 10 Bank Downgrades After Huang Exit)",
+          "url": "https://www.webull.com/news/15933830706414592"
+        },
+        {
+          "text": "HSBC Just Downgraded Nvidia and Cut Its Target to $170 — 24/7 Wall St.",
+          "url": "https://247wallst.com/investing/2026/11/14/hsbc-just-downgraded-nvidia-and-cut-its-target-to-170/"
+        }
+      ]
+    },
+    "agent": "hanako"
+  },
+  {
+    "id": 109,
+    "cat": "คลาวด์เอไอ",
+    "title": "CoreWeave ปิดต่ำกว่าราคา IPO 40 ดอลลาร์ครั้งแรก ร่วง 12% ในวันเดียว กำไรที่ได้จากงบไตรมาส 3 หายหมดภายใน 7 วันทำการ ตลาดกังวลภาระดอกเบี้ยมากกว่า backlog",
+    "excerpt": "หุ้น CoreWeave (CRWV) ปิดวันที่ 20 พ.ย. ที่ 39.46 ดอลลาร์ ลดลง 12.15% ต่ำกว่าราคา IPO 40 ดอลลาร์ และเป็นจุดต่ำสุดใหม่รอบ 52 สัปดาห์ ทั้งที่วันที่ 11 พ.ย. หุ้นเพิ่งพุ่ง 24.7% ไปปิดที่ 60.77 ดอลลาร์หลังงบไตรมาส 3 ที่รายได้และ backlog ดีกว่าคาด ตลาดหันกลับไปดูดอกเบี้ยจ่ายรายไตรมาสที่ผู้บริหารคาดว่าจะเกิน 1 พันล้านดอลลาร์ในไตรมาส 4",
+    "author": "ทีมข่าว PixelVest",
+    "date": "21 พ.ย. 2026",
+    "iso": "2026-11-21",
+    "read": 4,
+    "syms": [
+      "CRWV"
+    ],
+    "rank": 109,
+    "body": {
+      "intro": "หุ้น CoreWeave, Inc. (NASDAQ: CRWV) ปิดวันศุกร์ที่ 20 พฤศจิกายน 2569 ที่ **39.46 ดอลลาร์ ลดลง 12.15%** ตามรายงานของ GuruFocus และ Seeking Alpha ระหว่างวันลงไปต่ำสุดที่ 39.28 ดอลลาร์ ซึ่งเป็นจุดต่ำสุดใหม่รอบ 52 สัปดาห์ (*Daily Political รายงานจุดต่ำสุดระหว่างวันที่ 40.12 ดอลลาร์ ตัวเลขไม่ตรงกัน แต่ราคาปิด 39.46 ดอลลาร์ตรงกันทุกแหล่ง*) ราคานี้ต่ำกว่า **ราคา IPO 40 ดอลลาร์** ที่บริษัทเสนอขายเมื่อเดือนมีนาคม 2568 ราคา IPO เป็นจุดที่นักลงทุนจับตาในเชิงจิตวิทยา เพราะถ้าหุ้นหลุดระดับนี้ แปลว่าคนที่ซื้อหุ้นตั้งแต่วันแรกที่เข้าตลาดก็ขาดทุนแล้ว ภาพที่ทำให้ข่าวนี้น่าสนใจคือความเร็ว เมื่อวันที่ 11 พ.ย. หุ้นเพิ่ง **พุ่ง 24.71% ไปปิดที่ 60.77 ดอลลาร์** หลังประกาศงบไตรมาส 3 (heygotrade) แต่หลังจากนั้นราคาก็ลงเกือบ 35% จากราคาปิดวันนั้นภายใน 7 วันทำการ GuruFocus ระบุว่าใน 5 วันล่าสุดหุ้นลง 15.47% และในหนึ่งเดือนลง 26.52% ข่าวนี้ต่อจากข่าววันที่ 6 พ.ย. ที่เราเขียนถึงความกังวลเรื่องกฎคุมดาต้าเซ็นเตอร์หลังผลเลือกตั้งเท็กซัส ตอนนั้นตลาดกำลังรองบไตรมาส 3 ตอนนี้งบออกมาแล้ว และดูเหมือนตลาดจะสนใจหนี้มากกว่าการเติบโต - **รายได้ 3.661 พันล้านดอลลาร์** เพิ่มขึ้น 168% จากปีก่อน สูงกว่าที่ตลาดคาดไว้ราว 3.55 พันล้านดอลลาร์ - **Backlog ราว 132.5 พันล้านดอลลาร์** (backlog คือรายได้ตามสัญญาที่ลูกค้าเซ็นแล้วแต่บริษัทยังไม่รับรู้) เพิ่มจากราว 104 พันล้านดอลลาร์ ณ เดือนมิถุนายน - **ปรับเป้ารายได้ทั้งปี 2569 ขึ้นเป็น 13.0–13.3 พันล้านดอลลาร์** - **ขาดทุนสุทธิ 709 ล้านดอลลาร์** เทียบกับขาดทุน 110 ล้านดอลลาร์ในไตรมาสเดียวกันปีก่อน หรือขาดทุน 1.27 ดอลลาร์ต่อหุ้น - **ดอกเบี้ยจ่าย 846 ล้านดอลลาร์** เพิ่มจาก 310 ล้านดอลลาร์ปีก่อน และ StreetInsider รายงานว่าผู้บริหารคาดว่าดอกเบี้ยจ่ายไตรมาส 4 จะอยู่ที่ **1.05–1.15 พันล้านดอลลาร์** - **งบลงทุน (capex) ไตรมาส 3 อยู่ที่ 14.5 พันล้านดอลลาร์** สูงกว่ากรอบบนที่บริษัทให้ไว้ เพราะเร่งรับมอบอุปกรณ์บางส่วนที่เดิมจะเข้ามาในไตรมาส 4 ส่วนงบลงทุนทั้งปีบีบกรอบเหลือ 37–39 พันล้านดอลลาร์ (จากเดิม 35–39 พันล้าน) ข้อสังเกตของเราคือ ถ้าดอกเบี้ยจ่ายไตรมาส 4 ออกมาราว 1.1 พันล้านดอลลาร์ตามกรอบของผู้บริหาร จะเท่ากับประมาณ 30% ของรายได้ไตรมาส 3 นักลงทุนจึงไม่ได้ถามว่าบริษัทโตไหม แต่ถามว่ารายได้ที่โตขึ้นจะทันดอกเบี้ยที่โตขึ้นหรือเปล่า - **ลดเป้า:** Cantor Fitzgerald คง Overweight แต่ลดเป้าจาก 176 เหลือ **100 ดอลลาร์**, Stifel คง Hold ลดจาก 120 เหลือ **60 ดอลลาร์**, DA Davidson คง Neutral ลดจาก 100 เหลือ **45 ดอลลาร์** - **คงเป้า:** JPMorgan คง Overweight เป้า **125 ดอลลาร์**, Rosenblatt คง Buy เป้า **160 ดอลลาร์**, Deutsche Bank คง Buy เป้า **125 ดอลลาร์**, Bank of America คง Buy เป้า **140 ดอลลาร์** - **ค่าเฉลี่ย:** StockAnalysis ระบุว่าเป้าเฉลี่ยจากนักวิเคราะห์ 41 รายอยู่ที่ 115.34 ดอลลาร์ ราคาเป้าหมายต่ำสุดในชุดนี้ (DA Davidson 45 ดอลลาร์) ยังสูงกว่าราคาปิดวันที่ 20 พ.ย. ส่วนเป้าเฉลี่ยสูงกว่าราคาปิดเกือบสามเท่า เรามองว่าช่องว่างนี้แสดงว่าโมเดลของนักวิเคราะห์ส่วนใหญ่ยังให้น้ำหนักกับ backlog มากกว่าที่ตลาดให้ ณ วันนี้ *หมายเหตุ: บทความนี้จัดทำเพื่อให้ข้อมูลและมุมมองเชิงบรรณาธิการเท่านั้น ไม่ใช่คำแนะนำการลงทุน โปรดประเมินความเสี่ยงก่อนตัดสินใจทุกครั้ง*",
+      "sections": [
+        {
+          "h": "งบไตรมาส 3: รายได้กับ backlog ดีกว่าคาด แต่ดอกเบี้ยจ่ายโตเร็วกว่า",
+          "p": "CoreWeave ประกาศงบวันที่ 10 พ.ย. หลังตลาดปิด ตัวเลขหลักตามรายงานของ CNBC, TradingKey และ StreetInsider มีดังนี้"
+        },
+        {
+          "h": "ทำไมหุ้นถึงร่วงกลับลงมาเร็วขนาดนี้",
+          "p": "- **วันที่ 20 พ.ย. หุ้นเทคโนโลยีถูกขายทั้งกลุ่ม** — GuruFocus รายงานว่า ETF กลุ่มเทคโนโลยี XLK ลงกว่า 7% ในวันนั้น และ Nvidia, AMD, Broadcom ก็ลงหนัก หุ้นที่มีหนี้สูงและยังขาดทุนอย่าง CRWV มักลงแรงกว่ากลุ่มเมื่อตลาดลดความเสี่ยง - **Anthropic IPO ช่วยได้แค่ช่วงสั้น** — Anthropic ตั้งราคา IPO ที่ 83 ดอลลาร์ สูงกว่ากรอบ 70–78 ดอลลาร์ที่เสนอไว้ และปิดวันแรกสูงกว่าราคา IPO 17.1% BigGo Finance รายงานว่า CRWV ขึ้นราว 6% ตามข่าวนี้ แต่ StreetInsider ระบุว่าแรงซื้อหายไปเร็ว และตลาดกลับไปกังวลเรื่องงบดุลของบริษัทอีกครั้ง - **ขนาดหนี้** — แต่ละแหล่งให้ตัวเลขหนี้ไม่ตรงกัน Yahoo Finance ระบุว่าหนี้อยู่ราว 47 พันล้านดอลลาร์ ณ สิ้นเดือนกันยายน ส่วน TipRanks ใช้ตัวเลข 66.2 พันล้านดอลลาร์ (*ตัวเลขต่างกันเพราะนิยามต่างกัน เช่นนับภาระสัญญาเช่ารวมด้วยหรือไม่ ทีมข่าวยังไม่มีข้อมูลยืนยันว่าแต่ละแหล่งใช้นิยามไหน*) Trefis ประเมินว่า ณ ราคาปิดวันที่ 3 พ.ย. หนี้รวมเท่ากับ 174.3% ของมูลค่าตลาด เทียบกับ 19.2% ของ S&P 500 - **ความเสี่ยงที่มาจาก Nvidia** — Yahoo Finance รายงานว่าหุ้นแกว่งแรงในวันที่ 13 พ.ย. หลังข่าวผู้บริหารสูงสุดของ Nvidia ลาออก เพราะ CoreWeave ใช้ GPU ของ Nvidia เป็นหลัก และ Nvidia เองก็เป็นผู้ถือหุ้นของบริษัทด้วย ตลาดจึงกลับมาสนใจความเสี่ยงที่บริษัทพึ่งพาผู้ขายรายเดียว"
+        },
+        {
+          "h": "นักวิเคราะห์แบ่งสองฝั่งชัดเจน",
+          "p": "หลังงบ Benzinga และ CNBC รายงานการปรับเป้าของโบรกเกอร์ดังนี้"
+        },
+        {
+          "h": "มุมบวก: สัญญาลูกค้ายังเพิ่ม และเงินกู้ผูกกับสัญญาเฉพาะ",
+          "p": "- **Backlog เพิ่มเกือบ 28.5 พันล้านดอลลาร์ในหนึ่งไตรมาส** ซึ่งแสดงว่าลูกค้ายังเซ็นสัญญาเพิ่มต่อเนื่อง ไม่ได้ชะลอตามราคาหุ้น - **แผนจัดหาเงินผูกกับสัญญาลูกค้า** — ผู้บริหารบอกว่างบลงทุนที่เหลือส่วนใหญ่จะใช้เงินกู้แบบ delayed draw term loan (วงเงินกู้ที่ทยอยเบิกได้ตามความคืบหน้าของโครงการ) ที่ผูกกับสัญญาลูกค้าแต่ละราย กู้ได้ 70–100% ของงบลงทุนในแต่ละโครงการ ที่เหลือมาจากเงินที่ลูกค้าจ่ายล่วงหน้า เงินทุนจากผู้ขายฮาร์ดแวร์ และการระดมทุนใหม่ \"จำนวนจำกัด\" (llms.blog, TradingKey) - **งบลงทุนปี 2570 อาจไม่เพิ่ม** — ผู้บริหารระบุว่าถ้านับเฉพาะ backlog ที่ลูกค้าผูกพันแล้ว งบลงทุนปี 2570 น่าจะใกล้เคียงกับปี 2569 ขณะที่รายได้และ EBITDA (กำไรก่อนดอกเบี้ย ภาษี และค่าเสื่อม) เพิ่มขึ้นมาก ถ้าเป็นแบบนั้นจริง ความต้องการเงินทุนใหม่จะเริ่มลดลง - **ซีอีโอหยุดแผนขายหุ้น** — Stocktwits รายงานว่า Michael Intrator บอก CNBC เมื่อวันที่ 11 พ.ย. ว่ายกเลิกแผนขายหุ้นอัตโนมัติ (10b5-1 plan คือแผนขายหุ้นที่ผู้บริหารตั้งตารางไว้ล่วงหน้าตามกฎ ก.ล.ต. สหรัฐฯ) และต่อไปจะขายเฉพาะเพื่อจ่ายภาษีจากหุ้นที่ได้เป็นค่าตอบแทน เขายังยืนยันว่าแผนสร้างดาต้าเซ็นเตอร์ไม่ได้ล่าช้า (*Herald Corp รายงานว่าแผนนี้ \"พักไว้\" จนกว่าราคาหุ้นจะเปลี่ยนแปลงอย่างมีนัยสำคัญ ทีมข่าวยังไม่พบเอกสาร SEC ที่ยืนยันว่าแบบไหนถูกต้อง*)"
+        },
+        {
+          "h": "มุมลบ: แปลง backlog เป็นเงินสดได้ช้า แต่ดอกเบี้ยต้องจ่ายทุกไตรมาส",
+          "p": "- **Backlog รับรู้เป็นรายได้ได้ช้า** — แต่ละแหล่งให้ตัวเลขไม่ตรงกัน TradingView/Zacks ระบุว่า backlog ราว 36% จะรับรู้เป็นรายได้ใน 24 เดือน แต่อีกแหล่งระบุว่าแค่ราว 26% (ประมาณ 34 พันล้านดอลลาร์) *ทีมข่าวยังไม่มีข้อมูลยืนยันว่าตัวเลขไหนถูก* ไม่ว่าจะเป็นตัวเลขไหน แปลว่า backlog ส่วนใหญ่ยังไม่เข้ามาในช่วงสองปีข้างหน้า แต่ดอกเบี้ยต้องจ่ายตั้งแต่ตอนนี้ - **ยังห่างจากการทำกำไร** — บทวิเคราะห์ที่ KuCoin อ้างถึงระบุว่าบริษัทยังไม่ได้ตั้งเป้าทำกำไรก่อนปี 2571 บริษัทจึงต้องหาเงินมาขยายกิจการต่ออีกนาน - **ลูกค้ากระจุกตัว** — ตามเอกสารที่ยื่น SEC ลูกค้าสองรายใหญ่สุดคิดเป็น 77% ของรายได้ปี 2567 และสัญญาของลูกค้าปัจจุบันระบุให้ใช้ GPU ของ Nvidia ความเสี่ยงฝั่งลูกค้าและฝั่งผู้ขายจึงมีทั้งคู่ - **หลุดราคา IPO** — เมื่อราคาต่ำกว่า 40 ดอลลาร์ หุ้นอาจเจอแรงขายจากนักลงทุนที่ตั้งจุดตัดขาดทุนไว้ที่ราคา IPO ทำให้ราคาผันผวนมากขึ้นในระยะสั้น"
+        },
+        {
+          "h": "สิ่งที่ต้องจับตาต่อ",
+          "p": "- **เงินกู้ก้อนใหม่** — Webull รายงานว่าอาจมีการเปิดขายเงินกู้ก้อนใหม่ในสัปดาห์ที่เริ่ม 16 พ.ย. (เงื่อนไขอาจเปลี่ยน) ถ้าดอกเบี้ยและเงื่อนไขของเงินกู้ก้อนนี้ดีกว่าที่ตลาดกลัว ความกังวลเรื่องต้นทุนเงินทุนอาจลดลง แต่ถ้าดอกเบี้ยสูงขึ้นอีก ภาระในไตรมาสต่อ ๆ ไปก็จะหนักขึ้น - **ราคาหุ้นกู้ของบริษัท** — ใช้วัดว่าเจ้าหนี้มองความเสี่ยงอย่างไร ถ้าหุ้นกู้ทรงตัวแม้หุ้นสามัญจะร่วง แปลว่าเจ้าหนี้ยังไม่กังวลเท่าผู้ถือหุ้น - **ทิศทางหุ้นเทคโนโลยีทั้งกลุ่ม** — ถ้ากลุ่มเทคยังถูกขายต่อ หุ้นที่มีหนี้สูงอย่าง CRWV มีแนวโน้มอ่อนไหวกว่ากลุ่ม - **งบไตรมาส 4** — คาดว่าจะประกาศในเดือน ก.พ. 2570 ตัวเลขที่ต้องดูคือดอกเบี้ยจ่ายเทียบกับกรอบ 1.05–1.15 พันล้านดอลลาร์"
+        }
+      ],
+      "quote": "CoreWeave กำลังโดนตัดสินด้วยเรื่องเวลา ไม่ใช่เรื่องความต้องการ งบไตรมาส 3 แสดงว่าลูกค้ายังเซ็นสัญญาเพิ่ม แต่ดอกเบี้ยจ่ายก็โตเร็วตามไปด้วย ตลาดจึงตั้งคำถามว่ารายได้จาก backlog จะเข้ามาทันก่อนภาระหนี้จะหนักเกินไปหรือไม่ การหลุดราคา IPO สะท้อนว่า ณ ตอนนี้ตลาดให้น้ำหนักกับความเสี่ยงด้านนี้มากกว่าการเติบโต",
+      "quoteBy": "— ทีมข่าว PixelVest",
+      "takeaway": "CRWV ปิดวันที่ 20 พ.ย. ที่ 39.46 ดอลลาร์ (-12.15%) ต่ำกว่าราคา IPO 40 ดอลลาร์ และกำไรที่ได้หลังงบไตรมาส 3 (ปิด 60.77 ดอลลาร์ วันที่ 11 พ.ย.) หายหมดภายใน 7 วันทำการ ฝั่งบวกคือรายได้ 3.66 พันล้านดอลลาร์ (+168%) backlog 132.5 พันล้านดอลลาร์ และเป้ารายได้ทั้งปีที่ปรับขึ้น ฝั่งลบคือขาดทุนสุทธิ 709 ล้านดอลลาร์ ดอกเบี้ยจ่ายที่คาดว่าจะเกิน 1 พันล้านดอลลาร์ในไตรมาส 4 และ backlog ที่จะรับรู้เป็นรายได้ใน 24 เดือนได้แค่ส่วนน้อย นักวิเคราะห์ยังแบ่งสองฝั่ง เป้าอยู่ระหว่าง 45–160 ดอลลาร์",
+      "stats": [
+        {
+          "label": "ราคาปิด 20 พ.ย. 2569",
+          "value": "$39.46",
+          "change": "-12.15%, ต่ำสุดระหว่างวัน $39.28"
+        },
+        {
+          "label": "ราคา IPO (มี.ค. 2568)",
+          "value": "$40",
+          "change": ""
+        },
+        {
+          "label": "ราคาปิด 11 พ.ย. 2569 (หลังงบ)",
+          "value": "$60.77",
+          "change": "+24.71%"
+        },
+        {
+          "label": "ผลตอบแทน 5 วัน / 1 เดือน",
+          "value": "-15.47% / -26.52%",
+          "change": "GuruFocus"
+        },
+        {
+          "label": "XLK วันที่ 20 พ.ย.",
+          "value": "ลงกว่า 7%",
+          "change": ""
+        },
+        {
+          "label": "รายได้ไตรมาส 3",
+          "value": "$3.661 พันล้าน",
+          "change": "+168% YoY, คาด ~$3.55 พันล้าน"
+        },
+        {
+          "label": "Backlog",
+          "value": "~$132.5 พันล้าน",
+          "change": "จาก ~$104 พันล้าน (มิ.ย.)"
+        },
+        {
+          "label": "ขาดทุนสุทธิไตรมาส 3",
+          "value": "$709 ล้าน",
+          "change": "จาก $110 ล้าน"
+        },
+        {
+          "label": "ดอกเบี้ยจ่ายไตรมาส 3",
+          "value": "$846 ล้าน",
+          "change": "จาก $310 ล้าน"
+        },
+        {
+          "label": "ดอกเบี้ยจ่ายไตรมาส 4 (คาด)",
+          "value": "$1.05–1.15 พันล้าน",
+          "change": ""
+        },
+        {
+          "label": "งบลงทุนไตรมาส 3 / ทั้งปี 2569",
+          "value": "$14.5 พันล้าน / $37–39 พันล้าน",
+          "change": ""
+        },
+        {
+          "label": "เป้ารายได้ปี 2569",
+          "value": "$13.0–13.3 พันล้าน",
+          "change": ""
+        },
+        {
+          "label": "เป้าเฉลี่ยนักวิเคราะห์",
+          "value": "$115.34 (41 ราย)",
+          "change": "StockAnalysis"
+        },
+        {
+          "label": "ช่วงเป้าหลังงบ",
+          "value": "$45 (DA Davidson) – $160 (Rosenblatt)",
+          "change": ""
+        },
+        {
+          "label": "Anthropic IPO",
+          "value": "$83, วันแรก +17.1%",
+          "change": ""
+        }
+      ],
+      "sources": [
+        {
+          "text": "CoreWeave (CRWV) Shares Plunge 12.15% Amid Tech Selloff, Hits New 52-Week Low — GuruFocus",
+          "url": "https://www.gurufocus.com/news/9213331/coreweave-crwv-shares-plunge-1215-amid-tech-selloff-hits-new-52week-low"
+        },
+        {
+          "text": "CoreWeave sinks 12% as tech stocks plunge — Seeking Alpha",
+          "url": "https://seekingalpha.com/news/4675342-coreweave-sinks-12-as-tech-stocks-plunge"
+        },
+        {
+          "text": "CoreWeave (NASDAQ:CRWV) Sets New 12-Month Low — Daily Political",
+          "url": "https://www.dailypolitical.com/2026/11/20/coreweave-nasdaqcrwv-sets-new-12-month-low-time-to-sell.html"
+        },
+        {
+          "text": "CoreWeave stock hits 52-week low at 40.58 USD — Investing.com",
+          "url": "https://www.investing.com/news/company-news/coreweave-stock-hits-52week-low-at-4058-usd-93CH-5042181"
+        },
+        {
+          "text": "CoreWeave shares on debt concerns, Anthropic selloff — StreetInsider",
+          "url": "https://www.streetinsider.com/Investing/CoreWeave+shares+on+debt+concerns,+Anthropic+selloff/27380081.html"
+        },
+        {
+          "text": "CoreWeave Briefly Trades Below $40 IPO Price Amid Financing Worries — Yahoo Finance",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/coreweave-briefly-trades-below-40-173119929.html"
+        },
+        {
+          "text": "CoreWeave Stock Plunges Toward Its $40 IPO Price as $66.2 Billion Debt Load Rattles AI Investors — TipRanks",
+          "url": "https://www.tipranks.com/news/coreweave-stock-plunges-toward-its-40-ipo-price-as-66-2-billion-debt-load-rattles-ai-investors"
+        },
+        {
+          "text": "CoreWeave Stock Drops Below $40 IPO Price Amid Rising Debt Concerns — KuCoin",
+          "url": "https://www.kucoin.com/news/flash/coreweave-stock-drops-below-40-ipo-price-amid-rising-debt-concerns"
+        },
+        {
+          "text": "CoreWeave Jumps 6% as Anthropic's $83 IPO Revives Appetite for AI Infrastructure — BigGo Finance",
+          "url": "https://finance.biggo.com/news/fd306b92-4a63-49cf-9d8a-50e9882a6bc0"
+        },
+        {
+          "text": "CoreWeave Stock (CRWV) Rises 24.7% After Q3 Results (Nov 11) — heygotrade",
+          "url": "https://www.heygotrade.com/en/news/coreweave-crwv-stock-news-november-12-2026/"
+        },
+        {
+          "text": "CoreWeave (CRWV) Q3 earnings report 2026 — CNBC",
+          "url": "https://www.cnbc.com/2026/11/10/coreweave-crwv-q3-earnings-report-2026.html"
+        },
+        {
+          "text": "CoreWeave Q3 earnings lift stock, analysts stay cautious — CNBC",
+          "url": "https://www.cnbc.com/2026/11/11/coreweave-q3-earnings-stock-analysts.html"
+        },
+        {
+          "text": "CoreWeave Q3 Revenue Surges 168% but Capex Soars to $14.511 Billion — TradingKey",
+          "url": "https://www.tradingkey.com/analysis/stocks/us-stocks/262299527-coreweave-earnings-report-q3-revenue-growth-backlog-capital-expenditures-net-loss-tradingkey"
+        },
+        {
+          "text": "CoreWeave Q3: Revenue Up 168%, Backlog Hits $132.5B — llms.blog",
+          "url": "https://www.llms.blog/posts/coreweave-q3-results-backlog-guidance"
+        },
+        {
+          "text": "Can CoreWeave's $133B Backlog Sustain Its Next Growth Phase? — TradingView/Zacks",
+          "url": "https://www.tradingview.com/news/zacks:c018d6f26094b:0-can-coreweave-s-133b-backlog-sustain-its-next-growth-phase/"
+        },
+        {
+          "text": "These Analysts Cut Their Forecasts On CoreWeave After Q3 Results — Benzinga",
+          "url": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/11/63145412/these-analysts-cut-their-forecasts-on-coreweave-after-q3-results"
+        },
+        {
+          "text": "CoreWeave CEO Cancels Stock-Sale Plan, Says Data Center Build Plans Not 'Delayed Or Affected' — Stocktwits",
+          "url": "https://stocktwits.com/news-articles/markets/equity/core-weave-ceo-cancels-stock-sale-plan-says-data-center-build-plans-not-delayed-or-affected/cNGDtkrR9Bu"
+        },
+        {
+          "text": "Intrator says 10b5-1 plan on hold until 'material change' in share price — Herald Corp",
+          "url": "https://biz.heraldcorp.com/article/10934297"
+        },
+        {
+          "text": "CoreWeave (CRWV) Faces Fresh Risk After A Key Supplier Leadership Shock — Yahoo Finance",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/coreweave-crwv-faces-fresh-risk-042335689.html"
+        },
+        {
+          "text": "What Is Behind The Move In CoreWeave Stock? — Trefis",
+          "url": "https://www.trefis.com/stock/crwv/articles/622656/what-is-behind-the-move-in-coreweave-stock/2026-11-04"
+        },
+        {
+          "text": "CoreWeave Just Had Its Best Day Since June 2025 and Says It's Sold Out Through 2027 — Webull",
+          "url": "https://www.webull.com/news/15910894375388160"
+        },
+        {
+          "text": "CoreWeave, Inc. Form 424B3 — SEC",
+          "url": "https://www.sec.gov/Archives/edgar/data/1769628/000114036125036349/ny20053122x7_424b3.htm"
+        }
+      ]
+    },
+    "tags": [
+      "คลาวด์เอไอ",
+      "CoreWeave",
+      "งบไตรมาส 3",
+      "ราคา IPO",
+      "หนี้",
+      "ดอกเบี้ยจ่าย",
+      "neocloud",
+      "Anthropic IPO"
+    ],
+    "agent": "hanako"
+  },
+  {
+    "id": 110,
+    "cat": "ควอนตัม",
+    "title": "IonQ เปลี่ยน CFO กะทันหัน Inder Singh ลาออกมีผลทันที ดึง Gary Merrill จาก Commvault มาแทน หุ้นร่วง 7 วันติดรวม 33.6% ลงไปต่ำสุดรอบ 1 ปี ท่ามกลางหุ้นจากดีล Elisity ที่จดทะเบียนขายต่อได้ 34.6 ล้านหุ้น",
+    "excerpt": "IonQ ประกาศว่า Inder Singh ลงจากตำแหน่ง CFO และ COO โดยมีผลทันที และแต่งตั้ง Gary Merrill จาก Commvault เป็น CFO คนใหม่ที่จะเริ่มงานต้นเดือน ธ.ค. หุ้นร่วงลงเจ็ดวันทำการติดกัน รวม 33.6% ปิดที่ 23.48 ดอลลาร์ซึ่งต่ำสุดในรอบหนึ่งปี ขณะที่ S&P 500 ลดลงเพียง 2.9% ในช่วงเดียวกัน",
+    "author": "ทีมข่าว PixelVest",
+    "date": "21 พ.ย. 2026",
+    "iso": "2026-11-21",
+    "read": 4,
+    "syms": [
+      "IONQ"
+    ],
+    "rank": 110,
+    "body": {
+      "intro": "IonQ (IONQ) ประกาศเปลี่ยนตัวผู้บริหารฝ่ายการเงิน โดย Inder M. Singh ซึ่งดำรงตำแหน่งทั้ง CFO (ประธานเจ้าหน้าที่ฝ่ายการเงิน) และ COO (ประธานเจ้าหน้าที่ฝ่ายปฏิบัติการ) ลงจากตำแหน่ง \"โดยมีผลทันที\" บริษัทแต่งตั้ง Gary Merrill ซึ่งปัจจุบันเป็น CFO ของ Commvault บริษัทซอฟต์แวร์ป้องกันข้อมูล เป็น CFO คนใหม่ โดยจะเริ่มงานต้นเดือนธันวาคม และตั้ง Thomas A. Austin อดีตหัวหน้าฝ่ายบัญชีของ Juniper Networks เป็น Chief Accounting Officer (หัวหน้าฝ่ายบัญชี) ซึ่งเป็นตำแหน่งที่บริษัทเพิ่งตั้งขึ้นใหม่และเริ่มงานทันที ข่าวนี้ออกมาในช่วงที่หุ้นกำลังลงหนักอยู่แล้ว ตามข้อมูลของ Trefis หุ้น IonQ ลดลง 7 วันทำการติดกันรวม 33.6% ปิดวันพุธที่ 18 พ.ย. ที่ 23.48 ดอลลาร์ ซึ่งเป็นราคาปิดต่ำสุดในรอบหนึ่งปี ในช่วงเดียวกัน S&P 500 ลดลงเพียง 2.9% ทีมข่าวมองว่าตัวเลขนี้บอกว่าแรงขายส่วนใหญ่มาจากปัจจัยเฉพาะของบริษัท ไม่ได้มาจากภาพรวมตลาด TIKR รายงานว่าหุ้นลดลงราว 8% ในวันที่ประกาศ แต่ก็ระบุด้วยว่าไม่ใช่ทั้งหมดของการร่วงมาจากข่าว Singh เพราะ Quantum Computing Inc. (QUBT) ก็ลดลง 7% ในวันเดียวกันทั้งที่ไม่มีข่าว ส่วนวันที่ประกาศข่าว แต่ละแหล่งยังระบุไม่ตรงกัน หน้าข่าวของ IonQ และ The Quantum Insider ลงวันที่ 16 พ.ย. ขณะที่ TIKR และ heygotrade อ้างวันที่ 13 พ.ย. ข้อควรเข้าใจคือ การจดทะเบียนขายต่อไม่ใช่การออกหุ้นใหม่ และบริษัทไม่ได้รับเงินจากการขายนี้ หุ้นกลุ่มนี้ถูกนับเป็นหุ้นที่ออกแล้วตั้งแต่ดีลปิด แต่ตลาดมักมองเอกสารแบบนี้เป็น overhang (หุ้นจำนวนมากที่อาจถูกขายออกมาในตลาดเมื่อไรก็ได้ และกดดันราคาไว้) เมื่อรวมกับหุ้นที่ออกจากการเพิ่มทุน 2 พันล้านดอลลาร์ในเดือนตุลาคม และหุ้นจากดีล SkyWater ความกังวลเรื่องหุ้นถูกเจือจางจึงกลับมาเป็นประเด็นหลักอีกครั้ง ถ้าเทียบกับราคาหลังตลาดปิดราว 27.16 ดอลลาร์ในวันประกาศงบไตรมาส 3 (5 พ.ย.) ราคาปิด 23.48 ดอลลาร์ต่ำกว่าราว 14% และต่ำกว่าพื้น collar ของดีล Elisity ที่ 33.07 ดอลลาร์ราว 29% (ทีมข่าวคำนวณ) แปลว่างบที่ชนะคาดและเป้าทั้งปีที่ปรับขึ้นเป็น 505-515 ล้านดอลลาร์ยังไม่ช่วยพยุงราคา **ฝั่งที่ต้องระวัง:** CFO ที่ลาออกโดยมีผลทันทีโดยไม่บอกเหตุผล หลังอยู่ในตำแหน่งราว 14 เดือน และเกิดขึ้นเพียงไม่กี่วันหลังประกาศงบ เป็นสัญญาณที่ตลาดมักให้น้ำหนักในทางลบ เพราะ CFO คือคนที่ดูแลตัวเลขเป้าหมายและการรวมกิจการ ช่วงก่อน 3 ธ.ค. บริษัทยังไม่มี CFO ตัวจริง และซีอีโอต้องรับหน้าที่นี้ควบไปด้วย หุ้นราว 34.6 ล้านหุ้นที่อาจถูกขายออกมาเป็นแรงกดดันที่ยังไม่รู้ว่าจะจบเมื่อไร นอกจากนี้ AAII รายงานว่าเดือนที่ผ่านมามีนักวิเคราะห์ลดอันดับหุ้น 2 ราย และไม่มีรายใดปรับขึ้น ส่วนการเด้งวันที่ 19 พ.ย. ก็มาจากกระแสของทั้งกลุ่ม ไม่ได้มาจากข่าวของบริษัทเอง *หมายเหตุ: บทความนี้จัดทำเพื่อให้ข้อมูลและมุมมองเชิงบรรณาธิการเท่านั้น ไม่ใช่คำแนะนำการลงทุน โปรดประเมินความเสี่ยงก่อนตัดสินใจทุกครั้ง*",
+      "sections": [
+        {
+          "h": "รายละเอียดการเปลี่ยนตัว: ลาออกทันที และไม่ได้บอกเหตุผล",
+          "p": "- **Inder Singh:** เข้ารับตำแหน่ง CFO และ COO เมื่อเดือนกันยายน 2568 ก่อนหน้านั้นเคยเป็นผู้บริหารที่ Arm ข่าวประกาศของบริษัทไม่ได้ให้เหตุผลการลาออก TIKR ตั้งข้อสังเกตเรื่องนี้ไว้เช่นกัน - **Gary Merrill:** กลับมาเป็น CFO ของ Commvault เมื่อเดือนเมษายน 2569 หลังเป็น Chief Commercial Officer ช่วงปี 2567-2569 GovConWire รายงานว่า Merrill จะยังเป็นที่ปรึกษาให้ Commvault จนจบปีงบประมาณ และ Commvault ตั้ง Danielle Abrahamsen เป็น CFO ชั่วคราว มีผล 1 ธ.ค. ส่วนแบบฟอร์ม 8-K ที่ IonQ ยื่นต่อ ก.ล.ต. สหรัฐฯ (รายงานเหตุการณ์สำคัญ) ระบุว่า Merrill คาดว่าจะเริ่มงานวันที่ 3 ธ.ค. 2569 - **ช่วงที่ยังไม่มี CFO:** Niccolo de Masi ประธานกรรมการและซีอีโอ จะรับหน้าที่ผู้บริหารสูงสุดด้านการเงินและบัญชีชั่วคราวไปจนกว่า Merrill จะเริ่มงาน - **เหตุผลที่ซีอีโอให้:** de Masi ระบุว่าทั้งสองคนมีประสบการณ์ด้านการเงินและบัญชีในบริษัทจดทะเบียน และชี้ว่าพื้นฐานด้านความปลอดภัยไซเบอร์ของ Merrill เข้ากับธุรกิจ quantum security ที่บริษัทกำลังขยาย ซึ่งเชื่อมกับดีลซื้อ Elisity ที่ปิดไปเมื่อ 4 พ.ย."
+        },
+        {
+          "h": "หุ้นที่จดทะเบียนขายต่อได้ 34.6 ล้านหุ้น",
+          "p": "วันที่ 13 พ.ย. IonQ ยื่นเอกสาร prospectus supplement แบบ 424B7 (เอกสารเสนอขายเพิ่มเติมที่ให้ผู้ถือหุ้นเดิมนำหุ้นออกขายต่อในตลาดได้) ครอบคลุมหุ้นสามัญสูงสุด 34,580,646 หุ้น เอกสารอ้างถึงสัญญาควบรวม Elisity ซึ่งบ่งชี้ว่าหุ้นกลุ่มนี้น่าจะเป็นหุ้นที่ออกให้ผู้ถือหุ้นเดิมของ Elisity เป็นค่าตอบแทนในดีลมูลค่า 1.15 พันล้านดอลลาร์ (ทีมข่าวยังไม่พบเอกสารที่ยืนยันข้อนี้ตรง ๆ) เอกสารระบุว่าผู้ถือหุ้นจะขายทั้งหมด ขายบางส่วน หรือไม่ขายเลยก็ได้"
+        },
+        {
+          "h": "ลำดับราคาหุ้น: หลุดจุดต่ำสุดเดิมของเดือนมีนาคม",
+          "p": "- **16 พ.ย.:** 24/7 Wall St. รายงานว่าหุ้นปิดที่ 26.48 ดอลลาร์ ต่ำกว่าจุดต่ำสุดรอบ 52 สัปดาห์เดิมเมื่อ 30 มี.ค. Trefis บันทึกว่าลดลง 8.4% ในวันนั้น - **17 พ.ย.:** ปิดที่ 24.84 ดอลลาร์ (Trefis) ลดลงรวม 30% ในหกวันทำการ - **18 พ.ย.:** ปิดที่ 23.48 ดอลลาร์ รวม 7 วันติดกันลดลง 33.6% ตั้งแต่ต้นปีลดลงราว 47.7% ส่วน Forbes นับจากจุดสูงสุดได้ว่าลดลงราว 51% - **19 พ.ย.:** 24/7 Wall St. รายงานว่าหุ้นเด้งขึ้นราว 9% ในช่วงเช้า พร้อม D-Wave และ Rigetti ที่ขึ้นราว 8% โดยโยงกับกระแสการเข้าตลาดของ Anthropic ที่ช่วยหนุนหุ้นกลุ่มที่ถูกเทขายหนัก แต่ AAII รายงานราคาระหว่างวันราว 23.29 ดอลลาร์ ณ เวลาที่เขียน ทีมข่าวยังหาราคาปิดวันที่ 19-20 พ.ย. ที่ยืนยันได้ไม่พบ (ยังไม่มีข้อมูลยืนยัน)"
+        },
+        {
+          "h": "มุมบวก และมุมที่ต้องระวัง",
+          "p": "**ฝั่งที่มองบวก:** บริษัทหาคนมาแทนได้ทันทีในวันที่ประกาศ ไม่ได้ปล่อยตำแหน่งว่างแล้วค่อยเริ่มสรรหา Merrill มีประสบการณ์เป็น CFO บริษัทจดทะเบียนขนาดใหญ่ และการตั้ง Chief Accounting Officer เพิ่มอีกตำแหน่งช่วยแยกงานบัญชีออกจากงานกลยุทธ์การเงิน ซึ่งเหมาะกับบริษัทที่เพิ่งรวม SkyWater และ Elisity เข้ามาในเวลาไล่เลี่ยกัน และงบมีความซับซ้อนขึ้นมาก ด้านธุรกิจ บริษัทยังมีข่าวต่อเนื่อง ได้แก่ การจับมือกับ Carahsoft ผู้จัดจำหน่ายให้หน่วยงานรัฐเมื่อ 9 พ.ย. และการตั้ง Federal Advisory Board ที่มี George Barnes อดีตรองผู้อำนวยการ NSA เป็นประธาน ส่วนเงินสดราว 3.7 พันล้านดอลลาร์ (รวมเงินเพิ่มทุน) ตามที่รายงานไว้ในงบไตรมาส 3 ทำให้ความจำเป็นต้องเพิ่มทุนในระยะสั้นยังไม่สูง"
+        },
+        {
+          "h": "สิ่งที่ต้องจับตาต่อจากนี้",
+          "p": "- **วันที่ Merrill เริ่มงาน (คาดว่า 3 ธ.ค.):** หากมีการยืนยันวันเริ่มงานหรือประกาศเพิ่มเติมว่าทำไม Singh ลาออก จะช่วยลดความไม่แน่นอนเรื่องผู้บริหาร - **เป้ารายได้ฉบับแรกของ CFO คนใหม่:** TIKR ชี้ว่าเป้าที่จะออกพร้อมงบไตรมาส 4 คือบททดสอบสำคัญ หากเป้าปี 2570 ใกล้เคียงหรือสูงกว่าแนวทางเดิม ตลาดอาจมองว่าการเปลี่ยนตัวไม่เกี่ยวกับตัวเลข หากปรับลด ความกังวลในช่วงนี้ก็มีแนวโน้มถูกยืนยัน - **ปริมาณซื้อขายและการเปิดเผยการขายหุ้นของผู้ถือหุ้น Elisity:** เป็นตัวบอกว่าแรงกดดันจาก overhang ยังเหลือมากแค่ไหน - **การปรับเป้าราคาของนักวิเคราะห์:** ค่าเฉลี่ยเป้าราคา 65.45 ดอลลาร์ที่สื่ออ้างเมื่อต้นเดือน พ.ย. ออกมาก่อนหุ้นร่วงรอบนี้ จึงมีโอกาสถูกปรับ"
+        }
+      ],
+      "quote": "ปัญหาของ IonQ ในสัปดาห์นี้ไม่ได้อยู่ที่ผลประกอบการ เพราะงบเพิ่งชนะคาดเมื่อสองสัปดาห์ก่อน แต่อยู่ที่ความเชื่อมั่นในฝ่ายบริหารและปริมาณหุ้นที่เพิ่มขึ้นต่อเนื่อง ทีมข่าวมองว่าการที่ CFO ลาออกทันทีช่วงที่บริษัทเพิ่งรวมสองกิจการใหญ่และมีหุ้นรอขายต่ออีกหลายสิบล้านหุ้น ทำให้ตลาดตั้งคำถามว่าตัวเลขที่เห็นจะไปต่อได้แค่ไหน และคำตอบคงต้องรอเป้ารายได้ฉบับแรกของ CFO คนใหม่",
+      "quoteBy": "— ทีมข่าว PixelVest",
+      "takeaway": "Inder Singh ลงจากตำแหน่ง CFO และ COO ของ IonQ โดยมีผลทันที Gary Merrill จาก Commvault จะเข้ามาแทนต้นเดือน ธ.ค. และ Thomas Austin เป็นหัวหน้าฝ่ายบัญชีคนแรก ในช่วงเดียวกันบริษัทจดทะเบียนหุ้นที่ขายต่อได้ 34.6 ล้านหุ้นที่เชื่อมกับดีล Elisity หุ้นลดลง 7 วันติดรวม 33.6% ปิดที่ 23.48 ดอลลาร์ซึ่งต่ำสุดในรอบหนึ่งปี ก่อนเด้งขึ้นระหว่างวันตามกระแสของทั้งกลุ่มเมื่อ 19 พ.ย. ตัวชี้ขาดถัดไปคือเป้ารายได้ที่ CFO คนใหม่จะประกาศพร้อมงบไตรมาส 4",
+      "stats": [
+        {
+          "label": "CFO ที่ลาออก",
+          "value": "Inder M. Singh",
+          "change": "มีผลทันที ดำรงตำแหน่งตั้งแต่ ก.ย. 2568"
+        },
+        {
+          "label": "CFO คนใหม่",
+          "value": "Gary Merrill (CFO ของ Commvault)",
+          "change": "คาดว่าเริ่มงาน 3 ธ.ค. 2569 ตาม 8-K"
+        },
+        {
+          "label": "Chief Accounting Officer",
+          "value": "Thomas A. Austin (อดีต Juniper Networks)",
+          "change": "เริ่มงานทันที"
+        },
+        {
+          "label": "หุ้นที่จดทะเบียนขายต่อ (424B7, 13 พ.ย.)",
+          "value": "34,580,646 หุ้น",
+          "change": "บริษัทไม่ได้รับเงินจากการขาย"
+        },
+        {
+          "label": "ราคาปิด 16 / 17 / 18 พ.ย.",
+          "value": "26.48 / 24.84 / 23.48 ดอลลาร์",
+          "change": ""
+        },
+        {
+          "label": "ลดลง 7 วันทำการติดกัน",
+          "value": "-33.6%",
+          "change": "S&P 500 -2.9% ช่วงเดียวกัน"
+        },
+        {
+          "label": "ผลตอบแทนตั้งแต่ต้นปี",
+          "value": "ราว -47.7%",
+          "change": ""
+        },
+        {
+          "label": "19 พ.ย. ช่วงเช้า (24/7 Wall St.)",
+          "value": "ราว +9%",
+          "change": "ราคาปิดยังไม่มีข้อมูลยืนยัน"
+        }
+      ],
+      "sources": [
+        {
+          "text": "IonQ Announces Executive Leadership Evolution — IonQ",
+          "url": "https://ionq.com/news/ionq-announces-executive-leadership-evolution"
+        },
+        {
+          "text": "IonQ, Inc. Form 8-K Exhibit 99.1 — SEC",
+          "url": "https://www.sec.gov/Archives/edgar/data/0001824920/000119312526461016/ionq-ex99_1.htm"
+        },
+        {
+          "text": "IonQ, Inc. Form 8-K — SEC",
+          "url": "https://www.sec.gov/Archives/edgar/data/0001824920/000119312526461016/ionq-20261110.htm"
+        },
+        {
+          "text": "IonQ, Inc. Form 424B7 (13 Nov 2026) — SEC",
+          "url": "https://www.sec.gov/Archives/edgar/data/0001824920/000119312526461012/ionq-20261113.htm"
+        },
+        {
+          "text": "IonQ Appoints Gary Merrill as CFO and Thomas Austin as Chief Accounting Officer — The Quantum Insider",
+          "url": "https://thequantuminsider.com/2026/11/16/ionq-announces-executive-leadership-evolution/"
+        },
+        {
+          "text": "IonQ Names Gary Merrill CFO as Inder Singh Steps Down — GovConWire",
+          "url": "https://www.govconwire.com/?p=346701"
+        },
+        {
+          "text": "IonQ Sinks 8% as Inder Singh Exits \"Effective Immediately\" in Finance Leadership Shake-Up — TIKR",
+          "url": "https://www.tikr.com/blog/ionq-sinks-8-as-inder-singh-exits-effective-immediately-in-finance-leadership-shake-up"
+        },
+        {
+          "text": "IonQ Stock Falls 6.4% as CFO Inder Singh Steps Down — heygotrade",
+          "url": "https://www.heygotrade.com/en/news/ionq-ionq-stock-news-november-16-2026/"
+        },
+        {
+          "text": "IonQ Falls to $26.48, Undercutting Its Prior 52-Week Low — 24/7 Wall St.",
+          "url": "https://247wallst.com/cards/ionq-ionq-enriched-price-move-01m7kc28t57rr2jqjfqng8vtm7"
+        },
+        {
+          "text": "5 Red Days In A Row: IonQ Stock Is Down 25% — Trefis",
+          "url": "https://www.trefis.com/stock/ionq/articles/625569/5-red-days-in-a-row-ionq-stock-is-down-25/2026-11-17"
+        },
+        {
+          "text": "IonQ Stock Extends A 6-Day Losing Streak To A 30% Loss — Trefis",
+          "url": "https://www.trefis.com/stock/ionq/articles/626089/ionq-stock-extends-a-6-day-losing-streak-to-a-30-loss/2026-11-18"
+        },
+        {
+          "text": "IonQ Stock: 7 Straight Red Days, Down 34% — Trefis",
+          "url": "https://www.trefis.com/stock/ionq/articles/626636/ionq-stock-7-straight-red-days-down-34/2026-11-19"
+        },
+        {
+          "text": "IonQ Drops 5%, Extending Losing Streak on Dilution Worries After $2 Billion Stock Sale — 24/7 Wall St.",
+          "url": "https://247wallst.com/investing/2026/11/18/ionq-drops-5-extending-losing-streak-on-dilution-worries-after-2-billion-stock-sale-d-wave-slides-3-rigetti-dips/"
+        },
+        {
+          "text": "IonQ Jumps 9% as Anthropic's IPO Lifts Beaten-Down Quantum Stocks — 24/7 Wall St.",
+          "url": "https://247wallst.com/investing/2026/11/19/ionq-jumps-9-as-anthropics-ipo-lifts-beaten-down-quantum-stocks-d-wave-and-rigetti-surge-8/"
+        },
+        {
+          "text": "Why IonQ, Inc.'s (IONQ) Stock Is Down 7.79% — AAII",
+          "url": "https://www.aaii.com/investingideas/article/559862-why-ionq-inc8217s-ionq-stock-is-down-779"
+        },
+        {
+          "text": "Where Next For IONQ Stock After A 51% Slide? — Forbes",
+          "url": "https://www.forbes.com/sites/greatspeculations/2026/11/19/where-next-for-ionq-stock-after-a-51-slide/"
+        },
+        {
+          "text": "IonQ Just Dropped 32% In a Month: Is IONQ Stock Hopeless or Ready for a Rebound? — 24/7 Wall St.",
+          "url": "https://247wallst.com/investing/2026/11/03/ionq-just-dropped-32-in-a-month-is-ionq-stock-hopeless-or-ready-for-a-rebound/"
+        },
+        {
+          "text": "IonQ and Carahsoft Partner to Bring Quantum Solutions to Public Sector — IonQ",
+          "url": "https://ionq.com/news/ionq-and-carahsoft-partner-to-bring-quantum-solutions-to-public-sector"
+        },
+        {
+          "text": "IonQ Forms Federal Advisory Board With Former NSA Deputy Director as Chair — GovConWire",
+          "url": "https://www.govconwire.com/?p=346788"
+        }
+      ]
+    },
+    "tags": [
+      "ควอนตัม",
+      "CFO",
+      "เปลี่ยนผู้บริหาร",
+      "Gary Merrill",
+      "Commvault",
+      "Elisity",
+      "หุ้นขายต่อ",
+      "ต่ำสุดรอบ 1 ปี"
+    ],
+    "agent": "hanako"
+  },
+  {
+    "id": 111,
+    "cat": "อวกาศ",
+    "title": "Rocket Lab ร่วง 10.8% ปิด 45.44 ดอลลาร์ ลงติดต่อกันราว 7 วันรวม 31% ทั้งที่ Electron เพิ่งครบ 100 เที่ยว และงานในมือทำสถิติ 3.57 พันล้านดอลลาร์",
+    "excerpt": "หุ้น RKLB ลงราว 10.8% ปิดที่ 45.44 ดอลลาร์ในวันศุกร์ที่ 20 พ.ย. ระหว่างที่หุ้นเทคถูกเทขายทั้งตลาด Trefis นับว่าหุ้นลงติดกัน 7 วัน รวม 31.3% สวนทางกับข่าวบริษัทช่วงเดียวกัน คือ Electron ขึ้นบินครบ 100 เที่ยว และงบไตรมาส 3 มีรายได้กับงานในมือสูงสุดเป็นประวัติการณ์ แต่ Neutron ยังเลื่อนไปปี 2570 และโบรกเกอร์หลายแห่งลดราคาเป้าหมาย",
+    "author": "ทีมข่าว PixelVest",
+    "date": "21 พ.ย. 2026",
+    "iso": "2026-11-21",
+    "read": 4,
+    "syms": [
+      "RKLB"
+    ],
+    "rank": 111,
+    "body": {
+      "intro": "หุ้น Rocket Lab (RKLB) ลงราว **10.8%** ปิดที่ **45.44 ดอลลาร์** ในวันศุกร์ที่ 20 พฤศจิกายน 2569 ตามที่ GuruFocus และ Startup Fortune รายงาน (Yahoo Finance และ Trefis ให้ราคาปิด 45.42 ดอลลาร์ ลดลง 10.92%) วันนั้นตลาดถูกเทขายเป็นวงกว้าง Seeking Alpha รายงานว่ากองทุน SPY ลงมากกว่า 3% และ QQQ ลงเกิน 5% ส่วน Trefis ระบุว่า S&P 500 ลง 3.7% ตัวเลขนี้น่าสนใจเพราะสวนทางกับข่าวของบริษัทในช่วงเดียวกัน Electron เพิ่งขึ้นบิน **ครบ 100 เที่ยว** เมื่อ 14 พ.ย. ก่อนหน้านั้นงบไตรมาส 3 ที่ประกาศเมื่อ 9 พ.ย. มีทั้งรายได้และงานในมือ (backlog คือมูลค่าสัญญาที่เซ็นแล้วแต่ยังไม่รับรู้เป็นรายได้) สูงสุดเป็นประวัติการณ์ แต่หุ้นก็ยังลงต่อเนื่อง *ข่าวลำดับที่ 103 เขียนถึงช่วงก่อนประกาศงบและความคืบหน้าดีล Iridium ที่ FCC ข่าวนี้ต่อจากตรงนั้น คือผลงบจริง เที่ยวบินที่ 100 และการลงของราคาหุ้นในสัปดาห์นี้* ข้อสังเกตคือราคาปิดรอบนี้แทบเท่ากับวันที่ 5 พ.ย. (45.99 ดอลลาร์ ในข่าวลำดับที่ 103) แปลว่าตัวเลขงบไตรมาส 3 ที่ดีกว่าคาดยังไม่ได้ช่วยดึงราคาให้สูงกว่าจุดต่ำสุดก่อนงบได้ **งบไตรมาส 3/2569 (ประกาศ 9 พ.ย.):** - รายได้ **267.8 ล้านดอลลาร์** เพิ่มขึ้นราว **73%** จากปีก่อน สูงกว่ากรอบบนที่บริษัทให้ไว้ (250–265 ล้านดอลลาร์) และสูงกว่าที่นักวิเคราะห์คาด - งานในมือรวม **3.57 พันล้านดอลลาร์** เพิ่มขึ้นราว **52%** จาก 2.36 พันล้านดอลลาร์ในไตรมาสก่อน แบ่งเป็นธุรกิจปล่อยจรวด 1.85 พันล้าน และ Space Systems 1.7 พันล้าน มีเที่ยวบินที่จองแล้ว 117 เที่ยว ฝ่ายบริหารคาดว่าราว 32.9% ของงานในมือจะรับรู้เป็นรายได้ภายใน 12 เดือน - **Neutron** (จรวดขนาดกลางที่ออกแบบมาแข่งกับ Falcon 9 ของ SpaceX) ได้สัญญาใหม่ 8 เที่ยวจากผู้ให้บริการกลุ่มดาวเทียม 5 ราย รวมกว่า **515 ล้านดอลลาร์** เช่น ICEYE จอง 3 เที่ยว และ Muon Space จอง 2 เที่ยว ตอนนี้ Neutron มีเที่ยวบินในมือ 16 เที่ยวแม้ยังไม่เคยบิน และบางสัญญาใช้ราคาฐาน 70 ล้านดอลลาร์ต่อเที่ยว - กระแสเงินสดจากการดำเนินงานตามมาตรฐานบัญชี (GAAP) เป็น **บวก 7.2 ล้านดอลลาร์** - คาดรายได้ไตรมาส 4 ที่ **270–290 ล้านดอลลาร์** ราคาเป้าหมายข้างต้นเป็นตัวเลขของโบรกเกอร์และผู้รวบรวมข้อมูลตามที่อ้างอิง ทีมข่าว PixelVest ไม่ได้ประเมินราคาเป้าหมายเอง **มุมลบ:** หุ้นลงแรงกว่าดัชนีหลายเท่าแม้ไม่มีข่าวลบใหม่ แปลว่าหุ้นยังอ่อนไหวต่อบรรยากาศตลาดมาก หากแรงขายหุ้นเติบโตสูงยังไม่จบ ตัวเลขธุรกิจที่ดีก็อาจยังไม่ช่วยพยุงราคา ส่วน Neutron ซึ่งเป็นตัวแปรหลักของการประเมินมูลค่าระยะยาว ยังต้องรออย่างน้อยถึงปี 2570 ขาดทุนต่อหุ้นที่มากกว่าคาดกับประมาณการ EBITDA ที่ Barclays ชี้ว่าแย่กว่าที่คาด แปลว่าบริษัทยังต้องใช้เงินลงทุนอีกมาก โบรกเกอร์ส่วนใหญ่ลดเป้า และ Piper Sandler ลดลงถึงราว 30% การที่ผู้บริหารมีแต่ขายในรอบหนึ่งปีก็เป็นอีกข้อที่นักลงทุนบางส่วนจับตา *หมายเหตุ: บทความนี้จัดทำเพื่อให้ข้อมูลและมุมมองเชิงบรรณาธิการเท่านั้น ไม่ใช่คำแนะนำการลงทุน โปรดประเมินความเสี่ยงก่อนตัดสินใจทุกครั้ง*",
+      "sections": [
+        {
+          "h": "ราคาหุ้นลงต่อเนื่องเกือบทั้งสัปดาห์",
+          "p": "- **16 พ.ย. (จันทร์):** TIKR รายงานว่า RKLB ลงราว **7%** สองวันหลังเที่ยวบินที่ 100 วันนั้นหุ้น AI ชิป และคริปโตถูกขาย และในวันอาทิตย์ก่อนหน้า จรวด Vulcan ของ ULA ล้มเหลวหลังขึ้นบินราว 10 นาที ดาวเทียม Amazon Leo 40 ดวงเสียหายทั้งหมด หุ้นอวกาศจึงถูกขายทั้งกลุ่ม - **20 พ.ย. (ศุกร์):** หุ้นลงอีกราว 10.8% มากกว่าดัชนีราวสามเท่า - **ภาพรวม:** Trefis นับว่าหุ้นลงติดกัน **7 วันทำการ** รวม **31.3%** ส่วน Startup Fortune นับเป็น 6 วัน และประเมินว่ามูลค่าตลาดหายไปราว **9.9 พันล้านดอลลาร์** เมื่อเทียบกับจุดสูงสุดรอบ 52 สัปดาห์ที่ 150.23 ดอลลาร์ ราคาตอนนี้ต่ำกว่าราว 70% ข้อมูลจาก Trefis เมื่อ 19 พ.ย. ระบุว่าหุ้นติดลบราว 23.9% นับตั้งแต่ต้นปี ขณะที่ SPY บวก 7.9%"
+        },
+        {
+          "h": "ข่าวของบริษัทช่วงเดียวกันส่วนใหญ่เป็นข่าวดี",
+          "p": "**Electron ครบ 100 เที่ยว:** ภารกิจ \"The Mountain God Rises\" ขึ้นบินจากนิวซีแลนด์เมื่อ 14 พ.ย. และส่งดาวเทียมเรดาร์ YAMATSUMI-II (QPS-SAR-19) ของบริษัท iQPS จากญี่ปุ่นขึ้นสู่วงโคจรตามแผน Rocket Lab ระบุว่า Electron เป็นจรวดเชิงพาณิชย์ที่บินครบ 100 เที่ยวได้เร็วกว่าจรวดเชิงพาณิชย์ลำอื่น นี่เป็นภารกิจที่ 11 ให้ iQPS และสำเร็จทั้งหมด iQPS ยังจองการปล่อยเฉพาะของตัวเองไว้อีก 7 เที่ยวจนถึงปี 2573"
+        },
+        {
+          "h": "สิ่งที่ตลาดกังวล: Neutron และขาดทุนต่อหุ้น",
+          "p": "- **ขาดทุนมากกว่าคาด:** ขาดทุนต่อหุ้นตาม GAAP อยู่ที่ 0.12 ดอลลาร์ ขณะที่ตลาดคาดขาดทุนราว 0.05–0.07 ดอลลาร์ ขึ้นอยู่กับว่าใช้ค่าเฉลี่ยจากแหล่งไหน - **Neutron บินได้เร็วที่สุดปี 2570:** บริษัทยืนยันในงบว่าเที่ยวบินแรกเป็น \"ไม่เร็วกว่าปี 2570\" ข่าวเลื่อนนี้ออกมาตั้งแต่กลาง ต.ค. Startup Fortune มองว่าการเลื่อนนี้เป็นปัจจัยที่ซ้ำเติมการลงของหุ้นในวันที่ 20 พ.ย. - **โบรกเกอร์ลดเป้าหลังงบ** (Benzinga และ TipRanks รวบรวม):   - Piper Sandler ให้ Neutral ลดเป้าจาก 83 เหลือ 58 ดอลลาร์   - Cantor Fitzgerald ให้ Overweight ลดเป้าจาก 122 เหลือ 111 ดอลลาร์   - Barclays คงคำแนะนำเชิงบวก ลดเป้าจาก 85 เหลือ 82 ดอลลาร์ ให้เหตุผลว่ากำหนดการปล่อยจรวดระยะสั้นยังไม่แน่นอน และประมาณการขาดทุน EBITDA (กำไรก่อนดอกเบี้ย ภาษี และค่าเสื่อม) กว้างกว่าที่คาด   - Morgan Stanley ให้ Overweight ลดเป้าจาก 105 เหลือ 103 ดอลลาร์   - KeyBanc คง Overweight เป้า 100 ดอลลาร์ และ Berenberg ปรับเป้าขึ้นจาก 83 เป็น 85 ดอลลาร์   - ค่าเฉลี่ยราคาเป้าหมายที่ TipRanks รวบรวมอยู่ราว 95.35 ดอลลาร์ ส่วน StockAnalysis อยู่ที่ราว 93.15 ดอลลาร์ - **ผู้บริหารขายหุ้น:** GuruFocus รายงานว่ากรรมการรายหนึ่งขายหุ้น 10,926 หุ้นตามแผนซื้อขายที่ตั้งไว้ล่วงหน้าเมื่อ 3 พ.ย. และในรอบหนึ่งปี ผู้บริหารและกรรมการขายหุ้นรวมราว 691.2 ล้านดอลลาร์ โดยไม่มีรายการซื้อเลย"
+        },
+        {
+          "h": "สองด้านของข่าวนี้",
+          "p": "**มุมบวก:** ตัวเลขธุรกิจในไตรมาส 3 ดีขึ้นแทบทุกตัว ทั้งรายได้ที่ทำสถิติและสูงกว่ากรอบบน งานในมือที่เพิ่มขึ้นกว่าครึ่ง และกระแสเงินสดจากการดำเนินงานที่เป็นบวก ลูกค้ายอมจอง Neutron เพิ่มอีกกว่า 515 ล้านดอลลาร์ทั้งที่จรวดยังไม่เคยบิน ซึ่งสะท้อนว่าตลาดยังต้องการผู้ให้บริการปล่อยจรวดรายอื่นนอกจาก SpaceX ยิ่งหลังจากที่ Vulcan ล้มเหลว ความต้องการนี้อาจชัดขึ้นอีก เที่ยวบินที่ 100 ของ Electron ก็ช่วยยืนยันว่าจรวดหลักที่ทำรายได้ทุกวันนี้ยังเชื่อถือได้ นอกจากนี้การลงในวันที่ 20 พ.ย. เกิดในวันเดียวกับที่ตลาดทั้งตลาดถูกขาย ไม่ได้มาจากข่าวลบใหม่ของบริษัท"
+        },
+        {
+          "h": "สิ่งที่ต้องติดตามต่อ",
+          "p": "- **ตลาดรวมจะหยุดขายหรือยัง:** ที่ผ่านมา RKLB เคลื่อนไหวตามหุ้นเทคและหุ้นเติบโตสูงมาก ถ้าแรงขายของ Nasdaq ชะลอลง ก็พอจะดูได้ว่าหุ้นจะฟื้นตามตลาดหรือไม่ ถ้าตลาดฟื้นแต่หุ้นยังไม่ฟื้น ก็แปลว่าความกังวลเรื่องตัวบริษัทเองมีน้ำหนักมากขึ้น - **กำหนดการ Neutron:** ข้อมูลใหม่เรื่องการทดสอบหรือวันบินแรก เป็นตัวแปรที่ตลาดมักตอบสนองแรงที่สุด ทั้งด้านบวกและด้านลบ - **ดีล Iridium ที่ FCC:** คำชี้แจงรอบสุดท้ายครบกำหนดเมื่อ 9 พ.ย. แล้ว ทีมข่าว PixelVest *ยังไม่มีข้อมูลยืนยัน* ว่า FCC มีความเห็นหรือตั้งเงื่อนไขเพิ่มหลังจากนั้นหรือไม่ บริษัทคาดว่าจะปิดดีลได้ราวกลางปี 2570 - **การเปลี่ยนงานในมือเป็นรายได้:** ดูว่ารายได้ไตรมาส 4 จะออกมาอยู่ในกรอบ 270–290 ล้านดอลลาร์หรือไม่"
+        }
+      ],
+      "quote": "สัปดาห์นี้แสดงให้เห็นว่าตัวเลขธุรกิจกับราคาหุ้นของ RKLB เดินคนละทาง บริษัทมีเที่ยวบินที่ 100 และงานในมือที่ทำสถิติ แต่ราคาหุ้นกลับขึ้นกับบรรยากาศตลาดและกำหนดการของ Neutron มากกว่า ตราบใดที่ Neutron ยังไม่ได้บิน ตลาดมีแนวโน้มจะให้น้ำหนักกับความเสี่ยงมากกว่าตัวเลขในงบ",
+      "quoteBy": "— ทีมข่าว PixelVest",
+      "takeaway": "RKLB ลงราว 10.8% ปิดที่ 45.44 ดอลลาร์ในวันที่ 20 พ.ย. ตามแรงเทขายหุ้นเทคทั้งตลาด Trefis นับว่าลงติดกัน 7 วัน รวม 31.3% ขณะที่ช่วงเดียวกัน Electron บินครบ 100 เที่ยว และงบไตรมาส 3 มีรายได้ 267.8 ล้านดอลลาร์ (+73%) กับงานในมือ 3.57 พันล้านดอลลาร์ แต่ขาดทุนต่อหุ้นมากกว่าคาด Neutron เลื่อนไปปี 2570 และโบรกเกอร์ส่วนใหญ่ลดราคาเป้าหมาย",
+      "stats": [
+        {
+          "label": "ราคาปิด 20 พ.ย.",
+          "value": "45.44 ดอลลาร์",
+          "change": "-10.8% (GuruFocus / Startup Fortune; Yahoo Finance ระบุ 45.42 ดอลลาร์, -10.92%)"
+        },
+        {
+          "label": "ตลาดวันที่ 20 พ.ย.",
+          "value": "S&P 500 -3.7% (Trefis)",
+          "change": "SPY ลงมากกว่า 3%, QQQ ลงเกิน 5% (Seeking Alpha)"
+        },
+        {
+          "label": "ลงติดต่อกัน",
+          "value": "7 วัน -31.3% (Trefis)",
+          "change": "มูลค่าตลาดหายราว 9.9 พันล้านดอลลาร์ (Startup Fortune)"
+        },
+        {
+          "label": "16 พ.ย.",
+          "value": "ราว -7%",
+          "change": "หุ้นเทคถูกขาย และ Vulcan ล้มเหลว"
+        },
+        {
+          "label": "Electron เที่ยวที่ 100",
+          "value": "14 พ.ย.",
+          "change": "ภารกิจที่ 11 ให้ iQPS"
+        },
+        {
+          "label": "รายได้ไตรมาส 3/2569",
+          "value": "267.8 ล้านดอลลาร์",
+          "change": "+73% YoY"
+        },
+        {
+          "label": "งานในมือ",
+          "value": "3.57 พันล้านดอลลาร์",
+          "change": "+52% QoQ, 117 เที่ยวบิน"
+        },
+        {
+          "label": "สัญญา Neutron ใหม่",
+          "value": "กว่า 515 ล้านดอลลาร์",
+          "change": "8 เที่ยว, รวมในมือ 16 เที่ยว"
+        },
+        {
+          "label": "ขาดทุนต่อหุ้น GAAP",
+          "value": "0.12 ดอลลาร์",
+          "change": "ตลาดคาดราว 0.05–0.07 ดอลลาร์"
+        },
+        {
+          "label": "กรอบรายได้ไตรมาส 4",
+          "value": "270–290 ล้านดอลลาร์",
+          "change": ""
+        },
+        {
+          "label": "ราคาเป้าหมายเฉลี่ย",
+          "value": "ราว 95.35 ดอลลาร์ (TipRanks)",
+          "change": "ราว 93.15 ดอลลาร์ (StockAnalysis)"
+        }
+      ],
+      "sources": [
+        {
+          "text": "Rocket Lab (RKLB) Shares Drop 10.79% Amid Market Selloff — GuruFocus",
+          "url": "https://www.gurufocus.com/news/9213315/rocket-lab-rklb-shares-drop-1079-amid-market-selloff"
+        },
+        {
+          "text": "Rocket Lab stock falls 10.8% to $45.44 as its Neutron delay meets a tech rout — Startup Fortune",
+          "url": "https://startupfortune.com/rocket-lab-stock-falls-108-to-4544-as-its-neutron-delay-meets-a-tech-rout/"
+        },
+        {
+          "text": "Rocket Lab slides 11% amid broad market pullback — Seeking Alpha",
+          "url": "https://seekingalpha.com/news/4675348-rocket-lab-slides-11-percent-amid-broad-market-pullback"
+        },
+        {
+          "text": "Rocket Lab Stock: 7 Straight Red Days, Down 31% — Trefis",
+          "url": "https://www.trefis.com/stock/rklb/articles/627502/rocket-lab-stock-7-straight-red-days-down-31/2026-11-21"
+        },
+        {
+          "text": "How Much Downside Is Left In Rocket Lab Stock? — Trefis",
+          "url": "https://www.trefis.com/stock/rklb/articles/626676/how-much-downside-is-left-in-rocket-lab-stock/2026-11-19"
+        },
+        {
+          "text": "Rocket Lab falls 10.92% in Friday's session — Global Banking & Finance",
+          "url": "https://www.globalbankingandfinance.com/rocket-lab-rklb-falls-2026-11-20/"
+        },
+        {
+          "text": "Rocket Lab Corporation (RKLB) Stock Price, News, Quote — Yahoo Finance",
+          "url": "https://finance.yahoo.com/quote/RKLB/"
+        },
+        {
+          "text": "Rocket Lab Sinks 7%, AST SpaceMobile Down 12% as Tech Selloff and Vulcan Failure Hit Space Stocks — TIKR",
+          "url": "https://www.tikr.com/blog/rocket-lab-sinks-7-ast-spacemobile-down-12-as-tech-selloff-and-vulcan-failure-hit-space-stocks"
+        },
+        {
+          "text": "Rocket Lab Completes 100th Electron Launch with 11th Mission for iQPS — SatNews",
+          "url": "https://satnews.com/2026/11/16/rocket-lab-completes-100th-electron-launch-with-11th-mission-for-iqps/"
+        },
+        {
+          "text": "Electron 100th launch: iQPS YAMATSUMI-II — NewSpace Economy",
+          "url": "https://newspaceeconomy.ca/2026/11/14/electron-100th-launch-iqps-yamatsumi-ii/"
+        },
+        {
+          "text": "Rocket Lab (RKLB) Marks 100th Electron Rocket Launch — GuruFocus",
+          "url": "https://www.gurufocus.com/news/9200799/rocket-lab-rklb-marks-100th-electron-rocket-launch-reinforcing-market-growth-expectations"
+        },
+        {
+          "text": "Rocket Lab Announces Third Quarter 2026 Financial Results — Rocket Lab Investor Relations",
+          "url": "https://investors.rocketlabcorp.com/news-releases/news-release-details/rocket-lab-announces-third-quarter-2026-financial-results-posts"
+        },
+        {
+          "text": "Rocket Lab Corp Form 8-K Ex. 99.1 (Q3 2026) — SEC",
+          "url": "https://www.sec.gov/Archives/edgar/data/0001819994/000181999426000073/rklb-11092026ex991.htm"
+        },
+        {
+          "text": "Rocket Lab Q3 2026 slides: record $268M revenue, $3.6B backlog — Investing.com",
+          "url": "https://www.investing.com/news/company-news/rocket-lab-q3-2026-slides-record-268m-revenue-36b-backlog-93CH-5013716"
+        },
+        {
+          "text": "Rocket Lab Corp Reports Q3 2026 Revenue of $268 Million, Misses EPS Estimate — GuruFocus",
+          "url": "https://www.gurufocus.com/news/9185966/rocket-lab-corp-reports-q3-2026-revenue-of-268-million-misses-eps-estimate-with-loss-of-012-per-share"
+        },
+        {
+          "text": "Rocket Lab Lands Over $515M in Neutron Launch Deals from Constellation Operators in Q3 — Rocket Lab",
+          "url": "https://rocketlabcorp.com/updates/rocket-lab-lands-over-515m-in-neutron-launch-deals-from-constellation-operators-in-q3"
+        },
+        {
+          "text": "These Analysts Revise Their Forecasts On Rocket Lab Following Q3 Results — Benzinga",
+          "url": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/11/63087884/these-analysts-revise-their-forecasts-on-rocket-lab-following-q3-results"
+        },
+        {
+          "text": "RKLB Stock Price Forecast: How Much Upside Do Analysts See Post-Q3 Earnings? — TipRanks",
+          "url": "https://www.tipranks.com/news/rklb-stock-price-forecast-how-much-upside-do-analysts-see-post-q3-earnings"
+        },
+        {
+          "text": "Berenberg Raises Rocket Lab Stock (RKLB) Price Target — TipRanks",
+          "url": "https://www.tipranks.com/news/berenberg-raises-rocket-lab-stock-rklb-price-target-whats-driving-the-optimism"
+        },
+        {
+          "text": "Rocket Lab (RKLB) Stock Price & Overview — StockAnalysis",
+          "url": "https://stockanalysis.com/stocks/rklb/"
+        },
+        {
+          "text": "Rocket Lab (NASDAQ: RKLB) Sits 62% Below $100 Target As Record $3.57 Billion Backlog And Neutron Rocket Raise 2027 Stakes — Foreign Policy Journal",
+          "url": "https://www.foreignpolicyjournal.com/2026/11/17/rocket-lab-nasdaq-rklb-sits-62-below-100-target-as-record-3-57-billion-backlog-and-neutron-rocket-raise-2027-stakes/"
+        }
+      ]
+    },
+    "tags": [
+      "อวกาศ",
+      "Electron",
+      "Neutron",
+      "งบการเงิน",
+      "นักวิเคราะห์",
+      "Rocket Lab"
+    ],
+    "agent": "hanako"
   }
 ];
