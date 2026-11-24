@@ -14343,5 +14343,788 @@ const ARTS = [
       "Rocket Lab"
     ],
     "agent": "hanako"
+  },
+  {
+    "id": 112,
+    "cat": "ภาพรวมตลาด",
+    "title": "Jensen Huang กลับมา Nvidia พุ่ง 31% ดันวอลล์สตรีทดีดแรงสุดนับแต่เม.ย. 2568 Nasdaq บวก 6.5% แต่ฟิวเจอร์สวันอังคารเริ่มย่อ",
+    "excerpt": "บอร์ด Nvidia มีมติเอกฉันท์ให้ Jensen Huang กลับมาเป็นซีอีโอ หุ้นพุ่ง 31.5% ลากให้ S&P 500 บวก 4.73% และ Nasdaq บวก 6.51% ดีที่สุดนับแต่เมษายน 2568 หลังลงเจ็ดวันติด แต่เช้าวันอังคารฟิวเจอร์สกลับย่อลง ขณะที่ตลาดให้โอกาสเฟดขึ้นดอกเบี้ยเดือนธันวาคมเกิน 90%",
+    "author": "ทีมข่าว PixelVest",
+    "date": "24 พ.ย. 2026",
+    "iso": "2026-11-24",
+    "read": 17,
+    "syms": [
+      "NVDA",
+      "AMD",
+      "GOOGL",
+      "AMZN",
+      "DELTA"
+    ],
+    "rank": 112,
+    "body": {
+      "intro": "ตลาดหุ้นสหรัฐฯ ปิดวันจันทร์ที่ 23 พ.ย. ด้วยการกลับทิศครั้งใหญ่จากแรงขายสัปดาห์ก่อน **S&P 500** บวก 4.73% ปิดที่ 7,237.17 จุด หยุดสถิติลงเจ็ดวันติดต่อกัน **Nasdaq Composite** พุ่ง 6.51% ที่ 24,089.56 จุด และ **Dow Jones** บวก 3.01% ที่ 49,595.31 จุด (Yahoo Finance, CNBC, journalarta) Yahoo Finance รายงานว่า S&P 500, Nasdaq และดัชนีหุ้นชิปฟิลาเดลเฟีย (SOX) ต่างทำวันที่บวกมากที่สุดนับตั้งแต่เมษายน 2568 และมาตรวัดความกลัวของตลาด VIX ลงแรง ตัวจุดชนวนคือ **Nvidia** ที่บอร์ดมีมติเอกฉันท์ให้ Jensen Huang กลับมาเป็นประธานเจ้าหน้าที่บริหาร (CEO) และกรรมการบริษัท มีผลทันที (Nvidia Newsroom, Axios) เพียงไม่กี่วันหลังประธานบอร์ดเคยระบุว่าไม่มีแผนรับเขากลับ หุ้นปิดบวกราว 31.5% ซึ่งหลายแหล่งระบุว่าเป็นวันที่ดีที่สุดนับตั้งแต่ปี 2546 (CNN) หมายเหตุเรื่องตัวเลข: บางแหล่งรายงาน S&P 500 บวกราว 4.2–5% และ Nvidia บวก 31–33% ทีมข่าวใช้ชุดตัวเลขปิดตลาดที่หลายแหล่งรายงานตรงกัน แรงซื้อลามไปทั้งกลุ่ม **AMD** บวกราว 6.9% (CNBC) และ Benzinga รายงานว่า Broadcom บวกเกือบ 10% ช่วงกลางวัน หุ้นฮาร์ดแวร์ดาต้าเซ็นเตอร์ก็ดีดแรง Dell บวก 21.6% และ HPE บวกราว 17% ก่อนประกาศงบ (Benzinga, Investing.com) **มุมบวก:** เรามองว่าตลาดได้คำตอบของคำถามที่ใหญ่ที่สุดข้อหนึ่ง คือใครจะนำ Nvidia ในช่วงที่บริษัทรายงานรายได้ไตรมาส 3 ที่ 115.8 พันล้านดอลลาร์ HSBC เคยมองว่าหุ้นอาจขึ้นได้ยากจนกว่าจะมีซีอีโอถาวร (Finviz) การที่ความไม่แน่นอนนี้หายไปจึงส่งผลกับราคาทันที **มุมลบ:** Fortune ชี้ว่าแม้จะดีดแรง มูลค่าตลาดหุ้นสหรัฐฯ ยังต่ำกว่าจุดสูงสุดเดือนตุลาคมราว 5 ล้านล้านดอลลาร์ หลังหายไปราว 8 ล้านล้านดอลลาร์ในช่วงขายหุ้น AI และการกลับมาของ Huang ไม่ได้ตอบคำถามใหญ่เรื่องความยั่งยืนของงบลงทุน AI ข้อสังเกตคือ การสอบสวนทางแพ่งของ ก.ล.ต.สหรัฐฯ (SEC) ต่อการเปิดเผยข้อมูลของ Nvidia ที่ Wall Street Journal รายงานเมื่อ 17 พ.ย. ยังไม่มีความคืบหน้าที่ทีมข่าวยืนยันได้ และทั้ง SEC และ Nvidia ยังไม่ยืนยันต่อสาธารณะ ความเสี่ยงส่วนนี้จึงยังอยู่ เช้าวันอังคารที่ 24 พ.ย. (ก่อนตลาดเปิด) Yahoo Finance รายงานว่าฟิวเจอร์ส Dow ลง 0.5% และ S&P 500 ลง 1% ขณะที่ Nvidia ลงราว 5% ช่วงก่อนตลาดเปิด แรงกดดันเพิ่มจากที่รัฐมนตรีคลัง Scott Bessent ประกาศคว่ำบาตรอิหร่านรอบใหม่และเตือนเรื่องช่องแคบฮอร์มุซ (Benzinga) อย่างไรก็ดี บางแหล่งรายงานฟิวเจอร์สบวกเล็กน้อยในช่วงเช้ากว่า จึงควรมองว่าเป็นสัญญาณจากตลาดล่วงหน้าที่ยังเปลี่ยนได้ ไม่ใช่ราคาปิด ส่วน HPE ประกาศงบไตรมาส 4 ปีงบ 2569 ดีกว่าคาด กำไรต่อหุ้นปรับปรุงแล้ว 1.43 ดอลลาร์ รายได้ 14.55 พันล้านดอลลาร์ ปรับเป้าปีงบ 2570 ขึ้นและเพิ่มงบซื้อหุ้นคืน 5 พันล้านดอลลาร์ แต่หุ้นกลับลงราว 9.6–12.3% ก่อนตลาดเปิด หลังบวกแรงไปแล้ววันจันทร์ (Investing.com) เป็นตัวอย่างว่าตลาดตั้งความคาดหวังไว้สูงหลังการดีดตัว ความเชื่อมโยงที่สำคัญคือ หุ้นดีดเพราะปัจจัยเฉพาะของ Nvidia ไม่ใช่เพราะต้นทุนเงินถูกลง ยีลด์ 2 ปีและดอลลาร์ยังแข็ง หมายความว่าแรงกดดันจากดอกเบี้ยที่เป็นต้นเหตุส่วนหนึ่งของการขายหุ้น valuation สูงยังไม่หายไป ส่วนน้ำมันที่ลงแม้มีความตึงเครียดในตะวันออกกลาง เป็นปัจจัยที่ช่วยลดแรงกดดันด้านเงินเฟ้อได้บ้าง ถ้าราคายังอยู่ระดับนี้ต่อเนื่อง ข้อสังเกตคือ ดอลลาร์ที่แข็งขึ้นจากการคาดการณ์ว่าเฟดจะขึ้นดอกเบี้ย มักเป็นตัวแปรที่กดดันค่าเงินตลาดเกิดใหม่รวมถึงเงินบาท และอาจชะลอเงินทุนต่างชาติที่จะไหลเข้า ผู้ถือกองทุนหุ้นเทคสหรัฐฯ และกองทุน Nasdaq-100 ควรเตรียมรับความผันผวนต่อ เพราะการดีดตัวครั้งใหญ่ในวันเดียวหลังแรงขายหนักมักตามมาด้วยการแกว่งตัวแรงทั้งสองทาง *หมายเหตุ: บทความนี้จัดทำเพื่อให้ข้อมูลและมุมมองเชิงบรรณาธิการเท่านั้น ไม่ใช่คำแนะนำการลงทุน โปรดประเมินความเสี่ยงก่อนตัดสินใจทุกครั้ง*",
+      "sections": [
+        {
+          "h": "Huang กลับมา ความไม่แน่นอนเรื่องผู้นำคลายลง หุ้นชิปทั้งกลุ่มดีดตาม",
+          "p": "ตามประกาศของ Nvidia บอร์ดตัดสินใจหลังการหารือกับ Huang หลายรอบ Colette Kress ที่รักษาการซีอีโอกลับไปเป็น CFO ตามเดิม และ Harvey Jones ยังเป็นประธานบอร์ด บริษัทระบุว่ามั่นใจว่าการกลับมาของ Huang ไม่เป็นความเสี่ยงต่อความมั่นคงของชาติ หลังมีรายงานว่าได้ปรึกษาเจ้าหน้าที่ระดับสูงของรัฐบาลสหรัฐฯ และประธานาธิบดีทรัมป์เรียกร้องต่อสาธารณะให้ Huang กลับมา (Nvidia Newsroom, Al Jazeera, Yahoo Finance) ทั้งนี้ Huang ลาออกเมื่อ 12 พ.ย. หลังมีรายงานเรื่องความสัมพันธ์ส่วนตัว ซึ่งรวมถึงบุคคลที่หน่วยข่าวกรองสหรัฐฯ สงสัยว่าทำงานให้จีน (Al Jazeera)"
+        },
+        {
+          "h": "Anthropic ลงสวนตลาด และ Turnaround Tuesday เริ่มต้นแล้ว",
+          "p": "จุดที่น่าสนใจกว่าตัวเลขคือ หุ้น **Anthropic** ลงราว 1.4% ในวันซื้อขายวันที่สาม ขณะที่ Nasdaq บวกเกิน 6% (Motley Fool, CNBC) สะท้อนว่าเงินที่ไหลกลับเลือกหุ้นที่มีรายได้จริงและเพิ่งถูกขายหนักอย่างหุ้นชิป มากกว่าหุ้น AI ที่เพิ่ง IPO ประเด็นนี้เกี่ยวกับ **Amazon** และ **Alphabet** โดยตรง เพราะทั้งสองถือหุ้น Anthropic อยู่ราว 14.7% และ 13.7% ตามลำดับ"
+        },
+        {
+          "h": "ภาพ Cross-asset: หุ้นดีด แต่ตลาดยังเชื่อว่าเฟดจะขึ้นดอกเบี้ย",
+          "p": "- **พันธบัตร:** ยีลด์ 10 ปีอยู่ราว 4.92–4.95% และยีลด์ 2 ปีราว 4.70% (Babypips, CoinDesk) ยีลด์ 2 ปีขยับขึ้นจากราว 4.65% เมื่อวันศุกร์ ซึ่งสะท้อนการคาดการณ์ดอกเบี้ยเฟดที่ยังสูง - **เฟด:** John Williams ประธานเฟดนิวยอร์ก กล่าววันจันทร์ว่าเงินเฟ้อยังสูงเกินไปและเฟดต้องดำเนินการต่อ แต่สถานการณ์ไม่ต้องใช้มาตรการรุนแรง และไม่ตัดความเป็นไปได้ที่จะขึ้นดอกเบี้ยติดต่อกันหลายรอบ ตลาดล่วงหน้าให้โอกาสขึ้น 0.25% ในการประชุม 8–9 ธ.ค. ราว 93–98% ขึ้นกับแหล่ง (Yahoo Finance, investingLive, TradingView) จากกรอบดอกเบี้ยปัจจุบัน 3.75–4.00% - **ดอลลาร์:** CoinDesk รายงานว่าดัชนีดอลลาร์ขึ้นไปสูงสุดนับตั้งแต่มีนาคม 2568 จากการคาดการณ์ว่าเฟดจะขึ้นดอกเบี้ย ระดับปิดที่แน่ชัดทีมข่าวยังไม่มีข้อมูลยืนยัน - **ทองคำ:** ดีดขึ้น 2.7% มาใกล้ 3,635 ดอลลาร์ต่อออนซ์ หลังทองคำฟิวเจอร์สลง 9.3% ในสัปดาห์ก่อน ซึ่งเป็นสัปดาห์ที่แย่ที่สุดนับตั้งแต่มีนาคม 2563 (Babypips) - **น้ำมัน:** WTI ลงอีก 3.5% มาที่ราว 80.40 ดอลลาร์ต่อบาร์เรล ต่ำสุดนับตั้งแต่กลางเดือนสิงหาคม (Babypips) แม้มีรายงานเหตุโจมตีเรือบรรทุกน้ำมันใกล้ช่องแคบฮอร์มุซเมื่อวันเสาร์ - **คริปโต:** บิตคอยน์บวก 3.9% มาราว 61,167 ดอลลาร์ หลังลงไปแถว 55,000 ดอลลาร์ช่วงสุดสัปดาห์ CoinDesk ชี้ว่าบิตคอยน์ฟื้นน้อยกว่าหุ้นมาก"
+        },
+        {
+          "h": "สิ่งที่ต้องจับตา",
+          "p": "- **งบ Dell คืนวันอังคารหลังตลาดปิด** — นักวิเคราะห์คาดกำไรต่อหุ้นราว 6.61–6.62 ดอลลาร์ รายได้ราว 49.24 พันล้านดอลลาร์ (Benzinga) ถ้าคำสั่งซื้อเซิร์ฟเวอร์ AI ออกมาแข็งแรง จะช่วยยืนยันว่าความต้องการดาต้าเซ็นเตอร์ยังอยู่ ถ้าอ่อนกว่าคาด ข้อกังวลเรื่องงบลงทุน AI มีแนวโน้มกลับมา - **ดัชนีความเชื่อมั่นผู้บริโภคเดือนพฤศจิกายน** ที่ออกวันอังคาร - **ความคืบหน้าของ SEC กับ Nvidia** — ยังเป็นความเสี่ยงที่การกลับมาของ Huang ไม่ได้ลบออก - **ประชุมเฟด 8–9 ธ.ค.** ผลจะออกราว 02:00 น. วันที่ 10 ธ.ค. เวลาไทย"
+        },
+        {
+          "h": "มุมนักลงทุนไทย",
+          "p": "**Delta Electronics (Thailand)** อ่อนไหวต่อภาพงบลงทุนดาต้าเซ็นเตอร์โดยตรง การดีดตัวของหุ้นชิปและหุ้นเซิร์ฟเวอร์อย่าง Dell และ HPE เป็นปัจจัยบวกด้าน sentiment แต่การที่ HPE ลงแรงทั้งที่งบดี เตือนว่าตลาดยังไม่มั่นใจเต็มที่ ราคาหุ้น DELTA, ดัชนี SET และค่าเงินบาทวันนี้ ทีมข่าวยังไม่มีข้อมูลยืนยัน"
+        }
+      ],
+      "quote": "การดีดแรงที่สุดในรอบกว่าหนึ่งปีครึ่งเกิดจากคำตอบเรื่องผู้นำของบริษัทเดียว ไม่ใช่จากต้นทุนเงินที่ผ่อนคลายลง เรามองว่าตราบใดที่ตลาดยังให้โอกาสเฟดขึ้นดอกเบี้ยเกิน 90% และคำถามเรื่องบัญชีของ Nvidia ยังไม่มีคำตอบ การฟื้นตัวครั้งนี้ยังต้องรอการยืนยันจากตัวเลขจริง ทั้งงบ Dell และท่าทีเฟด",
+      "quoteBy": "— ทีมข่าว PixelVest",
+      "takeaway": "บอร์ด Nvidia ให้ Jensen Huang กลับมาเป็นซีอีโอ หุ้นพุ่ง 31.5% ดัน S&P 500 บวก 4.73% และ Nasdaq บวก 6.51% ดีที่สุดนับแต่เมษายน 2568 แต่ตลาดยังต่ำกว่าจุดสูงสุดราว 5 ล้านล้านดอลลาร์ ยีลด์ 2 ปีและดอลลาร์ยังแข็งเพราะตลาดคาดว่าเฟดจะขึ้นดอกเบี้ยเดือนธันวาคม และฟิวเจอร์สเช้าวันอังคารเริ่มย่อลง ตัวชี้วัดถัดไปคืองบ Dell และความคืบหน้าเรื่อง SEC กับ Nvidia",
+      "sources": [
+        {
+          "text": "Stock market today: Dow, S&P 500, Nasdaq post best day since April 2025 as Nvidia stock soars 31% on Jensen Huang's return — Yahoo Finance",
+          "url": "https://finance.yahoo.com/markets/live/stock-market-today-monday-november-23-dow-sp-500-nasdaq-surge-after-nvidia-reinstates-jensen-huang-182039397.html"
+        },
+        {
+          "text": "Stock market today: Live updates — CNBC",
+          "url": "https://www.cnbc.com/2026/11/23/stock-market-today-live-updates.html"
+        },
+        {
+          "text": "Tech stocks see monster rally after Jensen Huang returns as Nvidia CEO — CNBC",
+          "url": "https://cnbc.com/2026/11/23/anthropic-nvidia-shares.html"
+        },
+        {
+          "text": "Stock Market Today: S&P 500 Closes 4.73% Higher, Nasdaq Jumps 6.51% as VIX Plunges — journalarta",
+          "url": "https://journalarta.com/en/2026/11/24/stock-market-today-sp-500-closes-4-73-higher-nasdaq-jumps-6-51-as-vix-plunges/"
+        },
+        {
+          "text": "NVIDIA Board Reinstates Jensen Huang as President, CEO and Board Director — NVIDIA Newsroom",
+          "url": "https://nvidianews.nvidia.com/news/nvidia-board-reinstates-jensen-huang-as-president-ceo-and-board-director"
+        },
+        {
+          "text": "Nvidia board reinstates Jensen Huang as CEO — Axios",
+          "url": "https://www.axios.com/2026/11/23/nvidia-board-jensen-huang-as-ceo"
+        },
+        {
+          "text": "Nvidia board reinstates Jensen Huang as CEO — Al Jazeera",
+          "url": "https://www.aljazeera.com/economy/2026/11/23/nvidia-board-reinstates-jensen-huang-as-ceo"
+        },
+        {
+          "text": "Nvidia live updates: Nvidia stock climbs more than 31% as board reinstates Jensen Huang as CEO — Yahoo Finance",
+          "url": "https://finance.yahoo.com/markets/stocks/live/nvidia-live-updates-jensen-huang-reinstated-as-ceo-trump-says-he-convinced-board-165423793.html"
+        },
+        {
+          "text": "Nvidia shares soar more than 30% after Huang reinstated as CEO — CNN",
+          "url": "https://www.cnn.com/2026/11/23/markets/us-stocks-rebound-intl"
+        },
+        {
+          "text": "'Doesn't answer the big questions': The stock market is still $5 trillion below its AI-fueled peak despite Monday's rally — Fortune",
+          "url": "https://fortune.com/2026/11/23/wall-street-ai-stock-market-selloff-8-trillion-loss-nvidia-jensen-huang-return-anthropic-ipo-memory-chips-rebound/"
+        },
+        {
+          "text": "The Nasdaq Just Had Its Best Day Since April 2025. Anthropic Stock Fell Anyway. — Motley Fool",
+          "url": "https://www.fool.com/investing/2026/11/23/the-nasdaq-just-had-its-best-day-since-april-2025-anthropic-stock-fell-anyway/"
+        },
+        {
+          "text": "Nvidia Spikes 32% on Huang Return, S&P 500 Up 5%: Stock Market Today — Benzinga",
+          "url": "https://www.benzinga.com/markets/equities/26/11/63551516/stock-market-today-nvidia-jensen-huang-return-nasdaq-100-anthropic-crowdstrike"
+        },
+        {
+          "text": "Chip stocks led a $3 trillion comeback on Monday — now comes Turnaround Tuesday — Yahoo Finance",
+          "url": "https://finance.yahoo.com/markets/article/chip-stocks-led-a-3-trillion-comeback-on-monday--now-comes-turnaround-tuesday-chart-of-the-day-110000187.html"
+        },
+        {
+          "text": "Stock market today: Dow, S&P 500, Nasdaq futures fall as investors test Nvidia-fueled rally — Yahoo Finance",
+          "url": "https://finance.yahoo.com/markets/live/stock-market-today-tuesday-november-24-dow-sp-500-nasdaq-rebound-090614276.html"
+        },
+        {
+          "text": "Stock Market Today: Dow, S&P 500 Futures Fall After Scott Bessent Unveils Fresh Iran Sanctions, Hormuz Warnings — Benzinga",
+          "url": "https://www.benzinga.com/markets/equities/26/11/63569914/stock-market-today-dow-sp-500-futures-fall-after-scott-bessent-unveils-fresh-iran-sanctions-hormuz-warnings-hpe-smtc-dell-in-focus"
+        },
+        {
+          "text": "Stock Market Today, Nov. 24: Markets Turn Jittery Even as Huang Returns to Nvidia — TipRanks",
+          "url": "https://www.tipranks.com/news/stock-market-today-nov-24-markets-turn-jittery-even-as-huang-returns-to-nvidia"
+        },
+        {
+          "text": "HPE delivers quarterly results beat, raises guidance; stock slips after big rally — Investing.com",
+          "url": "https://investing.com/news/earnings/hpe-stocks-falls-after-hours-despite-quarterly-results-guidance-beat-5046357"
+        },
+        {
+          "text": "Why is Hewlett Packard Enterprise stock tumbling today? — Investing.com",
+          "url": "https://in.investing.com/news/stock-market-news/why-is-hewlett-packard-enterprise-stock-tumbling-today-93CH-5722807"
+        },
+        {
+          "text": "Dell Stock Jumps 20% as Nvidia CEO Return Lifts AI Trade Before Earnings — CoinCentral",
+          "url": "https://coincentral.com/dell-stock-jumps-20-as-nvidia-ceo-return-lifts-ai-trade-before-earnings"
+        },
+        {
+          "text": "Financial & Forex Market Recap: Nov. 23, 2026 — Babypips",
+          "url": "https://www.babypips.com/news/daily-financial-forex-market-recap-2026-11-23"
+        },
+        {
+          "text": "Live updates: Bitcoin climbs only modestly as Nasdaq soars 6% on Huang return — CoinDesk",
+          "url": "https://www.coindesk.com/tech/2026/11/23/live-news-wall-street-rebounds-as-dollar-index-hits-highest-since-march-2025"
+        },
+        {
+          "text": "Fed Rate Hike Bets Build Ahead Of December Meet: Fed's John Williams Says Inflation Still 'Too High' — TradingView",
+          "url": "https://www.tradingview.com/news/stocktwits:1daf98ea3094b:0-fed-rate-hike-bets-build-ahead-of-december-meet-fed-s-john-williams-says-inflation-still-too-high/"
+        },
+        {
+          "text": "Fed's Williams won't rule out back-to-back rate hikes as data drives the path — investingLive",
+          "url": "https://investinglive.com/central-banks/fed-s-williams-won-t-rule-out-back-to-back-rate-hikes-as-data-drives-the-path/"
+        },
+        {
+          "text": "New York Fed's Williams rules out jumbo rate hike for December — Yahoo Finance",
+          "url": "https://finance.yahoo.com/economy/policy/article/new-york-feds-williams-rules-out-jumbo-rate-hike-for-december-205144565.html"
+        },
+        {
+          "text": "Embattled Nvidia faces SEC probe as California attorney general mulls action — InvestmentNews",
+          "url": "https://www.investmentnews.com/equities/embattled-nvidia-faces-sec-probe-as-california-attorney-general-mulls-action/269054"
+        },
+        {
+          "text": "Nvidia shares rise 3% as revenue doubles to $115.84 billion — Finviz",
+          "url": "https://finviz.com/news/424463/nvidia-shares-rise-3-as-revenue-doubles-to-11584-billion-and-company-raises-ai-growth-forecast"
+        }
+      ]
+    },
+    "featured": true,
+    "agent": "hanako",
+    "image": "assets/images/112-market-2026-11-24.jpg"
+  },
+  {
+    "id": 113,
+    "cat": "เซมิคอนดักเตอร์",
+    "title": "NVDA พุ่ง 31.5% วันเดียว หลังบอร์ดดึง Jensen Huang กลับมาเป็น CEO แต่การสอบสวนทุกเรื่องยังเดินต่อ",
+    "excerpt": "บอร์ด NVIDIA มีมติเอกฉันท์ให้ Jensen Huang กลับมาเป็น CEO เมื่อ 23 พ.ย. ไม่ถึงสองสัปดาห์หลังลาออก หุ้นปิดพุ่ง 31.48% ที่ 165.05 ดอลลาร์ มูลค่าตลาดเพิ่มราว 952 พันล้านดอลลาร์ นักวิเคราะห์หลายสำนักปรับคำแนะนำขึ้น แต่การสอบสวนของ SEC อัยการสูงสุดแคลิฟอร์เนีย และบอร์ดเองยังไม่จบ",
+    "author": "ทีมข่าว PixelVest",
+    "date": "24 พ.ย. 2026",
+    "iso": "2026-11-24",
+    "read": 12,
+    "syms": [
+      "NVDA"
+    ],
+    "rank": 113,
+    "body": {
+      "intro": "หุ้น NVIDIA (NVDA) กลับทิศแรงที่สุดในรอบหลายปี เมื่อวันจันทร์ที่ 23 พ.ย. บอร์ดบริษัทมีมติเอกฉันท์ให้ Jensen Huang กลับมาเป็นประธานเจ้าหน้าที่บริหาร (CEO) มีผลทันที ไม่ถึงสองสัปดาห์หลังจากเขาลาออกเมื่อ 12 พ.ย. หุ้นปิดที่ 165.05 ดอลลาร์ เพิ่มขึ้น 31.48% ระหว่างวันขึ้นไปได้มากถึงราว 36% มูลค่าตลาดเพิ่มขึ้นราว 952 พันล้านดอลลาร์ในวันเดียว และ CNN รายงานว่าเป็นวันที่ดีที่สุดของหุ้นนับตั้งแต่ปี 2003 ข้อสังเกตคือ เพียงวันศุกร์ก่อนหน้า หุ้นเพิ่งปิดที่ 125.53 ดอลลาร์ หลังข่าว SEC สอบบัญชี ซึ่งเป็นการปิดสัปดาห์ที่แย่ที่สุดนับแต่ปี 2008 ตามที่เรารายงานไปแล้ว จุดที่ทำให้เรื่องนี้ไม่ธรรมดาคือ ตลอดหลายสัปดาห์หลัง Huang ลาออก บอร์ดยืนยันมาตลอดว่าไม่ได้พิจารณาให้เขากลับมา และ CNBC รายงานว่าบอร์ดเพิ่งปฏิเสธข้อเสนอขอกลับมาของเขาไปไม่นานก่อนจะกลับลำ ประธานาธิบดี Donald Trump ระบุว่ารัฐบาลกลาง \"ไม่มีเหตุให้เชื่อ\" ว่าการกลับมาของ Huang เป็นความเสี่ยงต่อความมั่นคง และ NPR กับ NBC News รายงานว่า Trump อ้างว่าตัวเขาเป็นผู้โน้มน้าวบอร์ด ย้อนบริบทสั้น ๆ: Huang ลาออกหลังยอมรับว่ามีความสัมพันธ์นอกสมรสกับผู้หญิงที่ถูกสงสัยว่าทำงานให้หน่วยข่าวกรองจีน ขณะที่บอร์ดเคยระบุว่าไม่มีเหตุให้เชื่อว่าความลับของบริษัทหรือความมั่นคงของชาติถูกละเมิด - **Melius Research** — ปรับขึ้นเป็น Buy จาก Hold เป้า 220 ดอลลาร์ - **Bernstein** — ปรับขึ้นเป็น Outperform เป้า 200 ดอลลาร์ แต่ Stacy Rasgon ระบุว่าบริษัทยังไม่พ้นปัญหาทั้งหมด - **Piper Sandler** — คง Overweight เป้า 230 ดอลลาร์ - **Baird** — คง Neutral แต่ใส่ NVDA เป็น \"Bullish Fresh Pick\" Tristan Gerra มองว่าหุ้นปรับฐานมากเกินไปในระยะสั้น และคาดว่าการกลับมาของ Huang จะช่วยให้ราคาขยับเข้าหาเป้าของบริษัท - **Wedbush** — คงมุมมองเชิงบวก ส่วนราคาเป้าหมาย แต่ละแหล่งรายงานไม่ตรงกัน (200 หรือ 225 ดอลลาร์) จึงยังไม่มีข้อมูลยืนยัน - **Oppenheimer** — Rick Schafer มองว่าการกลับมาของ Huang เป็นผลดีทั้งต่ออุตสาหกรรม AI และนักลงทุน - **KeyBanc** — คง Neutral และรอความชัดเจนเรื่องการสอบสวนของบอร์ดและการสอบบัญชีของ SEC ก่อน ข้อสังเกตคือ Futu รายงานว่าฝั่ง sell-side ตอบรับอย่างกระตือรือร้น แต่ฝั่ง buy-side (กองทุนผู้ลงทุนจริง) ยังงงกับการกลับลำครั้งนี้ ขณะที่บทวิเคราะห์ที่ Proactive Investors อ้างถึงประเมินว่า ปฏิกิริยาตลาดสะท้อนว่า Huang มีมูลค่าราว 30% ของราคาหุ้น ซึ่งเรามองว่าเป็นทั้งจุดแข็งและจุดอ่อน เพราะแปลว่าบริษัทพึ่งพาตัวบุคคลสูงมาก *หมายเหตุ: บทความนี้จัดทำเพื่อให้ข้อมูลและมุมมองเชิงบรรณาธิการเท่านั้น ไม่ใช่คำแนะนำการลงทุน โปรดประเมินความเสี่ยงก่อนตัดสินใจทุกครั้ง*",
+      "sections": [
+        {
+          "h": "บอร์ดกลับลำ หลังได้รับ \"ความเห็นจากรัฐบาลระดับสูง\"",
+          "p": "ตามเอกสาร 8-K ที่ยื่นต่อ SEC และรายงานของ CNBC และ NPR บอร์ดตัดสินใจหลังการหารือหลายรอบ รวมถึงรับฟังความเห็นจากบุคคลใน \"ระดับสูง\" ของรัฐบาลสหรัฐฯ Harvey Jones ประธานบอร์ด ระบุโดยสรุปว่าบอร์ดเชื่อว่า Huang เป็นคนที่เหมาะจะนำบริษัท และการกลับมาของเขาเป็นประโยชน์ต่อผู้ถือหุ้น พนักงาน คู่ค้า และลูกค้า ส่วน Colette Kress ซึ่งรักษาการ CEO อยู่ จะกลับไปทำหน้าที่ CFO ตามเดิม"
+        },
+        {
+          "h": "นักวิเคราะห์: ฝั่ง sell-side ปรับคำแนะนำขึ้นทันที",
+          "p": "ข้อมูลจาก CNBC, Yahoo Finance, Investing.com และ TipRanks ณ วันที่ 23 พ.ย.:"
+        },
+        {
+          "h": "มุมบวก: ปัญหาความไม่แน่นอนเรื่องผู้นำจบไปแล้ว",
+          "p": "- **ความเสี่ยงที่หนักที่สุดถูกปลดออก** — ในข่าวก่อนหน้า เราระบุว่าการไม่มี CEO ถาวรเป็นหนึ่งในตัวชี้ขาด ตอนนี้คำถามนั้นได้คำตอบแล้ว และ CFO ที่ต้องดูแลงบในช่วง SEC ตรวจบัญชีก็กลับมาโฟกัสงานเดิม - **พื้นฐานธุรกิจไม่ได้เปลี่ยน** — งบไตรมาส 3 รายได้ 115.8 พันล้านดอลลาร์ และ guidance ไตรมาส 4 ราว 130 พันล้านดอลลาร์ยังเป็นตัวเลขเดิม การร่วงก่อนหน้านี้มาจากความเชื่อมั่นด้านผู้นำและธรรมาภิบาลมากกว่ายอดขาย - **รัฐบาลส่งสัญญาณไม่คัดค้าน** — การที่ทำเนียบขาวระบุว่าไม่เห็นความเสี่ยงด้านความมั่นคง ช่วยลดความกังวลเรื่องความสัมพันธ์ระหว่างบริษัทกับรัฐบาลในระยะสั้น"
+        },
+        {
+          "h": "มุมลบ: การสอบสวนยังอยู่ครบ และมีคำถามธรรมาภิบาลเพิ่มขึ้น",
+          "p": "- **การสอบสวนไม่ได้หายไปพร้อมการแต่งตั้ง** — Fortune รายงานว่า Huang ต้องรับมือกับการสอบสวนหลายทาง ทั้ง SEC (ซึ่ง Reuters และ WSJ รายงานว่าตรวจทั้งเรื่องบัญชีและเรื่องการเปิดเผยข้อมูล โดย SEC ไม่แสดงความเห็น) การสอบสวนอิสระของบอร์ดที่นำโดยกรรมการอิสระ และอัยการสูงสุดแคลิฟอร์เนีย Rob Bonta ที่เรียกการแต่งตั้งครั้งนี้ว่า \"ผิด\" และยืนยันจะสอบต่อ - **แรงกดดันจากสภาคองเกรส** — วุฒิสมาชิก Elizabeth Warren ระบุว่า Huang ผู้บริหาร และบอร์ดยังต้องตอบคำถามต่อสภาเรื่องการปฏิบัติตามกฎคุมส่งออก ขณะที่ ส.ส. และ ส.ว. เดโมแครตระดับสูงขอให้รัฐบาลเก็บรักษาเอกสารทั้งหมดที่เกี่ยวกับ NVIDIA เพื่อเตรียมสอบสวน - **คำถามเรื่องการแทรกแซงทางการเมือง** — Doug Chia ที่ปรึกษาด้านธรรมาภิบาลอิสระ ตั้งข้อสังเกตว่าการกลับลำกะทันหันเป็นเรื่อง \"แปลกมาก\" และตั้งคำถามถึงบทบาทของประธานาธิบดีต่อการตัดสินใจของบริษัทมหาชน เรามองว่าประเด็นนี้อาจกลายเป็นความเสี่ยงใหม่ถ้าการเมืองสหรัฐฯ เปลี่ยนทิศ - **แรงขายทำกำไรตามมาทันที** — CNBC รายงานว่าเช้าวันอังคาร 24 พ.ย. ฟิวเจอร์สดัชนีหลักปรับลดลง และหุ้น NVDA ลดลงมากกว่า 3% ในการซื้อขายก่อนตลาดเปิด (ตัวเลขนอกเวลาทำการ ยังไม่ใช่ราคาปิด)"
+        }
+      ],
+      "quote": "การกลับมาของ Huang ช่วยแก้ปัญหาที่ตลาดกลัวที่สุด คือบริษัทมูลค่าระดับล้านล้านดอลลาร์ที่ไม่มีผู้นำ แต่ไม่ได้ตอบคำถามที่ทำให้หุ้นร่วงในวันศุกร์ คือตัวเลขทางบัญชีน่าเชื่อถือแค่ไหน และการที่รัฐบาลเข้ามามีบทบาทในการตัดสินใจของบอร์ดทำให้เกิดคำถามด้านธรรมาภิบาลเพิ่มขึ้นอีกเรื่อง",
+      "quoteBy": "— ทีมข่าว PixelVest",
+      "takeaway": "NVDA ขึ้น 31.48% ในวันเดียวหลัง Huang กลับมาเป็น CEO ราคาปิด 165.05 ดอลลาร์สูงกว่าระดับปิดวันที่ 19 พ.ย. (145.98 ดอลลาร์) ก่อนข่าว SEC สอบบัญชีจะออกมา เรามองว่าตัวชี้ขาดต่อจากนี้ไม่ใช่เรื่องผู้นำแล้ว แต่เป็น (1) ขอบเขตและผลของการสอบบัญชีโดย SEC (2) ผลการสอบสวนอิสระของบอร์ด และ (3) การให้ข้อมูลต่อสภาคองเกรสเรื่องการส่งออกชิป หากเรื่องใดเรื่องหนึ่งมีพัฒนาการเชิงลบ หุ้นมีแนวโน้มอ่อนไหวสูง เพราะราคาสะท้อนความหวังเรื่องผู้นำไปมากแล้วในวันเดียว",
+      "stats": [
+        {
+          "label": "ราคาปิด 23 พ.ย.",
+          "value": "165.05",
+          "change": "+31.48%"
+        },
+        {
+          "label": "ราคาปิด 20 พ.ย.",
+          "value": "125.53",
+          "change": "-14%"
+        },
+        {
+          "label": "ขึ้นสูงสุดระหว่างวัน",
+          "value": "ราว +36%",
+          "change": "-"
+        },
+        {
+          "label": "มูลค่าตลาดเพิ่มในวันเดียว",
+          "value": "ราว 952B",
+          "change": "ดีที่สุดตั้งแต่ปี 2003"
+        },
+        {
+          "label": "ก่อนตลาดเปิด 24 พ.ย.",
+          "value": "ลดลงมากกว่า 3%",
+          "change": "นอกเวลาทำการ"
+        },
+        {
+          "label": "Melius / Bernstein / Piper",
+          "value": "220 / 200 / 230",
+          "change": "Buy / Outperform / Overweight"
+        }
+      ],
+      "sources": [
+        {
+          "text": "Jensen Huang reinstated as Nvidia CEO. Stock skyrockets 31% — CNBC",
+          "url": "https://www.cnbc.com/2026/11/23/nvidia-jensen-huang-ceo.html"
+        },
+        {
+          "text": "Nvidia has reinstated CEO Jensen Huang. Analysts upgraded the stock — CNBC",
+          "url": "https://cnbc.com/2026/11/23/nvidia-has-reinstated-ceo-jensen-huang-analysts-upgraded-the-stock.html"
+        },
+        {
+          "text": "Stock futures decline as Nvidia pulls back, giving back part of Monday's rally: Live updates — CNBC",
+          "url": "https://www.cnbc.com/2026/11/23/stock-market-today-live-updates.html"
+        },
+        {
+          "text": "NVIDIA Corp — Form 8-K press release (Nov 23) — SEC",
+          "url": "https://www.sec.gov/Archives/edgar/data/0001045810/000104581026000090/nov23pressrelease.htm"
+        },
+        {
+          "text": "Nvidia brings Jensen Huang back, and Trump claims credit — NPR",
+          "url": "https://www.npr.org/2026/11/23/nx-s1-6050910/nvidias-jensen-huang-trump"
+        },
+        {
+          "text": "Nvidia board unanimously reinstates Jensen Huang — MPR News",
+          "url": "https://www.mprnews.org/story/2026/11/23/nvidia-board-unanimously-reinstates-jensen-huang-as-ceo-and-chairman-says"
+        },
+        {
+          "text": "Jensen Huang reinstated as CEO of Nvidia — CNN",
+          "url": "https://edition.cnn.com/2026/11/23/business/live-news/jensen-huang-reinstated-as-ceo-of-nvidia"
+        },
+        {
+          "text": "Jensen Huang reinstated as Nvidia CEO after Trump pushes board — NBC News",
+          "url": "https://www.nbcnews.com/tech/tech-news/nvidia-reinstates-jensen-huang-rcna610864"
+        },
+        {
+          "text": "Stock Market Today, Nov. 23: Nvidia Surges 31% — Motley Fool",
+          "url": "https://www.fool.com/coverage/stock-market-today/2026/11/23/stock-market-today-nov-23-nvidia-surges-31-adding-nearly-usd1-trillion-in-market-value-as-jensen-huang-reclaims-ceo-role/"
+        },
+        {
+          "text": "Nvidia Stock (NVDA) Rises 31.5% After Huang Returns as CEO — HeyGoTrade",
+          "url": "https://www.heygotrade.com/en/news/nvidia-nvda-stock-news-november-24-2026/"
+        },
+        {
+          "text": "Nvidia stock soars 30% on Jensen Huang's return, but now he must grapple with a wave of investigations — Fortune",
+          "url": "https://fortune.com/2026/11/23/nvidia-stock-jensen-huang-return-ceo-investigations-china-spy-scandal-fbi/"
+        },
+        {
+          "text": "Planning Nvidia investigations, top Democrats tell Trump administration to 'preserve all records' — Yahoo Finance",
+          "url": "https://finance.yahoo.com/markets/article/planning-nvidia-investigations-top-democrats-tell-trump-administration-to-preserve-all-records-141932940.html"
+        },
+        {
+          "text": "Trump Persuaded Nvidia Board to Reinstate Huang, Drawing Bipartisan Probe Demands — World Today Journal",
+          "url": "https://world-today-journal.com/trump-persuaded-nvidia-board-to-reinstate-huang-drawing-bipartisan-probe-demands/"
+        },
+        {
+          "text": "Wall Street analysts cheer Jensen Huang's return to Nvidia — but they still have concerns — Yahoo Finance",
+          "url": "https://finance.yahoo.com/markets/article/wall-street-analyst-races-to-upgrade-nvidia-as-jensen-huang-returns-cites-clown-like-board-response-164614996.html"
+        },
+        {
+          "text": "Baird reiterates Nvidia stock rating after CEO reinstatement — Investing.com",
+          "url": "https://www.investing.com/news/analyst-ratings/baird-reiterates-nvidia-stock-rating-after-ceo-reinstatement-93CH-5045973"
+        },
+        {
+          "text": "Baird adds 'bullish Fresh Pick' on Nvidia after Huang return — TipRanks",
+          "url": "https://www.tipranks.com/news/the-fly/baird-adds-bullish-fresh-pick-on-nvidia-after-huang-return-thefly-news"
+        },
+        {
+          "text": "Wedbush reiterates Nvidia stock rating after CEO reinstatement — Investing.com",
+          "url": "https://www.investing.com/news/analyst-ratings/wedbush-reiterates-nvidia-stock-rating-after-ceo-reinstatement-93CH-5046165"
+        },
+        {
+          "text": "Nvidia stock rises as Piper Sandler maintains rating after CEO return — Investing.com",
+          "url": "https://www.investing.com/news/analyst-ratings/nvidia-stock-rises-as-piper-sandler-maintains-rating-after-ceo-return-93CH-5047080"
+        },
+        {
+          "text": "Wall Street on Jensen Huang's Return: Sell-Side Thrilled, Buy-Side Puzzled — Futu News",
+          "url": "https://news.futunn.com/en/post/1005445578/wall-street-on-jensen-huang-s-return-sell-side-thrilled"
+        },
+        {
+          "text": "Nvidia rally puts spotlight on Huang's influence and corporate governance — Proactive Investors",
+          "url": "https://www.proactiveinvestors.com/companies/news/1102284/nvidia-rally-puts-spotlight-on-huang-s-influence-and-corporate-governance-1102284.html"
+        },
+        {
+          "text": "Embattled Nvidia faces SEC probe as California attorney general eyes action — InvestmentNews",
+          "url": "https://www.investmentnews.com/equities/embattled-nvidia-faces-sec-probe-as-california-attorney-general-eyes-action/269054"
+        }
+      ]
+    },
+    "agent": "hanako"
+  },
+  {
+    "id": 114,
+    "cat": "เซมิคอนดักเตอร์",
+    "title": "Astera Labs ผันผวนหนัก ร่วง 14.8% ในวันที่หุ้นชิปถูกเทขาย แล้วเด้งกว่า 20% ระหว่างวันเมื่อ Jensen Huang กลับมาเป็น CEO ของ Nvidia ส่วนดีล Hyve ขยายการใช้ Orion ยังไม่ช่วยพยุงราคา",
+    "excerpt": "หุ้น Astera Labs ปิดวันที่ 20 พ.ย. ที่ 180.35 ดอลลาร์ ลดลง 14.8% ในวันที่หุ้นชิปถูกเทขายทั้งกลุ่ม จากนั้นวันที่ 23 พ.ย. เด้งขึ้นระหว่างวันราว 17-23% หลังบอร์ด Nvidia แต่งตั้ง Jensen Huang กลับมาเป็น CEO ทั้งสองครั้งไม่มีข่าวของบริษัทเองเป็นตัวขับ ส่วนข่าวของบริษัทเองในสัปดาห์ก่อนคือดีลกับ Hyve Solutions ที่จะนำชุดอุปกรณ์ Orion ไปใส่ในระบบ Apex เริ่มไตรมาส 1 ปี 2570",
+    "author": "ทีมข่าว PixelVest",
+    "date": "24 พ.ย. 2026",
+    "iso": "2026-11-24",
+    "read": 4,
+    "syms": [
+      "ALAB"
+    ],
+    "rank": 114,
+    "body": {
+      "intro": "สัปดาห์ที่ผ่านมาหุ้น Astera Labs (ALAB) ขึ้นลงแรงมาก แต่แทบไม่มีส่วนไหนมาจากข่าวของบริษัทเอง วันศุกร์ที่ 20 พ.ย. หุ้นปิดที่ 180.35 ดอลลาร์ ลดลง 14.77% จาก 211.60 ดอลลาร์ ตามข้อมูลของ Morningstar ซึ่งเป็นวันที่หุ้นเซมิคอนดักเตอร์ถูกเทขายทั้งกลุ่ม พอถึงวันจันทร์ที่ 23 พ.ย. หุ้นกลับเด้งขึ้นแรงระหว่างวัน หลังบอร์ดของ Nvidia ประกาศให้ Jensen Huang กลับมาเป็นซีอีโอ ส่วนข่าวของบริษัทเองชิ้นล่าสุดคือการขยายความร่วมมือกับ Hyve Solutions เมื่อวันที่ 16 พ.ย. และวันนั้นหุ้นก็ยังลง ครั้งนี้ไม่ใช่ครั้งแรกในเดือนนี้ ตาม Yahoo Finance หุ้นเคยลง 19.6% เมื่อวันที่ 5 พ.ย. ซึ่งเป็นวันถัดจากที่บริษัทประกาศงบไตรมาส 3 และ Trefis คำนวณว่า ณ วันที่ 16 พ.ย. หุ้นลดลงแล้ว 29.2% ในหนึ่งเดือน ขณะที่ S&P 500 ลดลงเพียง 3.1% - **Seeking Alpha / GuruFocus**: ราว 218.70 ดอลลาร์ช่วงสาย เพิ่มขึ้น 38.35 ดอลลาร์ หรือเกือบ 21% - **MarketBeat**: เพิ่มขึ้น 23.2% ไปที่ 222.12 ดอลลาร์ - **Kalkine**: เพิ่มขึ้น 16.88% ไปที่ 210.80 ดอลลาร์ ตัวเลขทั้งหมดนี้เป็นราคาระหว่างวัน ณ เวลาที่ต่างกัน ทีมข่าวยังไม่พบราคาปิดของวันที่ 23 พ.ย. จากแหล่งที่ยืนยันได้ Kalkine ระบุด้วยว่าไม่มีข่าวของบริษัทหลังการประกาศงบเมื่อวันที่ 3 พ.ย. การขึ้นรอบนี้จึงมาจากความเชื่อมั่นต่อหุ้น AI ที่กลับมา ไม่ได้มาจากข้อมูลใหม่ของบริษัท - **Compute Board** เชื่อมตัวเร่งประมวลผลแบบ PCIe 8 ตัวผ่านชิปสวิตช์ตัวเดียว - **Fabric Tray** ให้ตัวเร่งประมวลผลและหน่วยความจำใช้ทรัพยากรร่วมกันได้ (pooling) - **Link Board** ขยายการเชื่อมต่อจากถาดไปทั้งแร็ก ระบบ Apex ที่ใช้ Orion มีกำหนดวางขายในไตรมาส 1 ปี 2570 จุดขายคือชิ้นส่วนผ่านการทดสอบมาแล้ว และใช้ได้กับตัวเร่งประมวลผลกับ CPU หลายยี่ห้อ ลูกค้าจึงใช้เวลาทดสอบรับรองระบบน้อยลง บริษัทอ้างผลทดสอบของตัวเองว่า ระบบ 8 GPU ที่ใช้สวิตช์ Scorpio X ตัวเดียว ประมวลผลได้ token ต่อวินาทีมากกว่าระบบที่ใช้สวิตช์ 2 ตัวสูงสุด 89% แต่วันที่ประกาศ หุ้นลง 8.8% ตามหุ้นชิปทั้งกลุ่ม (Trefis) Benzinga รายงานว่าหุ้นเด้งกลับในวันอังคารถัดมา นอกจากนี้ TIKR รายงานว่าในงานสัมมนาของ BMO ผู้บริหารบอกว่า Scorpio X อย่างเดียวน่าจะมีรายได้คิดเป็นอัตรารายปีสูงกว่า 1 พันล้านดอลลาร์อย่างชัดเจนเมื่อสิ้นปี 2569 หรือมากกว่า 250 ล้านดอลลาร์ต่อไตรมาส คิดเป็นราวหนึ่งในสามของเป้ารายได้ไตรมาส 4 ทีมข่าวยังหาบันทึกการสัมมนาจากต้นทางมายืนยันตัวเลขนี้ไม่ได้ **ฝั่งที่ต้องระวัง:** หุ้นขึ้นลงตามกลุ่มรุนแรงมาก ในเดือนเดียวมีวันที่ลงเกือบ 20% และวันที่ขึ้นเกิน 20% ทั้งที่ปัจจัยพื้นฐานไม่ได้เปลี่ยน แปลว่าตอนนี้ราคาขึ้นกับความเชื่อมั่นต่อ AI และข่าวของ Nvidia มากกว่าผลงานของบริษัท ปัจจัยที่กดดันวันที่ 20 พ.ย. ทั้งท่าทีของเฟด กฎใบอนุญาตส่งออก และเงินที่ไหลไปหุ้นใหม่อย่าง Anthropic ยังไม่หายไป ผลทดสอบ 89% เป็นตัวเลขจากบริษัทเอง ยังไม่มีบุคคลภายนอกตรวจสอบ ระบบที่ใช้ Orion ยังไม่สร้างรายได้จนถึงปี 2570 และที่ผ่านมามีข้อสังเกตว่าสินค้าระดับแร็กอาจทำให้อัตรากำไรขั้นต้นลดลง ส่วนเรื่องผู้บริหารขายหุ้น Massive รวบรวมแบบฟอร์ม 4 ที่ยื่นต่อ SEC ไว้ว่า ใน 12 เดือนถึงวันที่ 26 ต.ค. 2569 คนในบริษัท 7 รายขายหุ้นในตลาดรวม 621.9 ล้านดอลลาร์ และไม่มีการซื้อเลย แม้ 32 จาก 34 รายการจะเป็นการขายตามแผนที่ตั้งไว้ล่วงหน้า (Rule 10b5-1) ก็ตาม *หมายเหตุ: บทความนี้จัดทำเพื่อให้ข้อมูลและมุมมองเชิงบรรณาธิการเท่านั้น ไม่ใช่คำแนะนำการลงทุน โปรดประเมินความเสี่ยงก่อนตัดสินใจทุกครั้ง*",
+      "sections": [
+        {
+          "h": "วันที่ 20 พ.ย.: ลงตามกลุ่ม ไม่ใช่เพราะข่าวบริษัท",
+          "p": "Yahoo Finance รายงานว่าวันนั้นหุ้น Astera Labs ลง 14.8% โดยไม่มีประกาศใดจากบริษัท และหุ้นเซมิคอนดักเตอร์อีก 32 ตัวที่มีมูลค่าตลาดตั้งแต่ 2 พันล้านดอลลาร์ขึ้นไปก็ลดลงทั้งหมด ระหว่างวันราคาต่ำสุดอยู่ที่ 176.78 ดอลลาร์ (MarketBeat) StockStory ระบุว่าแรงขายช่วงบ่ายมาจากหลายปัจจัยพร้อมกัน ได้แก่ หุ้นที่เกี่ยวกับ AI อ่อนตัวลงหลัง Anthropic เข้าเทรดวันแรก ความเห็นของเฟดที่เปิดทางให้ขึ้นดอกเบี้ย และกฎใหม่ของกระทรวงพาณิชย์สหรัฐฯ เรื่องใบอนุญาตส่งออก Kalkine ระบุว่าวันนั้นดัชนี S&P 500 ลดลงราว 3.7% Nasdaq-100 ลดลงราว 5.6% และหุ้นชิปมีสัปดาห์ที่แย่ที่สุดนับตั้งแต่ปี 2544"
+        },
+        {
+          "h": "วันที่ 23 พ.ย.: เด้งแรงตาม Nvidia แต่ราคาปิดยังไม่ยืนยัน",
+          "p": "หลังบอร์ด Nvidia แต่งตั้ง Jensen Huang กลับมาเป็นซีอีโอเมื่อวันที่ 22 พ.ย. หุ้น Nvidia ขึ้นราว 30% และหุ้นชิปทั้งกลุ่มขึ้นตาม ตามรายงานของ Seeking Alpha และ GuruFocus หุ้น Credo ขึ้นเกือบ 23% และ Micron ขึ้นเกือบ 20% ส่วน Astera Labs มีตัวเลขระหว่างวันจากหลายแหล่งที่ไม่ตรงกัน"
+        },
+        {
+          "h": "ข่าวของบริษัทเอง: Hyve นำ Orion ไปใส่ในระบบ Apex",
+          "p": "วันที่ 16 พ.ย. Astera Labs และ Hyve Solutions (บริษัทลูกของ TD SYNNEX ที่ออกแบบและประกอบเซิร์ฟเวอร์สำหรับดาต้าเซ็นเตอร์) ประกาศขยายความร่วมมือ Hyve จะนำชุดอุปกรณ์ Orion ของ Astera ไปใส่ในแพลตฟอร์ม Apex เพื่อทำระบบระดับแร็กสำหรับงาน AI inference (การนำโมเดล AI ที่ฝึกแล้วไปใช้งานจริง) อุปกรณ์มี 3 ส่วน"
+        },
+        {
+          "h": "มุมบวก และมุมที่ต้องระวัง",
+          "p": "**ฝั่งที่มองบวก:** ทั้งการร่วงและการเด้งในสัปดาห์นี้ไม่มีข่าวร้ายของบริษัทเป็นสาเหตุ หลายแหล่งระบุตรงกันว่าแรงขายมาจากทั้งกลุ่มชิป ข่าวของบริษัทเองที่ออกมาเป็นข่าวเชิงธุรกิจ ดีลกับ Hyve ทำให้ Orion ซึ่งเป็นสินค้าระดับแร็กมีช่องทางขายผ่านผู้ผลิตเซิร์ฟเวอร์ที่อยู่ในเครือ TD SYNNEX และมีกำหนดวางขายชัดเจนในไตรมาส 1 ปี 2570 ถ้าตัวเลข Scorpio X ที่ TIKR อ้างถึงเป็นจริง แสดงว่าสินค้าหลักยังโตต่อ ซึ่งตอบข้อกังวลเรื่องการเติบโตหลังลูกค้ากลุ่มแรกที่มีคนถามในการประชุมนักวิเคราะห์"
+        }
+      ],
+      "quote": "เรามองว่าตอนนี้ราคาหุ้น Astera Labs ไม่ได้สะท้อนผลงานของบริษัท แต่ขยับตามความเชื่อมั่นต่อหุ้น AI ทั้งกลุ่มและข่าวของ Nvidia ถ้าจะเห็นว่าดีลกับ Hyve และการเติบโตของ Scorpio X มีผลจริงแค่ไหน ต้องรอดูงบไตรมาส 4 ว่ารายได้เข้าเป้า 730-750 ล้านดอลลาร์หรือไม่ และระบบ Apex ที่ใช้ Orion วางขายได้ตามกำหนดหรือเปล่า",
+      "quoteBy": "— ทีมข่าว PixelVest",
+      "takeaway": "หุ้น Astera Labs ปิดวันที่ 20 พ.ย. ที่ 180.35 ดอลลาร์ ลดลง 14.8% ในวันที่หุ้นชิปถูกเทขายทั้งกลุ่ม แล้วเด้งขึ้นระหว่างวันราว 17-23% ในวันที่ 23 พ.ย. หลัง Jensen Huang กลับมาเป็นซีอีโอของ Nvidia (ยังไม่มีราคาปิดที่ยืนยันได้) ทั้งสองครั้งไม่มีข่าวของบริษัทเป็นสาเหตุ ข่าวของบริษัทเองคือดีลที่ Hyve จะนำ Orion ไปใส่ในระบบ Apex ซึ่งจะวางขายในไตรมาส 1 ปี 2570 ตัวต่อไปที่ต้องดูคืองบไตรมาส 4 ซึ่งคาดว่าจะประกาศราวต้นเดือน ก.พ. 2570",
+      "stats": [
+        {
+          "label": "ราคาปิด 19 พ.ย. / 20 พ.ย.",
+          "value": "211.60 / 180.35 ดอลลาร์ (-14.77%)",
+          "change": "ต่ำสุดระหว่างวัน 176.78 ดอลลาร์"
+        },
+        {
+          "label": "ราคาระหว่างวัน 23 พ.ย.",
+          "value": "210.80-222.12 ดอลลาร์ (+16.88% ถึง +23.2% แล้วแต่แหล่งและเวลา)",
+          "change": "ราคาปิดยังไม่มีข้อมูลยืนยัน"
+        },
+        {
+          "label": "การร่วงวันที่ 5 พ.ย.",
+          "value": "-19.6% (Yahoo Finance)",
+          "change": ""
+        },
+        {
+          "label": "ผลตอบแทน 1 เดือน ณ 16 พ.ย.",
+          "value": "-29.2% เทียบ S&P 500 -3.1% (Trefis)",
+          "change": ""
+        },
+        {
+          "label": "วันประกาศดีล Hyve (16 พ.ย.)",
+          "value": "หุ้น -8.8%",
+          "change": ""
+        },
+        {
+          "label": "ระบบ Hyve Apex ที่ใช้ Orion",
+          "value": "วางขายไตรมาส 1 ปี 2570",
+          "change": ""
+        },
+        {
+          "label": "ผลทดสอบของบริษัท (8 GPU, สวิตช์ Scorpio X 1 ตัว เทียบ 2 ตัว)",
+          "value": "token ต่อวินาทีมากกว่าสูงสุด 89%",
+          "change": ""
+        },
+        {
+          "label": "Scorpio X อัตรารายปีเมื่อสิ้นปี 2569 (TIKR อ้างผู้บริหาร)",
+          "value": "สูงกว่า 1 พันล้านดอลลาร์อย่างชัดเจน",
+          "change": ""
+        },
+        {
+          "label": "เป้ารายได้ไตรมาส 4 ปี 2569",
+          "value": "730-750 ล้านดอลลาร์",
+          "change": ""
+        },
+        {
+          "label": "คนในบริษัทขายหุ้นใน 12 เดือนถึง 26 ต.ค. 2569",
+          "value": "621.9 ล้านดอลลาร์ จาก 7 ราย (32 จาก 34 รายการเป็นการขายตามแผน 10b5-1)",
+          "change": ""
+        }
+      ],
+      "sources": [
+        {
+          "text": "What Sent Astera Labs Stock Lower? — Yahoo Finance",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/sent-astera-labs-stock-lower-114827571.html"
+        },
+        {
+          "text": "ALAB Stock Price (XNAS) & Analyst Rating — Morningstar",
+          "url": "https://www.morningstar.com/stocks/xnas/alab/quote"
+        },
+        {
+          "text": "Astera Labs (NASDAQ:ALAB) Stock Price Down 15.1% — MarketBeat",
+          "url": "https://www.marketbeat.com/instant-alerts/price-astera-labs-nasdaq-alab-stock-price-down-151-whats-next-2026-11-20/"
+        },
+        {
+          "text": "Astera Labs, Aehr Test Systems, KLA, Lam Research, and Monolithic Power Systems shares plummet — StockStory",
+          "url": "https://stockstory.org/us/stocks/nasdaq/alab/news/why-up-down/astera-labs-aehr-test-systems-kla-corporation-lam-research-and-monolithic-power-systems-shares-plummet-what-you-need-to-know"
+        },
+        {
+          "text": "Why Did Astera Labs (NASDAQ:ALAB) Rise 16.88% as AI Connectivity Stocks Rebounded on November 23? — Kalkine",
+          "url": "https://kalkine.com/news/artificial-intelligence/why-did-astera-labs-nasdaqalab-rise-1688-as-ai-connectivity-stocks-rebounded-on-november-23"
+        },
+        {
+          "text": "AI rebound takes Astera Labs higher by 21% — Seeking Alpha",
+          "url": "https://seekingalpha.com/news/4675708-ai-rebound-takes-astera-labs-higher-by-21"
+        },
+        {
+          "text": "Astera Labs (ALAB) Shares Surge Nearly 21% Amid Nvidia Leadership News — GuruFocus",
+          "url": "https://www.gurufocus.com/news/9215352/astera-labs-alab-shares-surge-nearly-21-amid-nvidia-leadership-news"
+        },
+        {
+          "text": "Astera Labs (NASDAQ:ALAB) Shares Climb 23.2% — MarketBeat",
+          "url": "https://www.marketbeat.com/instant-alerts/price-astera-labs-nasdaq-alab-shares-climb-232-heres-why-2026-11-23/"
+        },
+        {
+          "text": "Why Is Astera Labs Stock Falling Again? — Trefis",
+          "url": "https://www.trefis.com/stock/alab/articles/625789/why-is-astera-labs-stock-falling-again/2026-11-17"
+        },
+        {
+          "text": "Hyve Solutions to integrate Astera Labs Orion AI platform — Investing.com",
+          "url": "https://www.investing.com/news/company-news/hyve-solutions-to-integrate-astera-labs-orion-ai-platform-93CH-5030049"
+        },
+        {
+          "text": "Hyve Solutions and Astera Labs Collaborate to Bring AI Inference Capacity to Customers Faster — Finviz",
+          "url": "https://finviz.com/news/423230/hyve-solutions-and-astera-labs-collaborate-to-bring-ai-inference-capacity-to-customers-faster"
+        },
+        {
+          "text": "Astera Labs stock: Hyve expands Orion AI rack collaboration — Ad-hoc News",
+          "url": "https://www.ad-hoc-news.de/boerse/news/corporate-news/astera-labs-stock-hyve-expands-orion-ai-rack-collaboration/70541921"
+        },
+        {
+          "text": "Astera Labs Stock Rebounds Tuesday as Expanded Hyve Deal Speeds AI Deployments — Benzinga",
+          "url": "https://www.benzinga.com/trading-ideas/movers/26/11/63337033/astera-labs-stock-rebounds-tuesday-as-expanded-hyve-deal-speeds-ai-deployments"
+        },
+        {
+          "text": "Astera Labs Soars 16% in a Week as Chips Rebound: Scorpio X Eyes a $1 Billion Run Rate — TIKR",
+          "url": "https://www.tikr.com/blog/astera-labs-soars-16-in-a-week-as-chips-rebound-scorpio-x-eyes-a-1-billion-run-rate"
+        },
+        {
+          "text": "ALAB Insider Trading (SEC Form 4) — Massive",
+          "url": "https://massive.com/quote/alab/insider-trading"
+        }
+      ]
+    },
+    "tags": [
+      "เซมิคอนดักเตอร์",
+      "Astera Labs",
+      "Hyve Solutions",
+      "Orion",
+      "Scorpio X",
+      "หุ้นชิป",
+      "Nvidia",
+      "ความผันผวน"
+    ],
+    "agent": "hanako"
+  },
+  {
+    "id": 115,
+    "cat": "ควอนตัม",
+    "title": "IonQ เด้ง 12.6% ปิดที่ 23.34 ดอลลาร์ หลังบอร์ด Nvidia ดึง Jensen Huang กลับมาเป็นซีอีโอ หุ้นควอนตัมฟื้นทั้งกลุ่ม แต่ราคายังต่ำกว่าจุดสูงสุดรอบปีราว 68%",
+    "excerpt": "IonQ ปิดวันจันทร์ที่ 23 พ.ย. ที่ 23.34 ดอลลาร์ เพิ่มขึ้น 2.62 ดอลลาร์หรือ 12.64% พร้อม Rigetti และ D-Wave ที่ขึ้นเกิน 10% หลังบอร์ด Nvidia กลับมติและแต่งตั้ง Jensen Huang เป็นซีอีโออีกครั้ง ทำให้หุ้นเทคโนโลยีปรับขึ้นทั้งกลุ่ม ขณะที่ฝั่ง IonQ เองไม่มีประกาศใหม่ และราคายังต่ำกว่าจุดสูงสุดรอบ 52 สัปดาห์ราว 68%",
+    "author": "ทีมข่าว PixelVest",
+    "date": "24 พ.ย. 2026",
+    "iso": "2026-11-24",
+    "read": 4,
+    "syms": [
+      "IONQ"
+    ],
+    "rank": 115,
+    "body": {
+      "intro": "IonQ (IONQ) ปิดตลาดวันจันทร์ที่ 23 พ.ย. 2569 ที่ 23.34 ดอลลาร์ เพิ่มขึ้น 2.62 ดอลลาร์หรือ 12.64% จากวันทำการก่อนหน้า ตามรายงานของ heygotrade โดย Rigetti Computing และ D-Wave Quantum ก็ปิดบวกเกิน 10% เช่นกัน ทั้งสองแหล่งที่ทีมข่าวตรวจสอบ (heygotrade และ The Motley Fool) ระบุตรงกันว่าวันนั้นไม่มีประกาศใหม่จาก IonQ แรงซื้อมาจากหุ้นเทคโนโลยีที่ขึ้นทั้งกลุ่ม หลังบอร์ด Nvidia กลับมติและแต่งตั้ง Jensen Huang เป็นซีอีโออีกครั้ง บทความนี้ต่อจากข่าว \"IonQ เปลี่ยน CFO กะทันหัน\" ซึ่งรายงานว่าหุ้นลดลง 7 วันทำการติดกันไปปิดที่ 23.48 ดอลลาร์เมื่อ 18 พ.ย. ตัวเลขของวันจันทร์บอกว่าหุ้นลงต่ออีกหลังจากนั้น ถ้าใช้ราคาปิดวันที่ 23 พ.ย. ลบด้วยส่วนที่เพิ่มขึ้น ราคาปิดวันทำการก่อนหน้า (ศุกร์ 20 พ.ย.) จะอยู่ราว 20.72 ดอลลาร์ (ทีมข่าวคำนวณ ยังไม่พบแหล่งที่รายงานราคาปิดวันนั้นโดยตรง) ต่ำกว่าราคาปิด 18 พ.ย. ราว 12% แปลว่าการเด้งรอบนี้ทำให้หุ้นกลับมาแค่ใกล้ระดับเดิมเมื่อกลางสัปดาห์ก่อน ยังไม่ได้ลบการขาดทุนจากช่วงที่ร่วงต่อเนื่อง ข้อสังเกตของทีมข่าวคือ ข่าวนี้ไม่ได้เปลี่ยนอะไรในธุรกิจของ IonQ โดยตรง ที่เชื่อมกันได้มีอย่างเดียวคือ The Motley Fool ระบุว่า IonQ เป็นพันธมิตรกับ Nvidia และเคยประกาศเมื่อเดือนกันยายนว่าจะติดตั้งเครื่องควอนตัมคอมพิวเตอร์หนึ่งเครื่องที่ศูนย์วิจัยของ Nvidia การที่ IonQ ขึ้นมากกว่า 12% ในวันที่ไม่มีข่าวของตัวเองจึงสะท้อนว่าหุ้นกลุ่มควอนตัมเคลื่อนตามความเชื่อมั่นต่อหุ้นเทคโนโลยีและ AI ทั้งกลุ่มมากกว่าตามปัจจัยเฉพาะของแต่ละบริษัท และเป็นแบบนี้ทั้งตอนลงและตอนขึ้น ความกังวลเรื่องหุ้นถูกเจือจาง (dilution คือการที่บริษัทออกหุ้นใหม่จนสัดส่วนความเป็นเจ้าของของผู้ถือหุ้นเดิมลดลง) ยังเป็นประเด็นหลัก เอกสารที่ IonQ ยื่นต่อ ก.ล.ต. ระบุว่าบริษัททำสัญญารับประกันการจำหน่ายหุ้นกับ J.P. Morgan Securities เมื่อ 14 ต.ค. และปิดการเสนอขายเมื่อ 16 ต.ค. ได้เงินสุทธิราว 1,990 ล้านดอลลาร์ นอกจากนี้ยังมีดีลซื้อ Elisity ที่จ่ายด้วยหุ้นทั้งหมด มูลค่าสูงสุด 1.3 พันล้านดอลลาร์ (รวมเงินจ่ายตามผลงานสูงสุด 150 ล้านดอลลาร์) และหุ้นราว 34.6 ล้านหุ้นที่จดทะเบียนให้ขายต่อได้ตามที่รายงานไว้ในข่าวก่อนหน้า **ฝั่งที่ต้องระวัง:** แรงซื้อวันจันทร์มาจากข่าวของบริษัทอื่น ไม่ได้มาจากข้อมูลใหม่ของ IonQ ถ้าความเชื่อมั่นต่อหุ้นเทคโนโลยีกลับทิศ หุ้นก็มีแนวโน้มอ่อนไหวไปในทางเดียวกัน ที่ผ่านมาหุ้นกลุ่มนี้เคยเด้งแล้วลงต่อมาก่อน เช่นการเด้งระหว่างวันตามกระแส Anthropic เมื่อ 19 พ.ย. ที่ตามมาด้วยราคาที่ลงต่อจนต่ำกว่า 21 ดอลลาร์ (ตามที่ทีมข่าวคำนวณข้างต้น) ประเด็นที่กดราคามาตลอดเดือนก็ยังอยู่ครบ ทั้งจำนวนหุ้นที่เพิ่มขึ้นจากการเพิ่มทุนและดีลซื้อกิจการ หุ้นที่รอขายต่อ และช่วงที่บริษัทยังไม่มี CFO ตัวจริงจนกว่า Gary Merrill จะเริ่มงาน ซึ่งตามแบบฟอร์ม 8-K คาดว่าเป็นวันที่ 3 ธ.ค. นอกจากนี้ข่าว Nvidia เองก็ยังไม่จบ CNBC ตั้งคำถามว่าทำไมบอร์ดถึงเปลี่ยนจุดยืน และสำนักข่าวต่าง ๆ รายงานว่ามีเสียงวิจารณ์จากนักการเมือง และอัยการสูงสุดแคลิฟอร์เนียยังสอบสวน Nvidia ต่อ ความผันผวนของหุ้นผู้นำ AI จึงยังส่งต่อมาถึงหุ้นควอนตัมได้อีก *หมายเหตุ: บทความนี้จัดทำเพื่อให้ข้อมูลและมุมมองเชิงบรรณาธิการเท่านั้น ไม่ใช่คำแนะนำการลงทุน โปรดประเมินความเสี่ยงก่อนตัดสินใจทุกครั้ง*",
+      "sections": [
+        {
+          "h": "ตัวจุดชนวน: บอร์ด Nvidia กลับมติภายในไม่ถึงสองสัปดาห์",
+          "p": "- **12 พ.ย.:** Nvidia ประกาศว่า Huang ลาออกจากตำแหน่งซีอีโอ และให้ Colette Kress ซึ่งเป็น CFO รักษาการซีอีโอ - **17 พ.ย.:** SCMP รายงานว่า Harvey Jones ประธานบอร์ด แถลงในการประชุมนักวิเคราะห์หลังประกาศงบว่าบอร์ดรับใบลาออกแล้วและยังเดินหน้าสรรหาซีอีโอถาวร ส่วน Huang โพสต์บน X ว่ายินดีกลับมาหากบอร์ดเห็นว่าเป็นประโยชน์ต่อบริษัท - **23 พ.ย.:** Nvidia ยื่นแบบฟอร์ม 8-K ต่อ ก.ล.ต. สหรัฐฯ ระบุว่าบอร์ดลงมติเป็นเอกฉันท์แต่งตั้ง Huang กลับเป็นประธานบริษัท ซีอีโอ และกรรมการ มีผลทันที TechCrunch รายงานว่าบอร์ดได้หารือกับเจ้าหน้าที่ระดับสูงของรัฐบาลสหรัฐฯ และสรุปว่า Huang ไม่ได้เป็นความเสี่ยงต่อความมั่นคง ส่วน Calcalist รายงานว่าหุ้น Nvidia ขึ้นไปมากสุดราว 36% ระหว่างวันก่อนปิดบวกราว 31%"
+        },
+        {
+          "h": "เด้งแรง แต่ยังอยู่ลึกจากจุดสูงสุด",
+          "p": "heygotrade ระบุว่าแม้จะขึ้นในวันจันทร์ หุ้นยังต่ำกว่าจุดสูงสุดรอบ 52 สัปดาห์ที่ 73.65 ดอลลาร์อยู่ 68.31% และมีบทวิเคราะห์อีกชิ้นที่แหล่งเดียวกันอ้างว่าในรอบ 12 เดือน หุ้นลดลง 50.9% ขณะที่ S&P 500 ให้ผลตอบแทน 11.0%"
+        },
+        {
+          "h": "มุมบวก และมุมที่ต้องระวัง",
+          "p": "**ฝั่งที่มองบวก:** การเด้งรอบนี้แสดงว่ายังมีแรงซื้อรออยู่เมื่อความเชื่อมั่นของตลาดกลับมา และฝ่ายที่มองบวกยังชี้ไปที่พื้นฐานของบริษัท heygotrade สรุปว่ามีสองจุดหลัก คือเงินสดตามงบ pro forma (ตัวเลขที่ปรับให้เหมือนรวมรายการสำคัญแล้ว) ราว 3.7 พันล้านดอลลาร์หลังการเพิ่มทุนเดือนตุลาคม และกำลังผลิตเครื่อง Superion 256 ของปี 2570 ที่ขายหมดแล้ว ส่วนงบไตรมาส 3 มีรายได้ทำสถิติ 173.8 ล้านดอลลาร์ และบริษัทปรับเป้ารายได้ทั้งปี 2569 ขึ้นเป็น 505-515 ล้านดอลลาร์ ด้านนักวิเคราะห์ Cantor Fitzgerald ลดเป้าราคาเหลือ 60 ดอลลาร์จาก 70 ดอลลาร์เมื่อ 6 พ.ย. แต่ยังคงคำแนะนำ Overweight (น้ำหนักมากกว่าตลาด) ไว้"
+        },
+        {
+          "h": "สิ่งที่ต้องจับตาต่อจากนี้",
+          "p": "- **หุ้นยืนเหนือ 23 ดอลลาร์ได้หรือไม่:** ราคาปิดวันจันทร์ใกล้กับราคาปิด 23.48 ดอลลาร์เมื่อ 18 พ.ย. ถ้าหุ้นยืนได้ในวันที่หุ้นเทคโนโลยีไม่ได้ขึ้นแรงทั้งกลุ่ม จะบอกได้ว่าแรงซื้อมีมากกว่าแค่การตามกลุ่ม ถ้าย่อกลับไปใกล้ระดับก่อนเด้ง ตลาดก็มีแนวโน้มมองว่านี่เป็นแค่การเด้งระยะสั้น - **วันเริ่มงานของ CFO คนใหม่ (คาดว่า 3 ธ.ค.):** ถ้ามีการยืนยันวันเริ่มงาน หรือบริษัทอธิบายว่าทำไม Inder Singh ลาออก ความไม่แน่นอนเรื่องผู้บริหารก็มีแนวโน้มลดลง - **การขายหุ้นของผู้ถือหุ้น Elisity เดิม:** ดูจากปริมาณซื้อขายและเอกสารที่ยื่นต่อ ก.ล.ต. เพื่อประเมินว่ายังมีหุ้นรอขายอยู่มากแค่ไหน - **งบไตรมาส 4:** heygotrade อ้างว่าแหล่งหนึ่งคาดว่าจะประกาศในเดือนกุมภาพันธ์ 2570 (บริษัทยังไม่ได้ยืนยันวัน) ซึ่งจะเป็นเป้ารายได้ฉบับแรกที่ออกภายใต้ CFO คนใหม่"
+        }
+      ],
+      "quote": "วันจันทร์ที่ผ่านมาบอกได้ชัดว่าหุ้น IonQ เวลานี้เคลื่อนตามความเชื่อมั่นต่อหุ้นเทคโนโลยีทั้งกลุ่มมากกว่าตามข่าวของบริษัทเอง หุ้นขึ้นได้กว่า 12% จากข่าวผู้บริหารของบริษัทอื่น เหมือนที่เคยลงหนักมาก่อนแม้บริษัทเพิ่งประกาศงบที่ชนะคาด ทีมข่าวมองว่าการเด้งครั้งนี้ยังไม่ได้แก้ปัญหาเรื่องจำนวนหุ้นที่เพิ่มขึ้นและการเปลี่ยน CFO และหุ้นจะกลับมาเคลื่อนตามพื้นฐานได้ก็ต่อเมื่อ CFO คนใหม่เริ่มงานและบริษัทให้เป้ารายได้ปีหน้าที่ชัดเจน",
+      "quoteBy": "— ทีมข่าว PixelVest",
+      "takeaway": "IonQ ปิดวันที่ 23 พ.ย. ที่ 23.34 ดอลลาร์ เพิ่มขึ้น 12.64% พร้อม Rigetti และ D-Wave ที่ขึ้นเกิน 10% หลังบอร์ด Nvidia ลงมติเป็นเอกฉันท์ให้ Jensen Huang กลับมาเป็นซีอีโอ และหุ้น Nvidia ปิดบวกราว 31% วันนั้น IonQ ไม่มีประกาศของตัวเอง ราคาแค่กลับมาใกล้ระดับปิดเมื่อ 18 พ.ย. และยังต่ำกว่าจุดสูงสุดรอบปีราว 68% ประเด็นเรื่องหุ้นถูกเจือจางและการเปลี่ยน CFO ยังไม่ได้รับคำตอบ",
+      "stats": [
+        {
+          "label": "ราคาปิด 23 พ.ย.",
+          "value": "23.34 ดอลลาร์",
+          "change": "+2.62 ดอลลาร์ (+12.64%)"
+        },
+        {
+          "label": "ราคาปิดวันทำการก่อนหน้า (20 พ.ย.)",
+          "value": "ราว 20.72 ดอลลาร์",
+          "change": "ทีมข่าวคำนวณจากตัวเลขข้างต้น"
+        },
+        {
+          "label": "ราคาปิด 18 พ.ย. (ข่าวก่อนหน้า)",
+          "value": "23.48 ดอลลาร์",
+          "change": ""
+        },
+        {
+          "label": "จุดสูงสุดรอบ 52 สัปดาห์",
+          "value": "73.65 ดอลลาร์",
+          "change": "ราคาปัจจุบันต่ำกว่า 68.31%"
+        },
+        {
+          "label": "ผลตอบแทนรอบ 12 เดือน",
+          "value": "-50.9%",
+          "change": "S&P 500 +11.0%"
+        },
+        {
+          "label": "เงินสุทธิจากการเพิ่มทุน (ปิด 16 ต.ค.)",
+          "value": "ราว 1,990 ล้านดอลลาร์",
+          "change": ""
+        },
+        {
+          "label": "หุ้น Nvidia วันที่ 23 พ.ย.",
+          "value": "บวกสูงสุดราว 36% ระหว่างวัน ปิดบวกราว 31%",
+          "change": ""
+        },
+        {
+          "label": "วันเริ่มงานของ CFO คนใหม่",
+          "value": "คาดว่า 3 ธ.ค. 2569 ตาม 8-K",
+          "change": ""
+        }
+      ],
+      "sources": [
+        {
+          "text": "IonQ Stock Rises 12.6% as Quantum Stocks Rebound (Nov 23) — heygotrade",
+          "url": "https://www.heygotrade.com/en/news/ionq-ionq-stock-news-november-24-2026/"
+        },
+        {
+          "text": "Why IonQ Stock Is Gaining Today — The Motley Fool",
+          "url": "https://www.fool.com/investing/2026/11/23/why-ionq-stock-is-gaining-today/"
+        },
+        {
+          "text": "Nvidia reverses course and brings Jensen Huang back as CEO — TechCrunch",
+          "url": "https://techcrunch.com/2026/11/23/nvidia-reverses-course-and-brings-jensen-huang-back-as-ceo/"
+        },
+        {
+          "text": "Jensen Huang is back: Nvidia reverses decision after rejecting his return just days ago — Calcalist",
+          "url": "https://www.calcalistech.com/ctechnews/article/aga68zszf"
+        },
+        {
+          "text": "Jensen Huang reinstated as Nvidia CEO after Trump pushes board — NBC News",
+          "url": "https://www.nbcnews.com/tech/tech-news/nvidia-reinstates-jensen-huang-rcna610864"
+        },
+        {
+          "text": "Six key questions raised by Jensen Huang's return to Nvidia — CNBC",
+          "url": "https://www.cnbc.com/2026/11/24/nvidia-jensen-huang-politics-market.html"
+        },
+        {
+          "text": "NVIDIA Corp Form 8-K (23 Nov 2026) — SEC",
+          "url": "https://www.sec.gov/Archives/edgar/data/0001045810/000104581026000090/nov23pressrelease.htm"
+        },
+        {
+          "text": "Nvidia board says it has no plans to reinstate Jensen Huang as CEO — SCMP",
+          "url": "https://www.scmp.com/tech/article/3374812/nvidia-board-says-it-has-no-plans-reinstate-jensen-huang-ceo"
+        },
+        {
+          "text": "NVIDIA Announces CEO Transition — NVIDIA",
+          "url": "https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition"
+        },
+        {
+          "text": "IonQ, Inc. Form 10-Q (Q3 2026) — SEC",
+          "url": "https://www.sec.gov/Archives/edgar/data/0001824920/000119312526449829/ionq-20260930.htm"
+        },
+        {
+          "text": "IonQ, Inc. Form 8-K Exhibit 99.1 (Q3 2026) — SEC",
+          "url": "https://www.sec.gov/Archives/edgar/data/0001824920/000119312526449779/ionq-ex99_1.htm"
+        },
+        {
+          "text": "IonQ Completes Acquisition of Elisity — Nasdaq",
+          "url": "https://www.nasdaq.com/press-release/ionq-completes-acquisition-elisity-extending-quantum-security-enterprises-and"
+        },
+        {
+          "text": "Cantor Fitzgerald Cut Its IonQ Target to $60. It Still Sees 84% Upside — TIKR",
+          "url": "https://www.tikr.com/blog/cantor-fitzgerald-cut-its-ionq-target-to-60-it-still-sees-84-upside"
+        },
+        {
+          "text": "IonQ Stock Rises 23.4% After Record Q3 Revenue (Nov 6) — heygotrade",
+          "url": "https://www.heygotrade.com/en/news/ionq-ionq-stock-news-november-9-2026/"
+        },
+        {
+          "text": "IonQ Stock Falls 6.4% as CFO Inder Singh Steps Down (Nov 13) — heygotrade",
+          "url": "https://www.heygotrade.com/en/news/ionq-ionq-stock-news-november-16-2026/"
+        },
+        {
+          "text": "Where Next For IONQ Stock After A 51% Slide? — Forbes",
+          "url": "https://www.forbes.com/sites/greatspeculations/2026/11/19/where-next-for-ionq-stock-after-a-51-slide/"
+        }
+      ]
+    },
+    "tags": [
+      "ควอนตัม",
+      "หุ้นเด้ง",
+      "Nvidia",
+      "Jensen Huang",
+      "Rigetti",
+      "D-Wave",
+      "หุ้นเจือจาง",
+      "CFO"
+    ],
+    "agent": "hanako"
+  },
+  {
+    "id": 116,
+    "cat": "อวกาศ",
+    "title": "Rocket Lab เด้งราว 9–11% หลังสัปดาห์แย่สุดเป็นประวัติการณ์ CFO ชี้ราคา Electron อาจขึ้นแรงใน 6–9 เดือน เพราะที่นั่ง rideshare ของ SpaceX ใกล้เต็ม",
+    "excerpt": "หุ้น RKLB ดีดกลับราว 9–11% ในวันจันทร์ที่ 23 พ.ย. หลังลงไป 26% ในสัปดาห์ก่อน ซึ่ง Stocktwits ระบุว่าเป็นสัปดาห์ที่แย่ที่สุดเป็นประวัติการณ์ ตลาดได้แรงหนุนจากหุ้นเทคที่ฟื้นทั้งกลุ่ม และจากที่ CFO Adam Spice บอกว่าราคา Electron มีโอกาสปรับขึ้นแรงภายใน 6–9 เดือน แต่รายได้ต่อเที่ยวบินในไตรมาส 3 ยังลดลงจากปีก่อน",
+    "author": "ทีมข่าว PixelVest",
+    "date": "24 พ.ย. 2026",
+    "iso": "2026-11-24",
+    "read": 4,
+    "syms": [
+      "RKLB"
+    ],
+    "rank": 116,
+    "body": {
+      "intro": "หุ้น Rocket Lab (RKLB) ดีดกลับแรงในวันจันทร์ที่ 23 พฤศจิกายน 2569 ตัวเลขที่แต่ละสำนักรายงานไม่ตรงกัน เพราะเก็บข้อมูลคนละช่วงเวลา MarketBeat และ GuruFocus รายงานว่าหุ้นขึ้นราว **9.3%** มาที่ **49.63 ดอลลาร์** โดยระหว่างวันขึ้นไปสูงสุดที่ 52.22 ดอลลาร์ ส่วน 24/7 Wall St. รายงานว่าช่วงเช้าหุ้นขึ้นราว **11%** ไปที่ 50.47 ดอลลาร์ และ Seeking Alpha รายงานในช่วงหนึ่งของวันว่าหุ้นขึ้นเกือบ 8% อยู่ที่ 48.95 ดอลลาร์ การดีดกลับครั้งนี้มาหลังสัปดาห์ที่หนักมาก Stocktwits รายงานว่าวันศุกร์ที่ 20 พ.ย. หุ้นลงเกือบ 11% ปิดที่ 45.42 ดอลลาร์ เป็นวันที่ลงติดกันวันที่ 7 ทั้งสัปดาห์หุ้นลง **26%** ซึ่งเป็น **สัปดาห์ที่แย่ที่สุดเป็นประวัติการณ์** ของหุ้นตัวนี้ *ข่าวลำดับที่ 111 เขียนถึงช่วงที่หุ้นลง 7 วันติด เที่ยวบินที่ 100 ของ Electron และงบไตรมาส 3 ข่าวนี้ต่อจากตรงนั้น คือการดีดกลับในวันจันทร์และสิ่งที่ CFO พูดเรื่องราคาค่าปล่อยจรวด* **ความเห็นของ CFO เรื่องราคา Electron:** Stocktwits และ Benzinga รายงานว่า CFO **Adam Spice** ให้สัมภาษณ์ร่วมกับ CEO Peter Beck และบอกว่ามีโอกาสขึ้นราคา Electron ภายในราว **6–9 เดือน** เหตุผลคือลูกค้าที่ต้องการขึ้นบินตั้งแต่ปี 2572 เป็นต้นไปจองที่นั่ง rideshare บน Falcon 9 ของ SpaceX ได้ยากขึ้น (rideshare คือการส่งดาวเทียมหลายรายขึ้นไปพร้อมกันในจรวดลำเดียว ค่าใช้จ่ายต่อรายจึงถูกกว่าการจองทั้งลำ) ใจความของ Spice คือ ถ้าบริการ rideshare อย่าง Transporter หรือ Bandwagon ของ SpaceX หายไป ทางเลือกที่ดีรองลงมาของลูกค้ากลุ่มนี้คือ Electron และในสภาพแบบนั้นราคามีโอกาสปรับขึ้นได้มาก เขายังบอกว่าการเพิ่มกำลังผลิตจรวดเป็นสองเท่านั้น \"ทำได้\" ข้อควรระวังคือ กรอบ 6–9 เดือนเป็นสิ่งที่พูดในการสัมภาษณ์ **ไม่ใช่ประมาณการอย่างเป็นทางการ** ของบริษัท ทีมข่าว PixelVest มองว่าความเห็นในวันจันทร์ไม่ใช่เรื่องใหม่ทั้งหมด แต่เป็นการพูดซ้ำและให้กรอบเวลาชัดขึ้น หลังจากสัปดาห์ที่ราคาหุ้นลงแรง **มุมลบ:** - **รายได้ต่อเที่ยวบินยังไม่ขึ้น:** ตามสรุปจาก Stocktitan และ BigGo Finance ซึ่งอ้างรายงาน 10-Q รายได้เฉลี่ยต่อเที่ยว Electron ในไตรมาส 3/2569 อยู่ที่ราว **7.8 ล้านดอลลาร์** ลดลงจาก **10.1 ล้านดอลลาร์** ในไตรมาส 3/2568 ส่วนหนึ่งเพราะประเภทภารกิจต่างกัน และไตรมาส 3 ปีก่อนมีเที่ยว HASTE 2 เที่ยว พร้อมการปรับปรุงรายได้ HASTE ย้อนหลัง 13.3 ล้านดอลลาร์ แต่ถ้านับ 9 เดือนแรก รายได้ต่อเที่ยวเพิ่มเป็นราว 8.7 ล้านจาก 8.2 ล้านดอลลาร์ (ทีมข่าว *ยังไม่มีข้อมูลยืนยัน* ตัวเลข 7.8 ล้านดอลลาร์จากตัวเอกสาร 10-Q โดยตรง) - **24/7 Wall St. มองความเห็นของ CFO อย่างระมัดระวัง** โดยชี้ว่าตัวเลขการปล่อยจรวดล่าสุดอาจบอกทิศทางตรงข้าม - **ไม่มีข่าวใหม่ระดับพื้นฐาน:** Stocktwits ระบุว่าการเด้งในวันจันทร์เกิดขึ้นโดยไม่มีข่าวใหม่จากบริษัท Neutron ยังเลื่อนไปบินปี 2570 และบริษัทยังขาดทุน - **ภาพระยะกลางยังเป็นขาลง:** หลังเด้งแล้ว 24/7 Wall St. ระบุว่าหุ้นยังติดลบราว 28% ตั้งแต่ต้นปี และ GuruFocus ระบุว่าราคายังต่ำกว่าจุดสูงสุดรอบ 52 สัปดาห์ที่ 150.99 ดอลลาร์ (27 พ.ค.) ราว 62% บทวิเคราะห์ของ Invezz ก็ตั้งข้อสังเกตว่าขาลงอาจกลับมาได้อีก - **บรรยากาศรายย่อย:** Stocktwits รายงานว่าความเห็นของนักลงทุนรายย่อยต่อ RKLB เปลี่ยนจาก \"bullish\" เมื่อสัปดาห์ก่อนเป็น \"bearish\" และจำนวนข้อความอยู่ในระดับต่ำ *หมายเหตุ: บทความนี้จัดทำเพื่อให้ข้อมูลและมุมมองเชิงบรรณาธิการเท่านั้น ไม่ใช่คำแนะนำการลงทุน โปรดประเมินความเสี่ยงก่อนตัดสินใจทุกครั้ง*",
+      "sections": [
+        {
+          "h": "ทำไมหุ้นถึงเด้ง: ตลาดฟื้นทั้งกลุ่ม และ CFO พูดเรื่องขึ้นราคา",
+          "p": "**แรงหนุนจากตลาดรวม:** Seeking Alpha ระบุว่าหุ้นขึ้นพร้อมกับหุ้นเทคที่ฟื้นทั้งกลุ่ม MarketBeat และ GuruFocus โยงการฟื้นของหุ้นเทควันนั้นกับข่าวที่บอร์ด Nvidia แต่งตั้ง Jensen Huang กลับมาเป็น CEO หุ้นอวกาศก็ขึ้นทั้งกลุ่ม 24/7 Wall St. รายงานว่า AST SpaceMobile ขึ้นราว 14% และ SpaceX ขึ้นราว 9% ส่วนบทความที่ Yahoo Finance นำมาเผยแพร่ตั้งข้อสังเกตว่าการเด้งครั้งนี้ส่วนหนึ่งมาจากตลาด เพราะ Firefly กับ AST ก็ขึ้นในระดับใกล้เคียงกัน"
+        },
+        {
+          "h": "เรื่องราคาที่บริษัทพูดไว้ตั้งแต่ช่วงประกาศงบ",
+          "p": "ในการประชุมนักวิเคราะห์หลังงบไตรมาส 3 (9 พ.ย.) Spice บอกว่าราคา Electron และ **HASTE** (เวอร์ชันของ Electron สำหรับเที่ยวบินทดสอบใต้วงโคจร ส่วนใหญ่ใช้ในงานกลาโหม) จะปรับขึ้น และมีลูกค้าบางรายจองที่ราคาฐานใหม่ที่สูงขึ้นไปแล้ว ส่วน **Neutron** ราคาอยู่ที่ 70 ล้านดอลลาร์ต่อเที่ยว และมีบางสัญญาที่บันทึกเข้างานในมือที่ราคานี้แล้ว Spice บอกด้วยว่าในไตรมาส 3 บริษัทรับงาน Neutron เพิ่มได้อีก แต่เลือกรักษาราคาเฉลี่ยให้สูงแทนการรับงานจำนวนมาก Motley Fool (23 พ.ย.) ระบุว่าราคานี้สูงขึ้นราว 27% จากราคาเดิม"
+        },
+        {
+          "h": "สองด้านของข่าวนี้",
+          "p": "**มุมบวก:** - บริษัทพยายามขึ้นราคาทั้ง Electron, HASTE และ Neutron ซึ่งบอกว่าฝ่ายบริหารเชื่อว่าลูกค้ายังต้องการผู้ให้บริการปล่อยจรวดรายอื่นนอกจาก SpaceX ถ้าที่นั่ง rideshare ตึงตัวจริง Electron ที่บินครบ 100 เที่ยวแล้วก็เป็นตัวเลือกที่มีประวัติรองรับ - บริษัทบอกว่ามีลูกค้าบางส่วนจองที่ราคาใหม่แล้ว ตัวเลขนี้จะเริ่มเห็นได้ในรายได้ต่อเที่ยวบินในไตรมาสถัด ๆ ไป ฝ่ายบริหารคาดว่ารายได้ธุรกิจปล่อยจรวดในไตรมาส 4 จะเพิ่มขึ้นอย่างมีนัยสำคัญ - หุ้นเด้งได้ราว 9–11% ในวันเดียว แปลว่ายังมีแรงซื้อกลับเข้ามาเมื่อบรรยากาศตลาดดีขึ้น"
+        },
+        {
+          "h": "สิ่งที่ต้องติดตามต่อ",
+          "p": "- **การเด้งจะยืนได้ไหม:** เมื่อวันจันทร์หุ้นขึ้นพร้อมตลาด ถ้าหุ้นเทคกลับมาอ่อนแรงแล้ว RKLB ลงตามอีกในระดับใกล้เคียงกัน ก็แปลว่าหุ้นยังเคลื่อนตามบรรยากาศตลาดมากกว่าตัวเลขของบริษัท - **รายได้ต่อเที่ยวในไตรมาส 4:** ดูว่าราคาใหม่จะเริ่มเห็นในตัวเลขหรือไม่ และรายได้รวมอยู่ในกรอบ 270–290 ล้านดอลลาร์ที่บริษัทให้ไว้หรือไม่ - **ความชัดเจนของ SpaceX rideshare:** เหตุผลเรื่องขึ้นราคาของ CFO ขึ้นอยู่กับว่าที่นั่ง rideshare ปี 2572 เป็นต้นไปตึงตัวจริงแค่ไหน ถ้า SpaceX ประกาศเปลี่ยนแผน rideshare ก็จะกระทบเหตุผลข้อนี้โดยตรง - **กำหนดการ Neutron:** ยังเป็นตัวแปรที่ตลาดให้น้ำหนักมากที่สุดในการประเมินมูลค่าระยะยาว"
+        }
+      ],
+      "quote": "การเด้งในวันจันทร์เกิดจากสองเรื่องพร้อมกัน คือตลาดที่ฟื้น กับเหตุผลใหม่ที่ฝ่ายบริหารให้ไว้ว่ารายได้ต่อเที่ยวมีโอกาสสูงขึ้นในอนาคต ราคาค่าปล่อยจรวดเป็นหนึ่งในตัวแปรที่ตรวจสอบได้ชัดที่สุดของบริษัท แต่จนถึงไตรมาส 3 ตัวเลขจริงยังไม่สะท้อนสิ่งที่ฝ่ายบริหารพูด ตลาดจึงมีแนวโน้มจะรอดูตัวเลขก่อนจะให้น้ำหนักกับเรื่องนี้เต็มที่",
+      "quoteBy": "— ทีมข่าว PixelVest",
+      "takeaway": "RKLB ดีดกลับราว 9–11% เมื่อ 23 พ.ย. (MarketBeat รายงาน +9.3% ที่ 49.63 ดอลลาร์) หลังสัปดาห์ก่อนลง 26% ซึ่งแย่ที่สุดเป็นประวัติการณ์ ตัวหนุนคือหุ้นเทคที่ฟื้นทั้งกลุ่ม และ CFO ที่บอกว่าราคา Electron อาจขึ้นแรงใน 6–9 เดือน เพราะที่นั่ง rideshare ของ SpaceX ใกล้เต็ม แต่รายได้ต่อเที่ยวในไตรมาส 3 ยังลดลงเหลือราว 7.8 ล้านดอลลาร์ และกรอบเวลานี้ยังไม่ใช่ประมาณการอย่างเป็นทางการ",
+      "stats": [
+        {
+          "label": "23 พ.ย. (จันทร์)",
+          "value": "+9.3% ที่ 49.63 ดอลลาร์ สูงสุดระหว่างวัน 52.22 (MarketBeat / GuruFocus)",
+          "change": "ช่วงเช้า +11% ที่ 50.47 (24/7 Wall St.)"
+        },
+        {
+          "label": "20 พ.ย. (ศุกร์)",
+          "value": "ปิด 45.42 ดอลลาร์ ราว -11%",
+          "change": "ลงติดกันวันที่ 7 (Stocktwits)"
+        },
+        {
+          "label": "สัปดาห์ 16–20 พ.ย.",
+          "value": "-26%",
+          "change": "สัปดาห์แย่สุดเป็นประวัติการณ์ (Stocktwits)"
+        },
+        {
+          "label": "กรอบเวลาขึ้นราคา Electron ตามที่ CFO ให้สัมภาษณ์",
+          "value": "ราว 6–9 เดือน (ไม่ใช่ประมาณการทางการ)",
+          "change": ""
+        },
+        {
+          "label": "รายได้ต่อเที่ยว Electron ไตรมาส 3",
+          "value": "ราว 7.8 ล้านดอลลาร์ เทียบกับ 10.1 ล้านปีก่อน",
+          "change": "9 เดือน: 8.7 ล้านจาก 8.2 ล้าน"
+        },
+        {
+          "label": "ราคา Neutron",
+          "value": "70 ล้านดอลลาร์ต่อเที่ยว",
+          "change": "ราว +27% (Motley Fool)"
+        },
+        {
+          "label": "หุ้นอวกาศอื่นวันเดียวกัน",
+          "value": "AST SpaceMobile ราว +14%, SpaceX ราว +9% (24/7 Wall St.)",
+          "change": ""
+        },
+        {
+          "label": "เทียบจุดสูงสุด 52 สัปดาห์",
+          "value": "150.99 ดอลลาร์ (27 พ.ค.)",
+          "change": "ยังต่ำกว่าราว 62%"
+        }
+      ],
+      "sources": [
+        {
+          "text": "Rocket Lab Rallies 11% After Its Worst Week Ever as CFO Eyes Higher Electron Prices; AST SpaceMobile Jumps 14%, SpaceX Surges 9% — 24/7 Wall St.",
+          "url": "https://247wallst.com/investing/2026/11/23/rocket-lab-rallies-11-after-its-worst-week-ever-as-cfo-eyes-higher-electron-prices-ast-spacemobile-jumps-14-spacex-surges-9/"
+        },
+        {
+          "text": "RKLB Stock Has Its Worst Week Ever — But CFO Sees 'Very Strong Uplift' In Electron Prices As SpaceX Rideshare Slots Tighten — Stocktwits via Yahoo Finance",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/rklb-stock-worst-week-ever-075716928.html"
+        },
+        {
+          "text": "Rocket Lab Could Cash In On SpaceX's Rideshare Crunch — Stocktwits",
+          "url": "https://stocktwits.com/news-articles/markets/equity/rklb-stock-cfo-uplift-electron-prices-spacex-rideshare-slots-tighten/cNbYMSlR9SZ"
+        },
+        {
+          "text": "RKLB Stock Soars Pre-Market: Rocket Lab CFO Sees 'Very Strong' Electron Demand Ahead — Benzinga",
+          "url": "https://www.benzinga.com/news/space/26/11/63520562/rklb-stock-soars-rocket-lab-cfo-sees-very-strong-electron-demand-ahead"
+        },
+        {
+          "text": "Rocket Lab CFO Says Electron Pricing Could Jump 6-9 Months Out as SpaceX Rideshare Slots Dwindle — BigGo Finance",
+          "url": "https://finance.biggo.com/news/12deac3c-e843-4a55-8ad3-8996b376b7da"
+        },
+        {
+          "text": "Rocket Lab Soars 10% After Its Worst Week Ever as Space Stocks Rebound — Yahoo Finance",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/rocket-lab-soars-10-worst-150212263.html"
+        },
+        {
+          "text": "Rocket Lab advances 8% as tech shares rebound — Seeking Alpha",
+          "url": "https://seekingalpha.com/news/4675780-rocket-lab-advances-8-as-tech-shares-rebound"
+        },
+        {
+          "text": "Rocket Lab (NASDAQ:RKLB) Shares Up 9.3% — MarketBeat",
+          "url": "https://www.marketbeat.com/instant-alerts/price-rocket-lab-nasdaq-rklb-shares-up-93-should-you-buy-2026-11-23/"
+        },
+        {
+          "text": "Rocket Lab Corp (RKLB) Shares Surge 9.3% — GuruFocus",
+          "url": "https://www.gurufocus.com/news/9216093/rocket-lab-corp-rklb-shares-surge-93-what-gf-score-of-83-tells-investors"
+        },
+        {
+          "text": "Rocket Lab stock is rising today: here's why the downtrend may resume — Invezz",
+          "url": "https://invezz.com/news/2026/11/23/rocket-lab-stock-is-rising-today-heres-why-the-downtrend-may-resume/"
+        },
+        {
+          "text": "Rocket Lab Just Raised Prices on a Rocket It Hasn't Launched Yet. Here's What That Means for SpaceX. — Motley Fool",
+          "url": "https://fool.com/investing/2026/11/23/rocket-lab-raised-prices-rocket-launch-what-means-spacex"
+        },
+        {
+          "text": "Rocket Lab (RKLB) Q3 2026 Earnings Call Transcript — Motley Fool",
+          "url": "https://www.fool.com/earnings/call-transcripts/2026/11/10/rocket-lab-rklb-q3-2026-earnings-call-transcript/"
+        },
+        {
+          "text": "Rocket Lab (RKLB) Earnings Show Record Revenue and a 52% Backlog Jump — Stocktitan",
+          "url": "https://www.stocktitan.net/articles/rocket-lab-q3-2026-earnings-backlog-neutron"
+        },
+        {
+          "text": "Rocket Lab Corp Form 10-Q (Q3 FY2026) — SEC",
+          "url": "https://www.sec.gov/Archives/edgar/data/0001819994/000181999426000074/rklb-20260930.htm"
+        },
+        {
+          "text": "Why Did Rocket Lab Stock Fall Again? — Trefis",
+          "url": "https://trefis.com/stock/rklb/articles/627720/why-did-rocket-lab-stock-fall-again/2026-11-23"
+        }
+      ]
+    },
+    "tags": [
+      "อวกาศ",
+      "Electron",
+      "Neutron",
+      "SpaceX",
+      "ราคาค่าปล่อยจรวด",
+      "Rocket Lab"
+    ],
+    "agent": "hanako"
   }
 ];
